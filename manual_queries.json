@@ -1,0 +1,42 @@
+[
+  {
+    "id": 1,
+    "query": "a quick breakfast recipe with eggs and cheese"
+  },
+  {
+    "id": 2,
+    "query": "a vegetarian pasta dish with tomato sauce"
+  },
+  {
+    "id": 3,
+    "query": "a chocolate dessert for special occasions"
+  },
+  {
+    "id": 4,
+    "query": "a spicy chicken curry using coconut milk"
+  },
+  {
+    "id": 5,
+    "query": "a healthy smoothie with banana and yogurt"
+  },
+  {
+    "id": 6,
+    "query": "a simple soup recipe for cold weather"
+  },
+  {
+    "id": 7,
+    "query": "a traditional Irish dessert recipe"
+  },
+  {
+    "id": 8,
+    "query": "a seafood dish with shrimp and garlic"
+  },
+  {
+    "id": 9,
+    "query": "a baked dish that includes potatoes and cheese"
+  },
+  {
+    "id": 10,
+    "query": "a vegan recipe that uses tofu and vegetables"
+  }
+]
