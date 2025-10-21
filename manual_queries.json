@@ -1,42 +1,52 @@
 [
   {
     "id": 1,
-    "query": "a quick breakfast recipe with eggs and cheese"
+    "query": "I only have two eggs, give me a quick breakfast recipe with eggs and cheese.",
+    "description": "Limitation of specific ingredients."
   },
   {
     "id": 2,
-    "query": "a vegetarian pasta dish with tomato sauce"
+    "query": "I am lactose intolerance, give me a vegetarian pasta dish with tomato sauce.",
+    "description": "Limitation of range of ingredients."
   },
   {
     "id": 3,
-    "query": "a chocolate dessert for special occasions"
+    "query": "I love peanuts, give me a chocolate dessert recipe for special occasions",
+    "description": "Include specific ingredients."
   },
   {
     "id": 4,
-    "query": "a spicy chicken curry using coconut milk"
+    "query": "Give me a spicy chicken curry using coconut milk.",
+    "description": "Interpret spicy."
   },
   {
     "id": 5,
-    "query": "a healthy smoothie with banana and yogurt"
+    "query": "a healthy smoothie with banana and yogurt.",
+    "description": "Interpret healthy and include specific ingredients."
   },
   {
     "id": 6,
-    "query": "a simple soup recipe for cold weather"
+    "query": "I am a vegetarian, give me a simple soup recipe for cold weather.",
+    "description": "Interpret ingredients for cold whether."
   },
   {
     "id": 7,
-    "query": "a traditional Irish dessert recipe"
+    "query": "Give me a traditional Irish dessert recipe.",
+    "description": "Interpret dessert." 
   },
   {
     "id": 8,
-    "query": "a seafood dish with shrimp and garlic"
+    "query": "I want to cut my carbohydrates intake, give me a seafood dish with shrimp and garlic.",
+    "description": "Interpret carbohydrates, and exclude carbohydrates from selection."
   },
   {
     "id": 9,
-    "query": "a baked dish that includes potatoes and cheese"
+    "query": "Give me a baked dish receipe with simple instruction that includes potatoes and cheese.",
+    "description": "Filter on recipe that have simple instructions."
   },
   {
     "id": 10,
-    "query": "a vegan recipe that uses tofu and vegetables"
+    "query": "Give me a vegan recipe that can be done within 2 hours that uses tofu and vegetables",
+    "description": "Limitation in cooking time."
   }
 ]
