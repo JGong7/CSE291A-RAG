@@ -761,7 +761,9 @@
             "cubes"
           ],
           "source": "RecipeNLG"
-        }
+        },
+        "valid": 1,
+        "reason": "1. Contain all ingredients from the query[Banana & yogurt]. 2. Healthy ingredients[vanilla yogurt, apple juice, honey, bananas, milk, ice cubes], no sugar or other adds-on."
       },
       {
         "rank": 2,
@@ -794,7 +796,9 @@
             "frozen raspberries"
           ],
           "source": "RecipeNLG"
-        }
+        },
+        "valid": 1,
+        "reason": "1. Contain all ingredients from the query[Banana & yogurt]. 2. Healthy ingredients[low-fat plain, grape juice, honey, banana, frozen blackberrie, frozen strawberries, frozen raspberries], no sugar or other adds-on."
       },
       {
         "rank": 3,
@@ -824,7 +828,9 @@
             "water"
           ],
           "source": "RecipeNLG"
-        }
+        },
+        "valid": 0,
+        "reason": "1. Missing ingredient from the query[banana]. 2. Healthy ingredients[vanilla yogurt, almond butter, frozen blueberries, frozen pineapple, kale, water], no sugar or other adds-on."
       },
       {
         "rank": 4,
@@ -851,7 +857,9 @@
             "sugar"
           ],
           "source": "RecipeNLG"
-        }
+        },
+        "valid": 0,
+        "reason": "1. Missing ingredient from the query[yogurt]. 2. Less Healthy: contain sugar."
       },
       {
         "rank": 5,
@@ -885,7 +893,9 @@
             "pomegranate molasses"
           ],
           "source": "RecipeNLG"
-        }
+        },
+        "valid": 0,
+        "reason": "1. Missing ingredient from the query[yogurt]. 2. Less Healthy: contain agave nectar."
       }
     ]
   },
@@ -935,7 +945,9 @@
             "frozen peas"
           ],
           "source": "RecipeNLG"
-        }
+        },
+        "valid": 0,
+        "reason": "1. Non-vegetarian ingredient[ground beef or pork, beef broth]. "
       },
       {
         "rank": 2,
@@ -983,7 +995,9 @@
             "salt"
           ],
           "source": "RecipeNLG"
-        }
+        },
+        "valid": 0,
+        "reason": "1. Non-vegetarian ingredient[ground chuck, beef bouillon]. "
       },
       {
         "rank": 3,
@@ -1026,7 +1040,9 @@
             "salt"
           ],
           "source": "RecipeNLG"
-        }
+        },
+        "valid": 1,
+        "reason": "1. Contain all ingredients from the query[vegetarian]. 2. Soup for cold weather"
       },
       {
         "rank": 4,
@@ -1067,7 +1083,9 @@
             "salt"
           ],
           "source": "RecipeNLG"
-        }
+        },
+        "valid": 1,
+        "reason": "1. All ingredients are vegetarian. 2. Soup for cold weather"
       },
       {
         "rank": 5,
@@ -1109,7 +1127,9 @@
             "bay leaves"
           ],
           "source": "RecipeNLG"
-        }
+        },
+        "valid": 0,
+        "reason": "1. Non-vegetarian ingredient[chicken, broth from chicken, ham]. "
       }
     ]
   },

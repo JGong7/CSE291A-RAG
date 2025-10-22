@@ -4,7 +4,7 @@ import os
 import time
 from tqdm import tqdm
 
-API_KEY = "0817dd0e857e4552b48d09988a9ee17f"
+API_KEY = "09803b49b7dc4507a316bc3bf0bd26ba"
 SAVE_PATH = "spoonacular_dataset.json"
 N_RECIPES = 100
 DELAY = 1.2  # seconds between requests
