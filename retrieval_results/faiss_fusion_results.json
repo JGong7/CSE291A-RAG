@@ -1633,7 +1633,9 @@
             "salt"
           ],
           "source": "RecipeNLG"
-        }
+        },
+        "valid": 0,
+        "reason": "1. Complex instructions do not meet the 'simple' criteria in the query."
       },
       {
         "rank": 2,
@@ -1665,7 +1667,9 @@
             "nonfat"
           ],
           "source": "RecipeNLG"
-        }
+        },
+        "valid": 1,
+        "reason": "1. The instructions basically meet the 'simple' criteria in the query, and the ingredients are relatively simple."
       },
       {
         "rank": 3,
@@ -1700,7 +1704,9 @@
             "fresh chives"
           ],
           "source": "RecipeNLG"
-        }
+        },
+        "valid": 1,
+        "reason": "1. The instructions basically meet the 'simple' criteria in the query, and the ingredients are relatively simple."
       },
       {
         "rank": 4,
@@ -1733,7 +1739,9 @@
             "sour cream"
           ],
           "source": "RecipeNLG"
-        }
+        },
+        "valid": 1,
+        "reason": "1. The instructions basically meet the 'simple' criteria in the query, and the ingredients are relatively simple."
       },
       {
         "rank": 5,
@@ -1787,7 +1795,9 @@
             "sour cream"
           ],
           "source": "RecipeNLG"
-        }
+        },
+        "valid": 0,
+        "reason": "1. Complex instructions do not meet the 'simple' criteria in the query."
       }
     ]
   },
@@ -1878,7 +1888,9 @@
             "basil"
           ],
           "source": "RecipeNLG"
-        }
+        },
+        "valid": 0,
+        "reason": "1. Ingredients do not include tofu. 2. Instructions are complex and may exceed 2 hours."
       },
       {
         "rank": 2,
@@ -1913,7 +1925,9 @@
             "fresh mint"
           ],
           "source": "RecipeNLG"
-        }
+        },
+        "valid": 0,
+        "reason": "1. Ingredients do not include tofu."
       },
       {
         "rank": 3,
@@ -1957,7 +1971,9 @@
             "freshly ground black pepper"
           ],
           "source": "RecipeNLG"
-        }
+        },
+        "valid": 0,
+        "reason": "1. Ingredients do not include tofu."
       },
       {
         "rank": 4,
@@ -2003,7 +2019,9 @@
             "cider vinegar"
           ],
           "source": "RecipeNLG"
-        }
+        },
+        "valid": 0,
+        "reason": "1. Ingredients do not include tofu."
       },
       {
         "rank": 5,
@@ -2058,7 +2076,9 @@
             "basil"
           ],
           "source": "RecipeNLG"
-        }
+        },
+        "valid": 0,
+        "reason": "1. Ingredients do not include tofu. 2. Instructions are complex and may exceed 2 hours."
       }
     ]
   }
