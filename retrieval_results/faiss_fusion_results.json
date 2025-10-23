@@ -27,7 +27,9 @@
             "milk"
           ],
           "source": "RecipeNLG"
-        }
+        },
+        "valid": 1,
+        "reason": "Recipe requires only two eggs, and include eggs and cheese as ingredient."
       },
       {
         "rank": 2,
@@ -65,7 +67,9 @@
             "black pepper"
           ],
           "source": "RecipeNLG"
-        }
+        },
+        "valid": 0,
+        "reason": "Recipe requires more than 2 eggs."
       },
       {
         "rank": 3,
@@ -81,7 +85,9 @@
           ],
           "instructions": "Scramble eggs with milk or cream and some salt and pepper.\nCook in a nonstick skillet over medium heat, stirring to lift the cooked eggs from the bottom of the pan as they cook.\nWhen the eggs are just about cooked, toss in jack cheese and cook for about 1-2 minutes more just to melt the cheese.\nServe as is, over toast, or in a tortilla.",
           "source": "Spoonacular"
-        }
+        },
+        "valid": 0,
+        "reason": "Recipe requires more than 2 eggs."
       },
       {
         "rank": 4,
@@ -108,7 +114,9 @@
             "eggs"
           ],
           "source": "RecipeNLG"
-        }
+        },
+        "valid": 0,
+        "reason": "Recipe doesn't include cheese."
       },
       {
         "rank": 5,
@@ -146,7 +154,9 @@
             "green pepper"
           ],
           "source": "RecipeNLG"
-        }
+        },
+        "valid": 0,
+        "reason": "Recipe requires more than 2 eggs."
       }
     ]
   },
@@ -189,7 +199,9 @@
             "parmesan cheese"
           ],
           "source": "RecipeNLG"
-        }
+        },
+        "valid": 0,
+        "reason": "Recipe contains diary and non vegetarian products."
       },
       {
         "rank": 2,
@@ -222,7 +234,9 @@
             "ricotta cheese"
           ],
           "source": "RecipeNLG"
-        }
+        },
+        "valid": 0,
+        "reason": "Recipe contains diary products."
       },
       {
         "rank": 3,
@@ -268,7 +282,9 @@
             "olives"
           ],
           "source": "RecipeNLG"
-        }
+        },
+        "valid": 0,
+        "reason": "Recipe contains diary and non vegetarian products."
       },
       {
         "rank": 4,
@@ -312,7 +328,9 @@
             "accompaniment"
           ],
           "source": "RecipeNLG"
-        }
+        },
+        "valid": 0,
+        "reason": "Recipe contains diary and non vegetarian products."
       },
       {
         "rank": 5,
@@ -352,7 +370,9 @@
             "salt"
           ],
           "source": "RecipeNLG"
-        }
+        },
+        "valid": 0,
+        "reason": "Recipe contains diary products."
       }
     ]
   },
