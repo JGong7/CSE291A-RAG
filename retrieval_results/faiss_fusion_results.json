@@ -385,7 +385,9 @@
             "peanuts"
           ],
           "source": "RecipeNLG"
-        }
+        },
+        "valid": 1,
+        "reason": "1. Contain main ingredient from the query[peanuts chocolate]. 2. Suitable for special occasions: Amazing Peanut Butter Cookies are a delightful dessert perfect for celebrations."
       },
       {
         "rank": 2,
@@ -421,7 +423,9 @@
             "chocolate"
           ],
           "source": "RecipeNLG"
-        }
+        },
+        "valid": 1,
+        "reason": "1. Contain main ingredient from the query[peanuts chocolate]. 2. Suitable for special occasions: Peanutty Ice Cream Pie is a decadent dessert perfect for celebrations."
       },
       {
         "rank": 3,
@@ -443,7 +447,9 @@
             "salt"
           ],
           "source": "RecipeNLG"
-        }
+        },
+        "valid": 0,
+        "reason": "1. Contain main ingredient from the query[peanuts]. 2. Missing chocolate ingredient from the query[chocolate]. 3. Not suitable for special occasions: Basic Oven Roasted Peanuts can be served as a delightful snack"
       },
       {
         "rank": 4,
@@ -471,7 +477,9 @@
             "chocolate chips"
           ],
           "source": "RecipeNLG"
-        }
+        },
+        "valid": 1,
+        "reason": "1. Contain main ingredient from the query[peanuts chocolate]. 2. Suitable for special occasions: Easy Peasy Banana Treat is a delightful dessert perfect for celebrations."
       },
       {
         "rank": 5,
@@ -524,7 +532,9 @@
             "chocolate chips"
           ],
           "source": "RecipeNLG"
-        }
+        },
+        "valid": 1,
+        "reason": "1. Contain main ingredient from the query[peanuts chocolate] ,2. Suitable for special occasions: Peanut Butter Chocolate Cake is a delightful dessert perfect for celebrations."
       }
     ]
   },
@@ -565,7 +575,9 @@
             "lemon juice"
           ],
           "source": "RecipeNLG"
-        }
+        },
+        "valid": 0,
+        "reason": "1. Missing main ingredient from the query[coconut milk]. 2. Spiciness level: Need a evaluation for spiciness of curry."
       },
       {
         "rank": 2,
@@ -607,7 +619,9 @@
             "lime"
           ],
           "source": "RecipeNLG"
-        }
+        },
+        "valid": 1,
+        "reason": "1. Contain all ingredients from the query[coconut milk & chicken]. 2. Spiciness level:  Need a evaluation for spiciness of curry."
       },
       {
         "rank": 3,
@@ -642,7 +656,9 @@
             "sugar"
           ],
           "source": "RecipeNLG"
-        }
+        },
+        "valid": 0,
+        "reason": "1. Missing main ingredient from the query[chicken & coconut milk]. Chicken Broth is not considered a substitute for chicken meat. 2. Spiciness level: Need a evaluation for spiciness of curry."
       },
       {
         "rank": 4,
@@ -669,7 +685,9 @@
           ],
           "instructions": "Slice the beef thinly (as for a stir fry) and place in a medium bowl. Add all of the other ingredients, except the tomatoes, green onions and rice and combine to coat the meat well. Let sit for 10-15 minutes to flavor the meat.\nHeat a medium pan with a lid over medium heat. Add the meat and brown well, stirring occasionally. Continue to cook over medium heat until all of the meat juices have evaporated and only oil remains in the bottom of the pan with the meat.\nAdd the tomatoes, stir to combine and lower the heat to medium low. Cover and simmer, stirring occasionally, until the meat is tender and most of the moisture from the tomatoes has been absorbed by the meat, about 30 minutes. If sauce becomes too thick before the beef is tender, add  cup water and continue to simmer with the lid on.\nTaste and adjust the seasoning adding additional salt if needed. Madras curries are often spicy. Additional cayenne pepper may be added at this point if a spicier curry is desired.\nServe over steamed basmati rice with chopped green onions on top.",
           "source": "Spoonacular"
-        }
+        },
+        "valid": 0,
+        "reason": "1. Missing main ingredient [coconut milk]. 2. Spiciness level: Need a evaluation for spiciness of curry."
       },
       {
         "rank": 5,
@@ -727,7 +745,9 @@
             "poppy seeds"
           ],
           "source": "RecipeNLG"
-        }
+        },
+        "valid": 0,
+        "reason": "1. Missing main ingredient [coconut milk]. 2. Spiciness level: Need a evaluation for spiciness of curry."
       }
     ]
   },
