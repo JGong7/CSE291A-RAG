@@ -6,7 +6,7 @@
   },
   {
     "id": 2,
-    "query": "I am lactose intolerance, give me a vegetarian pasta dish with tomato sauce.",
+    "query": "I am lactose intolerance, give me a pasta dish",
     "description": "Limitation of range of ingredients."
   },
   {
@@ -16,7 +16,7 @@
   },
   {
     "id": 4,
-    "query": "Give me a spicy chicken curry using coconut milk.",
+    "query": "Give me a spicy chicken curry with coconut milk optional.",
     "description": "Interpret spicy."
   },
   {
