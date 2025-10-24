@@ -1,0 +1,1736 @@
+[
+    {
+        "id": "recnlg_1143",
+        "title": "Vegan Lentil Soup",
+        "ingredients": [
+            "1 3/4 cups brown lentils",
+            "2 tablespoons olive oil",
+            "2 onions, chopped",
+            "3 cloves garlic, minced",
+            "3 tablespoons tomato paste",
+            "1 bunch fresh parsley, chopped",
+            "1 stalk celery, chopped",
+            "1 teaspoon salt, or more to taste",
+            "2 bay leaves",
+            "8 cups water",
+            "1 tablespoon dijon mustard",
+            "1 tablespoon red wine vinegar, or more to taste",
+            "freshly ground black pepper to taste"
+        ],
+        "directions": [
+            "place lentils in a bowl, cover with cold water, and pick out the broken ones that swim to the top. drain.",
+            "heat olive oil in a large pot over medium heat and cook onion until soft and translucent, 5 to 7 minutes. add garlic and cook until fragrant, about 30 seconds. stir in tomato paste, parsley, carrot, celery, 1 teaspoon salt, and bay leaves. cook and stir for 3 minutes.",
+            "pour lentils and 8 cups water into the pot. bring to a boil, reduce heat, and cook partially covered until lentils are soft, 30 to 35 minutes. stir in mustard and red wine vinegar. puree soup with an immersion blender until mostly smooth but some chunks remain. season with salt and pepper."
+        ],
+        "ner": [
+            "brown lentils",
+            "olive oil",
+            "onions",
+            "garlic",
+            "tomato paste",
+            "parsley",
+            "celery",
+            "salt",
+            "bay leaves",
+            "water",
+            "mustard",
+            "red wine vinegar",
+            "freshly ground black pepper"
+        ],
+        "source": "RecipeNLG"
+    },
+    {
+        "id": "recnlg_1401",
+        "title": "Microwave Quick Broccoli Soup Recipe",
+        "ingredients": [
+            "1 (10 ounce.) pkg. frzn minced broccoli",
+            "1 (10 3/4 ounce.) can cream of mushroom soup, undiluted",
+            "1 1/2 c. lowfat milk",
+            "2 tbsp. butter",
+            "1/8 teaspoon pepper",
+            "1 c. shredded cheddar cheese, 4 ounce."
+        ],
+        "directions": [
+            "place broccoli in a 2 qt casserole.",
+            "cover with heavy duty plastic wrap; microwave at high for 7-8 min or possibly till tender.",
+            "stir in remaining ingredients.",
+            "microwave at high for 4-6 min or possibly till thoroughly heated.",
+            "yields about 4 c.."
+        ],
+        "ner": [
+            "broccoli",
+            "cream of mushroom soup",
+            "milk",
+            "butter",
+            "pepper",
+            "cheddar cheese"
+        ],
+        "source": "RecipeNLG"
+    },
+    {
+        "id": "recnlg_1430",
+        "title": "Mushroom-Barley Soup",
+        "ingredients": [
+            "3/4 ounce dried porcini (about 3/4 cup)",
+            "2 tablespoons olive oil",
+            "1/4 pound shiitake or button (white) mushrooms, stemmed and roughly chopped",
+            "2 medium carrots, sliced",
+            "3/4 cup pearled barley",
+            "salt and freshly ground black pepper",
+            "1 bay leaf",
+            "1 tablespoon soy sauce"
+        ],
+        "directions": [
+            "soak the porcini in 1 quart of very hot water.",
+            "put the olive oil in a medium saucepan and turn the heat to high.",
+            "add the shiitakes and carrots and cook, stirring occasionally, until they begin to brown.",
+            "add the barley and continue to cook, stirring frequently, until it begins to brown; sprinkle with a little salt and pepper.",
+            "remove the porcini from their soaking liquid (do not discard the liquid); sort through and discard any hard bits.",
+            "add the porcini to the pot and cook, stirring, for about a minute.",
+            "add the bay leaf, the mushroom-soaking water, and 5 cups additional water (or stock if you prefer).",
+            "bring to a boil, then lower the heat and simmer until the barley is very tender, 20 to 30 minutes.",
+            "if the soup is very thick, add a little more water.",
+            "add the soy sauce, then taste and add more salt if necessary and plenty of pepper.",
+            "serve hot."
+        ],
+        "ner": [
+            "porcini",
+            "olive oil",
+            "shiitake",
+            "carrots",
+            "barley",
+            "salt",
+            "bay leaf",
+            "soy sauce"
+        ],
+        "source": "RecipeNLG"
+    },
+    {
+        "id": "recnlg_1453",
+        "title": "Tomato Soup",
+        "ingredients": [
+            "4 tomatoes, seeded and diced",
+            "1 cup water",
+            "1 garlic clove, minced",
+            "1 teaspoon onion, minced",
+            "1 teaspoon olive oil",
+            "1 teaspoon basil",
+            "salt",
+            "pepper"
+        ],
+        "directions": [
+            "add olive oil to a soup pot and add onion and garlic.",
+            "saute till transparent.",
+            "add tomatoes and water and bring to a simmer.",
+            "add basil and salt and pepper to taste.",
+            "simmer at least 20 minutes.",
+            "to serve, ladle into bowls and garnish with a cream swirl and a sprig of parsley."
+        ],
+        "ner": [
+            "tomatoes",
+            "water",
+            "garlic",
+            "onion",
+            "olive oil",
+            "basil",
+            "salt",
+            "pepper"
+        ],
+        "source": "RecipeNLG"
+    },
+    {
+        "id": "recnlg_1582",
+        "title": "Yogurt, Cucumber And Spearmint Soup",
+        "ingredients": [
+            "1 medium to large cucumber, peeled, seeded and chopped",
+            "1/2 cup spearmint leaves, washed and dried",
+            "2 cups low-fat yogurt",
+            "juice of 1 lime",
+            "1/2 teaspoon cumin",
+            "1/2 teaspoon fine sea salt",
+            "2 tablespoons lightly toasted pine nuts or roughly chopped walnuts or salted green pistachios (optional, for garnish)"
+        ],
+        "directions": [
+            "in a food processor, combine cucumber chunks, spearmint leaves and 1 cup yogurt.",
+            "pulse until pureed.",
+            "add the rest of the yogurt, lime juice, cumin and salt, and blend.",
+            "transfer to a bowl, cover and refrigerate 3 hours or overnight.",
+            "to serve, stir throughly, taste for seasoning and ladle into small bowls or cups.",
+            "sprinkle each with 1 teaspoon nuts, if desired."
+        ],
+        "ner": [
+            "cucumber",
+            "spearmint leaves",
+            "low-fat yogurt",
+            "lime",
+            "cumin",
+            "salt",
+            "nuts"
+        ],
+        "source": "RecipeNLG"
+    },
+    {
+        "id": "recnlg_1631",
+        "title": "Hamusta Soup",
+        "ingredients": [
+            "4 leaves swiss chard, stalks discarded and leaves cut into wide ribbons",
+            "2 stalks celery, leaves removed and chopped and stalks cut into 1/4-inch slices",
+            "2 small zucchini, quartered lengthwise and thickly sliced",
+            "2 small carrots, peeled and sliced into rounds",
+            "1 large potato, peeled and cut into cubes",
+            "1 head garlic, cloves peeled and lightly smashed",
+            "9 tablespoons lemon juice",
+            "1 tablespoon white sugar (optional)",
+            "1 tablespoon salt",
+            "6 1/3 cups water"
+        ],
+        "directions": [
+            "stir chard, celery, zucchini, carrots, potato, garlic, lemon juice, sugar, and salt together in a large pot; add water. bring the mixture to a boil, reduce heat to medium-low, and cook at a simmer until the vegetables are fork-tender, about 15 minutes."
+        ],
+        "ner": [
+            "ribbons",
+            "stalks celery",
+            "zucchini",
+            "carrots",
+            "potato",
+            "garlic",
+            "lemon juice",
+            "white sugar",
+            "salt",
+            "water"
+        ],
+        "source": "RecipeNLG"
+    },
+    {
+        "id": "recnlg_1635",
+        "title": "Italian Lentil And Barley Soup",
+        "ingredients": [
+            "1 cup lentils",
+            "1/3 cup pearl barley",
+            "1 cup carrot (chopped)",
+            "1 cup celery (chopped)",
+            "1 cup onion (chopped)",
+            "2 garlic cloves (minced)",
+            "1/2 teaspoon dried basil",
+            "1/2 teaspoon dried oregano",
+            "1/4 teaspoon dried thyme",
+            "1 bay leaf",
+            "3 1/2 cups broth",
+            "2 1/2 cups water",
+            "14 1/4 14 1/4 ounces regular stewed tomatoes or 14 1/4 ounces crushed tomatoes",
+            "1/4 cup fresh parsley, finely chopped (optional)",
+            "2 tablespoons cider vinegar (optional)"
+        ],
+        "directions": [
+            "sort through lentils to remove debris and shriveled beans, then rinse.",
+            "add lentils to crock pot, along with barley, carrots, celery, onion, garlic, dried herbs and bay leaf.",
+            "pour in broth, water, and tomatoes.",
+            "cover and cook on low heat for 12 to 14 hours, or on high heat for 5 to 6 hours.",
+            "discard bay leaf and just before serving stir in parsley and vinegar. (if you don't use the vinegar, the soup might taste more bland as you're omitting a major contributor of flavor.).",
+            "lentils aren't like dried beans. they don't require soaking and cook pretty quickly when you do it right.",
+            "when you buy your lentils, go somewhere that has a decent turnover so your lentils haven't been sitting on the shelf for years. also, don't add any additional salt to the soup while it is cooking, and don't add lentils to already boiling water as either one can make lentils tough."
+        ],
+        "ner": [
+            "lentils",
+            "pearl barley",
+            "carrot",
+            "celery",
+            "onion",
+            "garlic",
+            "dried basil",
+            "oregano",
+            "thyme",
+            "bay leaf",
+            "broth",
+            "water",
+            "regular stewed tomatoes",
+            "fresh parsley",
+            "cider vinegar"
+        ],
+        "source": "RecipeNLG"
+    },
+    {
+        "id": "recnlg_2041",
+        "title": "Garlic Soup",
+        "ingredients": [
+            "2 c. water",
+            "2 cloves garlic, pressed or minced",
+            "1 pinch thyme",
+            "salt to taste",
+            "1/4 c. davinci multi color parmesan tortellini",
+            "1 tbsp carrot, diced",
+            "1 stalk broccoli, chopped",
+            "1 tbsp corn, frozen",
+            "1 medium egg",
+            "black pepper to taste"
+        ],
+        "directions": [
+            "place water, garlic, salt, thyme, and pasta into a sauce pan. bring to a simmer.",
+            "when the pasta is nearly al dente, add the carrot, broccoli, and corn. simmer until the vegetables are tender.",
+            "break the egg into a small bowl and whisk with the black pepper. add a bit of the broth from the soup to the bowl to temper the egg, then pour the whisked egg and pepper mixture back into the soup.",
+            "adjust seasonings and serve."
+        ],
+        "ner": [
+            "water",
+            "garlic",
+            "thyme",
+            "salt",
+            "multi color parmesan tortellini",
+            "carrot",
+            "broccoli",
+            "corn",
+            "egg",
+            "black pepper"
+        ],
+        "source": "RecipeNLG"
+    },
+    {
+        "id": "recnlg_2051",
+        "title": "Vegetable Soup",
+        "ingredients": [
+            "3 tbsp. butter",
+            "3 ribs celery, diced",
+            "1 (15 oz.) can diced tomatoes",
+            "2 tbsp. worcestershire sauce",
+            "6 drops hot sauce",
+            "2 tbsp. garlic powder",
+            "1 tbsp. italian seasoning",
+            "1 bay leaf",
+            "12 c. water",
+            "potatoes",
+            "1 large onion, diced",
+            "1 large bell pepper, diced",
+            "2 tsp. thyme",
+            "2 tbsp. sugar",
+            "1/2 c. dry white wine",
+            "1 (15 oz.) can tomato sauce",
+            "5 carrots, sliced",
+            "1 pkg. frozen mixed vegetables"
+        ],
+        "directions": [
+            "saute onion, celery and bell pepper in butter.",
+            "add diced tomatoes and seasonings; stir well.",
+            "add water, carrots and potatoes, tomato sauce and wine.",
+            "cook until potatoes and carrots are tender.",
+            "add vegetables and simmer.",
+            "yields 12 quarts."
+        ],
+        "ner": [
+            "butter",
+            "celery",
+            "tomatoes",
+            "worcestershire sauce",
+            "hot sauce",
+            "garlic powder",
+            "italian seasoning",
+            "bay leaf",
+            "water",
+            "potatoes",
+            "onion",
+            "bell pepper",
+            "thyme",
+            "sugar",
+            "white wine",
+            "tomato sauce",
+            "carrots",
+            "mixed vegetables"
+        ],
+        "source": "RecipeNLG"
+    },
+    {
+        "id": "recnlg_2210",
+        "title": "Rustic Vegetable Soup with Salt Cod",
+        "ingredients": [
+            "one 28-ounce can whole tomatoestomatoes chopped, juices reserved",
+            "one 3/4-pound salt cod fillet",
+            "2 tablespoons extra-virgin olive oil, plus more for brushing and drizzling",
+            "4 garlic cloves, minced",
+            "2 medium zucchini, sliced crosswise 1 inch thick",
+            "2 pounds fresh cranberry beans, shelled (2 cups), or canned pinto beans, drained and rinsed",
+            "1 medium onion, coarsely chopped",
+            "1/2 pound kalestems discarded, leaves coarsely chopped (3 cups)",
+            "1/2 pound escarolelarge stems discarded, leaves coarsely chopped (3 cups)",
+            "one 1/2-pound baking potato, peeled and cut into 1-inch cubes",
+            "2 quarts water",
+            "1/2 teaspoon crushed red pepper",
+            "salt",
+            "four 1/2-inch-thick slices of country-style bread"
+        ],
+        "directions": [
+            "in a large bowl, cover the salt cod with cold water.",
+            "cover and refrigerate for 24 hours or up to 2 days.",
+            "change the water three times a day.",
+            "in a large, enameled cast-iron casserole, heat the 2 tablespoons of olive oil.",
+            "add the garlic and cook over moderately high heat until fragrant, about 20 seconds.",
+            "add the zucchini, beans, onion, kale, escarole, potato and tomatoes with their juices.",
+            "add the water and crushed red pepper and bring to a boil.",
+            "simmer over moderately low heat, stirring occasionally, until the vegetables are tender, about 50 minutes.",
+            "season lightly with salt.",
+            "meanwhile, preheat the oven to 400.",
+            "set the bread on a rimmed baking sheet.",
+            "generously brush both sides of the bread with olive oil.",
+            "bake for about 12 minutes, until browned and crisp.",
+            "add the cod to the casserole and simmer over moderately low heat until the cod is heated through, about 5 minutes.",
+            "using a wooden spoon, gently break the cod into 2-inch pieces.",
+            "set the toasted bread in shallow bowls.",
+            "ladle the stew over the bread.",
+            "drizzle with olive oil and serve."
+        ],
+        "ner": [
+            "tomatoestomatoes",
+            "salt",
+            "extra-virgin olive oil",
+            "garlic",
+            "zucchini",
+            "cranberry beans",
+            "onion",
+            "kalestems",
+            "baking potato",
+            "water",
+            "red pepper",
+            "salt",
+            "country-style"
+        ],
+        "source": "RecipeNLG"
+    },
+    {
+        "id": "recnlg_2227",
+        "title": "Potato Soup",
+        "ingredients": [
+            "1 large onion, chopped",
+            "1/4 large green pepper, chopped",
+            "4 tbsp. margarine",
+            "3 medium carrots, sliced",
+            "4 to 6 potatoes, sliced",
+            "1 c. green beans, regular or french-cut (may use frozen)",
+            "2 c. milk",
+            "7 slices velveeta cheese",
+            "2 tsp. salt",
+            "3 c. water"
+        ],
+        "directions": [
+            "saute onion and green pepper gently in margarine.",
+            "add carrots, salt and water to cover (2 cups water).",
+            "simmer gently.",
+            "add potatoes and simmer gently.",
+            "add green beans, continue to simmer. when vegetables are tender, add milk and cheese, but under no circumstances allow soup to boil after adding milk and cheese. serve when cheese is melted.",
+            "keep enough water on vegetables while cooking to just barely keep them covered.",
+            "(i add the third cup of water with the green beans.)"
+        ],
+        "ner": [
+            "onion",
+            "green pepper",
+            "margarine",
+            "carrots",
+            "potatoes",
+            "green beans",
+            "milk",
+            "velveeta cheese",
+            "salt",
+            "water"
+        ],
+        "source": "RecipeNLG"
+    },
+    {
+        "id": "recnlg_2334",
+        "title": "Rasam Soup",
+        "ingredients": [
+            "6 glasses water",
+            "6 3/4 cups tomatoes whole",
+            "2 3/8 tablespoons tamarind pulp with seeds",
+            "spices",
+            "salt",
+            "chilli",
+            "red chillies",
+            "green chillies chopped for garnish"
+        ],
+        "directions": [
+            "add tomatoes and tamarind to the awter and boil till tomatoes become tender.",
+            "sieve through malmal(muslin) cloth to remove the seed and skin.",
+            "re-heat the pulpy mass add spices and cook for 10-15 minutes on medium to high flame.",
+            "now in a frying pan heat oil, add mustard when pop up add other tempering material and fry till garlic is golden brown. now pour this over prepared soup.",
+            "rasam soup is ready serve hot with garnish."
+        ],
+        "ner": [
+            "water",
+            "tomatoes",
+            "tamarind",
+            "salt",
+            "chilli",
+            "red chillies",
+            "green chillies"
+        ],
+        "source": "RecipeNLG"
+    },
+    {
+        "id": "recnlg_2358",
+        "title": "Thai-Style Potato and Spinach Soup",
+        "ingredients": [
+            "1 large onions or 2 large shallots, finely chopped",
+            "1 clove garlic, sliced thinly",
+            "2 tablespoons vegetable oil",
+            "2 small red chilies, deseeded and sliced",
+            "1 unwaxed lemon",
+            "750 g potatoes, peeled and cut into chunks",
+            "2 vegetable stock cubes, dissolved in 1 litre of boiling water",
+            "salt and pepper",
+            "tabasco sauce or other chili sauce",
+            "100 g young spinach leaves",
+            "1 cup coriander leaves"
+        ],
+        "directions": [
+            "heat oil in a large fry pan and saute onion and garlic for five minutes.",
+            "remove two strips of zest from the lemon and add chilli and lemon zest into the frying pan.",
+            "cook for another few minutes.",
+            "stir the potatoes into the mixture and cook for a couple minutes, before adding the hot stock.",
+            "bring soup to a boil, turn down heat immediately.",
+            "add one tablespoon lemon juice, salt and pepper.",
+            "simmer, partially covered, for about 15 minutes or until the potatoes are cooked.",
+            "adjust seasoning with salt, lemon juice and tabasco.",
+            "squash the spinach into the pan, coarsely chop the coriander and add that in as well.",
+            "when the spinach is wilted, the soup is ready."
+        ],
+        "ner": [
+            "onions",
+            "clove garlic",
+            "vegetable oil",
+            "red chilies",
+            "lemon",
+            "potatoes",
+            "vegetable stock cubes",
+            "salt",
+            "tabasco sauce",
+            "young spinach",
+            "coriander leaves"
+        ],
+        "source": "RecipeNLG"
+    },
+    {
+        "id": "recnlg_2414",
+        "title": "Vegetarian Split Pea Soup",
+        "ingredients": [
+            "2 cups split peas, rinsed and sorted",
+            "2 tablespoons vegetable oil",
+            "2 celery ribs, sliced",
+            "1 onion, diced",
+            "2 carrots, sliced",
+            "1 turnip, peel and dice (optional)",
+            "1 medium potato, peel and dice",
+            "1 cup brown rice, uncooked",
+            "8 ounces spinach, chopped",
+            "4 cups vegetable broth",
+            "4 cups water (or more as needed)",
+            "1 tablespoon chopped parsley",
+            "salt and pepper, to taste"
+        ],
+        "directions": [
+            "in a large soup pot, saute onion and celery in oil until tender. add carrots, turnip, and potato. saute about 5 more minutes. add water, broth, peas, rice, and spinach.",
+            "simmer until peas are tender (this will take about 2-4 hours), stirring every so often to avoid scorching. add water or broth as needed to keep soup from becoming too thick. add parsley, salt, and pepper in the last 30 minutes.",
+            "warning: if you do not add water during the cooking process, the soup will be very thick and the split peas may not soften!"
+        ],
+        "ner": [
+            "peas",
+            "vegetable oil",
+            "celery",
+            "onion",
+            "carrots",
+            "potato",
+            "brown rice",
+            "spinach",
+            "vegetable broth",
+            "water",
+            "parsley",
+            "salt"
+        ],
+        "source": "RecipeNLG"
+    },
+    {
+        "id": "recnlg_2539",
+        "title": "Original Fruit Soup",
+        "ingredients": [
+            "4 c. pineapple juice",
+            "1/2 c. tapioca",
+            "a little sugar",
+            "1 1/2 c. orange juice",
+            "12 oz. can apricot nectar",
+            "available fruits (fresh fruits are better; peaches, 1 or 2 pears, strawberries, melons and bananas)",
+            "pineapple (needed also)"
+        ],
+        "directions": [
+            "cook the first 3 ingredients until tapioca is thick and clear. cool.",
+            "make thick enough so other juices can be added.",
+            "adjust to your taste.",
+            "this makes the \"base.\"",
+            "base keeps 1 week in refrigerator.",
+            "when chilled, add fresh or frozen strawberries, peaches, pineapple, fresh pears, melons, etc.",
+            "add bananas near serving time.",
+            "bananas and pears give a mellow flavor."
+        ],
+        "ner": [
+            "pineapple juice",
+            "tapioca",
+            "sugar",
+            "orange juice",
+            "apricot nectar",
+            "better",
+            "pineapple"
+        ],
+        "source": "RecipeNLG"
+    },
+    {
+        "id": "recnlg_2564",
+        "title": "Potato, Broccoli, Mushroom Soup",
+        "ingredients": [
+            "5 to 6 medium potatoes, peeled and diced",
+            "1 medium onion, diced",
+            "2 sticks carrots, diced",
+            "1 medium pkg. broccoli",
+            "1 green pepper",
+            "1 red pepper",
+            "1 large can cream of mushroom soup",
+            "1/2 tsp. garlic powder",
+            "1/8 tsp. black pepper"
+        ],
+        "directions": [
+            "cook vegetables in 2 quarts of water until tender.",
+            "mix soup and water by directions on can.",
+            "add to vegetables along with seasonings.",
+            "simmer about 1 hour."
+        ],
+        "ner": [
+            "potatoes",
+            "onion",
+            "carrots",
+            "broccoli",
+            "green pepper",
+            "red pepper",
+            "cream of mushroom soup",
+            "garlic powder",
+            "black pepper"
+        ],
+        "source": "RecipeNLG"
+    },
+    {
+        "id": "recnlg_2593",
+        "title": "Cold Cherry Soup",
+        "ingredients": [
+            "3 cups plus 3 tablespoons water, divided",
+            "1 cup sugar",
+            "1 (3-inch) stick cinnamon",
+            "3 cups pitted, dark sweet cherries, drained",
+            "3 tablespoons all-purpose flour",
+            "3/4 cup burgundy or other dry red wine",
+            "1/4 cup whipping cream"
+        ],
+        "directions": [
+            "combine 3 cups water, sugar, and cinnamon in a 2-quart saucepan; bring to a boil. add cherries; cover and cook 10 minutes over medium heat. remove cinnamon; discard.",
+            "combine flour and remaining water in a small mixing bowl, stirring to blend; gradually stir into cherry mixture. continue to cook over medium heat, stirring constantly, until mixture is slightly thickened. remove from heat, and pour into a large glass mixing bowl. cover and chill in refrigerator.",
+            "before serving, stir in wine and whipping cream. ladle soup into chilled bowls, and serve as a dessert."
+        ],
+        "ner": [
+            "water",
+            "sugar",
+            "cinnamon",
+            "sweet cherries",
+            "all-purpose",
+            "red wine",
+            "whipping cream"
+        ],
+        "source": "RecipeNLG"
+    },
+    {
+        "id": "recnlg_2906",
+        "title": "Mamas Awesome Chicken Noodle Soup",
+        "ingredients": [
+            "1 4-pound hen",
+            "3 celery stalks with leafy tops, chopped",
+            "3 carrots, peeled and chopped",
+            "3 garlic cloves, sliced",
+            "1 large sweet onion, such as vidalia, chopped",
+            "2 tablespoons salt",
+            "1/2 teaspoon black pepper",
+            "1/2 teaspoon chopped fresh parsley",
+            "2 bay leaves",
+            "1 16-ounce package frozen green peas",
+            "8 ounces noodles, such as egg noodles or very thin spaghetti, broken into small pieces"
+        ],
+        "directions": [
+            "put the hen in a large stockpot and pour in water to cover (about 8 cups).",
+            "add the celery, carrots, garlic, onion, salt, pepper, parsley, and bay leaves.",
+            "bring to a boil over high heat, then immediately reduce the heat to a simmer.",
+            "skim off any foam that rises to the surface.",
+            "simmer the hen for 2 hours, or until the meat comes off the bone easily.",
+            "remove the hen to a large bowl and cool.",
+            "strain the broth into a large bowl and discard the vegetables.",
+            "chill the broth and skim off and discard any fat that has risen to the top.",
+            "when the chicken is cool enough to handle, remove the meat from the bones, discarding the bones and skin, and shred the meat into bite-sized pieces.",
+            "return the broth to a large pot.",
+            "add the shredded chicken, the frozen peas, and the noodles.",
+            "bring the soup to a boil, then simmer over medium heat for 10 minutes, or until the pasta is tender.",
+            "add extra salt to taste if desired.",
+            "i would never have guessed that sending this simple soup would bring such pleasure to my child and to me!"
+        ],
+        "ner": [
+            "celery",
+            "carrots",
+            "garlic",
+            "sweet onion",
+            "salt",
+            "black pepper",
+            "parsley",
+            "bay leaves",
+            "green peas",
+            "noodles"
+        ],
+        "source": "RecipeNLG"
+    },
+    {
+        "id": "recnlg_2935",
+        "title": "Simple & Easy To Remember Udon Noodle Soup",
+        "ingredients": [
+            "400 ml water",
+            "3 tbsp soy sauce",
+            "2 tbsp mirin",
+            "1 dash less than 1 tablespoon dashi stock"
+        ],
+        "directions": [
+            "put all the ingredients in a pan and bring to a boil.",
+            "add 1 packet of preboiled udon noodles, and bring to a boil agin.",
+            "add some tororo konbu seaweed, sliced green onion or leek, simmered aburaage etc.",
+            "as toppings and enjoy.",
+            "please refer tofor simmered aburaage.",
+            "in the kansai region, we have rice with udon.",
+            "you can serve a rice bowl or onigiri rice balls with the udon, but if you serve inari sushi as the rice dish it becomes a lunch that both children and adults love.",
+            "my inari sushi filling is very simple.",
+            "i mix sushinoko (a sushi rice seasoning powder) with plain rice to make the sushi rice, and just mix in some sesame seeds and red pickled ginger.",
+            "they're easy, but they are amazingly good."
+        ],
+        "ner": [
+            "water",
+            "soy sauce",
+            "mirin",
+            "stock"
+        ],
+        "source": "RecipeNLG"
+    },
+    {
+        "id": "recnlg_3065",
+        "title": "Recommended For Summer Fatique, Chilled Kabocha Squash Soup",
+        "ingredients": [
+            "1000 grams kabocha squash (whole)",
+            "1/2 onion (sliced)",
+            "40 ml water",
+            "10 grams butter",
+            "2 soup stock cube",
+            "600 to 800 ml milk",
+            "1 heavy cream",
+            "1 parsley etc."
+        ],
+        "directions": [
+            "cut up the kabocha squash with the skin on, take out the seeds and pulpy insides and line the cut up pieces on a heatproof dish.",
+            "add 50 ml of water, and cover loosely with plastic wrap.",
+            "microwave for 10 minutes at 700 w. when the kabocha squash is tender, leave for about 20 minutes to cool down.",
+            "when the kabocha squash has cooled down enough to touch, use a spoon to remove the insides from the skin.",
+            "heat the butter in a pan and saute the sliced onion.",
+            "when the onion is translucent, add 50 ml of water and the soup stock cubes, and heat.",
+            "put the contents of the pan in the food processor.",
+            "add some of the cooked kabocha squash too and process to a paste.",
+            "return the contents of the food processor to the pan.",
+            "add the remaining kabocha squash, and add the milk a little at a time, stirring constantly and heating.",
+            "when the soup has reached the consistency you like, season with salt and pepper.",
+            "chill well in the refrigerator.",
+            "serve topped with cream or parsley.",
+            "addition: some kabocha squash may be a bit dry.",
+            "if the kabocha squash doesn't blend well with the milk, pass it through a fine meshed sieve first.",
+            "return the kabocha squash stuck on the sieve to the pan, and simmer while adding some cream to make it smooth.",
+            "then add the rest of the sieved squash and mix well."
+        ],
+        "ner": [
+            "onion",
+            "water",
+            "butter",
+            "cube",
+            "milk",
+            "heavy cream",
+            "parsley"
+        ],
+        "source": "RecipeNLG"
+    },
+    {
+        "id": "recnlg_3134",
+        "title": "Not-So-Classic Tomato Soup And Grilled Cheese Sandwich",
+        "ingredients": [
+            "for the soup:",
+            "1 cup pasta (i used, and like, shells because they hold the sauce well)",
+            "3 cloves garlic, minced",
+            "3 whole shallots, minced",
+            "3 tablespoons tomato paste",
+            "3 cups, 2 tablespoons, 2 teaspoons, 2-5/8 pinches whole milk",
+            "1/2 whole lemon, juiced",
+            "1 pinch salt and ground black pepper to taste",
+            "1/4 teaspoons mustard powder",
+            "1/4 teaspoons ground nutmeg",
+            "1 pinch parsley, to garnish (optional)",
+            "_____",
+            "for the sandwich:",
+            "1 cup mild cheddar cheese, grated",
+            "1 whole medium granny smith apple",
+            "2 tablespoons softened butter or margarine, for spreading on the bread",
+            "2 slices bread (or four slices if you're feeling especially hungry)"
+        ],
+        "directions": [
+            "for the soup",
+            "boil the pasta in a pot of water, with the garlic and shallots, until the pasta is cooked. (i like boiling the garlic and onions in with the pasta. the garlic and onions really seem to flavor the pasta as it cooks). drain and then put the pasta, garlic and shallots back into the pot.",
+            "into the same pot, add the tomato paste, whole milk, lemon juice, salt, pepper, mustard powder and nutmeg to the pasta, garlic, and shallots. heat until thick and hot.",
+            "for the sandwiches",
+            "grate the cheddar cheese through the largest holes in a box grater. next, thinly slice the apple and remove the core. set both the cheese and apple slices aside.",
+            "butter one side of a slice of bread and place it butter-side down in a skillet on low to medium-low heat. add a layer of cheddar, a layer of apple and top with a final layer of cheese. sprinkle with ground black pepper and top with another buttered slice of bread (butter side up).",
+            "cover skillet to allow the cheese to melt slightly before flipping the sandwich. flip the sandwich when the bottom is golden brown, careful not to let any unmelted cheese fall out. i find it's easiest to flip when you place the spatula upside down on the sandwich, holding it firm to the bottom of the skillet. you then turn the skillet upside-down letting the sandwich rest on the spatula, toasted side up. after replacing the skillet on the burner you can then slide the sandwich, butter side down and toast side up, back into the pan.",
+            "remove the sandwich from the skillet when both sides are golden brown and the cheese is melted.",
+            "i like to slice my sandwich into triangles and dip it into the tomato soup as i eat!"
+        ],
+        "ner": [
+            "pasta",
+            "garlic",
+            "shallots",
+            "tomato paste",
+            "milk",
+            "lemon",
+            "salt",
+            "parsley",
+            "_____",
+            "sandwich",
+            "cheddar cheese",
+            "butter",
+            "bread"
+        ],
+        "source": "RecipeNLG"
+    },
+    {
+        "id": "recnlg_3380",
+        "title": "Tomato Soup With Fines Herbes (Soupe a La Tomate Aux Fines Herbe",
+        "ingredients": [
+            "3 tablespoons olive oil",
+            "1 large yellow onion, finely chopped",
+            "2 lbs ripe tomatoes, peeled, seeded, and coarsely chopped",
+            "1 tablespoon sugar",
+            "12 celery, finely chopped",
+            "6 cups water",
+            "1 tablespoon tomato paste (to taste)",
+            "kosher sea salt",
+            "fresh ground pepper",
+            "5 green onions, including tender green tops, thinly sliced",
+            "13 cup chopped fresh flat-leaf parsley",
+            "13 cup chopped fresh chervil",
+            "12 fresh basil leaves, chopped"
+        ],
+        "directions": [
+            "in a large soup pot over medium heat, warm the oil.",
+            "add the onion and saute until softened, about 1 minutes.",
+            "add the tomatoes and stir until they release their liquid, about 2 minutes.",
+            "add the sugar and continue stirring until all the liquid evaporates and the tomatoes begin to stick - or even caramelize - a little on the bottom of the pan, 2 to 3 minutes.",
+            "add half of the celery, the water, and the tomato paste and mix well.",
+            "season lightly with salt and pepper, then bring to a boil, reduce the heat to low, and simmer, uncovered, for about 30 minutes.",
+            "using a hand held blender or a potato masher, partially puree the soup, leaving the tomato fairly chunky.",
+            "add the remaining celery and simmer for 5 minutes longer to blend the flavors.",
+            "just before serving, add the green onions, parsley, chervil, and basil and stir to blend.",
+            "taste and adjust the seasoning.",
+            "ladle into bowls and serve.",
+            "note: chervil is the leaves and root of this parsley family herb; they are edible and have a mild anise flavor.",
+            "the leaves are a curly and dark green.",
+            "chervil is one of the main ingredients in fines herbes.",
+            "substitutions: parsley or tarragon."
+        ],
+        "ner": [
+            "olive oil",
+            "yellow onion",
+            "tomatoes",
+            "sugar",
+            "celery",
+            "water",
+            "tomato paste",
+            "kosher sea salt",
+            "fresh ground pepper",
+            "green onions",
+            "parsley",
+            "chervil",
+            "basil"
+        ],
+        "source": "RecipeNLG"
+    },
+    {
+        "id": "recnlg_3424",
+        "title": "(Schav) Chef Joey'S Sorrel And Garlic Soup",
+        "ingredients": [
+            "4 cups vegetable stock",
+            "4 cups filtered water",
+            "1 large yellow onion (coarsely chopped)",
+            "1 whole bulb of garlic (remove cloves and lightly crushed with a knife, then peel)",
+            "1 medium potato (diced large)",
+            "1/4 teaspoon turmeric (or saffron threads)",
+            "1 bay leaf",
+            "1/8 teaspoon red pepper flakes",
+            "1 teaspoon salt (course)",
+            "2 ounces sorrel (leaves-ribs removed and torn up in 1/2 inch piece)",
+            "4 1/2 teaspoons lemon juice (or lime)",
+            "vegan sour cream"
+        ],
+        "directions": [
+            "combine 4 cups soup broth and 4 cups water in a large pot. add in the chopped onion, garlic, cubed potato, turmeric, bay leaf, red pepper flakes and salt.",
+            "bring to a boil and then reduce heat to medium and cook for about 30 minutes.",
+            "remove the bay leaf. with a hand immersion blender puree everything together in the pot.",
+            "bring back up to boil and add the sorrel leaves. cook for about 3 more minutes. stir in the citrus juice. refrigerate for a few hours until chilled.",
+            "serve with a dollop of sour cream.",
+            "this soup is good with crusty bread.",
+            "bon appetit."
+        ],
+        "ner": [
+            "vegetable stock",
+            "water",
+            "yellow onion",
+            "garlic",
+            "potato",
+            "turmeric",
+            "bay leaf",
+            "red pepper",
+            "salt",
+            "sorrel",
+            "lemon juice",
+            "sour cream"
+        ],
+        "source": "RecipeNLG"
+    },
+    {
+        "id": "recnlg_3507",
+        "title": "Big Slurp Dumpling Soup",
+        "ingredients": [
+            "1 teaspoon extra virgin olive oil",
+            "1 large onion, chopped",
+            "1 vegetable bouillon cube, crushed",
+            "4 cups water",
+            "fine grain sea salt, to taste",
+            "4 cups cooked yellow split peas",
+            "14 cup fresh herb, see headnotes (chives or dill)",
+            "16 dumplings (or stuffed fresh pasta equivalent)",
+            "14 cup freshly grated parmesan cheese"
+        ],
+        "directions": [
+            "bring a large pot of water to a boil.",
+            "this is the water you will cook the dumplings inches salt the water generously, as you would pasta water.",
+            "in the meantime, add the olive oil, onion, and bouillon to a large pot over medium-high heat.",
+            "cook for a few minutes, just until the onions soften up a bit.",
+            "add the water and bring to a simmer.",
+            "taste, now salt if needed - you want to season the broth so it is delicious in its own right, if it tastes flat, try a bit more salt.",
+            "just before serving, arrange four serving bowls across the counter.",
+            "add one cup of yellow peas to each bowl.",
+            "now place herbs on top of the split peas and ladle one cup of hot broth into each bowl.",
+            "cook the dumplings by giving them a swim in the pot of (gently) boiling water .",
+            "wait a minute or two until they float, then use a slotted spoon to remove from the water.",
+            "place four dumplings in each soup bowl and drizzle each bowl with olive oil.",
+            "sprinkle each bowl with a touch of grated parmesan and enjoy.",
+            "*to cook dried yellow spilt peas: bring 3 cups of water to a boil in a large saucepan, add 3/4 cup dried yellow split peas, and cook for 20 -30 minutes, or until tender.",
+            "drain, salt to taste and set aside."
+        ],
+        "ner": [
+            "extra virgin olive oil",
+            "onion",
+            "vegetable bouillon cube",
+            "water",
+            "grain sea salt",
+            "peas",
+            "fresh herb",
+            "dumplings",
+            "parmesan cheese"
+        ],
+        "source": "RecipeNLG"
+    },
+    {
+        "id": "recnlg_3691",
+        "title": "Cream Of Corn Soup",
+        "ingredients": [
+            "2 tbsp. butter",
+            "1 onion, chopped",
+            "3 celery stalks, chopped",
+            "2 cans cream corn",
+            "4 c. milk",
+            "1 tsp. pepper",
+            "1 tsp. salt"
+        ],
+        "directions": [
+            "melt butter in large pot over medium heat.",
+            "add onions and celery; cook 10 minutes, stir often.",
+            "add milk, corn, salt and pepper.",
+            "cook 30 minutes, stir often."
+        ],
+        "ner": [
+            "butter",
+            "onion",
+            "celery stalks",
+            "cream corn",
+            "milk",
+            "pepper",
+            "salt"
+        ],
+        "source": "RecipeNLG"
+    },
+    {
+        "id": "recnlg_3705",
+        "title": "Beet Soup For Detoxing",
+        "ingredients": [
+            "1 beetroot",
+            "1 tbsp olive oil",
+            "10 grams ginger (finley minced)",
+            "1/2 onion (or shallots) (finely minced)",
+            "1 stalk celery",
+            "1 apple (optional)",
+            "400 ml vegetable bouillon granules",
+            "1 salt and pepper (to taste)",
+            "1/2 orange juice (if adding the apple)",
+            "100 ml soy milk (if not adding the apple)",
+            "1 tsp sour cream (optional)",
+            "1 cumin powder (optional)"
+        ],
+        "directions": [
+            "saute the shallots and ginger in vegetable oil.",
+            "finely chop the celery, apple, and beet root, add it to the pot and continue to saute.",
+            "add the bouillon and boil over medium heat for about 15 minutes.",
+            "if desired, puree the ingredients, and season with salt and pepper to taste.",
+            "if adding the apple, add orange juice, then serve.",
+            "if not adding the apple, add soy milk, bring to a boil, and immediately serve.",
+            "the feature photo shows how it looks made with soy milk and cumin, with a dollop of sour cream.",
+            "if using raw beetroot, cook it for about 10 minutes in a pressure cooker after the pressure rises.",
+            "if cooking in a pot or in a 200c oven, allow about 20 minutes.",
+            "test for tenderness with a skewer."
+        ],
+        "ner": [
+            "beetroot",
+            "olive oil",
+            "ginger",
+            "onion",
+            "celery",
+            "apple",
+            "vegetable bouillon granules",
+            "salt",
+            "orange juice",
+            "milk",
+            "sour cream",
+            "cumin"
+        ],
+        "source": "RecipeNLG"
+    },
+    {
+        "id": "recnlg_3736",
+        "title": "Fabio'S Chickpea Soup",
+        "ingredients": [
+            "2 tablespoons olive oil",
+            "1 large onion, chopped",
+            "3 garlic cloves, minced",
+            "2 cups peeled chopped sweet potatoes",
+            "3 cups vegetable broth",
+            "1 bay leaf",
+            "1 teaspoon dried basil",
+            "1/2 teaspoon dried thyme",
+            "1/4 teaspoon paprika",
+            "1 tomatoes, chopped",
+            "10 ounces fresh green beans",
+            "1 (12 ounce) can chickpeas, aka garbanzo beans"
+        ],
+        "directions": [
+            "heat oil and add onion, garlic and sweet potatoes.",
+            "saute for 5 minutes. stir in the broth, bay leaf, spices and simmer for 15 minutes.",
+            "stir in tomato, green beans and chick peas and simmer for another 10 minutes.",
+            "serve hot."
+        ],
+        "ner": [
+            "olive oil",
+            "onion",
+            "garlic",
+            "sweet potatoes",
+            "vegetable broth",
+            "bay leaf",
+            "basil",
+            "thyme",
+            "paprika",
+            "tomatoes",
+            "green beans",
+            "chickpeas"
+        ],
+        "source": "RecipeNLG"
+    },
+    {
+        "id": "recnlg_3806",
+        "title": "Corn Chowder(From Marylou'S Soup Kitchen)",
+        "ingredients": [
+            "1 can kernel corn",
+            "1 can creamed corn",
+            "1/4 stick butter",
+            "2 cut pieces onion",
+            "1 to 2 tbsp. cooking wine",
+            "salt and pepper to taste",
+            "2 c. milk"
+        ],
+        "directions": [
+            "in a saucepan, braise onion in butter.",
+            "add wine slowly then add both cans of corn.",
+            "stir.",
+            "add milk and seasonings.",
+            "very easy but so tasty."
+        ],
+        "ner": [
+            "kernel corn",
+            "corn",
+            "butter",
+            "onion",
+            "cooking wine",
+            "salt",
+            "milk"
+        ],
+        "source": "RecipeNLG"
+    },
+    {
+        "id": "recnlg_3887",
+        "title": "Chunky Potato Soup With Dill",
+        "ingredients": [
+            "2 carrots, cut into 1/2-inch pieces",
+            "2 celery ribs, cut into 1/2-inch pieces",
+            "1 large onion, coarsely chopped",
+            "1 1/2 lbs russet potatoes, peeled and cut into 1/2-inch pieces",
+            "4 tablespoons unsalted butter",
+            "4 cups water",
+            "1 cup whole milk",
+            "2 tablespoons chopped dill"
+        ],
+        "directions": [
+            "cook vegetables in butter in a 5-6 quart heavy pot, covered, over medium-high heat, stirring occasionally, until beginning to brown and stick to bottom of pot, about 15 minutes.",
+            "add water, 1 1/2 teaspoons salt, and 1/4 teaspoon pepper and simmer, covered, until vegetables are tender, about 10 minutes.",
+            "transfer 3 cups soup to a blender with milk and blend until smooth (use caution when blending hot liquids).",
+            "return to pot, then stir in dill and salt and pepper to taste."
+        ],
+        "ner": [
+            "carrots",
+            "celery",
+            "onion",
+            "russet potatoes",
+            "unsalted butter",
+            "water",
+            "milk",
+            "dill"
+        ],
+        "source": "RecipeNLG"
+    },
+    {
+        "id": "recnlg_4056",
+        "title": "Carrot Habanero Soup",
+        "ingredients": [
+            "1 tablespoon olive oil",
+            "1 cup thinly sliced leek (about 1 large)",
+            "1/2 cup chopped onion",
+            "1 pound carrots, chopped",
+            "1 whole habanero pepper",
+            "1 tablespoon minced peeled fresh ginger",
+            "1 garlic clove, minced",
+            "1/4 cup dry white wine",
+            "3 1/2 cups water",
+            "1 cup chopped peeled sweet potato",
+            "1/4 cup fresh orange juice",
+            "1/2 teaspoon ground coriander",
+            "1 tablespoon honey",
+            "1/2 teaspoon salt",
+            "5 tablespoons plain low-fat yogurt",
+            "chopped fresh cilantro leaves (optional)"
+        ],
+        "directions": [
+            "heat oil in a dutch oven over medium-high heat. add leek, onion, and carrots; saute 7 minutes or until tender. pierce habanero several times with a knife. add habanero, ginger, and garlic to pan; saute 2 minutes. stir in wine, scraping pan to loosen browned bits. add water and sweet potato; bring to a boil. partially cover, reduce heat, and simmer 30 minutes or until tender. stir in orange juice and coriander. remove and discard habanero.",
+            "place half of carrot mixture in a blender; process until smooth. pour pureed mixture into a medium bowl; repeat procedure with remaining carrot mixture. press carrot mixture, in batches, through a large fine sieve into pan; discard solids. stir honey and salt into carrot mixture; cook over medium heat 5 minutes or until thoroughly heated. ladle into bowls; top with low-fat yogurt. garnish with cilantro leaves, if desired."
+        ],
+        "ner": [
+            "olive oil",
+            "onion",
+            "carrots",
+            "habanero pepper",
+            "fresh ginger",
+            "garlic",
+            "white wine",
+            "water",
+            "peeled sweet potato",
+            "orange juice",
+            "ground coriander",
+            "honey",
+            "salt",
+            "yogurt",
+            "fresh cilantro"
+        ],
+        "source": "RecipeNLG"
+    },
+    {
+        "id": "recnlg_4304",
+        "title": "Miso Soup",
+        "ingredients": [
+            "2 teaspoons canola oil",
+            "3 slices fresh ginger root",
+            "1 large onion",
+            "2 carrots, peeled and thinly sliced",
+            "2 stalks celery, thinly sliced",
+            "4 cups coarsely chopped cabbage",
+            "5 cups water",
+            "4 tablespoons miso (dark or light, available at natural-food stores)",
+            "scallions sesame oil (optional)"
+        ],
+        "directions": [
+            "1. heat canola oil in large pot. add ginger and onion, thinly sliced. saute over medium heat for 5 minutes and add carrots, celery, and cabbage. stir well.",
+            "2. add water, bring rapidly to a boil, then lower heat and simmer covered till carrots are tender, about 10 minutes. remove from heat.",
+            "3. place miso in a bowl, add a little of the vegetable broth, and stir well into a smooth paste. add more broth to thin the mixture, then add to the pot of soup. let rest for a few minutes.",
+            "4. serve in bowls with chopped raw scallions. you may wish to remove the sliced ginger before serving, and you can add a few drops of roasted (dark) sesame oil to each bowl, if desired, for a smoother nutty flavor."
+        ],
+        "ner": [
+            "canola oil",
+            "ginger root",
+            "onion",
+            "carrots",
+            "stalks celery",
+            "cabbage",
+            "water",
+            "sesame oil"
+        ],
+        "source": "RecipeNLG"
+    },
+    {
+        "id": "recnlg_4384",
+        "title": "Spicy Sauerkraut Soup",
+        "ingredients": [
+            "3 cups diced cabbage",
+            "3 pre-cooked bratwursts, cut into chunks",
+            "1/2 teaspoon chili powder",
+            "1/4 teaspoon fennel seed",
+            "1/2 teaspoon caraway seed",
+            "1 teaspoon celery seed",
+            "1/2 tablespoon paprika",
+            "1 pinch ground cayenne pepper",
+            "1 teaspoon black pepper",
+            "2 -3 teaspoons salt",
+            "1 teaspoon yellow mustard",
+            "1 teaspoon stone ground mustard",
+            "2 tablespoons sriracha hot chili sauce",
+            "14 ounces sauerkraut"
+        ],
+        "directions": [
+            "boil cabbage, drain, and set aside.",
+            "add brats with a little water to the pan.",
+            "add chili powder, fennel seeds, caraway seeds, celery seeds, paprika, cayenne, and black pepper. boil until brats are nice and warm.",
+            "add cabbage back in, cook over medium heat.",
+            "next add salt, both mustards, chili sauce, and sauerkraut. stir and allow sauerkraut to heat, but not boil."
+        ],
+        "ner": [
+            "cabbage",
+            "chili powder",
+            "fennel seed",
+            "caraway seed",
+            "celery",
+            "paprika",
+            "ground cayenne pepper",
+            "black pepper",
+            "salt",
+            "yellow mustard",
+            "stone ground mustard",
+            "chili sauce",
+            "sauerkraut"
+        ],
+        "source": "RecipeNLG"
+    },
+    {
+        "id": "recnlg_4546",
+        "title": "Scandinavian Cold Fruit Soup",
+        "ingredients": [
+            "3/4 c dried apricots",
+            "1/2 c dried cranberries",
+            "1/2 c currants",
+            "1/2 c raisens",
+            "1/2 c golden raisens",
+            "1/2 c dried cherries or 1 can unsweetened sour red cherries",
+            "1 cinnamon stick",
+            "2 t orange zest, minced",
+            "3 apples (a crisp and firm variety such as gala, pink lady, or honey crisp)",
+            "2 fresh and firm pears (such as a bosc or an asian pear)",
+            "1 package unflavored gelatin",
+            "1 c cranraspberry, cranapple, or cranberry juice",
+            "1/4 c sugar",
+            "lemon slices"
+        ],
+        "directions": [
+            "in a large pot, soak dried fruit in 6 c cold water for 1 hour. add cinnamon stick and orange zest. peel and cut into chunks apples and pears and add to pot with other fruit. simmer, covered, for 15 minutes, or until fruit is tender. if using canned cherries, add them, with juice from can (if using dried cherries, add another 1/2 c water to fruit). bring to a boil.",
+            "heat cranraspberry juice to a boil, and in it dissolve the gelatin. stir gently into fruit.",
+            "taste for sweetness, and if it's not sweet enough for you, add 1/4 c sugar to taste.",
+            "chill overnight",
+            "serve with lemon slices."
+        ],
+        "ner": [
+            "apricots",
+            "dried cranberries",
+            "currants",
+            "raisens",
+            "golden raisens",
+            "dried cherries",
+            "cinnamon",
+            "apples",
+            "unflavored gelatin",
+            "cranraspberry",
+            "lemon slices"
+        ],
+        "source": "RecipeNLG"
+    },
+    {
+        "id": "recnlg_4592",
+        "title": "Cream of Mushroom Soup",
+        "ingredients": [
+            "14 mushrooms, chopped",
+            "3 tablespoons light olive oil",
+            "3 tablespoons flour",
+            "12 teaspoon thyme",
+            "1 12 cups soymilk",
+            "12 cup vegetable broth",
+            "salt, to taste"
+        ],
+        "directions": [
+            "in a 3-quart saucepan, saute the mushrooms in the oil until tender.",
+            "reduce heat to low.",
+            "on reduced heat, add the flour and thyme.",
+            "saute 3 minute",
+            "turn up heat to med/high and add soy milk and vegetable broth.",
+            "bring to slow boilm stirring occasionally.",
+            "add salt to taste."
+        ],
+        "ner": [
+            "mushrooms",
+            "light olive oil",
+            "flour",
+            "thyme",
+            "soymilk",
+            "vegetable broth",
+            "salt"
+        ],
+        "source": "RecipeNLG"
+    },
+    {
+        "id": "recnlg_4645",
+        "title": "Chilled Avocado Soup",
+        "ingredients": [
+            "2 large ripe hass avocadoes",
+            "2 12 cups low-fat buttermilk (or regular milk)",
+            "12 lime, juice of (or lemon)",
+            "1 small green bell pepper, finely chopped",
+            "1 bunch green onion, sliced thinly, reserving 2 tablespoons for garnish",
+            "1 elephant garlic clove, finely minced",
+            "12 green jalapeno pepper, finely minced (optional)",
+            "2 tablespoons fresh cilantro, finely minced",
+            "2 tablespoons fresh parsley, finely minced",
+            "2 tablespoons of fresh mint, finely chopped",
+            "12 teaspoon ground cumin",
+            "salt, to taste",
+            "freshly cracked black pepper, to taste",
+            "4 corn tortillas",
+            "paprika",
+            "scallion, sliced thinly",
+            "fresh cilantro, minced",
+            "of fresh mint, minced",
+            "1 roma tomato, diced small (firm but ripe)"
+        ],
+        "directions": [
+            "peel and pit the avocados.",
+            "to avoid browning, place the avocados in a mixing bowl and immediately mash them with 1/2 cup of the buttermilk and the lemon juice until avocados are smooth.",
+            "add the remaining ingredients to the bowl except the garnishes and mix well.",
+            "at this point, you can *puree the soup or not, your choice.",
+            "cover the soup well and chill at least 1 hour or until ready to serve.",
+            "before serving, cut the tortillas into 1/2\" x 2\" strips and lightly toast in a hot cast iron skillet until they are crisp.",
+            "stir frequently to avoid burning.",
+            "taste and adjust the seasonings in the soup.",
+            "*if the soup is too thick for your liking, thin using a little bit of vegetable broth until you have the desired consistency.",
+            "for each helping, serve soup garnished with the tortilla strips, dash of paprika, sliced scallions, cilantro, mint and diced tomatoes."
+        ],
+        "ner": [
+            "avocadoes",
+            "low-fat buttermilk",
+            "lime",
+            "green bell pepper",
+            "green onion",
+            "garlic",
+            "green jalapeno pepper",
+            "fresh cilantro",
+            "fresh parsley",
+            "mint",
+            "ground cumin",
+            "salt",
+            "freshly cracked black pepper",
+            "corn tortillas",
+            "paprika",
+            "scallion",
+            "fresh cilantro",
+            "fresh mint",
+            "roma tomato"
+        ],
+        "source": "RecipeNLG"
+    },
+    {
+        "id": "recnlg_4659",
+        "title": "Single Pumpkin & Potato Soup With Fennel & Sage",
+        "ingredients": [
+            "1 pound whole pumpkin",
+            "1 tablespoon olive oil",
+            "1 medium fennel bulb",
+            "1 medium carrot",
+            "1 stalk of celery",
+            "1 small yellow onion",
+            "1 pink shallot",
+            "1 large clove of garlic",
+            "1 large potato (baking size)",
+            "1 quart water (or stock)",
+            "1 pinch freshly grated nutmeg",
+            "1 bay leaf",
+            "1 teaspoon fresh sage (about 4 to 6 leaves)",
+            "1 teaspoon salt",
+            "1 dash pepper",
+            "parmigiano-reggiano cheese (optional, for garnish)",
+            "crusty bread, for serving"
+        ],
+        "directions": [
+            "preheat oven to 400\u00b0 f. cut off the top and bottom off of your pumpkin. halve and remove seeds. place the pumpkin halves cut-side down onto a baking sheet lined with aluminium foil. bake for 45 minutes or 1 hour, or until very tender when pierced with a fork. let cool.",
+            "prepare fennel by removing greens and stem base and outer layers if they are bruised. roughly chop and place in a bowl of cool water. agitate the fennel and make sure any dirt hiding inside the layers of the fennel has been washed away. rinse and strain.",
+            "heat olive oil over medium-low in a pot large enough for your entire batch of soup. add fennel, salt, and pepper.",
+            "roughly chop onion, shallot, garlic, celery, potato, and carrot. add all of it to the pot. sautee until the vegetables begin to soften.",
+            "scoop the pumpkin from out of its skin, with a spoon. add to the pot. immediately add the water, freshly grated nutmeg, and bay leaf.",
+            "bring soup to a boil over medium-high heat and then reduce heat to a slow simmer. allow to cook until the potato smashes easily against the side of the pot with a spoon, about 20 to 30 minutes.",
+            "puree the soup with an upright or stick blender. return to low heat. taste, then add water, salt, or pepper if needed.",
+            "remove the small stems at the bases of the leaves of sage. using a chef's knife or mezzaluna, finely mince the sage into small pieces, smaller than 1 millimeter. for a finer texture, use a mortar and pestle and grind the sage. add the fine sage to the soup. stir and let soup set for 15 minutes over very low heat.",
+            "serve the soup warm. if you'd like, top the soup with a good amount of freshly grated parmigiano-reggiano cheese. serve with a good crusty bread.",
+            "this soup is wonderful if made ahead, and tastes even better as the next day's leftovers!"
+        ],
+        "ner": [
+            "pumpkin",
+            "olive oil",
+            "fennel bulb",
+            "carrot",
+            "celery",
+            "yellow onion",
+            "shallot",
+            "clove of garlic",
+            "potato",
+            "water",
+            "nutmeg",
+            "bay leaf",
+            "fresh sage",
+            "salt",
+            "pepper",
+            "cheese",
+            "crusty bread"
+        ],
+        "source": "RecipeNLG"
+    },
+    {
+        "id": "recnlg_4835",
+        "title": "Curried Butternut Squash Soup",
+        "ingredients": [
+            "2 tsp. olive oil",
+            "2 tbsp. chopped onion",
+            "1/2 tsp. curry powder",
+            "1/4 tsp. ground cinnamon",
+            "1 granny smith apple, divided",
+            "2/3 cup low sodium vegetable broth",
+            "2/3 cup frozen butternut squash, thawed",
+            "1/8 tsp. salt",
+            "2 tbsp. half-and-half",
+            "1 sourdough",
+            "1 oz. low-fat, low-sodium swiss cheese",
+            "1 tsp. trans fat free canola-based soft margarine",
+            "8 fl oz (1 cup)"
+        ],
+        "directions": [
+            "heat oil in a saucepan.",
+            "add onions, curry powder and cinnamon; saute for 3-4 minutes.",
+            "core, peel and chop 1/2 of the apple.",
+            "add to pan and continue to cook until tender.",
+            "stir in broth and squash.",
+            "season with salt.",
+            "puree soup in a food processor or blender until smooth.",
+            "transfer back to the saucepan and add cream.",
+            "simmer for 10 - 15 min.",
+            "on low heat.",
+            "spread roll with margarine and top with swiss.",
+            "enjoy remaining 1/2 apple for dessert.",
+            "complement meal with a glass of crystal light."
+        ],
+        "ner": [
+            "olive oil",
+            "onion",
+            "curry powder",
+            "ground cinnamon",
+            "apple",
+            "vegetable broth",
+            "frozen butternut squash",
+            "salt",
+            "sourdough",
+            "low-fat",
+            "trans fat free"
+        ],
+        "source": "RecipeNLG"
+    },
+    {
+        "id": "recnlg_4842",
+        "title": "Minestrone Soup",
+        "ingredients": [
+            "12 cups water",
+            "2-1/2 cups dried navy beans",
+            "1-1/2 cup dried northern beans",
+            "6 strips low sodium bacon",
+            "6 tablespoons olive oil",
+            "2 whole onions, chopped",
+            "3 cloves garlic, minced",
+            "4 stalks celery, sliced",
+            "4 whole carrots, peeled and sliced",
+            "2 whole potatoes, peeled and diced",
+            "2 tablespoons parsley",
+            "1 teaspoon salt",
+            "1/2 teaspoons ground pepper",
+            "2 quarts hot water",
+            "1/2 cups pre cooked rice",
+            "1 cup frozen peas",
+            "1/2 cups tomato paste",
+            "4 tablespoons pecorino romano cheese, grated"
+        ],
+        "directions": [
+            "1. bring 12 cups of water to boil in a large sauce pot. add the dried beans gradually to keep the water boiling.",
+            "2. simmer beans for 2 minutes and remove from heat. set aside to soak in the hot water for an hour and a half.",
+            "3. next, add bacon to the pot of beans and return to medium heat. bring to a boil and reduce heat to low whiling stirring occasionally.",
+            "4. while beans are simmering, heat olive oil in a skillet over medium heat and cook the onions and garlic just until browned, then set aside.",
+            "5. after beans and bacon have simmered for one hour, add onions, garlic, celery, carrots, potatoes, parsley, salt and pepper. slowly pour in two quarts of hot water and simmer about two hours until beans are tender.",
+            "6. meanwhile, cook rice in a separate pot according to package instructions. when the soup is almost done cooking, add in the cooked rice and the peas. cook another 10 minutes or so until the peas are tender, then stir in tomato paste. simmer another ten minutes and remove from heat. sprinkle with cheese and serve with crackers."
+        ],
+        "ner": [
+            "water",
+            "beans",
+            "northern beans",
+            "bacon",
+            "olive oil",
+            "onions",
+            "garlic",
+            "stalks celery",
+            "carrots",
+            "potatoes",
+            "parsley",
+            "salt",
+            "ground pepper",
+            "water",
+            "pre cooked rice",
+            "frozen peas",
+            "tomato paste",
+            "romano cheese"
+        ],
+        "source": "RecipeNLG"
+    },
+    {
+        "id": "recnlg_4847",
+        "title": "Red Bean, Potato & Arugula Soup",
+        "ingredients": [
+            "2 cups chopped onions",
+            "2 garlic cloves, minced or pressed",
+            "2 tablespoons olive oil",
+            "3 cups diced red potatoes",
+            "1 sprig of fresh rosemary (about 4 inches long)",
+            "3 cups vegetable broth (see page 295)",
+            "1 teaspoon salt",
+            "1 14-ounce can of small red beans, drained",
+            "1/2 cup white wine, or 2 tablespoons lemon juice",
+            "4 ounces arugula (about 4 cups)",
+            "1/4 cup chopped fresh basil",
+            "salt and black pepper",
+            "lemon wedges (optional)",
+            "grated parmesan or pecorino romano cheese (optional)"
+        ],
+        "directions": [
+            "in a soup pot, saute the onions and garlic in the oil for about 2 minutes.",
+            "add the potatoes, rosemary, broth, and salt.",
+            "cover and bring to a boil.",
+            "add the beans and the wine.",
+            "reduce the heat and simmer, covered, until the potatoes are tender, about 10 minutes.",
+            "while the potatoes cook, rinse and drain the arugula.",
+            "remove any large or tough stems and coarsely chop any large leaves.",
+            "set aside.",
+            "when the potatoes are tender, add the basil and salt and pepper to taste.",
+            "remove and discard the rosemary sprigsome leaves may stay behind in the soup, and thats fine.",
+            "put a handful of arugula into each bowl and ladle the hot soup over it.",
+            "serve immediately with lemon wedges and/or cheese.",
+            "start with salad greens with sour cream lemon dressing (page 223) and serve fresh fruit or riesling roasted pears (page 264) for dessert."
+        ],
+        "ner": [
+            "onions",
+            "garlic",
+            "olive oil",
+            "red potatoes",
+            "rosemary",
+            "vegetable broth",
+            "salt",
+            "red beans",
+            "white wine",
+            "arugula",
+            "fresh basil",
+            "salt",
+            "lemon wedges",
+            "parmesan"
+        ],
+        "source": "RecipeNLG"
+    },
+    {
+        "id": "recnlg_4858",
+        "title": "Potato Soup",
+        "ingredients": [
+            "3 large potatoes, sliced 1/4-inch thick",
+            "1 small onion, chopped or sliced",
+            "1/2 tsp. salt",
+            "4 c. water",
+            "1 or 2 tbsp. parsley"
+        ],
+        "directions": [
+            "boil the above ingredients until potatoes are tender.",
+            "make a roux with 2 tablespoons butter and 1 tablespoon flour; add some liquid from soup.",
+            "combine the mixtures and cook about 5 minutes. add vinegar to taste, a little less than 1/4 cup."
+        ],
+        "ner": [
+            "potatoes",
+            "onion",
+            "salt",
+            "water",
+            "parsley"
+        ],
+        "source": "RecipeNLG"
+    },
+    {
+        "id": "recnlg_4881",
+        "title": "Ginger Carrot Soup",
+        "ingredients": [
+            "4-5 carrots",
+            "4 small (400 g) potatoes",
+            "1 onion",
+            "3 cups broth or water",
+            "1 thumb fresh ginger",
+            "1 tsp dry thyme or 2 branches fresh",
+            "1 tbsp butter (or olive oil)",
+            "to taste salt & pepper",
+            "to taste chives, parsley or coriander (optional to garnish)"
+        ],
+        "directions": [
+            "slice the carrots, cube the potatoes and mince the onion and ginger.",
+            "saute onions in olive oil or butter until soft.",
+            "add the potatoes and carrots and saute them briefly.",
+            "add the ginger, thyme and enough broth or water to cover the vegetables.",
+            "bring to a boil, then simmer for 15-20 minutes until the carrots are soft.",
+            "once the carrots are soft, puree everything in a blender or food processor (skip this step if you want a chunky soup).",
+            "return to pot and reheat if necessary.",
+            "adjust taste with salt and pepper.",
+            "divide into bowl and garnish with chives and/or parsley."
+        ],
+        "ner": [
+            "carrots",
+            "potatoes",
+            "onion",
+            "broth",
+            "ginger",
+            "thyme",
+            "butter",
+            "salt",
+            "chives"
+        ],
+        "source": "RecipeNLG"
+    },
+    {
+        "id": "recnlg_4922",
+        "title": "Vegan Cream of Mushroom Soup",
+        "ingredients": [
+            "2 cups fresh mushrooms (diced)",
+            "18 cup onion",
+            "12 cup almond milk",
+            "12 cup water",
+            "12 tablespoon ground pepper",
+            "12 tablespoon cornstarch",
+            "14 teaspoon salt"
+        ],
+        "directions": [
+            "fry onions and mushrooms.",
+            "mix all ingredients together.",
+            "boil mixture.",
+            "use an imersion blender to make it creamy."
+        ],
+        "ner": [
+            "fresh mushrooms",
+            "onion",
+            "almond milk",
+            "water",
+            "ground pepper",
+            "cornstarch",
+            "salt"
+        ],
+        "source": "RecipeNLG"
+    },
+    {
+        "id": "recnlg_4973",
+        "title": "Tomato Apple Soup (Tomapple Soup)",
+        "ingredients": [
+            "2 tablespoons butter",
+            "2 tablespoons extra-virgin olive oil",
+            "1 onion, chopped",
+            "3 cloves garlic, minced",
+            "1/2 apple - peeled, cored, and chopped",
+            "1/2 cup chopped carrot",
+            "1/4 teaspoon dried basil, or to taste",
+            "1 pinch dried thyme",
+            "2 cups vegetable stock",
+            "1 (28 ounce) can diced tomatoes",
+            "3 ounces tomato paste, or to taste",
+            "salt and ground black pepper to taste"
+        ],
+        "directions": [
+            "melt the butter with the olive oil in a large skillet over medium-high heat. cook the onion and garlic in the skillet until they begin to brown; add the apple, carrot, basil, and thyme; reduce heat to medium and continue cooking until the carrots are tender, about 10 minutes. stir in the vegetable stock, tomatoes, and tomato paste; season with salt and pepper. raise the heat to high and bring to a boil; cover and cook at least 20 minutes, stirring frequently to keep the soup from burning on the bottom.",
+            "pour the soup into a blender, filling the pitcher no more than halfway full. hold down the lid of the blender with a folded kitchen towel, and carefully start the blender, using a few quick pulses to get the soup moving before leaving it on to puree. puree in batches until smooth and pour into a clean pot. alternately, you can use a stick blender and puree the soup right in the cooking pot."
+        ],
+        "ner": [
+            "butter",
+            "extra-virgin olive oil",
+            "onion",
+            "garlic",
+            "apple",
+            "carrot",
+            "basil",
+            "thyme",
+            "vegetable stock",
+            "tomatoes",
+            "tomato paste",
+            "salt"
+        ],
+        "source": "RecipeNLG"
+    },
+    {
+        "id": "recnlg_4982",
+        "title": "Venison Soup Stock",
+        "ingredients": [
+            "2 venison bones, cracked,large",
+            "18 teaspoon nutmeg",
+            "116 teaspoon mace",
+            "12 green peppercorns, crushed",
+            "8 cups water",
+            "14 teaspoon smoked salt"
+        ],
+        "directions": [
+            "crack deer bones after removing from meat (large ham bone& pelvic bones, etc).",
+            "place in large stew pot, add seasonings.",
+            "bring to a boil, then cover and simmer for three hours.",
+            "strain stock through tea strainer, then through cloth to remove any particles.",
+            "allow to cool, then skim off any fat which accumulates.",
+            "use as base for soup or stew."
+        ],
+        "ner": [
+            "nutmeg",
+            "mace",
+            "green",
+            "water",
+            "salt"
+        ],
+        "source": "RecipeNLG"
+    }
+]

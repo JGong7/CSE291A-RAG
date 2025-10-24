@@ -1,0 +1,146 @@
+{}
+{
+    "query_id": 5,
+    "query": "a healthy smoothie with banana and yogurt.",
+    "results": [
+        {
+            "id": "recnlg_123",
+            "title": "Watermelon Sour Cream Popsicles",
+            "ingredients": [
+            "1/4 watermelon",
+            "1 ripe banana",
+            "7 ounces sour cream",
+            "2.3 ounces fruit or vanilla yogurt",
+            "4 tablespoons sugar",
+            "3 tablespoons honey",
+            "1 lemon, the juice",
+            "vanilla extract to taste"
+            ],
+            "directions": [
+            "remove the peel of the watermelon. place in the blender together with the rest of the ingredients and blend until very smooth.",
+            "add more sugar/honey or lemon juice according to your taste.",
+            "pour the mixture into the popsicle moulds and freeze."
+            ],
+            "ner": [
+            "watermelon",
+            "banana",
+            "sour cream",
+            "vanilla yogurt",
+            "sugar",
+            "honey",
+            "lemon",
+            "vanilla"
+            ],
+            "source": "RecipeNLG"
+        },
+        {
+            "id": "recnlg_2694",
+            "title": "Low-Fat Berry Good Smoothie",
+            "ingredients": [
+              "1 12 cups low-fat plain kefir ((yogurt drink) *i use raspberry kefir)",
+              "12 cup grape juice",
+              "2 tablespoons honey",
+              "1 banana",
+              "78 cup frozen blackberrie",
+              "78 cup frozen strawberries",
+              "78 cup frozen raspberries"
+            ],
+            "directions": [
+              "combine the kefir, grape juice, honey and banana in a blender.",
+              "add the berries and blend until smooth.",
+              "strain or put through sieve {note: i don't strain}.",
+              "i eliminate the blackberries"
+            ],
+            "ner": [
+              "low-fat plain",
+              "grape juice",
+              "honey",
+              "banana",
+              "frozen blackberrie",
+              "frozen strawberries",
+              "frozen raspberries"
+            ],
+            "source": "RecipeNLG"
+          },
+          {
+            "id": "recnlg_4342",
+            "title": "Simple Banana Smoothie",
+            "ingredients": [
+              "3/4 cup vanilla yogurt",
+              "1/2 cup apple juice",
+              "1 tablespoon honey, or to taste",
+              "2 ripe bananas",
+              "1 teaspoon milk, or to taste",
+              "4 ice cubes"
+            ],
+            "directions": [
+              "blend yogurt, apple juice, honey, bananas, milk and ice cubes in a blender until smooth."
+            ],
+            "ner": [
+              "vanilla yogurt",
+              "apple juice",
+              "honey",
+              "bananas",
+              "milk",
+              "cubes"
+            ],
+            "source": "RecipeNLG"
+          },
+          {
+            "id": "recnlg_4736",
+            "title": "Peachy Fruit and Yogurt Shake",
+            "ingredients": [
+              "1 (8 ounce) can peach halves in juice, do not drain",
+              "12 ripe small banana",
+              "12 cup plain nonfat yogurt (or use peach or vanilla yogurt if you like)",
+              "12 teaspoon pure vanilla extract",
+              "1 cup ice cube"
+            ],
+            "directions": [
+              "in a blender container, combine undrained peaches, banana, yogurt and vanilla.",
+              "cover and blend till smooth.",
+              "add ice cubes; cover and blend until frothy.",
+              "makes 2(1 1/4 cup) servings.",
+              "enjoy!"
+            ],
+            "ner": [
+              "peach",
+              "banana",
+              "nonfat yogurt",
+              "vanilla"
+            ],
+            "source": "RecipeNLG"
+          },
+          {
+            "id": "recnlg_2951",
+            "title": "Strawberry Banana Smoothie",
+            "ingredients": [
+              "1 lb strawberries (about 1 qt), trimmed and halved",
+              "1 ripe banana, cut into pieces",
+              "1 cup ice cubes",
+              "1/2 cup silken tofu",
+              "1/2 cup orange juice",
+              "2 tablespoons sugar"
+            ],
+            "directions": [
+              "blend all ingredients in a blender until smooth."
+            ],
+            "ner": [
+              "strawberries",
+              "banana",
+              "silken tofu",
+              "orange juice",
+              "sugar"
+            ],
+            "source": "RecipeNLG"
+          }
+    ]
+},
+
+{
+    "query_id": 6,
+    "query": "I am a vegetarian, give me a simple soup recipe for cold weather",
+    "results": []
+}
+
+
