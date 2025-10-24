@@ -11,12 +11,12 @@
   },
   {
     "id": 3,
-    "query": "I love peanuts, give me a chocolate dessert recipe for special occasions",
+    "query": "I love peanuts, give me a chocolate dessert recipe for special birthday occasions",
     "description": "Include specific ingredients."
   },
   {
     "id": 4,
-    "query": "Give me a spicy chicken curry with coconut milk optional.",
+    "query": "Give me a spicy chicken curry with coconut milk.",
     "description": "Interpret spicy."
   },
   {

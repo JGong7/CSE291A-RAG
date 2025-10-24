@@ -1,0 +1,143 @@
+[
+    {
+        "id": "recnlg_21",
+        "title": "Nutty Butty Pie",
+        "ingredients": [
+            "3 graham cracker crusts",
+            "1 (8 oz.) cream cheese",
+            "2 (8 oz.) cool whip",
+            "1 c. whole milk",
+            "2 c. 10x confectioners sugar",
+            "3/4 c. crunchy peanut butter",
+            "1 small can hershey's chocolate syrup",
+            "3/4 c. crushed pecans"
+        ],
+        "directions": [
+            "blend softened cream cheese and milk. add the confectioners sugar, peanut butter and then add cool whip (8 ounces at a time). fill pie crust with mixture and drool chocolate syrup over filling. top with pecans. freeze until firm.",
+            "remove from freezer prior to serving."
+        ],
+        "ner": [
+            "graham cracker crusts",
+            "cream cheese",
+            "milk",
+            "confectioners sugar",
+            "crunchy peanut butter",
+            "chocolate syrup",
+            "pecans"
+        ],
+        "source": "RecipeNLG"
+    },
+    {
+        "id": "recnlg_279",
+        "title": "Peanut Butter Pie",
+        "ingredients": [
+            "1 - 16 ounce jar of peanut butter (smooth or chunky)",
+            "1 - 8 ounce package cream cheese (softened)",
+            "3/4 cups honey",
+            "1 - 8 ounce container whipped topping",
+            "1 - chocolate pie crust",
+            "2 tablespoons simi-sweet chocolate chips",
+            "1/2 teaspoon shortening"
+        ],
+        "directions": [
+            "beat together cream cheese and honey until well mixed.",
+            "stir in peanut butter, mix well.",
+            "gently fold in whipped topping. spoon into crust.",
+            "heat chocolate chips and shortening over low heat until melted.",
+            "drizzle chocolate over pie.",
+            "chill for at least 4 hours.",
+            "serve chilled."
+        ],
+        "ner": [
+            "peanut butter",
+            "cream cheese",
+            "honey",
+            "topping",
+            "crust",
+            "simi-sweet chocolate chips",
+            "shortening"
+        ],
+        "source": "RecipeNLG"
+    },
+    {
+        "id": "recnlg_2112",
+        "title": "Peanut Butter Chocolate Cake",
+        "ingredients": [
+            "2 c. flour",
+            "2 c. sugar",
+            "2/3 c. cocoa",
+            "2 t. baking soda",
+            "1 t. baking powder",
+            "1/2 t. salt",
+            "2 eggs",
+            "1 c. milk",
+            "2/3 c. vegetable oil",
+            "1 t. vanilla",
+            "1 c. coffee, room temperature",
+            "peanut butter frosting",
+            "3 oz. cream cheese",
+            "1/4 c. creamy peanut butter",
+            "2 c. powered sugar",
+            "2 t. milk",
+            "1/2 t. vanilla",
+            "miniature chocolate chips (these add a lot!)"
+        ],
+        "directions": [
+            "cake directions:",
+            "combine dry ingredients. add eggs, milk, oil and vanilla; beat for 2 minutes. stir in coffee (batter will be thin. pour into greased 9x13\" pan. bake at 350 degrees for 35-40 minutes or until done. cool completely on a wire rack.",
+            "frosting directions - beat the cream cheese and peanut butter in a mixing bowl until smooth. beat in sugar, milk and vanilla. spread over cake. sprinkle with chocolate chips if desired. store in the refrigerator."
+        ],
+        "ner": [
+            "flour",
+            "sugar",
+            "cocoa",
+            "baking soda",
+            "baking powder",
+            "salt",
+            "eggs",
+            "milk",
+            "vegetable oil",
+            "vanilla",
+            "coffee",
+            "peanut butter",
+            "cream cheese",
+            "powered sugar",
+            "milk",
+            "vanilla",
+            "chocolate chips"
+        ],
+        "source": "RecipeNLG"
+    },
+    {
+        "id": "recnlg_4378",
+        "title": "Peanutty Ice Cream Pie",
+        "ingredients": [
+            "1 1/3 cups finely chopped peanuts",
+            "3 tablespoons margarine, melted",
+            "2 tablespoons white sugar",
+            "1/4 cup peanut butter",
+            "1/4 cup light corn syrup",
+            "1/4 cup flaked coconut",
+            "3 tablespoons chopped peanuts",
+            "1 quart vanilla ice cream, softened",
+            "1/4 cup mini candy-coated chocolate pieces (optional)"
+        ],
+        "directions": [
+            "combine the peanuts, butter and sugar; press onto the bottom and up the sides of a greased 9-inch pie plate. cover and refrigerate for 15 minutes.",
+            "in a large bowl, combine peanut butter and corn syrup. add coconut and peanuts. stir in ice cream just until combined. spoon into crust.",
+            "cover and freeze overnight or until firm. just before serving, sprinkle with mini candy-coated chocolate pieces, if desired."
+        ],
+        "ner": [
+            "peanuts",
+            "margarine",
+            "white sugar",
+            "peanut butter",
+            "light corn syrup",
+            "flaked coconut",
+            "peanuts",
+            "vanilla ice cream",
+            "chocolate"
+        ],
+        "source": "RecipeNLG"
+    }
+]
