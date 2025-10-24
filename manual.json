@@ -1,1207 +1,1766 @@
-{
-    "query_id": 3,
-    "query": "I love peanuts, give me a chocolate dessert recipe for special birthday occasions",
+[
+  {
+    "query_id": 1,
+    "query": "I only have two eggs, give me a quick breakfast recipe with eggs and cheese.",
     "results": [
         {
-              "id": "recnlg_21",
-              "title": "Nutty Butty Pie",
-              "ingredients": [
-                  "3 graham cracker crusts",
-                  "1 (8 oz.) cream cheese",
-                  "2 (8 oz.) cool whip",
-                  "1 c. whole milk",
-                  "2 c. 10x confectioners sugar",
-                  "3/4 c. crunchy peanut butter",
-                  "1 small can hershey's chocolate syrup",
-                  "3/4 c. crushed pecans"
-              ],
-              "directions": [
-                  "blend softened cream cheese and milk. add the confectioners sugar, peanut butter and then add cool whip (8 ounces at a time). fill pie crust with mixture and drool chocolate syrup over filling. top with pecans. freeze until firm.",
-                  "remove from freezer prior to serving."
-              ],
-              "ner": [
-                  "graham cracker crusts",
-                  "cream cheese",
-                  "milk",
-                  "confectioners sugar",
-                  "crunchy peanut butter",
-                  "chocolate syrup",
-                  "pecans"
-              ],
-              "source": "RecipeNLG"
-          },
-          {
-              "id": "recnlg_279",
-              "title": "Peanut Butter Pie",
-              "ingredients": [
-                  "1 - 16 ounce jar of peanut butter (smooth or chunky)",
-                  "1 - 8 ounce package cream cheese (softened)",
-                  "3/4 cups honey",
-                  "1 - 8 ounce container whipped topping",
-                  "1 - chocolate pie crust",
-                  "2 tablespoons simi-sweet chocolate chips",
-                  "1/2 teaspoon shortening"
-              ],
-              "directions": [
-                  "beat together cream cheese and honey until well mixed.",
-                  "stir in peanut butter, mix well.",
-                  "gently fold in whipped topping. spoon into crust.",
-                  "heat chocolate chips and shortening over low heat until melted.",
-                  "drizzle chocolate over pie.",
-                  "chill for at least 4 hours.",
-                  "serve chilled."
-              ],
-              "ner": [
-                  "peanut butter",
-                  "cream cheese",
-                  "honey",
-                  "topping",
-                  "crust",
-                  "simi-sweet chocolate chips",
-                  "shortening"
-              ],
-              "source": "RecipeNLG"
-          },
-          {
-              "id": "recnlg_2112",
-              "title": "Peanut Butter Chocolate Cake",
-              "ingredients": [
-                  "2 c. flour",
-                  "2 c. sugar",
-                  "2/3 c. cocoa",
-                  "2 t. baking soda",
-                  "1 t. baking powder",
-                  "1/2 t. salt",
-                  "2 eggs",
-                  "1 c. milk",
-                  "2/3 c. vegetable oil",
-                  "1 t. vanilla",
-                  "1 c. coffee, room temperature",
-                  "peanut butter frosting",
-                  "3 oz. cream cheese",
-                  "1/4 c. creamy peanut butter",
-                  "2 c. powered sugar",
-                  "2 t. milk",
-                  "1/2 t. vanilla",
-                  "miniature chocolate chips (these add a lot!)"
-              ],
-              "directions": [
-                  "cake directions:",
-                  "combine dry ingredients. add eggs, milk, oil and vanilla; beat for 2 minutes. stir in coffee (batter will be thin. pour into greased 9x13\" pan. bake at 350 degrees for 35-40 minutes or until done. cool completely on a wire rack.",
-                  "frosting directions - beat the cream cheese and peanut butter in a mixing bowl until smooth. beat in sugar, milk and vanilla. spread over cake. sprinkle with chocolate chips if desired. store in the refrigerator."
-              ],
-              "ner": [
-                  "flour",
-                  "sugar",
-                  "cocoa",
-                  "baking soda",
-                  "baking powder",
-                  "salt",
-                  "eggs",
-                  "milk",
-                  "vegetable oil",
-                  "vanilla",
-                  "coffee",
-                  "peanut butter",
-                  "cream cheese",
-                  "powered sugar",
-                  "milk",
-                  "vanilla",
-                  "chocolate chips"
-              ],
-              "source": "RecipeNLG"
-          },
-          {
-              "id": "recnlg_4378",
-              "title": "Peanutty Ice Cream Pie",
-              "ingredients": [
-                  "1 1/3 cups finely chopped peanuts",
-                  "3 tablespoons margarine, melted",
-                  "2 tablespoons white sugar",
-                  "1/4 cup peanut butter",
-                  "1/4 cup light corn syrup",
-                  "1/4 cup flaked coconut",
-                  "3 tablespoons chopped peanuts",
-                  "1 quart vanilla ice cream, softened",
-                  "1/4 cup mini candy-coated chocolate pieces (optional)"
-              ],
-              "directions": [
-                  "combine the peanuts, butter and sugar; press onto the bottom and up the sides of a greased 9-inch pie plate. cover and refrigerate for 15 minutes.",
-                  "in a large bowl, combine peanut butter and corn syrup. add coconut and peanuts. stir in ice cream just until combined. spoon into crust.",
-                  "cover and freeze overnight or until firm. just before serving, sprinkle with mini candy-coated chocolate pieces, if desired."
-              ],
-              "ner": [
-                  "peanuts",
-                  "margarine",
-                  "white sugar",
-                  "peanut butter",
-                  "light corn syrup",
-                  "flaked coconut",
-                  "peanuts",
-                  "vanilla ice cream",
-                  "chocolate"
-              ],
-              "source": "RecipeNLG"
-          },
-          {
-              "id": 716293,
-              "title": "Double Chocolate Milo Pancakes",
-              "ingredients": [
-                  "1/4 teaspoon of baking powder",
-                  "1.5 tablespoons of melted butter",
-                  "1.5 tablespoons of Milo chocolate malt powder",
-                  "2 tablespoons of Milo chocolate malt powder",
-                  "1 egg",
-                  "1/2 cup of flour",
-                  "1/4 cup of liquid milk (I used almond but you can use any)",
-                  "A handful of peanuts",
-                  "A pinch of Salt",
-                  "1 tablespoon of Sugar",
-                  "2 tablespoons of Sugar",
-                  "1 tablespoon of Vegetable Oil",
-                  "1/2 cup of Water"
-              ],
-              "instructions": "<p>Mix your dry ingredients and wet ingredients except the peanuts till smooth.In a pan, add 1 tablespoon of vegetable oil and with a small spoon, scoop the mixture and form little circles in the pan.Fry on low- medium heat till brown on both sides.When pancakes are fried and ready set aside.In a small pan, mix the milo, sugar and water and bring to boil on medium heat till a thick sauce is formed. Pour into a bowl and allow to cool.Crush your peanuts and set aside.With a tiny scoop of the chocolate syrup, smear it over the pancakes and sprinkle some peanuts over it.When they are all ready, dust it over with a bit more milo and serve.</p>",
-              "source": "Spoonacular"
-          }
-    ]
-},
-
-{
-    "query_id": 4,
-    "query": "Give me a spicy chicken curry with coconut milk.",
-    "results": [
-        {
-            "id": "recnlg_661",
-            "title": "Easy Chicken Curry",
+            "id": "recnlg_282",
+            "title": "Morning Breakfast Panini",
             "ingredients": [
-              "6 carrots, peeled and sliced into 1/2\" pieces",
-              "1 medium sweet potato, cut into 1\" chunks",
-              "1 sweet onion, chopped into 1\" pieces",
-              "2 small yukon gold potatoes, cut into 1\" pieces",
-              "3 cloves garlic, minced",
-              "2 tablespoons olive oil",
-              "1 1/2 teaspoons curry powder",
-              "1 cup low sodium chicken broth",
-              "1 cup low fat coconut milk",
-              "1/2 teaspoon sea salt",
-              "1/4 teaspoon pepper",
-              "1 pound chicken breast cut into 1\" pieces",
-              "1 lime (optional)"
+                "2 slices white bread or 2 slices brioche bread, 1/2-inch thick",
+                "unsalted butter (melted for brushing)",
+                "3 tablespoons cheddar cheese, grated",
+                "2 slices cooked bacon, fried until crispy",
+                "1 egg, fried",
+                "salt & freshly ground black pepper, to taste",
+                "14 cup arugula"
             ],
             "directions": [
-              "heat the oil in a wide bottomed pot or dutch oven. stir in the carrots and onions and cook for about 5 minutes, stirring to avoid sticking and until they are softened, then stir in the garlic and curry powder. cook for 1 minute, then add the potatoes, broth, coconut milk, salt and pepper. bring to a boil, then reduce the heat to medium, partially cover and cook for 15 minutes, or until the potatoes are just tender, stirring often. mix in the chicken pieces and cook for another 10 minutes or so until cooked through. cut the lime into wedges. divide the curry among individual bowls, squeezing a bit of lime juice over each portion. ( i didn't use lime because i didn't have any but it sounds delicious!)"
+                "preheat an electric panini maker on high heat according to the manufacturer's instructions.",
+                "place the bread slices on a cutting board.",
+                "brush one side of each slice with melted butter.",
+                "turn one slice over and sprinkle with the cheese.",
+                "top with the bacon and fried egg, and season with salt and pepper.",
+                "top with the arugula and the other bread slice, buttered side up.",
+                "place the sandwich on the preheated panini maker and cook according to the manufacturers instructions until the bread is golden and the cheese is melted, 3 to 5 minutes.",
+                "transfer the sandwich to a cutting board and cut in half.",
+                "serve immediately.",
+                "serves 1."
             ],
             "ner": [
-              "carrots",
-              "sweet potato",
-              "sweet onion",
-              "potatoes",
-              "garlic",
-              "olive oil",
-              "curry powder",
-              "chicken broth",
-              "coconut milk",
-              "salt",
-              "pepper",
-              "chicken",
-              "lime"
-            ],
-            "source": "RecipeNLG"
-      },
-      {
-          "id": "recnlg_2629",
-          "title": "Chicken and Pineapple Skewers",
-          "ingredients": [
-            "34 teaspoon cumin",
-            "2 teaspoons curry powder",
-            "1 teaspoon turmeric",
-            "1 cup unsweetened coconut milk (light version is fine)",
-            "1 teaspoon olive oil",
-            "12 tablespoon rice vinegar",
-            "12 tablespoon honey",
-            "salt and pepper",
-            "1 12 lbs boneless chicken breasts, cut into 2 inch pieces",
-            "2 red bell peppers, seeded and cut into 1 inch pieces",
-            "12 fresh pineapple, peeled,cored and cut into 1 1/2 inch chunks",
-            "6 -8 wooden skewers or 6 -8 metal skewers (if using wood soak for at least 30 minutes)"
-          ],
-          "directions": [
-            "in a small skillet toast the cumin, curry powder and turmeric over low heat stirring for about 20 seconds.",
-            "remove from heat and set aside.",
-            "in a large bowl whisk together the toasted spices, coconut milk, oil, vinegar, honey, salt and pepper.",
-            "add chicken, tossing to coat evenly and then refrigerate for at least one hour.",
-            "start the grill or preheat the broiler (if using broiler grease the broiler pan well).",
-            "thread the skewers alternating pieces of chicken, bell pepper and pineapple.",
-            "season skewers with salt and pepper.",
-            "lightly grease the grill rack with oil and then place the skewers on it and grill for 4-6 minutes per side, or until chicken is cooked."
-          ],
-          "ner": [
-            "cumin",
-            "curry powder",
-            "turmeric",
-            "unsweetened coconut milk",
-            "olive oil",
-            "rice vinegar",
-            "honey",
-            "salt",
-            "chicken breasts",
-            "red bell peppers",
-            "pineapple",
-            "wooden skewers"
-          ],
-          "source": "RecipeNLG"
-      },
-      {
-          "id": "recnlg_4483",
-          "title": "Jamaican Beans And Rice",
-          "ingredients": [
-            "2 -4 chicken thighs, skin on and bone in are ok",
-            "1 tablespoon coconut oil or 1 tablespoon other cooking oil",
-            "1 medium onion, diced",
-            "1/2 teaspoon curry powder",
-            "1 teaspoon dried thyme",
-            "1 1/2 cups long grain brown rice",
-            "1 cup coconut milk",
-            "2 cups chicken broth (or 2 cups chicken broth and water)",
-            "1 (15 ounce) can black beans or (15 ounce) can dark red kidney beans, rinsed and drained",
-            "salt and black pepper",
-            "optional",
-            "1/2 1/2 cup green beans (optional) or 1/2 cup frozen mixed vegetables (optional)"
-          ],
-          "directions": [
-            "heat the oil in a deep skillet or medium sized saucepan with a good lid to medium high.",
-            "salt and pepper the chicken thighs and place them in the pan, skin side down.",
-            "brown both sides of the chicken thighs and then remove from the pan and keep warm.",
-            "adjust the fat in the pan by removing some or adding some and add onions to the fat in the pan.",
-            "sprinkle with salt, pepper, thyme and curry powder and saute until they start to soften.",
-            "add rice and stir to coat the rice with the oil and seasonings.",
-            "add the liquid to the pan and raise heat to high.",
-            "scrape the bottom of the pan to get up the crusty bits and incorporate everything together.",
-            "when the pot boils nestle the browned chicken into the rice and put the lid on the pan.",
-            "turn heat down to low and let simmer for 45 minutes or until rice is tender and chicken is cooked through.",
-            "remove chicken from the rice and remove skin and bones.",
-            "shred meat and return to the rice.",
-            "add beans and any vegetables, stir to combine and let sit over low heat to warm the beans and vegetables.",
-            "serve with pineapple or mango chutney and a big green salad!"
-          ],
-          "ner": [
-            "chicken",
-            "coconut oil",
-            "onion",
-            "curry powder",
-            "thyme",
-            "long grain brown rice",
-            "coconut milk",
-            "chicken broth",
-            "black beans",
-            "salt",
-            "green beans"
-          ],
-          "source": "RecipeNLG"
-      },
-      {
-          "id": "recnlg_4488",
-          "title": "Thai Green Curry Chicken",
-          "ingredients": [
-            "1 1/2 cups coconut milk",
-            "1 tablespoon green curry paste (found in plastic tubs in oriental food sections)",
-            "1 stalk lemongrass, cut into 1 inch pieces and bruised or 3 tablespoons frozen minced lemongrass",
-            "1 cup reduced-sodium chicken broth",
-            "2 tablespoons fish sauce",
-            "3 tablespoons sugar",
-            "1/2 teaspoon turmeric",
-            "2 kaffir lime leaves, cut into fine slivers (or zest of 1 lime)",
-            "1 1/2 lbs boneless skinless chicken breasts, sliced into 1/4 inch strips",
-            "2 cups bamboo shoots, boiled in fresh water for 5 minutes and drained",
-            "1/2 cup frozen peas",
-            "2 tomatoes, cut into wedges",
-            "15 -20 fresh basil leaves, coarsely chopped (thai basil is best)"
-          ],
-          "directions": [
-            "heat 1/2 cup of the coconut milk in a large wok (or other pan large enough for stir fry) over medium-high heat until bubbling.",
-            "add curry paste and lemon grass, and stir for 1 minute.",
-            "add chicken broth, fush sauce, sugar, turmeric, and lime leaves,.",
-            "bring to a boil.",
-            "add chicken and cook 2-3 minutes, you do not need to completely cook it in this step. if you do, it may be tough by the end.",
-            "reduce heat to low.",
-            "add remaining coconut milk, bamboo shoots, peas, and tomatoes.",
-            "simmer 3 minutes, until additions are hot.",
-            "remove from heat, and stir in basil leaves.",
-            "serve hot over jasmine rice or pasta."
-          ],
-          "ner": [
-            "coconut milk",
-            "green curry",
-            "stalk lemongrass",
-            "chicken broth",
-            "fish sauce",
-            "sugar",
-            "turmeric",
-            "lime",
-            "chicken breasts",
-            "bamboo shoots",
-            "frozen peas",
-            "tomatoes",
-            "basil"
-          ],
-          "source": "RecipeNLG"
-      }
-    ]
-},
-
-{
-    "query_id": 5,
-    "query": "a healthy smoothie with banana and yogurt.",
-    "results": [
-        {
-            "id": "recnlg_123",
-            "title": "Watermelon Sour Cream Popsicles",
-            "ingredients": [
-            "1/4 watermelon",
-            "1 ripe banana",
-            "7 ounces sour cream",
-            "2.3 ounces fruit or vanilla yogurt",
-            "4 tablespoons sugar",
-            "3 tablespoons honey",
-            "1 lemon, the juice",
-            "vanilla extract to taste"
-            ],
-            "directions": [
-            "remove the peel of the watermelon. place in the blender together with the rest of the ingredients and blend until very smooth.",
-            "add more sugar/honey or lemon juice according to your taste.",
-            "pour the mixture into the popsicle moulds and freeze."
-            ],
-            "ner": [
-            "watermelon",
-            "banana",
-            "sour cream",
-            "vanilla yogurt",
-            "sugar",
-            "honey",
-            "lemon",
-            "vanilla"
+                "white bread",
+                "unsalted butter",
+                "cheddar cheese",
+                "bacon",
+                "egg",
+                "salt",
+                "arugula"
             ],
             "source": "RecipeNLG"
         },
         {
-            "id": "recnlg_2694",
-            "title": "Low-Fat Berry Good Smoothie",
+            "id": "recnlg_1519",
+            "title": "Quick Breakfast Cheesecake",
             "ingredients": [
-              "1 12 cups low-fat plain kefir ((yogurt drink) *i use raspberry kefir)",
-              "12 cup grape juice",
-              "2 tablespoons honey",
-              "1 banana",
-              "78 cup frozen blackberrie",
-              "78 cup frozen strawberries",
-              "78 cup frozen raspberries"
+                "1 pkg. hungry jack biscuits (cinnamon if you can find them)",
+                "1 (8 oz.) cream cheese, softened",
+                "1 egg",
+                "1 tbsp. flour",
+                "1/2 c. sugar",
+                "1 tbsp. cinnamon",
+                "2 tbsp. sugar",
+                "1 tsp. nutmeg"
             ],
             "directions": [
-              "combine the kefir, grape juice, honey and banana in a blender.",
-              "add the berries and blend until smooth.",
-              "strain or put through sieve {note: i don't strain}.",
-              "i eliminate the blackberries"
+                "put biscuits into ungreased pie plate. mix remaining ingredients, except sugar, cinnamon and nutmeg until smooth and pour over biscuits. sprinkle sugar, cinnamon and nutmeg over top. bake at 350\u00b0 for 25 minutes."
             ],
             "ner": [
-              "low-fat plain",
-              "grape juice",
-              "honey",
-              "banana",
-              "frozen blackberrie",
-              "frozen strawberries",
-              "frozen raspberries"
+                "cinnamon",
+                "cream cheese",
+                "egg",
+                "flour",
+                "sugar",
+                "cinnamon",
+                "sugar",
+                "nutmeg"
             ],
             "source": "RecipeNLG"
-          },
-          {
-            "id": "recnlg_4342",
-            "title": "Simple Banana Smoothie",
+        },
+        {
+            "id": "recnlg_2531",
+            "title": "Tasty Tortilla Breakfast Sandwich",
             "ingredients": [
-              "3/4 cup vanilla yogurt",
-              "1/2 cup apple juice",
-              "1 tablespoon honey, or to taste",
-              "2 ripe bananas",
-              "1 teaspoon milk, or to taste",
-              "4 ice cubes"
+                "2 (10 inch) tomato-basil tortillas or (10 inch) flour tortillas",
+                "2 eggs, cooked to scrambled (pan or microwave)",
+                "2 slices deli ham",
+                "1 small onion, chopped",
+                "1 small tomatoes, chopped",
+                "2 slices american cheese or 2 slices cheddar cheese",
+                "nonstick cooking spray"
             ],
             "directions": [
-              "blend yogurt, apple juice, honey, bananas, milk and ice cubes in a blender until smooth."
+                "-preheat oven to 375.",
+                "-treat sheet pan with nonstick cooking spray.",
+                "-microwave tortillas for 20 seconds each (ovens vary).",
+                "-put fillings in the middle; any order you choose.",
+                "-roll up egg roll-style.",
+                "-put seam-side down on sheet pan.",
+                "-bake for 15 minutes.",
+                "-let rest for 2 minutes.",
+                "-eat whole, or cut in half and enjoy."
             ],
             "ner": [
+                "tomato-basil tortillas",
+                "eggs",
+                "deli ham",
+                "onion",
+                "tomatoes",
+                "american cheese",
+                "nonstick cooking spray"
+            ],
+            "source": "RecipeNLG"
+        }
+    ]
+  },
+
+  {
+      "query_id": 2,
+      "query": "I am lactose intolerance, give me a pasta dish",
+      "results": [
+        {
+            "id": "recnlg_779",
+            "title": "Lanai Pasta Salad",
+            "ingredients": [
+                "1 (20 ounce) can pineapple chunks in juice",
+                "3 cups cooked spiral shaped pasta",
+                "2 cups sugar snap peas",
+                "1 cup sliced carrot",
+                "1 cup sliced cucumber",
+                "1/2 cup reduced-calorie italian dressing",
+                "1/4 cup chopped cilantro or 1/4 cup chopped parsley"
+            ],
+            "directions": [
+                "drain pineapple; reserve 1/4 c juice.",
+                "combine pineapple, reserved juice and remaining ingredients in large bowl; toss to coat."
+            ],
+            "ner": [
+                "pineapple",
+                "pasta",
+                "sugar snap peas",
+                "carrot",
+                "cucumber",
+                "italian dressing",
+                "cilantro"
+            ],
+            "source": "RecipeNLG"
+        },
+        {
+            "id": "recnlg_1741",
+            "title": "Pasta Salad",
+            "ingredients": [
+                "8 oz. pasta noodles",
+                "3 large chopped tomatoes",
+                "5 green scallions, chopped (including tops)",
+                "2 cucumbers, peeled and chopped",
+                "1 (8 oz.) bottle kraft zesty italian dressing",
+                "1/2 bottle mccormick salad supreme seasoning"
+            ],
+            "directions": [
+                "cook pasta as directed.",
+                "rinse in cold water and drain well. put in serving bowl and add remaining ingredients.",
+                "mix well. refrigerate several hours or overnight."
+            ],
+            "ner": [
+                "pasta noodles",
+                "tomatoes",
+                "green scallions",
+                "cucumbers",
+                "italian dressing",
+                "salad supreme seasoning"
+            ],
+            "source": "RecipeNLG"
+        },
+        {
+            "id": "recnlg_2151",
+            "title": "Honey Mustard Pasta",
+            "ingredients": [
+                "1 pound penne pasta",
+                "3 tablespoons olive oil",
+                "2 garlic cloves",
+                "8 roma tomatoes",
+                "2 tablespoons balsamic vinegar",
+                "2 tablespoons honey",
+                "2 tablespoons dijon mustard",
+                "1 teaspoon salt",
+                "1/2 teaspoon ground black pepper",
+                "1/4 cup chopped fresh basil"
+            ],
+            "directions": [
+                "cook pasta according to package directions.",
+                "heat the oil in a large saute pan over medium-high heat. mince garlic and saute 1 minute.",
+                "rough cut tomatoes, add to pan and cook 6 minutes until softened. add the vinegar, honey and mustard and continue cooking 5 minutes..",
+                "drain the pasta and toss with sauce. season with salt and pepper.",
+                "place basil on top of finished pasta."
+            ],
+            "ner": [
+                "penne pasta",
+                "olive oil",
+                "garlic",
+                "tomatoes",
+                "balsamic vinegar",
+                "honey",
+                "mustard",
+                "salt",
+                "ground black pepper",
+                "fresh basil"
+            ],
+            "source": "RecipeNLG"
+        },
+        {
+            "id": "recnlg_2394",
+            "title": "Fresh Tomato-Basil-Asparagus Pasta Salad",
+            "ingredients": [
+                "1 (16 ounce) package bow tie pasta",
+                "1 lb fresh asparagus",
+                "1 cup bottled lemon vinaigrette",
+                "1 (1 ounce) package fresh basil, chopped",
+                "1 pint grape tomatoes, halved",
+                "salt and pepper"
+            ],
+            "directions": [
+                "cook pasta according to package directions, adding asparagus, cut into 2\" pieces, during the last 2 minutes of cooking time. drain and rinse under cool water.",
+                "stir together 1 cup bottled lemon vinaigrette and chopped basil. pour 3/4 cup of dressing over pasta mixture. stir in tomatoes, and salt and pepper to taste. cover and chill 1 hour. toss with remaining dressing just before serving. garnish with additional freshly basil."
+            ],
+            "ner": [
+                "pasta",
+                "fresh asparagus",
+                "lemon vinaigrette",
+                "fresh basil",
+                "grape tomatoes",
+                "salt"
+            ],
+            "source": "RecipeNLG"
+        },
+        {
+            "id": "recnlg_2426",
+            "title": "Famous Bill'S Pasta Salad",
+            "ingredients": [
+                "1 lb. rainbow pasta",
+                "8 oz. red wine and vinegar dressing",
+                "8 oz. oxford orange dijon dressing",
+                "1 medium onion, diced",
+                "3 ribs celery, diced",
+                "2 red peppers, diced",
+                "1 green pepper, diced",
+                "1/2 c. sliced ripe olives",
+                "1 tsp. granulated garlic"
+            ],
+            "directions": [
+                "cook pasta; drain well.",
+                "add all ingredients.",
+                "let set in refrigerator overnight."
+            ],
+            "ner": [
+                "pasta",
+                "red wine",
+                "dressing",
+                "onion",
+                "celery",
+                "red peppers",
+                "green pepper",
+                "olives",
+                "garlic"
+            ],
+            "source": "RecipeNLG"
+        },
+        {
+            "id": "recnlg_2969",
+            "title": "Fresh Diet Pasta",
+            "ingredients": [
+                "whole wheat spaghetti for 1 person",
+                "1 can tuna",
+                "3 garlic cloves chopped",
+                "1 onion small, chopped",
+                "2 slices red pepper",
+                "2 slices green pepper",
+                "6 coriander sprigs, chopped",
+                "3 tomatoes medium, chopped",
+                "olive oil as needed",
+                "salt as needed"
+            ],
+            "directions": [
+                "cook the spaghetti in salted water, drain, and set aside.",
+                "drain the tuna, and place in a bowl.",
+                "add the garlic, onion, peppers, chopped coriander, and mix.",
+                "add the tomatoes, sprinkle with a little olive oil. mix well.",
+                "add the spaghetti, and mix evenly."
+            ],
+            "ner": [
+                "whole wheat spaghetti",
+                "tuna",
+                "garlic",
+                "onion",
+                "red pepper",
+                "green pepper",
+                "coriander sprigs",
+                "tomatoes",
+                "olive oil",
+                "salt"
+            ],
+            "source": "RecipeNLG"
+        },
+        {
+            "id": "recnlg_3066",
+            "title": "Asian Chicken Slaw With Pasta Recipe",
+            "ingredients": [
+                "salt as needed",
+                "8 ounce angel hair pasta or possibly capellini",
+                "1/4 c. vegetable oil",
+                "2 tbsp. sesame oil",
+                "1 x garlic clove chopped",
+                "1/4 c. rice or possibly white wine vinegar",
+                "1 tsp sugar",
+                "1/2 tsp dry red pepper flakes",
+                "2 tbsp. nuoc nam, bottled vietnamese fish sauce (optional)",
+                "3/4 lb boneless smoked chicken or possibly turkey breast - (to 1 lb)",
+                "1/2 sm head napa or possibly chinese cabbage cored",
+                "2 x carrots peeled",
+                "1/2 c. packed washed basil leaves"
+            ],
+            "directions": [
+                "bring a large pot of salted water to a boil.",
+                "meanwhile, combine the vegetable and sesame oils, garlic, rice vinegar, sugar, pepper flakes and optional nuoc mam.",
+                "remove the skin and fat from the chicken and cut it into thin vertical strips, then across the strips into thin shreds and add in them to the mixing bowl.",
+                "add in the pasta to the boiling water and cook till it is tender but still hard to the bite, about 3 to 4 min.",
+                "drain the pasta and rinse it under cool water to cold it completely.",
+                "drain the pasta again, pat it dry and add in it to the mixing bowl.",
+                "finely shred the cabbage and grate or possibly finely chop the carrots.",
+                "roll the basil leaves up into tight cylinders and cut across them to create fine shreds and add in them to the mixing bowl.",
+                "toss the salad with the dressing and adjust the seasoning if necessary.",
+                "this recipe yields 4 servings."
+            ],
+            "ner": [
+                "salt",
+                "hair pasta",
+                "vegetable oil",
+                "sesame oil",
+                "garlic",
+                "rice",
+                "sugar",
+                "red pepper",
+                "fish sauce",
+                "chicken",
+                "head",
+                "carrots",
+                "basil"
+            ],
+            "source": "RecipeNLG"
+        },
+        {
+            "id": "recnlg_3108",
+            "title": "Scoglio (Seafood Pasta)",
+            "ingredients": [
+                "2 tablespoons olive oil",
+                "2 garlic cloves, crushed",
+                "1 (16-ounce) can whole italian tomatoes",
+                "salt and freshly ground black pepper, to taste",
+                "1 teaspoon sicilian oregano (optional)",
+                "1 pound dry spaghetti",
+                "2 tablespoons plus 2 teaspoons \tolive oil, divided",
+                "4-6 medium size scallops",
+                "1/4 teaspoon salt",
+                "1/4 teaspoon pepper",
+                "8 medium-size peeled shrimp",
+                "1 spring fresh oregano",
+                "1 sprig fresh thyme",
+                "8 mussels",
+                "8 clams",
+                "1/2 cup white wine"
+            ],
+            "directions": [
+                "make sauce:",
+                "heat oil in a saucepan over medium heat. add garlic to oil and cook, stirring, until golden brown. while garlic browns, pour tomatoes into a bowl; break them up using clean hands. once garlic is browned, add tomatoes and their juices. add salt and pepper (and oregano if using).",
+                "simmer over low heat for 45 minutes, adding water to keep the sauce from becoming too thick. the sauce should be a rich red color. if it turns brick red, it's too thick.",
+                "make pasta:",
+                "cook pasta according to package directions. drain, reserving 1 cup cooking water.",
+                "heat 2 tablespoons oil in a large skillet. season scallops with salt and pepper; cook over medium high heat, about 2-3 minutes per side, until golden brown on each side. remove and",
+                "set aside.",
+                "in the same pan, cook shrimp until they",
+                "just turn pink, about 1-2 minutes. remove and",
+                "set aside.",
+                "add reserved pasta water to pan along with oregano and thyme. simmer for 10 minutes to create a fish broth, scraping the bottom of the pan with a spatula to release the caramelized bits left over from sauteing into the broth.",
+                "once the broth is ready, add mussels with remaining 2 teaspoons oil and cover. cook 2-3 minutes, removing mussels as soon as they open. set aside. repeat with the clams, cooking about 4 minutes. remove and set aside.",
+                "strain the remaining fish broth through a sieve and return to the same pan. add wine and simmer over medium heat, 2-3 minutes, to burn off the alcohol. add scallops back to the pan. then add 1/2 cup pomodoro sauce. add shrimp and a little more pomodoro sauce. add pasta to the saucepan, stirring to coat with pomodoro sauce. simmer 2-3 minutes and fold clams and mussels into the pasta. serve immediately."
+            ],
+            "ner": [
+                "olive oil",
+                "garlic",
+                "italian tomatoes",
+                "salt",
+                "oregano",
+                "olive oil",
+                "scallops",
+                "salt",
+                "pepper",
+                "shrimp",
+                "oregano",
+                "thyme",
+                "mussels",
+                "clams",
+                "white wine"
+            ],
+            "source": "RecipeNLG"
+        },
+        {
+            "id": "recnlg_3345",
+            "title": "Whole Wheat Pasta With Avocado Sauce",
+            "ingredients": [
+                "2 ripe avocados",
+                "1 lemon, juice of",
+                "1 fat garlic clove, crushed",
+                "salt and black pepper",
+                "1 tablespoon olive oil",
+                "12 ounces dry pasta, preferably wholewheat tagliatelle"
+            ],
+            "directions": [
+                "scoop out the flesh of the two avocados in to the bowl in which you will serve the pasta. mash the avocado flesh well. add the lemon juice and mash again. add the crushed garlic and stir. add the seasoning to taste, followed by the olive oil, and mash thoroughly to make a creamy sauce.",
+                "cook the pasta to al dente consistency in plenty of boiling water. drain well and add to sauce. toss thoroughly and serve.",
+                "note: you can use more or less lemon jice, garlic or olive oil according to your family's taste."
+            ],
+            "ner": [
+                "avocados",
+                "lemon",
+                "garlic",
+                "salt",
+                "olive oil",
+                "pasta"
+            ],
+            "source": "RecipeNLG"
+        },
+        {
+            "id": "recnlg_3358",
+            "title": "Red Pepper Pasta Salad",
+            "ingredients": [
+                "1 lb. cavatapi (or other pasta shape)",
+                "1 cup mayonaise",
+                "1 sm. jar roasted red peppers",
+                "1 package good seasons salad dressing mix",
+                "1 teaspoon chopped garlic",
+                "juice of 1/2 lemon",
+                "1 package frozen mixed vegetables"
+            ],
+            "directions": [
+                "cook pasta according to package directions.",
+                "drain red peppers",
+                "blend peppers in blender with mayonaise, lemon juice, garlic and seasoning packet.",
+                "cook vegetables until just defrosted, then mix with pasta",
+                "add dressing to pasta & vegetable mixture and mix well"
+            ],
+            "ner": [
+                "mayonaise",
+                "red peppers",
+                "salad dressing",
+                "garlic",
+                "lemon",
+                "vegetables"
+            ],
+            "source": "RecipeNLG"
+        },
+        {
+            "id": "recnlg_4403",
+            "title": "Pasta Puttanesca",
+            "ingredients": [
+                "1 lb tomatoes, vined ripened (plum or cherry)",
+                "4 tablespoons olive oil",
+                "3 garlic cloves, chopped",
+                "1 sprig rosemary, leaves finely chopped",
+                "4 sage leaves, shredded thinly",
+                "1 pinch dried chili pepper flakes",
+                "2 ounces capers",
+                "4 ounces black olives, pitted",
+                "4 ounces anchovies packed in oil, drained and chopped",
+                "2 tablespoons oregano, chopped",
+                "1 lb spaghetti",
+                "1 tablespoon flat leaf parsley, chopped",
+                "salt & freshly ground black pepper"
+            ],
+            "directions": [
+                "bring 3.4 litre/6 pint water and 2 tbsp salt to the boil for the pasta.",
+                "for the sauce, squeeze the tomatoes into the sink to get rid of most of the juice, then cut each one in half.",
+                "heat the oil in a pan with the garlic, rosemary and sage and cook gently for about 1 minute without browning.",
+                "add the chilli, tomatoes, capers, olives, anchovies, oregano and some black pepper and leave to simmer gently for 10 minutes.",
+                "meanwhile, add the pasta to the pan of boiling water and cook for about 7 minutes or until al dente.",
+                "drain and tip it into a large warmed serving bowl. pour over the sauce, add the chopped parsley and toss together well. serve straight away, with plenty of red wine."
+            ],
+            "ner": [
+                "tomatoes",
+                "olive oil",
+                "garlic",
+                "rosemary",
+                "sage",
+                "chili pepper",
+                "capers",
+                "black olives",
+                "anchovies",
+                "oregano",
+                "flat leaf parsley",
+                "salt"
+            ],
+            "source": "RecipeNLG"
+        },
+        {
+            "id": "recnlg_4535",
+            "title": "July 4Th Cold Pasta Salad",
+            "ingredients": [
+                "1 red bell pepper",
+                "1 green bell pepper",
+                "1 onion",
+                "1 cucumber",
+                "1 tomato",
+                "1 bottle mrs. dash",
+                "1 box spaghetti (pasta)",
+                "1 bottle italian salad dressing"
+            ],
+            "directions": [
+                "cook pasta; drain.",
+                "chop bell peppers, onion, cucumber and tomato.",
+                "mix all in big bowl; add mrs. dash and italian dressing and stir together thoroughly.",
+                "refrigerate overnight so it can marinate.",
+                "it is fantastic and has become a july 4th tradition!"
+            ],
+            "ner": [
+                "red bell pepper",
+                "green bell pepper",
+                "onion",
+                "cucumber",
+                "tomato",
+                "pasta",
+                "italian salad dressing"
+            ],
+            "source": "RecipeNLG"
+        },
+        {
+            "id": "recnlg_4839",
+            "title": "Pasta Puttanesca",
+            "ingredients": [
+                "1 lb. pasta",
+                "2 gloves finely chopped garlic",
+                "1 handful capers, soaked and drained",
+                "2 handfuls of black olives (kalamata)",
+                "12 anchovy fillets, roughly chopped",
+                "3 dried red chiles, crumbled",
+                "2 (14 oz.) canned tomatoes, drained and chopped",
+                "1 tbsp. dried oregano",
+                "extra virgin olive oil",
+                "fresh basil",
+                "salt and pepper"
+            ],
+            "directions": [
+                "cook pasta until done. fry garlic, capers, olives, anchovies, chiles and oregano in a little olive oil for 3 to 4 minutes. add tomatoes and cook on a simmer for 5 minutes. remove from heat. add drained pasta and toss through. top with fresh basil and good olive oil."
+            ],
+            "ner": [
+                "pasta",
+                "garlic",
+                "handful capers",
+                "black olives",
+                "anchovy",
+                "red chiles",
+                "tomatoes",
+                "oregano",
+                "extra virgin olive oil",
+                "fresh basil",
+                "salt"
+            ],
+            "source": "RecipeNLG"
+        }
+      ]
+  },
+
+  {
+      "query_id": 3,
+      "query": "I love peanuts, give me a chocolate dessert recipe for special birthday occasions",
+      "results": [
+          {
+                "id": "recnlg_21",
+                "title": "Nutty Butty Pie",
+                "ingredients": [
+                    "3 graham cracker crusts",
+                    "1 (8 oz.) cream cheese",
+                    "2 (8 oz.) cool whip",
+                    "1 c. whole milk",
+                    "2 c. 10x confectioners sugar",
+                    "3/4 c. crunchy peanut butter",
+                    "1 small can hershey's chocolate syrup",
+                    "3/4 c. crushed pecans"
+                ],
+                "directions": [
+                    "blend softened cream cheese and milk. add the confectioners sugar, peanut butter and then add cool whip (8 ounces at a time). fill pie crust with mixture and drool chocolate syrup over filling. top with pecans. freeze until firm.",
+                    "remove from freezer prior to serving."
+                ],
+                "ner": [
+                    "graham cracker crusts",
+                    "cream cheese",
+                    "milk",
+                    "confectioners sugar",
+                    "crunchy peanut butter",
+                    "chocolate syrup",
+                    "pecans"
+                ],
+                "source": "RecipeNLG"
+            },
+            {
+                "id": "recnlg_279",
+                "title": "Peanut Butter Pie",
+                "ingredients": [
+                    "1 - 16 ounce jar of peanut butter (smooth or chunky)",
+                    "1 - 8 ounce package cream cheese (softened)",
+                    "3/4 cups honey",
+                    "1 - 8 ounce container whipped topping",
+                    "1 - chocolate pie crust",
+                    "2 tablespoons simi-sweet chocolate chips",
+                    "1/2 teaspoon shortening"
+                ],
+                "directions": [
+                    "beat together cream cheese and honey until well mixed.",
+                    "stir in peanut butter, mix well.",
+                    "gently fold in whipped topping. spoon into crust.",
+                    "heat chocolate chips and shortening over low heat until melted.",
+                    "drizzle chocolate over pie.",
+                    "chill for at least 4 hours.",
+                    "serve chilled."
+                ],
+                "ner": [
+                    "peanut butter",
+                    "cream cheese",
+                    "honey",
+                    "topping",
+                    "crust",
+                    "simi-sweet chocolate chips",
+                    "shortening"
+                ],
+                "source": "RecipeNLG"
+            },
+            {
+                "id": "recnlg_2112",
+                "title": "Peanut Butter Chocolate Cake",
+                "ingredients": [
+                    "2 c. flour",
+                    "2 c. sugar",
+                    "2/3 c. cocoa",
+                    "2 t. baking soda",
+                    "1 t. baking powder",
+                    "1/2 t. salt",
+                    "2 eggs",
+                    "1 c. milk",
+                    "2/3 c. vegetable oil",
+                    "1 t. vanilla",
+                    "1 c. coffee, room temperature",
+                    "peanut butter frosting",
+                    "3 oz. cream cheese",
+                    "1/4 c. creamy peanut butter",
+                    "2 c. powered sugar",
+                    "2 t. milk",
+                    "1/2 t. vanilla",
+                    "miniature chocolate chips (these add a lot!)"
+                ],
+                "directions": [
+                    "cake directions:",
+                    "combine dry ingredients. add eggs, milk, oil and vanilla; beat for 2 minutes. stir in coffee (batter will be thin. pour into greased 9x13\" pan. bake at 350 degrees for 35-40 minutes or until done. cool completely on a wire rack.",
+                    "frosting directions - beat the cream cheese and peanut butter in a mixing bowl until smooth. beat in sugar, milk and vanilla. spread over cake. sprinkle with chocolate chips if desired. store in the refrigerator."
+                ],
+                "ner": [
+                    "flour",
+                    "sugar",
+                    "cocoa",
+                    "baking soda",
+                    "baking powder",
+                    "salt",
+                    "eggs",
+                    "milk",
+                    "vegetable oil",
+                    "vanilla",
+                    "coffee",
+                    "peanut butter",
+                    "cream cheese",
+                    "powered sugar",
+                    "milk",
+                    "vanilla",
+                    "chocolate chips"
+                ],
+                "source": "RecipeNLG"
+            },
+            {
+                "id": "recnlg_4378",
+                "title": "Peanutty Ice Cream Pie",
+                "ingredients": [
+                    "1 1/3 cups finely chopped peanuts",
+                    "3 tablespoons margarine, melted",
+                    "2 tablespoons white sugar",
+                    "1/4 cup peanut butter",
+                    "1/4 cup light corn syrup",
+                    "1/4 cup flaked coconut",
+                    "3 tablespoons chopped peanuts",
+                    "1 quart vanilla ice cream, softened",
+                    "1/4 cup mini candy-coated chocolate pieces (optional)"
+                ],
+                "directions": [
+                    "combine the peanuts, butter and sugar; press onto the bottom and up the sides of a greased 9-inch pie plate. cover and refrigerate for 15 minutes.",
+                    "in a large bowl, combine peanut butter and corn syrup. add coconut and peanuts. stir in ice cream just until combined. spoon into crust.",
+                    "cover and freeze overnight or until firm. just before serving, sprinkle with mini candy-coated chocolate pieces, if desired."
+                ],
+                "ner": [
+                    "peanuts",
+                    "margarine",
+                    "white sugar",
+                    "peanut butter",
+                    "light corn syrup",
+                    "flaked coconut",
+                    "peanuts",
+                    "vanilla ice cream",
+                    "chocolate"
+                ],
+                "source": "RecipeNLG"
+            },
+            {
+                "id": 716293,
+                "title": "Double Chocolate Milo Pancakes",
+                "ingredients": [
+                    "1/4 teaspoon of baking powder",
+                    "1.5 tablespoons of melted butter",
+                    "1.5 tablespoons of Milo chocolate malt powder",
+                    "2 tablespoons of Milo chocolate malt powder",
+                    "1 egg",
+                    "1/2 cup of flour",
+                    "1/4 cup of liquid milk (I used almond but you can use any)",
+                    "A handful of peanuts",
+                    "A pinch of Salt",
+                    "1 tablespoon of Sugar",
+                    "2 tablespoons of Sugar",
+                    "1 tablespoon of Vegetable Oil",
+                    "1/2 cup of Water"
+                ],
+                "instructions": "<p>Mix your dry ingredients and wet ingredients except the peanuts till smooth.In a pan, add 1 tablespoon of vegetable oil and with a small spoon, scoop the mixture and form little circles in the pan.Fry on low- medium heat till brown on both sides.When pancakes are fried and ready set aside.In a small pan, mix the milo, sugar and water and bring to boil on medium heat till a thick sauce is formed. Pour into a bowl and allow to cool.Crush your peanuts and set aside.With a tiny scoop of the chocolate syrup, smear it over the pancakes and sprinkle some peanuts over it.When they are all ready, dust it over with a bit more milo and serve.</p>",
+                "source": "Spoonacular"
+            }
+      ]
+  },
+
+  {
+      "query_id": 4,
+      "query": "Give me a spicy chicken curry with coconut milk.",
+      "results": [
+          {
+              "id": "recnlg_661",
+              "title": "Easy Chicken Curry",
+              "ingredients": [
+                "6 carrots, peeled and sliced into 1/2\" pieces",
+                "1 medium sweet potato, cut into 1\" chunks",
+                "1 sweet onion, chopped into 1\" pieces",
+                "2 small yukon gold potatoes, cut into 1\" pieces",
+                "3 cloves garlic, minced",
+                "2 tablespoons olive oil",
+                "1 1/2 teaspoons curry powder",
+                "1 cup low sodium chicken broth",
+                "1 cup low fat coconut milk",
+                "1/2 teaspoon sea salt",
+                "1/4 teaspoon pepper",
+                "1 pound chicken breast cut into 1\" pieces",
+                "1 lime (optional)"
+              ],
+              "directions": [
+                "heat the oil in a wide bottomed pot or dutch oven. stir in the carrots and onions and cook for about 5 minutes, stirring to avoid sticking and until they are softened, then stir in the garlic and curry powder. cook for 1 minute, then add the potatoes, broth, coconut milk, salt and pepper. bring to a boil, then reduce the heat to medium, partially cover and cook for 15 minutes, or until the potatoes are just tender, stirring often. mix in the chicken pieces and cook for another 10 minutes or so until cooked through. cut the lime into wedges. divide the curry among individual bowls, squeezing a bit of lime juice over each portion. ( i didn't use lime because i didn't have any but it sounds delicious!)"
+              ],
+              "ner": [
+                "carrots",
+                "sweet potato",
+                "sweet onion",
+                "potatoes",
+                "garlic",
+                "olive oil",
+                "curry powder",
+                "chicken broth",
+                "coconut milk",
+                "salt",
+                "pepper",
+                "chicken",
+                "lime"
+              ],
+              "source": "RecipeNLG"
+        },
+        {
+            "id": "recnlg_2629",
+            "title": "Chicken and Pineapple Skewers",
+            "ingredients": [
+              "34 teaspoon cumin",
+              "2 teaspoons curry powder",
+              "1 teaspoon turmeric",
+              "1 cup unsweetened coconut milk (light version is fine)",
+              "1 teaspoon olive oil",
+              "12 tablespoon rice vinegar",
+              "12 tablespoon honey",
+              "salt and pepper",
+              "1 12 lbs boneless chicken breasts, cut into 2 inch pieces",
+              "2 red bell peppers, seeded and cut into 1 inch pieces",
+              "12 fresh pineapple, peeled,cored and cut into 1 1/2 inch chunks",
+              "6 -8 wooden skewers or 6 -8 metal skewers (if using wood soak for at least 30 minutes)"
+            ],
+            "directions": [
+              "in a small skillet toast the cumin, curry powder and turmeric over low heat stirring for about 20 seconds.",
+              "remove from heat and set aside.",
+              "in a large bowl whisk together the toasted spices, coconut milk, oil, vinegar, honey, salt and pepper.",
+              "add chicken, tossing to coat evenly and then refrigerate for at least one hour.",
+              "start the grill or preheat the broiler (if using broiler grease the broiler pan well).",
+              "thread the skewers alternating pieces of chicken, bell pepper and pineapple.",
+              "season skewers with salt and pepper.",
+              "lightly grease the grill rack with oil and then place the skewers on it and grill for 4-6 minutes per side, or until chicken is cooked."
+            ],
+            "ner": [
+              "cumin",
+              "curry powder",
+              "turmeric",
+              "unsweetened coconut milk",
+              "olive oil",
+              "rice vinegar",
+              "honey",
+              "salt",
+              "chicken breasts",
+              "red bell peppers",
+              "pineapple",
+              "wooden skewers"
+            ],
+            "source": "RecipeNLG"
+        },
+        {
+            "id": "recnlg_4483",
+            "title": "Jamaican Beans And Rice",
+            "ingredients": [
+              "2 -4 chicken thighs, skin on and bone in are ok",
+              "1 tablespoon coconut oil or 1 tablespoon other cooking oil",
+              "1 medium onion, diced",
+              "1/2 teaspoon curry powder",
+              "1 teaspoon dried thyme",
+              "1 1/2 cups long grain brown rice",
+              "1 cup coconut milk",
+              "2 cups chicken broth (or 2 cups chicken broth and water)",
+              "1 (15 ounce) can black beans or (15 ounce) can dark red kidney beans, rinsed and drained",
+              "salt and black pepper",
+              "optional",
+              "1/2 1/2 cup green beans (optional) or 1/2 cup frozen mixed vegetables (optional)"
+            ],
+            "directions": [
+              "heat the oil in a deep skillet or medium sized saucepan with a good lid to medium high.",
+              "salt and pepper the chicken thighs and place them in the pan, skin side down.",
+              "brown both sides of the chicken thighs and then remove from the pan and keep warm.",
+              "adjust the fat in the pan by removing some or adding some and add onions to the fat in the pan.",
+              "sprinkle with salt, pepper, thyme and curry powder and saute until they start to soften.",
+              "add rice and stir to coat the rice with the oil and seasonings.",
+              "add the liquid to the pan and raise heat to high.",
+              "scrape the bottom of the pan to get up the crusty bits and incorporate everything together.",
+              "when the pot boils nestle the browned chicken into the rice and put the lid on the pan.",
+              "turn heat down to low and let simmer for 45 minutes or until rice is tender and chicken is cooked through.",
+              "remove chicken from the rice and remove skin and bones.",
+              "shred meat and return to the rice.",
+              "add beans and any vegetables, stir to combine and let sit over low heat to warm the beans and vegetables.",
+              "serve with pineapple or mango chutney and a big green salad!"
+            ],
+            "ner": [
+              "chicken",
+              "coconut oil",
+              "onion",
+              "curry powder",
+              "thyme",
+              "long grain brown rice",
+              "coconut milk",
+              "chicken broth",
+              "black beans",
+              "salt",
+              "green beans"
+            ],
+            "source": "RecipeNLG"
+        },
+        {
+            "id": "recnlg_4488",
+            "title": "Thai Green Curry Chicken",
+            "ingredients": [
+              "1 1/2 cups coconut milk",
+              "1 tablespoon green curry paste (found in plastic tubs in oriental food sections)",
+              "1 stalk lemongrass, cut into 1 inch pieces and bruised or 3 tablespoons frozen minced lemongrass",
+              "1 cup reduced-sodium chicken broth",
+              "2 tablespoons fish sauce",
+              "3 tablespoons sugar",
+              "1/2 teaspoon turmeric",
+              "2 kaffir lime leaves, cut into fine slivers (or zest of 1 lime)",
+              "1 1/2 lbs boneless skinless chicken breasts, sliced into 1/4 inch strips",
+              "2 cups bamboo shoots, boiled in fresh water for 5 minutes and drained",
+              "1/2 cup frozen peas",
+              "2 tomatoes, cut into wedges",
+              "15 -20 fresh basil leaves, coarsely chopped (thai basil is best)"
+            ],
+            "directions": [
+              "heat 1/2 cup of the coconut milk in a large wok (or other pan large enough for stir fry) over medium-high heat until bubbling.",
+              "add curry paste and lemon grass, and stir for 1 minute.",
+              "add chicken broth, fush sauce, sugar, turmeric, and lime leaves,.",
+              "bring to a boil.",
+              "add chicken and cook 2-3 minutes, you do not need to completely cook it in this step. if you do, it may be tough by the end.",
+              "reduce heat to low.",
+              "add remaining coconut milk, bamboo shoots, peas, and tomatoes.",
+              "simmer 3 minutes, until additions are hot.",
+              "remove from heat, and stir in basil leaves.",
+              "serve hot over jasmine rice or pasta."
+            ],
+            "ner": [
+              "coconut milk",
+              "green curry",
+              "stalk lemongrass",
+              "chicken broth",
+              "fish sauce",
+              "sugar",
+              "turmeric",
+              "lime",
+              "chicken breasts",
+              "bamboo shoots",
+              "frozen peas",
+              "tomatoes",
+              "basil"
+            ],
+            "source": "RecipeNLG"
+        }
+      ]
+  },
+
+  {
+      "query_id": 5,
+      "query": "a healthy smoothie with banana and yogurt.",
+      "results": [
+          {
+              "id": "recnlg_123",
+              "title": "Watermelon Sour Cream Popsicles",
+              "ingredients": [
+              "1/4 watermelon",
+              "1 ripe banana",
+              "7 ounces sour cream",
+              "2.3 ounces fruit or vanilla yogurt",
+              "4 tablespoons sugar",
+              "3 tablespoons honey",
+              "1 lemon, the juice",
+              "vanilla extract to taste"
+              ],
+              "directions": [
+              "remove the peel of the watermelon. place in the blender together with the rest of the ingredients and blend until very smooth.",
+              "add more sugar/honey or lemon juice according to your taste.",
+              "pour the mixture into the popsicle moulds and freeze."
+              ],
+              "ner": [
+              "watermelon",
+              "banana",
+              "sour cream",
               "vanilla yogurt",
-              "apple juice",
+              "sugar",
               "honey",
-              "bananas",
-              "milk",
-              "cubes"
-            ],
-            "source": "RecipeNLG"
-          },
-          {
-            "id": "recnlg_4736",
-            "title": "Peachy Fruit and Yogurt Shake",
-            "ingredients": [
-              "1 (8 ounce) can peach halves in juice, do not drain",
-              "12 ripe small banana",
-              "12 cup plain nonfat yogurt (or use peach or vanilla yogurt if you like)",
-              "12 teaspoon pure vanilla extract",
-              "1 cup ice cube"
-            ],
-            "directions": [
-              "in a blender container, combine undrained peaches, banana, yogurt and vanilla.",
-              "cover and blend till smooth.",
-              "add ice cubes; cover and blend until frothy.",
-              "makes 2(1 1/4 cup) servings.",
-              "enjoy!"
-            ],
-            "ner": [
-              "peach",
-              "banana",
-              "nonfat yogurt",
+              "lemon",
               "vanilla"
-            ],
-            "source": "RecipeNLG"
+              ],
+              "source": "RecipeNLG"
           },
           {
-            "id": "recnlg_2951",
-            "title": "Strawberry Banana Smoothie",
-            "ingredients": [
-              "1 lb strawberries (about 1 qt), trimmed and halved",
-              "1 ripe banana, cut into pieces",
-              "1 cup ice cubes",
-              "1/2 cup silken tofu",
-              "1/2 cup orange juice",
-              "2 tablespoons sugar"
-            ],
-            "directions": [
-              "blend all ingredients in a blender until smooth."
-            ],
-            "ner": [
-              "strawberries",
-              "banana",
-              "silken tofu",
-              "orange juice",
-              "sugar"
-            ],
-            "source": "RecipeNLG"
-          }
-    ]
-},
+              "id": "recnlg_2694",
+              "title": "Low-Fat Berry Good Smoothie",
+              "ingredients": [
+                "1 12 cups low-fat plain kefir ((yogurt drink) *i use raspberry kefir)",
+                "12 cup grape juice",
+                "2 tablespoons honey",
+                "1 banana",
+                "78 cup frozen blackberrie",
+                "78 cup frozen strawberries",
+                "78 cup frozen raspberries"
+              ],
+              "directions": [
+                "combine the kefir, grape juice, honey and banana in a blender.",
+                "add the berries and blend until smooth.",
+                "strain or put through sieve {note: i don't strain}.",
+                "i eliminate the blackberries"
+              ],
+              "ner": [
+                "low-fat plain",
+                "grape juice",
+                "honey",
+                "banana",
+                "frozen blackberrie",
+                "frozen strawberries",
+                "frozen raspberries"
+              ],
+              "source": "RecipeNLG"
+            },
+            {
+              "id": "recnlg_4342",
+              "title": "Simple Banana Smoothie",
+              "ingredients": [
+                "3/4 cup vanilla yogurt",
+                "1/2 cup apple juice",
+                "1 tablespoon honey, or to taste",
+                "2 ripe bananas",
+                "1 teaspoon milk, or to taste",
+                "4 ice cubes"
+              ],
+              "directions": [
+                "blend yogurt, apple juice, honey, bananas, milk and ice cubes in a blender until smooth."
+              ],
+              "ner": [
+                "vanilla yogurt",
+                "apple juice",
+                "honey",
+                "bananas",
+                "milk",
+                "cubes"
+              ],
+              "source": "RecipeNLG"
+            },
+            {
+              "id": "recnlg_4736",
+              "title": "Peachy Fruit and Yogurt Shake",
+              "ingredients": [
+                "1 (8 ounce) can peach halves in juice, do not drain",
+                "12 ripe small banana",
+                "12 cup plain nonfat yogurt (or use peach or vanilla yogurt if you like)",
+                "12 teaspoon pure vanilla extract",
+                "1 cup ice cube"
+              ],
+              "directions": [
+                "in a blender container, combine undrained peaches, banana, yogurt and vanilla.",
+                "cover and blend till smooth.",
+                "add ice cubes; cover and blend until frothy.",
+                "makes 2(1 1/4 cup) servings.",
+                "enjoy!"
+              ],
+              "ner": [
+                "peach",
+                "banana",
+                "nonfat yogurt",
+                "vanilla"
+              ],
+              "source": "RecipeNLG"
+            },
+            {
+              "id": "recnlg_2951",
+              "title": "Strawberry Banana Smoothie",
+              "ingredients": [
+                "1 lb strawberries (about 1 qt), trimmed and halved",
+                "1 ripe banana, cut into pieces",
+                "1 cup ice cubes",
+                "1/2 cup silken tofu",
+                "1/2 cup orange juice",
+                "2 tablespoons sugar"
+              ],
+              "directions": [
+                "blend all ingredients in a blender until smooth."
+              ],
+              "ner": [
+                "strawberries",
+                "banana",
+                "silken tofu",
+                "orange juice",
+                "sugar"
+              ],
+              "source": "RecipeNLG"
+            }
+      ]
+  },
 
-{
-    "query_id": 6,
-    "query": "I am a vegetarian, give me a simple soup recipe for cold weather",
-    "results": []
-}
+  {
+      "query_id": 6,
+      "query": "I am a vegetarian, give me a simple soup recipe for cold weather",
+      "results": []
+  },
 
-{
-    "query_id": 7,
-    "query": "Give me a traditional Irish dessert recipe.",
-    "results": [
-      {
-        "id": "recnlg_121",
-        "title": "Irish Trifle",
-        "ingredients": [
-          "1 tablespoon butter, softened, for greasing pan",
-          "85 grams cake flour (scant 3/4 cup)",
-          "14 grams cornstarch (1 1/2 tablespoons)",
-          "120 grams eggs (2 extra-large eggs plus 1 tablespoon)",
-          "150 grams sugar (2/3 cup), divided",
-          "2 teaspoons vanilla extract",
-          "85 grams egg whites (2 1/2 whites)",
-          "pinch of salt",
-          "1 tablespoon butter, melted",
-          "13 cup cream sherry, more to taste",
-          "13 cup raspberry jam",
-          "2 23 cups chilled creme anglaise (see recipe)",
-          "1 cup plus 1 tablespoon heavy cream",
-          "freshly grated nutmeg"
-        ],
-        "directions": [
-          "make the cake: brush a 9-inch cake pan with softened butter and lightly flour sides.",
-          "lay pan on a sheet of parchment paper and trace around bottom of pan.",
-          "cut parchment round and place in pan with pencil marks facing down.",
-          "heat oven to 350 degrees.",
-          "sift cake flour and cornstarch into a bowl or onto a sheet of parchment.",
-          "in the bowl of the stand mixer fitted with the paddle, combine 2 eggs, half the sugar and the vanilla.",
-          "mix at low speed for 30 seconds to combine.",
-          "turn mixer to highest speed and beat for 5 minutes, until mixture is light, pale and fluffy.",
-          "turn mixer down to medium and beat for 3 minutes.",
-          "scrape mixture out into a large bowl.",
-          "gently fold in half the flour mixture, then gently fold in remaining half.",
-          "wash the stand mixer bowl thoroughly with soap and hot water, then dry.",
-          "add egg whites, remaining sugar and salt to bowl.",
-          "using the whisk attachment, beat at medium speed for 3 to 4 minutes, or long enough to obtain a soft, creamy meringue.",
-          "do not over-whip; you do not want a stiff and dry meringue.",
-          "carefully fold half the egg white mixture into batter, along with melted butter.",
-          "carefully fold in remaining egg white mixture.",
-          "gently scrape into prepared cake pan.",
-          "put cake pan on a baking sheet and place in oven.",
-          "bake 30 minutes, until light golden brown and a tester comes out clean.",
-          "remove from oven and reverse onto a rack.",
-          "remove parchment paper and cool for 5 minutes, then flip cake over and let cool completely.",
-          "wrap tightly in plastic if not using right away.",
-          "cake can be made a few days ahead and refrigerated, or frozen for several weeks.",
-          "assemble the trifle: at least 6 hours, and no more than 24 hours, before you plan to serve trifle, spread top of cake with jam and cut into 2-inch squares.",
-          "line a flat wide bowl (preferably a trifle dish) with cake squares, in one layer.",
-          "douse cake with 2 to 4 tablespoons cream sherry, more if desired.",
-          "cover with parchment or plastic wrap , set a plate on top, and set a weight (such as a large can of tomatoes) on top of the plate.",
-          "cover and refrigerate for 4 hours or longer.",
-          "uncover cake.",
-          "spike creme anglaise with a tablespoon or two of sherry if desired, and pour over cake.",
-          "chill for an hour or more in refrigerator.",
-          "just before serving, beat cream until it forms soft peaks, and flavor it with a spoonful of cream sherry if desired.",
-          "spoon over trifle.",
-          "dust with a very small amount of nutmeg and serve."
-        ],
-        "ner": [
-          "butter",
-          "cake flour",
-          "cornstarch",
-          "eggs",
-          "sugar",
-          "vanilla",
-          "egg whites",
-          "salt",
-          "butter",
-          "cream sherry",
-          "raspberry",
-          "chilled creme anglaise",
-          "heavy cream",
-          "nutmeg"
-        ],
-        "source": "RecipeNLG"
-      },
-      {
-        "id": "recnlg_1073",
-        "title": "Easy Brown Bread Ice Cream",
-        "ingredients": [
-          "2 1/2 ounces whole meal breadcrumbs",
-          "2 ounces demerara sugar",
-          "2 1/2 ounces ground hazelnuts",
-          "3 egg whites",
-          "4 ounces fine white sugar",
-          "1 3/4 cups whipped double cream"
-        ],
-        "directions": [
-          "combine breadcrumbs, demerara sugar and hazelnuts.",
-          "put them on a (lined) baking tray and grill them, redistributing them regularly, until they are golden brown under a preheated hot grill, watch that it doesn't burn and turn black.",
-          "leave to cool.",
-          "whisk the egg whites until stiff and gradually add the white sugar until you have a glossy meringue fold the cream into the meringue, together with the cold breadcrumb mixture.",
-          "turn into a freezer proof mold, cover, seal and freeze until solid.",
-          "remove from the freezer 15 to 20 minutes before you want to serve it."
-        ],
-        "ner": [
-          "meal breadcrumbs",
-          "sugar",
-          "ground hazelnuts",
-          "egg whites",
-          "white sugar",
-          "cream"
-        ],
-        "source": "RecipeNLG"
-      },
-      {
-        "id": "recnlg_3141",
-        "title": "Irish Bread",
-        "ingredients": [
-          "3 c. sifted flour",
-          "1/3 c. sugar",
-          "1 tbsp. baking powder",
-          "1 tsp. baking soda",
-          "1 tsp. salt",
-          "1 1/2 c. golden raisins",
-          "3 tbsp. caraway seed",
-          "2 beaten eggs",
-          "1 3/4 c. buttermilk",
-          "2 tbsp. melted crisco"
-        ],
-        "directions": [
-          "sift together the already sifted flour with the sugar, baking powder, soda and salt.",
-          "add the raisins and caraway seed to the dry mixture.",
-          "mix together the eggs, buttermilk and crisco. combine with dry ingredients and mix well.",
-          "pour into greased pan and bake at 350° for 30 to 45 minutes.",
-          "(i bake it in a greased cast-iron skillet.)"
-        ],
-        "ner": [
-          "flour",
-          "sugar",
-          "baking powder",
-          "baking soda",
-          "salt",
-          "golden raisins",
-          "caraway seed",
-          "eggs",
-          "buttermilk",
-          "crisco"
-        ],
-        "source": "RecipeNLG"
-      },
-      {
-        "id": "recnlg_4112",
-        "title": "Irish Lace Cookies(Makes About 9 Dozen)",
-        "ingredients": [
-          "1/2 c. sweet butter",
-          "1 c. sugar",
-          "1 egg",
-          "1 tsp. vanilla",
-          "2 tbsp. flour",
-          "1/3 tsp. salt",
-          "1 c. quick cooking oatmeal"
-        ],
-        "directions": [
-          "cream butter and sugar.",
-          "add egg and vanilla; mix well.",
-          "add flour, salt and oatmeal.",
-          "line cookie sheet with aluminum foil and drop dough by 1/2 teaspoon onto foil.",
-          "bake 5 to 8 minutes in a 350° oven until lightly browned.",
-          "let cool.",
-          "remove from foil."
-        ],
-        "ner": [
-          "sweet butter",
-          "sugar",
-          "egg",
-          "vanilla",
-          "flour",
-          "salt",
-          "oatmeal"
-        ],
-        "source": "RecipeNLG"
-      },
-      {
-        "id": "recnlg_4323",
-        "title": "Irish Potato Pie",
-        "ingredients": [
-          "2 potatoes, cooked",
-          "2 1/2 c. sugar",
-          "1 1/2 c. butter",
-          "1/2 c. milk",
-          "2 or 3 eggs",
-          "1 1/2 tsp. lemon flavor",
-          "1 tsp. nutmeg or vanilla",
-          "1 tbsp. flour",
-          "1 pinch salt (optional)",
-          "1 9-inch pie crust"
-        ],
-        "directions": [
-          "mix hot potatoes, sugar, butter and milk.",
-          "beat well.",
-          "add eggs, one at a time.",
-          "add remaining ingredients and pour into pie shell.",
-          "bake at 350° for 30 to 35 minutes or until set."
-        ],
-        "ner": [
-          "potatoes",
-          "sugar",
-          "butter",
-          "milk",
-          "eggs",
-          "lemon flavor",
-          "nutmeg",
-          "flour",
-          "salt",
-          "crust"
-        ],
-        "source": "RecipeNLG"
-      },
-      {
-        "id": "recnlg_191",
-        "title": "Bread Pudding",
-        "ingredients": [
-          "1 stick oleo",
-          "1 1/2 c. sugar",
-          "3 eggs",
-          "1 large can pet milk",
-          "1 c. water",
-          "1 tsp. vanilla",
-          "pinch of salt",
-          "2 to 3 loaves french bread, sliced",
-          "nutmeg"
-        ],
-        "directions": [
-          "mix oleo and sugar.",
-          "add eggs, one at a time.",
-          "add milk, water, vanilla and salt. pour into 8 x 8-inch baking dish.",
-          "break bread, put into liquids and saturate crust side up.",
-          "sprinkle on nutmeg.",
-          "bake at 350° for 30 minutes."
-        ],
-        "ner": [
-          "oleo",
-          "sugar",
-          "eggs",
-          "pet milk",
-          "water",
-          "vanilla",
-          "salt",
-          "loaves",
-          "nutmeg"
-        ],
-        "source": "RecipeNLG"
-      },
-      {
-        "id": "recnlg_504",
-        "title": "Baked Bread Pudding",
-        "ingredients": [
-          "1 c. sugar",
-          "1 qt. milk",
-          "4 tbsp. cornstarch",
-          "1 tsp. vanilla",
-          "biscuits or stale bread",
-          "milk",
-          "2 beaten eggs",
-          "nutmeg"
-        ],
-        "directions": [
-          "chop",
-          "biscuits",
-          "or",
-          "stale bread fine.",
-          "pour enough milk over this",
-          "to",
-          "cover nicely.",
-          "add 2 beaten eggs.",
-          "flavor with nutmeg. put in pudding pan or bread pan and bake in 375° oven until thick. serve with sauce."
-        ],
-        "ner": [
-          "sugar",
-          "milk",
-          "cornstarch",
-          "vanilla",
-          "bread",
-          "milk",
-          "eggs",
-          "nutmeg"
-        ],
-        "source": "RecipeNLG"
-      },
-      {
-        "id": "recnlg_670",
-        "title": "Bread Pudding With Rum Sauce",
-        "ingredients": [
-          "1 loaf french bread",
-          "1 qt. milk",
-          "1 3/4 c. sugar",
-          "2 sticks butter",
-          "6 eggs",
-          "1 1/2 tsp. vanilla",
-          "1 medium crushed pineapple",
-          "raisins"
-        ],
-        "directions": [
-          "break bread into pieces; soak in milk.",
-          "mix well.",
-          "beat eggs; add sugar, vanilla, pineapple and raisins.",
-          "pour over bread mixture.",
-          "pour into greased baking dish.",
-          "bake at 350° for 1 3/4 hours."
-        ],
-        "ner": [
-          "bread",
-          "milk",
-          "sugar",
-          "butter",
-          "eggs",
-          "vanilla",
-          "pineapple",
-          "raisins"
-        ],
-        "source": "RecipeNLG"
-      },
-      {
-        "id": "recnlg_3299",
-        "title": "Bread Pudding",
-        "ingredients": [
-          "6 slices buttered toast",
-          "1/3 c. raisins",
-          "1/2 tsp. cinnamon",
-          "1 tsp. vanilla",
-          "1 c. boiling water",
-          "1/4 c. sugar",
-          "2 beaten eggs",
-          "1 c. milk"
-        ],
-        "directions": [
-          "mix all together and sprinkle over toast.",
-          "sprinkle with 4 teaspoons sugar and 1 teaspoon cinnamon.",
-          "bake at 350° for 30 minutes or until knife comes out clean."
-        ],
-        "ner": [
-          "buttered toast",
-          "raisins",
-          "cinnamon",
-          "vanilla",
-          "boiling water",
-          "sugar",
-          "eggs",
-          "milk"
-        ],
-        "source": "RecipeNLG"
-      }
-    ]
-}
+  {
+      "query_id": 7,
+      "query": "Give me a traditional Irish dessert recipe.",
+      "results": [
+        {
+          "id": "recnlg_121",
+          "title": "Irish Trifle",
+          "ingredients": [
+            "1 tablespoon butter, softened, for greasing pan",
+            "85 grams cake flour (scant 3/4 cup)",
+            "14 grams cornstarch (1 1/2 tablespoons)",
+            "120 grams eggs (2 extra-large eggs plus 1 tablespoon)",
+            "150 grams sugar (2/3 cup), divided",
+            "2 teaspoons vanilla extract",
+            "85 grams egg whites (2 1/2 whites)",
+            "pinch of salt",
+            "1 tablespoon butter, melted",
+            "13 cup cream sherry, more to taste",
+            "13 cup raspberry jam",
+            "2 23 cups chilled creme anglaise (see recipe)",
+            "1 cup plus 1 tablespoon heavy cream",
+            "freshly grated nutmeg"
+          ],
+          "directions": [
+            "make the cake: brush a 9-inch cake pan with softened butter and lightly flour sides.",
+            "lay pan on a sheet of parchment paper and trace around bottom of pan.",
+            "cut parchment round and place in pan with pencil marks facing down.",
+            "heat oven to 350 degrees.",
+            "sift cake flour and cornstarch into a bowl or onto a sheet of parchment.",
+            "in the bowl of the stand mixer fitted with the paddle, combine 2 eggs, half the sugar and the vanilla.",
+            "mix at low speed for 30 seconds to combine.",
+            "turn mixer to highest speed and beat for 5 minutes, until mixture is light, pale and fluffy.",
+            "turn mixer down to medium and beat for 3 minutes.",
+            "scrape mixture out into a large bowl.",
+            "gently fold in half the flour mixture, then gently fold in remaining half.",
+            "wash the stand mixer bowl thoroughly with soap and hot water, then dry.",
+            "add egg whites, remaining sugar and salt to bowl.",
+            "using the whisk attachment, beat at medium speed for 3 to 4 minutes, or long enough to obtain a soft, creamy meringue.",
+            "do not over-whip; you do not want a stiff and dry meringue.",
+            "carefully fold half the egg white mixture into batter, along with melted butter.",
+            "carefully fold in remaining egg white mixture.",
+            "gently scrape into prepared cake pan.",
+            "put cake pan on a baking sheet and place in oven.",
+            "bake 30 minutes, until light golden brown and a tester comes out clean.",
+            "remove from oven and reverse onto a rack.",
+            "remove parchment paper and cool for 5 minutes, then flip cake over and let cool completely.",
+            "wrap tightly in plastic if not using right away.",
+            "cake can be made a few days ahead and refrigerated, or frozen for several weeks.",
+            "assemble the trifle: at least 6 hours, and no more than 24 hours, before you plan to serve trifle, spread top of cake with jam and cut into 2-inch squares.",
+            "line a flat wide bowl (preferably a trifle dish) with cake squares, in one layer.",
+            "douse cake with 2 to 4 tablespoons cream sherry, more if desired.",
+            "cover with parchment or plastic wrap , set a plate on top, and set a weight (such as a large can of tomatoes) on top of the plate.",
+            "cover and refrigerate for 4 hours or longer.",
+            "uncover cake.",
+            "spike creme anglaise with a tablespoon or two of sherry if desired, and pour over cake.",
+            "chill for an hour or more in refrigerator.",
+            "just before serving, beat cream until it forms soft peaks, and flavor it with a spoonful of cream sherry if desired.",
+            "spoon over trifle.",
+            "dust with a very small amount of nutmeg and serve."
+          ],
+          "ner": [
+            "butter",
+            "cake flour",
+            "cornstarch",
+            "eggs",
+            "sugar",
+            "vanilla",
+            "egg whites",
+            "salt",
+            "butter",
+            "cream sherry",
+            "raspberry",
+            "chilled creme anglaise",
+            "heavy cream",
+            "nutmeg"
+          ],
+          "source": "RecipeNLG"
+        },
+        {
+          "id": "recnlg_1073",
+          "title": "Easy Brown Bread Ice Cream",
+          "ingredients": [
+            "2 1/2 ounces whole meal breadcrumbs",
+            "2 ounces demerara sugar",
+            "2 1/2 ounces ground hazelnuts",
+            "3 egg whites",
+            "4 ounces fine white sugar",
+            "1 3/4 cups whipped double cream"
+          ],
+          "directions": [
+            "combine breadcrumbs, demerara sugar and hazelnuts.",
+            "put them on a (lined) baking tray and grill them, redistributing them regularly, until they are golden brown under a preheated hot grill, watch that it doesn't burn and turn black.",
+            "leave to cool.",
+            "whisk the egg whites until stiff and gradually add the white sugar until you have a glossy meringue fold the cream into the meringue, together with the cold breadcrumb mixture.",
+            "turn into a freezer proof mold, cover, seal and freeze until solid.",
+            "remove from the freezer 15 to 20 minutes before you want to serve it."
+          ],
+          "ner": [
+            "meal breadcrumbs",
+            "sugar",
+            "ground hazelnuts",
+            "egg whites",
+            "white sugar",
+            "cream"
+          ],
+          "source": "RecipeNLG"
+        },
+        {
+          "id": "recnlg_3141",
+          "title": "Irish Bread",
+          "ingredients": [
+            "3 c. sifted flour",
+            "1/3 c. sugar",
+            "1 tbsp. baking powder",
+            "1 tsp. baking soda",
+            "1 tsp. salt",
+            "1 1/2 c. golden raisins",
+            "3 tbsp. caraway seed",
+            "2 beaten eggs",
+            "1 3/4 c. buttermilk",
+            "2 tbsp. melted crisco"
+          ],
+          "directions": [
+            "sift together the already sifted flour with the sugar, baking powder, soda and salt.",
+            "add the raisins and caraway seed to the dry mixture.",
+            "mix together the eggs, buttermilk and crisco. combine with dry ingredients and mix well.",
+            "pour into greased pan and bake at 350° for 30 to 45 minutes.",
+            "(i bake it in a greased cast-iron skillet.)"
+          ],
+          "ner": [
+            "flour",
+            "sugar",
+            "baking powder",
+            "baking soda",
+            "salt",
+            "golden raisins",
+            "caraway seed",
+            "eggs",
+            "buttermilk",
+            "crisco"
+          ],
+          "source": "RecipeNLG"
+        },
+        {
+          "id": "recnlg_4112",
+          "title": "Irish Lace Cookies(Makes About 9 Dozen)",
+          "ingredients": [
+            "1/2 c. sweet butter",
+            "1 c. sugar",
+            "1 egg",
+            "1 tsp. vanilla",
+            "2 tbsp. flour",
+            "1/3 tsp. salt",
+            "1 c. quick cooking oatmeal"
+          ],
+          "directions": [
+            "cream butter and sugar.",
+            "add egg and vanilla; mix well.",
+            "add flour, salt and oatmeal.",
+            "line cookie sheet with aluminum foil and drop dough by 1/2 teaspoon onto foil.",
+            "bake 5 to 8 minutes in a 350° oven until lightly browned.",
+            "let cool.",
+            "remove from foil."
+          ],
+          "ner": [
+            "sweet butter",
+            "sugar",
+            "egg",
+            "vanilla",
+            "flour",
+            "salt",
+            "oatmeal"
+          ],
+          "source": "RecipeNLG"
+        },
+        {
+          "id": "recnlg_4323",
+          "title": "Irish Potato Pie",
+          "ingredients": [
+            "2 potatoes, cooked",
+            "2 1/2 c. sugar",
+            "1 1/2 c. butter",
+            "1/2 c. milk",
+            "2 or 3 eggs",
+            "1 1/2 tsp. lemon flavor",
+            "1 tsp. nutmeg or vanilla",
+            "1 tbsp. flour",
+            "1 pinch salt (optional)",
+            "1 9-inch pie crust"
+          ],
+          "directions": [
+            "mix hot potatoes, sugar, butter and milk.",
+            "beat well.",
+            "add eggs, one at a time.",
+            "add remaining ingredients and pour into pie shell.",
+            "bake at 350° for 30 to 35 minutes or until set."
+          ],
+          "ner": [
+            "potatoes",
+            "sugar",
+            "butter",
+            "milk",
+            "eggs",
+            "lemon flavor",
+            "nutmeg",
+            "flour",
+            "salt",
+            "crust"
+          ],
+          "source": "RecipeNLG"
+        },
+        {
+          "id": "recnlg_191",
+          "title": "Bread Pudding",
+          "ingredients": [
+            "1 stick oleo",
+            "1 1/2 c. sugar",
+            "3 eggs",
+            "1 large can pet milk",
+            "1 c. water",
+            "1 tsp. vanilla",
+            "pinch of salt",
+            "2 to 3 loaves french bread, sliced",
+            "nutmeg"
+          ],
+          "directions": [
+            "mix oleo and sugar.",
+            "add eggs, one at a time.",
+            "add milk, water, vanilla and salt. pour into 8 x 8-inch baking dish.",
+            "break bread, put into liquids and saturate crust side up.",
+            "sprinkle on nutmeg.",
+            "bake at 350° for 30 minutes."
+          ],
+          "ner": [
+            "oleo",
+            "sugar",
+            "eggs",
+            "pet milk",
+            "water",
+            "vanilla",
+            "salt",
+            "loaves",
+            "nutmeg"
+          ],
+          "source": "RecipeNLG"
+        },
+        {
+          "id": "recnlg_504",
+          "title": "Baked Bread Pudding",
+          "ingredients": [
+            "1 c. sugar",
+            "1 qt. milk",
+            "4 tbsp. cornstarch",
+            "1 tsp. vanilla",
+            "biscuits or stale bread",
+            "milk",
+            "2 beaten eggs",
+            "nutmeg"
+          ],
+          "directions": [
+            "chop",
+            "biscuits",
+            "or",
+            "stale bread fine.",
+            "pour enough milk over this",
+            "to",
+            "cover nicely.",
+            "add 2 beaten eggs.",
+            "flavor with nutmeg. put in pudding pan or bread pan and bake in 375° oven until thick. serve with sauce."
+          ],
+          "ner": [
+            "sugar",
+            "milk",
+            "cornstarch",
+            "vanilla",
+            "bread",
+            "milk",
+            "eggs",
+            "nutmeg"
+          ],
+          "source": "RecipeNLG"
+        },
+        {
+          "id": "recnlg_670",
+          "title": "Bread Pudding With Rum Sauce",
+          "ingredients": [
+            "1 loaf french bread",
+            "1 qt. milk",
+            "1 3/4 c. sugar",
+            "2 sticks butter",
+            "6 eggs",
+            "1 1/2 tsp. vanilla",
+            "1 medium crushed pineapple",
+            "raisins"
+          ],
+          "directions": [
+            "break bread into pieces; soak in milk.",
+            "mix well.",
+            "beat eggs; add sugar, vanilla, pineapple and raisins.",
+            "pour over bread mixture.",
+            "pour into greased baking dish.",
+            "bake at 350° for 1 3/4 hours."
+          ],
+          "ner": [
+            "bread",
+            "milk",
+            "sugar",
+            "butter",
+            "eggs",
+            "vanilla",
+            "pineapple",
+            "raisins"
+          ],
+          "source": "RecipeNLG"
+        },
+        {
+          "id": "recnlg_3299",
+          "title": "Bread Pudding",
+          "ingredients": [
+            "6 slices buttered toast",
+            "1/3 c. raisins",
+            "1/2 tsp. cinnamon",
+            "1 tsp. vanilla",
+            "1 c. boiling water",
+            "1/4 c. sugar",
+            "2 beaten eggs",
+            "1 c. milk"
+          ],
+          "directions": [
+            "mix all together and sprinkle over toast.",
+            "sprinkle with 4 teaspoons sugar and 1 teaspoon cinnamon.",
+            "bake at 350° for 30 minutes or until knife comes out clean."
+          ],
+          "ner": [
+            "buttered toast",
+            "raisins",
+            "cinnamon",
+            "vanilla",
+            "boiling water",
+            "sugar",
+            "eggs",
+            "milk"
+          ],
+          "source": "RecipeNLG"
+        }
+      ]
+  },
 
-{
-  "query_id": 8,
-    "query": "I want to cut my carbohydrates intake, give me a seafood dish with shrimp and garlic.",
-    "results": [
-      {
-        "id": 644140,
-        "title": "Gambas Al Ajillo",
-        "ingredients": [
-          "3 slices bacon, broken into bits",
-          "3 tablespoons butter",
-          "1/2 teaspoon cayenne pepper",
-          "1 tablespoon chili powder",
-          "1 cup dry sherry",
-          "2 tablespoons garlic, minced",
-          "lemon wedges",
-          "2 tablespoons olive oil",
-          "1 tablespoon paprika",
-          "chopped parsley",
-          "toasted slices of rustic bread",
-          "1 teaspoon salt",
-          "1 pound small shrimp (31/40 count), peeled and deveined",
-          "1/2 cup tomato, diced"
-        ],
-        "instructions": "<ol><li>In a saut pan over medium-high heat, add olive oil. When hot, add shrimp and seasonings, and saut until they are cooked halfway.</li><li>Add garlic, tomatoes, bacon and saut a bit longer. Add sherry and cook until reduced by half. Add butter and stir in.</li><li>Sprinkle with parsley and squeeze the lemon wedges over the shrimp. Serve with crusty bread and a crisp white wine like a Verdejo from Rueda or a bubbly Cava from Penedes.</li></ol>",
-        "source": "Spoonacular"
-      },
-      {
-        "id": "recnlg_45",
-        "title": "Grilled Shrimp",
-        "ingredients": [
-          "4 cloves garlic, roasted",
-          "1 tablespoon olive oil",
-          "2 teaspoons dried mint leaves, divided",
-          "17 whole raw shrimp",
-          "2 teaspoons fish sauce",
-          "6 teaspoons cold water",
-          "1 teaspoon hoisin sauce",
-          "1/4 teaspoons chili garlic sauce",
-          "2 teaspoons maple syrup",
-          "1 teaspoon lime juice"
-        ],
-        "directions": [
-          "start preparing a day in advance.",
-          "crush the garlic cloves with a fork.",
-          "mix in the oil and the 1 teaspoon of dried mint then add the raw shrimp and let marinate overnight.",
-          "in another bowl with a cover, mix all the sauce ingredients (fish sauce, water, hoisin sauce, chili garlic sauce, maple syrup and lime juice) and keep in the fridge till the next day.",
-          "when youre ready to eat them the next day, start the grill or heat your pan and cook your shrimp for 2-3 minutes.",
-          "enjoy!"
-        ],
-        "ner": [
-          "garlic",
-          "olive oil",
-          "mint leaves",
-          "shrimp",
-          "fish sauce",
-          "water",
-          "hoisin sauce",
-          "garlic sauce",
-          "maple syrup",
-          "lime juice"
-        ],
-        "source": "RecipeNLG"
-      },
-      {
-        "id": "recnlg_681",
-        "title": "Bacon-Wrapped Shrimp",
-        "ingredients": [
-          "24 unpeeled, large raw shrimp",
-          "1/4 cup canola oil",
-          "1/4 cup balsamic vinegar",
-          "3 tablespoons chopped fresh basil",
-          "2 shallots, minced",
-          "1 garlic clove, minced",
-          "1 tablespoon light brown sugar",
-          "1/4 teaspoon ground red pepper",
-          "1/8 teaspoon salt",
-          "12 bacon slices, cut in half crosswise",
-          "24 wooden picks"
-        ],
-        "directions": [
-          "preheat oven to 450°. peel and devein shrimp, leaving tails on. combine canola oil and next 7 ingredients in a zip-top plastic freezer bag. add shrimp; seal and chill 30 minutes, turning once.",
-          "meanwhile, arrange bacon in a single layer in a 15- x-10-inch jelly-roll pan. bake at 450° for 6 to 8 minutes or just until bacon begins to brown. (bacon will be partially cooked, not crisp.) remove from pan, and drain on paper towels. reduce oven temperature to 400°.",
-          "place a lightly greased wire rack in an aluminum foil-lined 15- x 10-inch jelly-roll pan. remove shrimp from marinade; discard marinade. wrap 1 bacon piece around each shrimp, and secure with a wooden pick threaded through both ends of shrimp. arrange shrimp in a single layer on wire rack.",
-          "bake at 400° for 8 to 10 minutes or until bacon is crisp and shrimp turn pink. serve immediately."
-        ],
-        "ner": [
-          "shrimp",
-          "canola oil",
-          "balsamic vinegar",
-          "fresh basil",
-          "shallots",
-          "garlic",
-          "light brown sugar",
-          "ground red pepper",
-          "salt",
-          "bacon",
-          "picks"
-        ],
-        "source": "RecipeNLG"
-      },
-      {
-        "id": "recnlg_811",
-        "title": "Tod Mun",
-        "ingredients": [
-          "1/4 cup fresh cilantro leaves, plus more for garnish",
-          "1 teaspoon hot red pepper flakes, or to taste",
-          "1 large shallot, roughly chopped",
-          "1 garlic clove, peeled",
-          "2 tablespoons nam pla or soy sauce",
-          "one 1/2-inch piece fresh ginger, peeled and roughly chopped",
-          "2 limes",
-          "1 1/2 pounds shrimp, peeled, or 1 1/2 pounds skinned mackerel fillet",
-          "corn, grapeseed, or other neutral oil for frying"
-        ],
-        "directions": [
-          "put the cilantro, hot pepper, shallot, garlic clove, nam pla, ginger, and juice and zest of 1 lime in a food processor.",
-          "process until the mixture is pureed, stopping to scrape down the sides if necessary.",
-          "add a third to half of the shrimp or mackerel and puree; add the remaining fish and pulse just until chopped and combined.",
-          "put 1/4 inch of oil in a large skillet (you can use less if you use a nonstick skillet) and turn the heat to medium-high.",
-          "shape the mixture into small balls or 4 or 8 burger like patties.",
-          "when the oil shimmers, cook the patties until browned on both sides, a total of about 10 minutes.",
-          "meanwhile, quarter the remaining lime.",
-          "serve the fish cakes with the lime wedges, garnished with the remaining cilantro.",
-          "follow the same procedure, omitting the lime juice and zest but using the cilantro, hot red pepper flakes, and shallot as above, along with 3 garlic cloves, peeled, 1 teaspoon ground cumin, and 1 tablespoon any curry powder or garam masala (see pages 592594)."
-        ],
-        "ner": [
-          "fresh cilantro",
-          "hot red pepper",
-          "shallot",
-          "garlic",
-          "soy sauce",
-          "ginger",
-          "limes",
-          "shrimp"
-        ],
-        "source": "RecipeNLG"
-      },
-      {
-        "id": "recnlg_936",
-        "title": "Dijon Shrimp Santa Cruz",
-        "ingredients": [
-          "4 tbsp. melted butter",
-          "juice of lemon",
-          "oil",
-          "1 tbsp. dijon mustard",
-          "4 to 6 cloves garlic, mashed",
-          "1/2 tsp. worcestershire sauce",
-          "2 lb. raw, peeled and deveined shrimp"
-        ],
-        "directions": [
-          "marinate shrimp in all ingredients 2 to 3 hours.",
-          "broil 5 minutes at 450°.",
-          "enjoy!"
-        ],
-        "ner": [
-          "butter",
-          "lemon",
-          "oil",
-          "mustard",
-          "garlic",
-          "worcestershire sauce",
-          "shrimp"
-        ],
-        "source": "RecipeNLG"
-      },
-      {
-        "id": "recnlg_957",
-        "title": "Honey Lime Shrimp",
-        "ingredients": [
-          "1/2 lb large shrimp, peeled and deveined",
-          "1/4 cup olive oil",
-          "2 tablespoons honey",
-          "3 tablespoons lime juice",
-          "2 garlic cloves, minced",
-          "1/2 teaspoon kosher salt",
-          "1/4 teaspoon black pepper",
-          "1/4 teaspoon red pepper flakes"
-        ],
-        "directions": [
-          "in a large ziploc bag, combine all the marinade ingredients. when everything is well-combined, add the shrimp, squeeze as much air as possible out of the bag, and close it up. place it in the fridge.",
-          "let the shrimp marinate for 30-60 minutes, flipping the bag around once or twice during that time, so that all the shrimp stay evenly covered in the marinade.",
-          "when you're ready to cook, take the shrimp out of the fridge and let them sit at room temperature for about 10 minutes.",
-          "heat a large skillet over medium-high heat; there is no need to add any oil or butter to the pan, as the marinade has enough oil in it to keep the shrimp from sticking to the pan. (if you would prefer to use the grill for these, you can thread them onto skewers and toss them on the grill at this point.).",
-          "add your shrimp to the pan in a single layer, making sure they are not too crowded; you can always cook them in more than one batch.",
-          "let them cook on one side for about a minute, until they curl up and start to turn pink.",
-          "flip them over, and cook for another 30 seconds or so, until the shrimp are opaque.",
-          "remove from the pan, and serve immediately!"
-        ],
-        "ner": [
-          "shrimp",
-          "olive oil",
-          "honey",
-          "lime juice",
-          "garlic",
-          "kosher salt",
-          "black pepper",
-          "red pepper"
-        ],
-        "source": "RecipeNLG"
-      },
-      {
-        "id": "recnlg_2170",
-        "title": "Grilled Shrimp Packets With Basil, Garlic And Red Curry Compound Butter",
-        "ingredients": [
-          "2 garlic cloves",
-          "3-5 fresh basil leaves",
-          "3 sprigs cilantro",
-          "4 tablespoons butter, softened",
-          "2 teaspoons red curry paste",
-          "salt, to taste",
-          "freshly ground pepper, to taste",
-          "24 large shrimp, peeled and deveined (tail left on if desired)",
-          "large shrimp, peeled and deveined (tail left on if desired)",
-          "sriracha sauce for serving, optional",
-          "fresh basil leaves, chiffonade for garnish"
-        ],
-        "directions": [
-          "in a mini food processor, mince garlic, basil and cilantro. add butter, red curry paste, salt and pepper and process till combined.",
-          "on two pieces of heavy duty foil, divide shrimp and lay in a row. dot with desired amount of compound butter (you can control the fat here). seal tightly and place on a hot grill. allow it to cook for about 10 minutes; you will notice the packets puff up when it is done.",
-          "serve the shrimp straight out of the packets if you wish! or plate it with chiffonades of basil and sriracha sauce. don't forget the bread!"
-        ],
-        "ner": [
-          "garlic",
-          "fresh basil",
-          "cilantro",
-          "butter",
-          "red curry",
-          "salt",
-          "freshly ground pepper",
-          "shrimp",
-          "shrimp",
-          "sriracha sauce",
-          "fresh basil"
-        ],
-        "source": "RecipeNLG"
-      },
-      {
-        "id": "recnlg_2858",
-        "title": "Southern Shrimp Scampi",
-        "ingredients": [
-          "3 large garlic cloves, finely chopped",
-          "1/2 teaspoon salt",
-          "1/2 teaspoon freshly ground black pepper",
-          "1 1/4 pound large shrimp, preferably wild american shrimp (16/20 or 21/25 count), peeled and deveined",
-          "2 tablespoons olive oil",
-          "1/2 cup wine",
-          "6 tablespoons butter",
-          "1 tablespoon lemon juice",
-          "2 tablespoons chopped italian parsley",
-          "1/2 teaspoon red pepper flakes"
-        ],
-        "directions": [
-          "in a bowl, toss garlic, salt and pepper with the shrimp, which may be refrigerated, well covered, for several hours at this point.",
-          "when ready to cook, heat oil in a large saute pan over high heat until it shimmers, then add shrimp and move shrimp around in the pan for about 2 minutes, or until the color just begins to turn from translucent.",
-          "remove shrimp, reduce heat to medium-high and add wine, scraping up any bits on the bottom of the pan.",
-          "cook for a couple of minutes to reduce, then add butter and swirl the pan to melt it.",
-          "put shrimp back into pan, stir about a minute to finishing cooking and add lemon juice.",
-          "remove to serving dish, sprinkle with parsley and red pepper flakes, adding more pepper if desired.",
-          "serve over rice or pasta or as is."
-        ],
-        "ner": [
-          "garlic",
-          "salt",
-          "freshly ground black pepper",
-          "shrimp",
-          "olive oil",
-          "wine",
-          "butter",
-          "lemon juice",
-          "italian parsley",
-          "red pepper"
-        ],
-        "source": "RecipeNLG"
-      },
-      {
-        "id": "recnlg_3147",
-        "title": "Shrimp Scampi",
-        "ingredients": [
-          "1 1/2 lb. shrimp",
-          "1/4 lb. butter",
-          "1 clove garlic, minced or garlic powder",
-          "2 tbsp. chopped parsley",
-          "1/4 c. dry white wine"
-        ],
-        "directions": [
-          "shell and devein raw shrimp; press center with thumb to fan over medium flame.",
-          "melt butter in large skillet; add garlic; add shrimp.",
-          "cook and stir until pink and firm (about 10 to 12 minutes).",
-          "add parsley and wine; simmer approximately 2 minutes."
-        ],
-        "ner": [
-          "shrimp",
-          "butter",
-          "clove garlic",
-          "parsley",
-          "white wine"
-        ],
-        "source": "RecipeNLG"
-      },
-      {
-        "id": "recnlg_3943",
-        "title": "Sizzling Shrimp",
-        "ingredients": [
-          "1 1/2 lbs (750 g) raw large shrimp, peeled and deveined, patted dry",
-          "3 cloves garlic, sliced",
-          "1/4 tsp (1 ml) salt",
-          "1/4 tsp (1 ml) hot pepper flakes",
-          "1/2 cup (125 ml) olive oil",
-          "9-inch (22.5 cm) ovenproof earthenware dish or glass pie plate"
-        ],
-        "directions": [
-          "preheat oven to 450f (230c)",
-          "spread out shrimp in baking dish; tuck slices of garlic in amongst shrimp.",
-          "sprinkle with salt and hot pepper flakes.",
-          "drizzle oil evenly over shrimp.",
-          "preheat oven to 350f (180c).",
-          "bake for 10 to 12 minutes, stirring once or twice, until shrimp are pink and opaque and oil is bubbling.",
-          "serve at once.",
-          "from julia aitken: easy entertaining"
-        ],
-        "ner": [
-          "shrimp",
-          "garlic",
-          "salt",
-          "hot pepper",
-          "olive oil",
-          "ovenproof earthenware"
-        ],
-        "source": "RecipeNLG"
-      },
-      {
-        "id": "recnlg_4299",
-        "title": "15 Minute Spanish Garlic Shrimp Tapa",
-        "ingredients": [
-          "1/2 cup olive oil",
-          "5 cloves garlic, minced",
-          "1/4 teaspoon cayenne pepper (more if you like it spicey)",
-          "1 pound raw peeled and deveined shrimp (about 25 per pound)",
-          "juice of 1 lemon",
-          "1/4 cup dry sherry (optional)",
-          "salt and freshly ground pepper to taste",
-          "fresh parsley leaves"
-        ],
-        "directions": [
-          "if using frozen shrimp, defrost. rinse shrimp under cold water and pat dry.",
-          "in a non-stick pan or cast iron skillet heat the olive oil over medium heat.",
-          "add the garlic and cayenne pepper and saute until fragrant, about one minute. be careful not to burn the garlic!\r\nnext, add the shrimp, lemon juice, and sherry and increase the heat to medium-high.\r\nstir well, then saute turning them once until the shrimp turn pink and curl - about 3-4 minutes.\r\nseason to taste with salt and freshly ground black pepper.",
-          "transfer shrimp with oil and sauce to a serving plate or serve right from the pan.\r\nsprinkle with parsley. serve with fresh bread."
-        ],
-        "ner": [
-          "olive oil",
-          "garlic",
-          "cayenne pepper",
-          "shrimp",
-          "lemon",
-          "sherry",
-          "salt",
-          "parsley"
-        ],
-        "source": "RecipeNLG"
-      }
-    ]
-}
+  {
+    "query_id": 8,
+      "query": "I want to cut my carbohydrates intake, give me a seafood dish with shrimp and garlic.",
+      "results": [
+        {
+          "id": 644140,
+          "title": "Gambas Al Ajillo",
+          "ingredients": [
+            "3 slices bacon, broken into bits",
+            "3 tablespoons butter",
+            "1/2 teaspoon cayenne pepper",
+            "1 tablespoon chili powder",
+            "1 cup dry sherry",
+            "2 tablespoons garlic, minced",
+            "lemon wedges",
+            "2 tablespoons olive oil",
+            "1 tablespoon paprika",
+            "chopped parsley",
+            "toasted slices of rustic bread",
+            "1 teaspoon salt",
+            "1 pound small shrimp (31/40 count), peeled and deveined",
+            "1/2 cup tomato, diced"
+          ],
+          "instructions": "<ol><li>In a saut pan over medium-high heat, add olive oil. When hot, add shrimp and seasonings, and saut until they are cooked halfway.</li><li>Add garlic, tomatoes, bacon and saut a bit longer. Add sherry and cook until reduced by half. Add butter and stir in.</li><li>Sprinkle with parsley and squeeze the lemon wedges over the shrimp. Serve with crusty bread and a crisp white wine like a Verdejo from Rueda or a bubbly Cava from Penedes.</li></ol>",
+          "source": "Spoonacular"
+        },
+        {
+          "id": "recnlg_45",
+          "title": "Grilled Shrimp",
+          "ingredients": [
+            "4 cloves garlic, roasted",
+            "1 tablespoon olive oil",
+            "2 teaspoons dried mint leaves, divided",
+            "17 whole raw shrimp",
+            "2 teaspoons fish sauce",
+            "6 teaspoons cold water",
+            "1 teaspoon hoisin sauce",
+            "1/4 teaspoons chili garlic sauce",
+            "2 teaspoons maple syrup",
+            "1 teaspoon lime juice"
+          ],
+          "directions": [
+            "start preparing a day in advance.",
+            "crush the garlic cloves with a fork.",
+            "mix in the oil and the 1 teaspoon of dried mint then add the raw shrimp and let marinate overnight.",
+            "in another bowl with a cover, mix all the sauce ingredients (fish sauce, water, hoisin sauce, chili garlic sauce, maple syrup and lime juice) and keep in the fridge till the next day.",
+            "when youre ready to eat them the next day, start the grill or heat your pan and cook your shrimp for 2-3 minutes.",
+            "enjoy!"
+          ],
+          "ner": [
+            "garlic",
+            "olive oil",
+            "mint leaves",
+            "shrimp",
+            "fish sauce",
+            "water",
+            "hoisin sauce",
+            "garlic sauce",
+            "maple syrup",
+            "lime juice"
+          ],
+          "source": "RecipeNLG"
+        },
+        {
+          "id": "recnlg_681",
+          "title": "Bacon-Wrapped Shrimp",
+          "ingredients": [
+            "24 unpeeled, large raw shrimp",
+            "1/4 cup canola oil",
+            "1/4 cup balsamic vinegar",
+            "3 tablespoons chopped fresh basil",
+            "2 shallots, minced",
+            "1 garlic clove, minced",
+            "1 tablespoon light brown sugar",
+            "1/4 teaspoon ground red pepper",
+            "1/8 teaspoon salt",
+            "12 bacon slices, cut in half crosswise",
+            "24 wooden picks"
+          ],
+          "directions": [
+            "preheat oven to 450°. peel and devein shrimp, leaving tails on. combine canola oil and next 7 ingredients in a zip-top plastic freezer bag. add shrimp; seal and chill 30 minutes, turning once.",
+            "meanwhile, arrange bacon in a single layer in a 15- x-10-inch jelly-roll pan. bake at 450° for 6 to 8 minutes or just until bacon begins to brown. (bacon will be partially cooked, not crisp.) remove from pan, and drain on paper towels. reduce oven temperature to 400°.",
+            "place a lightly greased wire rack in an aluminum foil-lined 15- x 10-inch jelly-roll pan. remove shrimp from marinade; discard marinade. wrap 1 bacon piece around each shrimp, and secure with a wooden pick threaded through both ends of shrimp. arrange shrimp in a single layer on wire rack.",
+            "bake at 400° for 8 to 10 minutes or until bacon is crisp and shrimp turn pink. serve immediately."
+          ],
+          "ner": [
+            "shrimp",
+            "canola oil",
+            "balsamic vinegar",
+            "fresh basil",
+            "shallots",
+            "garlic",
+            "light brown sugar",
+            "ground red pepper",
+            "salt",
+            "bacon",
+            "picks"
+          ],
+          "source": "RecipeNLG"
+        },
+        {
+          "id": "recnlg_811",
+          "title": "Tod Mun",
+          "ingredients": [
+            "1/4 cup fresh cilantro leaves, plus more for garnish",
+            "1 teaspoon hot red pepper flakes, or to taste",
+            "1 large shallot, roughly chopped",
+            "1 garlic clove, peeled",
+            "2 tablespoons nam pla or soy sauce",
+            "one 1/2-inch piece fresh ginger, peeled and roughly chopped",
+            "2 limes",
+            "1 1/2 pounds shrimp, peeled, or 1 1/2 pounds skinned mackerel fillet",
+            "corn, grapeseed, or other neutral oil for frying"
+          ],
+          "directions": [
+            "put the cilantro, hot pepper, shallot, garlic clove, nam pla, ginger, and juice and zest of 1 lime in a food processor.",
+            "process until the mixture is pureed, stopping to scrape down the sides if necessary.",
+            "add a third to half of the shrimp or mackerel and puree; add the remaining fish and pulse just until chopped and combined.",
+            "put 1/4 inch of oil in a large skillet (you can use less if you use a nonstick skillet) and turn the heat to medium-high.",
+            "shape the mixture into small balls or 4 or 8 burger like patties.",
+            "when the oil shimmers, cook the patties until browned on both sides, a total of about 10 minutes.",
+            "meanwhile, quarter the remaining lime.",
+            "serve the fish cakes with the lime wedges, garnished with the remaining cilantro.",
+            "follow the same procedure, omitting the lime juice and zest but using the cilantro, hot red pepper flakes, and shallot as above, along with 3 garlic cloves, peeled, 1 teaspoon ground cumin, and 1 tablespoon any curry powder or garam masala (see pages 592594)."
+          ],
+          "ner": [
+            "fresh cilantro",
+            "hot red pepper",
+            "shallot",
+            "garlic",
+            "soy sauce",
+            "ginger",
+            "limes",
+            "shrimp"
+          ],
+          "source": "RecipeNLG"
+        },
+        {
+          "id": "recnlg_936",
+          "title": "Dijon Shrimp Santa Cruz",
+          "ingredients": [
+            "4 tbsp. melted butter",
+            "juice of lemon",
+            "oil",
+            "1 tbsp. dijon mustard",
+            "4 to 6 cloves garlic, mashed",
+            "1/2 tsp. worcestershire sauce",
+            "2 lb. raw, peeled and deveined shrimp"
+          ],
+          "directions": [
+            "marinate shrimp in all ingredients 2 to 3 hours.",
+            "broil 5 minutes at 450°.",
+            "enjoy!"
+          ],
+          "ner": [
+            "butter",
+            "lemon",
+            "oil",
+            "mustard",
+            "garlic",
+            "worcestershire sauce",
+            "shrimp"
+          ],
+          "source": "RecipeNLG"
+        },
+        {
+          "id": "recnlg_957",
+          "title": "Honey Lime Shrimp",
+          "ingredients": [
+            "1/2 lb large shrimp, peeled and deveined",
+            "1/4 cup olive oil",
+            "2 tablespoons honey",
+            "3 tablespoons lime juice",
+            "2 garlic cloves, minced",
+            "1/2 teaspoon kosher salt",
+            "1/4 teaspoon black pepper",
+            "1/4 teaspoon red pepper flakes"
+          ],
+          "directions": [
+            "in a large ziploc bag, combine all the marinade ingredients. when everything is well-combined, add the shrimp, squeeze as much air as possible out of the bag, and close it up. place it in the fridge.",
+            "let the shrimp marinate for 30-60 minutes, flipping the bag around once or twice during that time, so that all the shrimp stay evenly covered in the marinade.",
+            "when you're ready to cook, take the shrimp out of the fridge and let them sit at room temperature for about 10 minutes.",
+            "heat a large skillet over medium-high heat; there is no need to add any oil or butter to the pan, as the marinade has enough oil in it to keep the shrimp from sticking to the pan. (if you would prefer to use the grill for these, you can thread them onto skewers and toss them on the grill at this point.).",
+            "add your shrimp to the pan in a single layer, making sure they are not too crowded; you can always cook them in more than one batch.",
+            "let them cook on one side for about a minute, until they curl up and start to turn pink.",
+            "flip them over, and cook for another 30 seconds or so, until the shrimp are opaque.",
+            "remove from the pan, and serve immediately!"
+          ],
+          "ner": [
+            "shrimp",
+            "olive oil",
+            "honey",
+            "lime juice",
+            "garlic",
+            "kosher salt",
+            "black pepper",
+            "red pepper"
+          ],
+          "source": "RecipeNLG"
+        },
+        {
+          "id": "recnlg_2170",
+          "title": "Grilled Shrimp Packets With Basil, Garlic And Red Curry Compound Butter",
+          "ingredients": [
+            "2 garlic cloves",
+            "3-5 fresh basil leaves",
+            "3 sprigs cilantro",
+            "4 tablespoons butter, softened",
+            "2 teaspoons red curry paste",
+            "salt, to taste",
+            "freshly ground pepper, to taste",
+            "24 large shrimp, peeled and deveined (tail left on if desired)",
+            "large shrimp, peeled and deveined (tail left on if desired)",
+            "sriracha sauce for serving, optional",
+            "fresh basil leaves, chiffonade for garnish"
+          ],
+          "directions": [
+            "in a mini food processor, mince garlic, basil and cilantro. add butter, red curry paste, salt and pepper and process till combined.",
+            "on two pieces of heavy duty foil, divide shrimp and lay in a row. dot with desired amount of compound butter (you can control the fat here). seal tightly and place on a hot grill. allow it to cook for about 10 minutes; you will notice the packets puff up when it is done.",
+            "serve the shrimp straight out of the packets if you wish! or plate it with chiffonades of basil and sriracha sauce. don't forget the bread!"
+          ],
+          "ner": [
+            "garlic",
+            "fresh basil",
+            "cilantro",
+            "butter",
+            "red curry",
+            "salt",
+            "freshly ground pepper",
+            "shrimp",
+            "shrimp",
+            "sriracha sauce",
+            "fresh basil"
+          ],
+          "source": "RecipeNLG"
+        },
+        {
+          "id": "recnlg_2858",
+          "title": "Southern Shrimp Scampi",
+          "ingredients": [
+            "3 large garlic cloves, finely chopped",
+            "1/2 teaspoon salt",
+            "1/2 teaspoon freshly ground black pepper",
+            "1 1/4 pound large shrimp, preferably wild american shrimp (16/20 or 21/25 count), peeled and deveined",
+            "2 tablespoons olive oil",
+            "1/2 cup wine",
+            "6 tablespoons butter",
+            "1 tablespoon lemon juice",
+            "2 tablespoons chopped italian parsley",
+            "1/2 teaspoon red pepper flakes"
+          ],
+          "directions": [
+            "in a bowl, toss garlic, salt and pepper with the shrimp, which may be refrigerated, well covered, for several hours at this point.",
+            "when ready to cook, heat oil in a large saute pan over high heat until it shimmers, then add shrimp and move shrimp around in the pan for about 2 minutes, or until the color just begins to turn from translucent.",
+            "remove shrimp, reduce heat to medium-high and add wine, scraping up any bits on the bottom of the pan.",
+            "cook for a couple of minutes to reduce, then add butter and swirl the pan to melt it.",
+            "put shrimp back into pan, stir about a minute to finishing cooking and add lemon juice.",
+            "remove to serving dish, sprinkle with parsley and red pepper flakes, adding more pepper if desired.",
+            "serve over rice or pasta or as is."
+          ],
+          "ner": [
+            "garlic",
+            "salt",
+            "freshly ground black pepper",
+            "shrimp",
+            "olive oil",
+            "wine",
+            "butter",
+            "lemon juice",
+            "italian parsley",
+            "red pepper"
+          ],
+          "source": "RecipeNLG"
+        },
+        {
+          "id": "recnlg_3147",
+          "title": "Shrimp Scampi",
+          "ingredients": [
+            "1 1/2 lb. shrimp",
+            "1/4 lb. butter",
+            "1 clove garlic, minced or garlic powder",
+            "2 tbsp. chopped parsley",
+            "1/4 c. dry white wine"
+          ],
+          "directions": [
+            "shell and devein raw shrimp; press center with thumb to fan over medium flame.",
+            "melt butter in large skillet; add garlic; add shrimp.",
+            "cook and stir until pink and firm (about 10 to 12 minutes).",
+            "add parsley and wine; simmer approximately 2 minutes."
+          ],
+          "ner": [
+            "shrimp",
+            "butter",
+            "clove garlic",
+            "parsley",
+            "white wine"
+          ],
+          "source": "RecipeNLG"
+        },
+        {
+          "id": "recnlg_3943",
+          "title": "Sizzling Shrimp",
+          "ingredients": [
+            "1 1/2 lbs (750 g) raw large shrimp, peeled and deveined, patted dry",
+            "3 cloves garlic, sliced",
+            "1/4 tsp (1 ml) salt",
+            "1/4 tsp (1 ml) hot pepper flakes",
+            "1/2 cup (125 ml) olive oil",
+            "9-inch (22.5 cm) ovenproof earthenware dish or glass pie plate"
+          ],
+          "directions": [
+            "preheat oven to 450f (230c)",
+            "spread out shrimp in baking dish; tuck slices of garlic in amongst shrimp.",
+            "sprinkle with salt and hot pepper flakes.",
+            "drizzle oil evenly over shrimp.",
+            "preheat oven to 350f (180c).",
+            "bake for 10 to 12 minutes, stirring once or twice, until shrimp are pink and opaque and oil is bubbling.",
+            "serve at once.",
+            "from julia aitken: easy entertaining"
+          ],
+          "ner": [
+            "shrimp",
+            "garlic",
+            "salt",
+            "hot pepper",
+            "olive oil",
+            "ovenproof earthenware"
+          ],
+          "source": "RecipeNLG"
+        },
+        {
+          "id": "recnlg_4299",
+          "title": "15 Minute Spanish Garlic Shrimp Tapa",
+          "ingredients": [
+            "1/2 cup olive oil",
+            "5 cloves garlic, minced",
+            "1/4 teaspoon cayenne pepper (more if you like it spicey)",
+            "1 pound raw peeled and deveined shrimp (about 25 per pound)",
+            "juice of 1 lemon",
+            "1/4 cup dry sherry (optional)",
+            "salt and freshly ground pepper to taste",
+            "fresh parsley leaves"
+          ],
+          "directions": [
+            "if using frozen shrimp, defrost. rinse shrimp under cold water and pat dry.",
+            "in a non-stick pan or cast iron skillet heat the olive oil over medium heat.",
+            "add the garlic and cayenne pepper and saute until fragrant, about one minute. be careful not to burn the garlic!\r\nnext, add the shrimp, lemon juice, and sherry and increase the heat to medium-high.\r\nstir well, then saute turning them once until the shrimp turn pink and curl - about 3-4 minutes.\r\nseason to taste with salt and freshly ground black pepper.",
+            "transfer shrimp with oil and sauce to a serving plate or serve right from the pan.\r\nsprinkle with parsley. serve with fresh bread."
+          ],
+          "ner": [
+            "olive oil",
+            "garlic",
+            "cayenne pepper",
+            "shrimp",
+            "lemon",
+            "sherry",
+            "salt",
+            "parsley"
+          ],
+          "source": "RecipeNLG"
+        }
+      ]
+  }
+]

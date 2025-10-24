@@ -1,0 +1,448 @@
+[
+    {
+        "id": "recnlg_779",
+        "title": "Lanai Pasta Salad",
+        "ingredients": [
+            "1 (20 ounce) can pineapple chunks in juice",
+            "3 cups cooked spiral shaped pasta",
+            "2 cups sugar snap peas",
+            "1 cup sliced carrot",
+            "1 cup sliced cucumber",
+            "1/2 cup reduced-calorie italian dressing",
+            "1/4 cup chopped cilantro or 1/4 cup chopped parsley"
+        ],
+        "directions": [
+            "drain pineapple; reserve 1/4 c juice.",
+            "combine pineapple, reserved juice and remaining ingredients in large bowl; toss to coat."
+        ],
+        "ner": [
+            "pineapple",
+            "pasta",
+            "sugar snap peas",
+            "carrot",
+            "cucumber",
+            "italian dressing",
+            "cilantro"
+        ],
+        "source": "RecipeNLG"
+    },
+    {
+        "id": "recnlg_1741",
+        "title": "Pasta Salad",
+        "ingredients": [
+            "8 oz. pasta noodles",
+            "3 large chopped tomatoes",
+            "5 green scallions, chopped (including tops)",
+            "2 cucumbers, peeled and chopped",
+            "1 (8 oz.) bottle kraft zesty italian dressing",
+            "1/2 bottle mccormick salad supreme seasoning"
+        ],
+        "directions": [
+            "cook pasta as directed.",
+            "rinse in cold water and drain well. put in serving bowl and add remaining ingredients.",
+            "mix well. refrigerate several hours or overnight."
+        ],
+        "ner": [
+            "pasta noodles",
+            "tomatoes",
+            "green scallions",
+            "cucumbers",
+            "italian dressing",
+            "salad supreme seasoning"
+        ],
+        "source": "RecipeNLG"
+    },
+    {
+        "id": "recnlg_2151",
+        "title": "Honey Mustard Pasta",
+        "ingredients": [
+            "1 pound penne pasta",
+            "3 tablespoons olive oil",
+            "2 garlic cloves",
+            "8 roma tomatoes",
+            "2 tablespoons balsamic vinegar",
+            "2 tablespoons honey",
+            "2 tablespoons dijon mustard",
+            "1 teaspoon salt",
+            "1/2 teaspoon ground black pepper",
+            "1/4 cup chopped fresh basil"
+        ],
+        "directions": [
+            "cook pasta according to package directions.",
+            "heat the oil in a large saute pan over medium-high heat. mince garlic and saute 1 minute.",
+            "rough cut tomatoes, add to pan and cook 6 minutes until softened. add the vinegar, honey and mustard and continue cooking 5 minutes..",
+            "drain the pasta and toss with sauce. season with salt and pepper.",
+            "place basil on top of finished pasta."
+        ],
+        "ner": [
+            "penne pasta",
+            "olive oil",
+            "garlic",
+            "tomatoes",
+            "balsamic vinegar",
+            "honey",
+            "mustard",
+            "salt",
+            "ground black pepper",
+            "fresh basil"
+        ],
+        "source": "RecipeNLG"
+    },
+    {
+        "id": "recnlg_2394",
+        "title": "Fresh Tomato-Basil-Asparagus Pasta Salad",
+        "ingredients": [
+            "1 (16 ounce) package bow tie pasta",
+            "1 lb fresh asparagus",
+            "1 cup bottled lemon vinaigrette",
+            "1 (1 ounce) package fresh basil, chopped",
+            "1 pint grape tomatoes, halved",
+            "salt and pepper"
+        ],
+        "directions": [
+            "cook pasta according to package directions, adding asparagus, cut into 2\" pieces, during the last 2 minutes of cooking time. drain and rinse under cool water.",
+            "stir together 1 cup bottled lemon vinaigrette and chopped basil. pour 3/4 cup of dressing over pasta mixture. stir in tomatoes, and salt and pepper to taste. cover and chill 1 hour. toss with remaining dressing just before serving. garnish with additional freshly basil."
+        ],
+        "ner": [
+            "pasta",
+            "fresh asparagus",
+            "lemon vinaigrette",
+            "fresh basil",
+            "grape tomatoes",
+            "salt"
+        ],
+        "source": "RecipeNLG"
+    },
+    {
+        "id": "recnlg_2426",
+        "title": "Famous Bill'S Pasta Salad",
+        "ingredients": [
+            "1 lb. rainbow pasta",
+            "8 oz. red wine and vinegar dressing",
+            "8 oz. oxford orange dijon dressing",
+            "1 medium onion, diced",
+            "3 ribs celery, diced",
+            "2 red peppers, diced",
+            "1 green pepper, diced",
+            "1/2 c. sliced ripe olives",
+            "1 tsp. granulated garlic"
+        ],
+        "directions": [
+            "cook pasta; drain well.",
+            "add all ingredients.",
+            "let set in refrigerator overnight."
+        ],
+        "ner": [
+            "pasta",
+            "red wine",
+            "dressing",
+            "onion",
+            "celery",
+            "red peppers",
+            "green pepper",
+            "olives",
+            "garlic"
+        ],
+        "source": "RecipeNLG"
+    },
+    {
+        "id": "recnlg_2969",
+        "title": "Fresh Diet Pasta",
+        "ingredients": [
+            "whole wheat spaghetti for 1 person",
+            "1 can tuna",
+            "3 garlic cloves chopped",
+            "1 onion small, chopped",
+            "2 slices red pepper",
+            "2 slices green pepper",
+            "6 coriander sprigs, chopped",
+            "3 tomatoes medium, chopped",
+            "olive oil as needed",
+            "salt as needed"
+        ],
+        "directions": [
+            "cook the spaghetti in salted water, drain, and set aside.",
+            "drain the tuna, and place in a bowl.",
+            "add the garlic, onion, peppers, chopped coriander, and mix.",
+            "add the tomatoes, sprinkle with a little olive oil. mix well.",
+            "add the spaghetti, and mix evenly."
+        ],
+        "ner": [
+            "whole wheat spaghetti",
+            "tuna",
+            "garlic",
+            "onion",
+            "red pepper",
+            "green pepper",
+            "coriander sprigs",
+            "tomatoes",
+            "olive oil",
+            "salt"
+        ],
+        "source": "RecipeNLG"
+    },
+    {
+        "id": "recnlg_3066",
+        "title": "Asian Chicken Slaw With Pasta Recipe",
+        "ingredients": [
+            "salt as needed",
+            "8 ounce angel hair pasta or possibly capellini",
+            "1/4 c. vegetable oil",
+            "2 tbsp. sesame oil",
+            "1 x garlic clove chopped",
+            "1/4 c. rice or possibly white wine vinegar",
+            "1 tsp sugar",
+            "1/2 tsp dry red pepper flakes",
+            "2 tbsp. nuoc nam, bottled vietnamese fish sauce (optional)",
+            "3/4 lb boneless smoked chicken or possibly turkey breast - (to 1 lb)",
+            "1/2 sm head napa or possibly chinese cabbage cored",
+            "2 x carrots peeled",
+            "1/2 c. packed washed basil leaves"
+        ],
+        "directions": [
+            "bring a large pot of salted water to a boil.",
+            "meanwhile, combine the vegetable and sesame oils, garlic, rice vinegar, sugar, pepper flakes and optional nuoc mam.",
+            "remove the skin and fat from the chicken and cut it into thin vertical strips, then across the strips into thin shreds and add in them to the mixing bowl.",
+            "add in the pasta to the boiling water and cook till it is tender but still hard to the bite, about 3 to 4 min.",
+            "drain the pasta and rinse it under cool water to cold it completely.",
+            "drain the pasta again, pat it dry and add in it to the mixing bowl.",
+            "finely shred the cabbage and grate or possibly finely chop the carrots.",
+            "roll the basil leaves up into tight cylinders and cut across them to create fine shreds and add in them to the mixing bowl.",
+            "toss the salad with the dressing and adjust the seasoning if necessary.",
+            "this recipe yields 4 servings."
+        ],
+        "ner": [
+            "salt",
+            "hair pasta",
+            "vegetable oil",
+            "sesame oil",
+            "garlic",
+            "rice",
+            "sugar",
+            "red pepper",
+            "fish sauce",
+            "chicken",
+            "head",
+            "carrots",
+            "basil"
+        ],
+        "source": "RecipeNLG"
+    },
+    {
+        "id": "recnlg_3108",
+        "title": "Scoglio (Seafood Pasta)",
+        "ingredients": [
+            "2 tablespoons olive oil",
+            "2 garlic cloves, crushed",
+            "1 (16-ounce) can whole italian tomatoes",
+            "salt and freshly ground black pepper, to taste",
+            "1 teaspoon sicilian oregano (optional)",
+            "1 pound dry spaghetti",
+            "2 tablespoons plus 2 teaspoons \tolive oil, divided",
+            "4-6 medium size scallops",
+            "1/4 teaspoon salt",
+            "1/4 teaspoon pepper",
+            "8 medium-size peeled shrimp",
+            "1 spring fresh oregano",
+            "1 sprig fresh thyme",
+            "8 mussels",
+            "8 clams",
+            "1/2 cup white wine"
+        ],
+        "directions": [
+            "make sauce:",
+            "heat oil in a saucepan over medium heat. add garlic to oil and cook, stirring, until golden brown. while garlic browns, pour tomatoes into a bowl; break them up using clean hands. once garlic is browned, add tomatoes and their juices. add salt and pepper (and oregano if using).",
+            "simmer over low heat for 45 minutes, adding water to keep the sauce from becoming too thick. the sauce should be a rich red color. if it turns brick red, it's too thick.",
+            "make pasta:",
+            "cook pasta according to package directions. drain, reserving 1 cup cooking water.",
+            "heat 2 tablespoons oil in a large skillet. season scallops with salt and pepper; cook over medium high heat, about 2-3 minutes per side, until golden brown on each side. remove and",
+            "set aside.",
+            "in the same pan, cook shrimp until they",
+            "just turn pink, about 1-2 minutes. remove and",
+            "set aside.",
+            "add reserved pasta water to pan along with oregano and thyme. simmer for 10 minutes to create a fish broth, scraping the bottom of the pan with a spatula to release the caramelized bits left over from sauteing into the broth.",
+            "once the broth is ready, add mussels with remaining 2 teaspoons oil and cover. cook 2-3 minutes, removing mussels as soon as they open. set aside. repeat with the clams, cooking about 4 minutes. remove and set aside.",
+            "strain the remaining fish broth through a sieve and return to the same pan. add wine and simmer over medium heat, 2-3 minutes, to burn off the alcohol. add scallops back to the pan. then add 1/2 cup pomodoro sauce. add shrimp and a little more pomodoro sauce. add pasta to the saucepan, stirring to coat with pomodoro sauce. simmer 2-3 minutes and fold clams and mussels into the pasta. serve immediately."
+        ],
+        "ner": [
+            "olive oil",
+            "garlic",
+            "italian tomatoes",
+            "salt",
+            "oregano",
+            "olive oil",
+            "scallops",
+            "salt",
+            "pepper",
+            "shrimp",
+            "oregano",
+            "thyme",
+            "mussels",
+            "clams",
+            "white wine"
+        ],
+        "source": "RecipeNLG"
+    },
+    {
+        "id": "recnlg_3345",
+        "title": "Whole Wheat Pasta With Avocado Sauce",
+        "ingredients": [
+            "2 ripe avocados",
+            "1 lemon, juice of",
+            "1 fat garlic clove, crushed",
+            "salt and black pepper",
+            "1 tablespoon olive oil",
+            "12 ounces dry pasta, preferably wholewheat tagliatelle"
+        ],
+        "directions": [
+            "scoop out the flesh of the two avocados in to the bowl in which you will serve the pasta. mash the avocado flesh well. add the lemon juice and mash again. add the crushed garlic and stir. add the seasoning to taste, followed by the olive oil, and mash thoroughly to make a creamy sauce.",
+            "cook the pasta to al dente consistency in plenty of boiling water. drain well and add to sauce. toss thoroughly and serve.",
+            "note: you can use more or less lemon jice, garlic or olive oil according to your family's taste."
+        ],
+        "ner": [
+            "avocados",
+            "lemon",
+            "garlic",
+            "salt",
+            "olive oil",
+            "pasta"
+        ],
+        "source": "RecipeNLG"
+    },
+    {
+        "id": "recnlg_3358",
+        "title": "Red Pepper Pasta Salad",
+        "ingredients": [
+            "1 lb. cavatapi (or other pasta shape)",
+            "1 cup mayonaise",
+            "1 sm. jar roasted red peppers",
+            "1 package good seasons salad dressing mix",
+            "1 teaspoon chopped garlic",
+            "juice of 1/2 lemon",
+            "1 package frozen mixed vegetables"
+        ],
+        "directions": [
+            "cook pasta according to package directions.",
+            "drain red peppers",
+            "blend peppers in blender with mayonaise, lemon juice, garlic and seasoning packet.",
+            "cook vegetables until just defrosted, then mix with pasta",
+            "add dressing to pasta & vegetable mixture and mix well"
+        ],
+        "ner": [
+            "mayonaise",
+            "red peppers",
+            "salad dressing",
+            "garlic",
+            "lemon",
+            "vegetables"
+        ],
+        "source": "RecipeNLG"
+    },
+    {
+        "id": "recnlg_4403",
+        "title": "Pasta Puttanesca",
+        "ingredients": [
+            "1 lb tomatoes, vined ripened (plum or cherry)",
+            "4 tablespoons olive oil",
+            "3 garlic cloves, chopped",
+            "1 sprig rosemary, leaves finely chopped",
+            "4 sage leaves, shredded thinly",
+            "1 pinch dried chili pepper flakes",
+            "2 ounces capers",
+            "4 ounces black olives, pitted",
+            "4 ounces anchovies packed in oil, drained and chopped",
+            "2 tablespoons oregano, chopped",
+            "1 lb spaghetti",
+            "1 tablespoon flat leaf parsley, chopped",
+            "salt & freshly ground black pepper"
+        ],
+        "directions": [
+            "bring 3.4 litre/6 pint water and 2 tbsp salt to the boil for the pasta.",
+            "for the sauce, squeeze the tomatoes into the sink to get rid of most of the juice, then cut each one in half.",
+            "heat the oil in a pan with the garlic, rosemary and sage and cook gently for about 1 minute without browning.",
+            "add the chilli, tomatoes, capers, olives, anchovies, oregano and some black pepper and leave to simmer gently for 10 minutes.",
+            "meanwhile, add the pasta to the pan of boiling water and cook for about 7 minutes or until al dente.",
+            "drain and tip it into a large warmed serving bowl. pour over the sauce, add the chopped parsley and toss together well. serve straight away, with plenty of red wine."
+        ],
+        "ner": [
+            "tomatoes",
+            "olive oil",
+            "garlic",
+            "rosemary",
+            "sage",
+            "chili pepper",
+            "capers",
+            "black olives",
+            "anchovies",
+            "oregano",
+            "flat leaf parsley",
+            "salt"
+        ],
+        "source": "RecipeNLG"
+    },
+    {
+        "id": "recnlg_4535",
+        "title": "July 4Th Cold Pasta Salad",
+        "ingredients": [
+            "1 red bell pepper",
+            "1 green bell pepper",
+            "1 onion",
+            "1 cucumber",
+            "1 tomato",
+            "1 bottle mrs. dash",
+            "1 box spaghetti (pasta)",
+            "1 bottle italian salad dressing"
+        ],
+        "directions": [
+            "cook pasta; drain.",
+            "chop bell peppers, onion, cucumber and tomato.",
+            "mix all in big bowl; add mrs. dash and italian dressing and stir together thoroughly.",
+            "refrigerate overnight so it can marinate.",
+            "it is fantastic and has become a july 4th tradition!"
+        ],
+        "ner": [
+            "red bell pepper",
+            "green bell pepper",
+            "onion",
+            "cucumber",
+            "tomato",
+            "pasta",
+            "italian salad dressing"
+        ],
+        "source": "RecipeNLG"
+    },
+    {
+        "id": "recnlg_4839",
+        "title": "Pasta Puttanesca",
+        "ingredients": [
+            "1 lb. pasta",
+            "2 gloves finely chopped garlic",
+            "1 handful capers, soaked and drained",
+            "2 handfuls of black olives (kalamata)",
+            "12 anchovy fillets, roughly chopped",
+            "3 dried red chiles, crumbled",
+            "2 (14 oz.) canned tomatoes, drained and chopped",
+            "1 tbsp. dried oregano",
+            "extra virgin olive oil",
+            "fresh basil",
+            "salt and pepper"
+        ],
+        "directions": [
+            "cook pasta until done. fry garlic, capers, olives, anchovies, chiles and oregano in a little olive oil for 3 to 4 minutes. add tomatoes and cook on a simmer for 5 minutes. remove from heat. add drained pasta and toss through. top with fresh basil and good olive oil."
+        ],
+        "ner": [
+            "pasta",
+            "garlic",
+            "handful capers",
+            "black olives",
+            "anchovy",
+            "red chiles",
+            "tomatoes",
+            "oregano",
+            "extra virgin olive oil",
+            "fresh basil",
+            "salt"
+        ],
+        "source": "RecipeNLG"
+    }
+]

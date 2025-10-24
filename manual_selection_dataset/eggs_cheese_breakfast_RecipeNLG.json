@@ -1,0 +1,500 @@
+[
+    {
+        "id": "recnlg_282",
+        "title": "Morning Breakfast Panini",
+        "ingredients": [
+            "2 slices white bread or 2 slices brioche bread, 1/2-inch thick",
+            "unsalted butter (melted for brushing)",
+            "3 tablespoons cheddar cheese, grated",
+            "2 slices cooked bacon, fried until crispy",
+            "1 egg, fried",
+            "salt & freshly ground black pepper, to taste",
+            "14 cup arugula"
+        ],
+        "directions": [
+            "preheat an electric panini maker on high heat according to the manufacturer's instructions.",
+            "place the bread slices on a cutting board.",
+            "brush one side of each slice with melted butter.",
+            "turn one slice over and sprinkle with the cheese.",
+            "top with the bacon and fried egg, and season with salt and pepper.",
+            "top with the arugula and the other bread slice, buttered side up.",
+            "place the sandwich on the preheated panini maker and cook according to the manufacturers instructions until the bread is golden and the cheese is melted, 3 to 5 minutes.",
+            "transfer the sandwich to a cutting board and cut in half.",
+            "serve immediately.",
+            "serves 1."
+        ],
+        "ner": [
+            "white bread",
+            "unsalted butter",
+            "cheddar cheese",
+            "bacon",
+            "egg",
+            "salt",
+            "arugula"
+        ],
+        "source": "RecipeNLG"
+    },
+    {
+        "id": "recnlg_1230",
+        "title": "Breakfast in a Cup",
+        "ingredients": [
+            "6 slices bread",
+            "6 eggs",
+            "6 slices cheese",
+            "6 slices ham",
+            "margarine or butter",
+            "black pepper"
+        ],
+        "directions": [
+            "preheat oven to 350 degrees.",
+            "use a rolling pin to flatten 6 slices of bread.",
+            "trim the crusts from the bread and butter them on both sides.",
+            "if you're making 6 in a 12 cup pan, space them out to ensure they cook evenly.",
+            "use your fingers to mold each bread slice to your pan.",
+            "make sure the bread is tightly packed in to each cup.",
+            "place your bread cups in a 350 degree oven for approximately 10 minutes or until the bread is slightly toasted.",
+            "in to each toasted cup, place 1 slice of ham and one slice of cheese.",
+            "crack an egg into each cup and sprinkle black pepper on top.",
+            "place the breakfast cups back in your 350 degree oven for approximately 25 minutes or until the eggs are set.",
+            "gently remove each cup from the muffin tin and serve."
+        ],
+        "ner": [
+            "bread",
+            "eggs",
+            "cheese",
+            "ham",
+            "margarine",
+            "black pepper"
+        ],
+        "source": "RecipeNLG"
+    },
+    {
+        "id": "recnlg_1248",
+        "title": "Mexican Brunch Breakfast",
+        "ingredients": [
+            "2 cans mild chili peppers",
+            "2 chopped tomatoes",
+            "1 lb. ground beef or sausage, browned",
+            "2 c. cheddar cheese",
+            "1 c. bisquick",
+            "1 c. milk",
+            "3 eggs",
+            "1 1/2 tsp. salt"
+        ],
+        "directions": [
+            "preheat oven to 375\u00b0.",
+            "grease baking dish.",
+            "arrange chilies on bottom of pan.",
+            "sprinkle tomatoes and cheese over it.",
+            "put meat on top of cheese.",
+            "mix remaining ingredients and pour over top.",
+            "bake until knife comes out clean."
+        ],
+        "ner": [
+            "chili peppers",
+            "tomatoes",
+            "ground beef",
+            "cheddar cheese",
+            "bisquick",
+            "milk",
+            "eggs",
+            "salt"
+        ],
+        "source": "RecipeNLG"
+    },
+    {
+        "id": "recnlg_1519",
+        "title": "Quick Breakfast Cheesecake",
+        "ingredients": [
+            "1 pkg. hungry jack biscuits (cinnamon if you can find them)",
+            "1 (8 oz.) cream cheese, softened",
+            "1 egg",
+            "1 tbsp. flour",
+            "1/2 c. sugar",
+            "1 tbsp. cinnamon",
+            "2 tbsp. sugar",
+            "1 tsp. nutmeg"
+        ],
+        "directions": [
+            "put biscuits into ungreased pie plate. mix remaining ingredients, except sugar, cinnamon and nutmeg until smooth and pour over biscuits. sprinkle sugar, cinnamon and nutmeg over top. bake at 350\u00b0 for 25 minutes."
+        ],
+        "ner": [
+            "cinnamon",
+            "cream cheese",
+            "egg",
+            "flour",
+            "sugar",
+            "cinnamon",
+            "sugar",
+            "nutmeg"
+        ],
+        "source": "RecipeNLG"
+    },
+    {
+        "id": "recnlg_1551",
+        "title": "Breakfast Bake",
+        "ingredients": [
+            "1 lb. bulk sausage",
+            "2 slices bread, cubed",
+            "1 c. (4 oz.) shredded cheddar cheese",
+            "6 eggs",
+            "2 c. milk",
+            "1/2 tsp. salt",
+            "1/2 tsp. dry mustard"
+        ],
+        "directions": [
+            "crumble sausage in medium-sized heavy skillet and cook over medium heat until brown, stirring occasionally.",
+            "drain well. spread bread cubes in a buttered 12 x8 x 2-inch baking dish and top with sausage and cheese.",
+            "combine eggs, milk and seasonings. beat well and pour over cheese.",
+            "cover and refrigerate overnight. bake at 350\u00b0 for 30 to 40 minutes or until set.",
+            "serves 6 to 8."
+        ],
+        "ner": [
+            "bulk sausage",
+            "bread",
+            "cheddar cheese",
+            "eggs",
+            "milk",
+            "salt",
+            "dry mustard"
+        ],
+        "source": "RecipeNLG"
+    },
+    {
+        "id": "recnlg_1730",
+        "title": "Dad'S Breakfast Egg Muffins",
+        "ingredients": [
+            "7 large eggs",
+            "3 sausage patties (chopped) or 6 slices bacon (chopped)",
+            "1/2 cup cheddar cheese (shredded)",
+            "1 small onion (chopped)",
+            "1/4 cup bell pepper (chopped)",
+            "1/4 cup tomatoes (chopped)",
+            "1/8 cup mushroom (chopped)",
+            "2 slices bread (1/4-inch cubed)",
+            "1/2 teaspoon salt",
+            "1/4 teaspoon pepper",
+            "1/4 teaspoon onion powder",
+            "1/4 teaspoon garlic powder"
+        ],
+        "directions": [
+            "pre heat oven to 400 degrees.",
+            "in a large bowl mix cheese, veggies, eggs and meat. mix with a hand mixer until frothy.",
+            "add spices, continue to mix.",
+            "fold in bread.",
+            "spoon mixture into greased muffin pan.",
+            "cook for 20 min and enjoy."
+        ],
+        "ner": [
+            "eggs",
+            "sausage patties",
+            "cheddar cheese",
+            "onion",
+            "bell pepper",
+            "tomatoes",
+            "mushroom",
+            "bread",
+            "salt",
+            "pepper",
+            "onion powder",
+            "garlic"
+        ],
+        "source": "RecipeNLG"
+    },
+    {
+        "id": "recnlg_1900",
+        "title": "Iris' Breakfast Dish",
+        "ingredients": [
+            "1 lb. sage sausage",
+            "6 eggs",
+            "2 c. milk",
+            "1 c. shredded cheddar cheese",
+            "6 slices bread, shredded",
+            "1/2 tsp. dry mustard",
+            "salt",
+            "pepper"
+        ],
+        "directions": [
+            "note:",
+            "bacon, ham or another meat may be substituted for sausage."
+        ],
+        "ner": [
+            "sage sausage",
+            "eggs",
+            "milk",
+            "cheddar cheese",
+            "bread",
+            "dry mustard",
+            "salt",
+            "pepper"
+        ],
+        "source": "RecipeNLG"
+    },
+    {
+        "id": "recnlg_2531",
+        "title": "Tasty Tortilla Breakfast Sandwich",
+        "ingredients": [
+            "2 (10 inch) tomato-basil tortillas or (10 inch) flour tortillas",
+            "2 eggs, cooked to scrambled (pan or microwave)",
+            "2 slices deli ham",
+            "1 small onion, chopped",
+            "1 small tomatoes, chopped",
+            "2 slices american cheese or 2 slices cheddar cheese",
+            "nonstick cooking spray"
+        ],
+        "directions": [
+            "-preheat oven to 375.",
+            "-treat sheet pan with nonstick cooking spray.",
+            "-microwave tortillas for 20 seconds each (ovens vary).",
+            "-put fillings in the middle; any order you choose.",
+            "-roll up egg roll-style.",
+            "-put seam-side down on sheet pan.",
+            "-bake for 15 minutes.",
+            "-let rest for 2 minutes.",
+            "-eat whole, or cut in half and enjoy."
+        ],
+        "ner": [
+            "tomato-basil tortillas",
+            "eggs",
+            "deli ham",
+            "onion",
+            "tomatoes",
+            "american cheese",
+            "nonstick cooking spray"
+        ],
+        "source": "RecipeNLG"
+    },
+    {
+        "id": "recnlg_2781",
+        "title": "Hearty Breakfast",
+        "ingredients": [
+            "6 slices buttered bread",
+            "6 slices american cheese",
+            "4 eggs",
+            "2 c. milk",
+            "1/2 tsp. salt",
+            "1/2 tsp. prepared mustard",
+            "1 tsp. minced onion",
+            "bacon or sausage"
+        ],
+        "directions": [
+            "place 6 slices of buttered bread in a greased 9 x 13-inch pan. lay a slice of cheese on each slice of bread.",
+            "beat together the following and pour over the bread and cheese: eggs, milk, salt, mustard and onion.",
+            "let set overnight in the refrigerator.",
+            "in the morning, fry bacon or sausage.",
+            "crumble and spread over the bread and eggs.",
+            "bake at 350\u00b0 for 30 minutes."
+        ],
+        "ner": [
+            "bread",
+            "american cheese",
+            "eggs",
+            "milk",
+            "salt",
+            "mustard",
+            "onion",
+            "bacon"
+        ],
+        "source": "RecipeNLG"
+    },
+    {
+        "id": "recnlg_2785",
+        "title": "Mexican Breakfast Casserole",
+        "ingredients": [
+            "9 eggs beaten",
+            "1 onion small, chopped",
+            "1 cup shredded cheddar cheese or monterey ja",
+            "1 cup buttermilk",
+            "1 cup diced ham or bulk sausage, browned and drained",
+            "5 corn tortillas cut into quarters",
+            "jalapeno peppers optional"
+        ],
+        "directions": [
+            "preheat oven to 350 degrees. in a 12x8 inch greased baking dish, line the bottom with tortillas. in a bowl, add the beaten eggs and buttermilk and beat again. add cheese, ham (or sausage), and onion and mix thoroughly.",
+            "pour mixture over tortillas. bake 35-40 minutes, until firm. cut into serving squares. garnish with jalapeno peppers. this casserole is delicious and easy - serve with plenty of picante sauce, refried beans with cheese and hot flour tortillas."
+        ],
+        "ner": [
+            "eggs",
+            "onion",
+            "cheddar cheese",
+            "buttermilk",
+            "ham",
+            "corn tortillas",
+            "peppers"
+        ],
+        "source": "RecipeNLG"
+    },
+    {
+        "id": "recnlg_2991",
+        "title": "Breakfast Pizza",
+        "ingredients": [
+            "1 lb. pork sausage",
+            "1 (8 oz.) can crescent dinner rolls",
+            "1 c. (4 oz.) sharp cheddar cheese, shredded",
+            "1 c. (4 oz.) mozzarella cheese",
+            "6 eggs, beaten",
+            "3/4 tsp. oregano (dried whole)",
+            "1/8 tsp. black pepper",
+            "1/2 c. milk",
+            "bell pepper (optional garnish)",
+            "red pepper (optional garnish)"
+        ],
+        "directions": [
+            "brown the sausage.",
+            "separate dinner rolls into 8 triangles. place in 12-inch pizza pan with elongated ends to center.",
+            "close in the perforated sides and press dough up the sides of pan.",
+            "bake at 375\u00b0 for 5 minutes.",
+            "remove (will be puffy).",
+            "spoon sausage onto crust.",
+            "sprinkle cheeses."
+        ],
+        "ner": [
+            "pork sausage",
+            "crescent dinner rolls",
+            "cheddar cheese",
+            "mozzarella cheese",
+            "eggs",
+            "oregano",
+            "black pepper",
+            "milk",
+            "bell pepper",
+            "red pepper"
+        ],
+        "source": "RecipeNLG"
+    },
+    {
+        "id": "recnlg_3573",
+        "title": "Tomato Breakfast Toasts",
+        "ingredients": [
+            "2 large ripe tomatoes",
+            "4 eggs",
+            "1/2 cup low-fat milk",
+            "1 teaspoon dijon mustard",
+            "1/2 teaspoon salt",
+            "1/2 teaspoon minced thyme leaves",
+            "1/4 teaspoon black pepper",
+            "1/4 teaspoon dry mustard",
+            "8 slices sourdough bread (about 1/2 in. thick)",
+            "2 teaspoons olive oil",
+            "8 slices gruyere or white cheddar cheese"
+        ],
+        "directions": [
+            "cut tomatoes into 1/8- to 1/4-in.-thick slices and lay on paper towels (to soak up some of their juices). set aside.",
+            "in a medium bowl, whisk together eggs, milk, dijon mustard, salt, thyme, pepper, and dry mustard. soak each bread slice in egg mixture for about 30 seconds.",
+            "heat oil in a large pan over medium-high heat. working in batches of 4 slices, cook bread until browned on one side, 1 minute. turn bread over and top with 1 slice tomato and 1 slice cheese. reduce heat to low, cover pan, and cook until cheese melts, about 2 minutes. serve hot.",
+            "note: nutritional analysis is per slice."
+        ],
+        "ner": [
+            "tomatoes",
+            "eggs",
+            "low-fat milk",
+            "mustard",
+            "salt",
+            "thyme",
+            "black pepper",
+            "dry mustard",
+            "bread",
+            "olive oil",
+            "gruy\u00e8re"
+        ],
+        "source": "RecipeNLG"
+    },
+    {
+        "id": "recnlg_3967",
+        "title": "Breakfast Casserole",
+        "ingredients": [
+            "2 c. milk",
+            "6 eggs",
+            "6 slices bread (whole wheat or white), cubed",
+            "1 c. cheddar cheese, shredded",
+            "1 tsp. salt",
+            "1 tsp. dry mustard",
+            "1 lb. sausage links, cooked and sliced or cooked ham or bacon",
+            "onions (optional)",
+            "mushrooms (optional)",
+            "green pepper (optional)"
+        ],
+        "directions": [
+            "beat eggs slightly; add all other ingredients and refrigerate overnight.",
+            "bake in an 8 x 10-inch lightly greased pan for 45 minutes at 350\u00b0 until firm.",
+            "great for a crowd."
+        ],
+        "ner": [
+            "milk",
+            "eggs",
+            "bread",
+            "cheddar cheese",
+            "salt",
+            "dry mustard",
+            "sausage links",
+            "onions",
+            "mushrooms",
+            "green pepper"
+        ],
+        "source": "RecipeNLG"
+    },
+    {
+        "id": "recnlg_4735",
+        "title": "Breakfast Casserole",
+        "ingredients": [
+            "1 pkg. crescent rolls",
+            "1 lb. sausage",
+            "6 eggs",
+            "milk",
+            "1/2 c. shredded cheddar cheese",
+            "1/2 c. shredded mozzarella cheese"
+        ],
+        "directions": [
+            "press crescent rolls in bottom of 13 x 9-inch pan, creasing all seams.",
+            "brown sausage and drain.",
+            "place on top of crescent rolls. in separate bowl, whip eggs, adding milk as if you were scrambling the eggs.",
+            "pour over top of sausage.",
+            "top with cheeses.",
+            "bake at 375\u00b0 for 20 to 25 minutes."
+        ],
+        "ner": [
+            "crescent rolls",
+            "sausage",
+            "eggs",
+            "milk",
+            "cheddar cheese",
+            "mozzarella cheese"
+        ],
+        "source": "RecipeNLG"
+    },
+    {
+        "id": "recnlg_4925",
+        "title": "Breakfast Casserole",
+        "ingredients": [
+            "6 slices bread",
+            "1 lb. bulk sausage",
+            "1 c. grated cheddar cheese",
+            "8 eggs",
+            "2 c. milk",
+            "1 tsp. dry mustard",
+            "1 tsp. salt",
+            "dash of pepper"
+        ],
+        "directions": [
+            "tear up bread slices, crusts removed and place in greased baking dish (13 x 9 x 2-inches).",
+            "brown and drain sausage (drain off fat).",
+            "spoon sausage over bread. sprinkle with cheese.",
+            "beat together eggs, milk and seasonings.",
+            "pour over mixture in baking dish.",
+            "cover and refrigerate overnight.",
+            "bake at 350\u00b0 for 35 to 40 minutes.",
+            "serves 6 to 8."
+        ],
+        "ner": [
+            "bread",
+            "bulk sausage",
+            "cheddar cheese",
+            "eggs",
+            "milk",
+            "dry mustard",
+            "salt",
+            "pepper"
+        ],
+        "source": "RecipeNLG"
+    }
+]

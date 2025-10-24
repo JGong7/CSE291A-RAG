@@ -162,76 +162,95 @@
   },
   {
     "query_id": 2,
-    "query": "I am lactose intolerance, give me a vegetarian pasta dish with tomato sauce.",
+    "query": "I am lactose intolerance, give me a pasta dish",
     "results": [
       {
         "rank": 1,
-        "score": 0.5546693801879883,
+        "score": 0.5353754162788391,
         "recipe": {
-          "id": "recnlg_3184",
-          "title": "Pasta With Sausage And Creamy Tomato Sauce",
+          "id": "recnlg_1913",
+          "title": "Chicken Parmesan Casserole",
           "ingredients": [
-            "italian sausage",
-            "2 tbsp. butter",
-            "1 small onion, finely chopped",
-            "1 clove garlic, crushed",
-            "2 medium-size ripe tomatoes, peeled, seeded and chopped",
-            "1/2 c. canned tomato sauce",
-            "1/2 c. dry white wine",
-            "1/4 c. fresh or frozen peas",
-            "1/2 c. whipping cream",
-            "1/2 lb. (about 2 1/2 c.) rigatoni or mostaccioli, cooked",
-            "grated parmesan cheese"
+            "2 whole boneless chicken breasts",
+            "16 oz. jar spaghetti sauce",
+            "8 oz. bag grated mozzarella cheese",
+            "8 oz. bag grated cooper sharp cheese",
+            "8 oz. jar of la pecorina cheese",
+            "1 lb. elbow macaroni"
           ],
           "directions": [
-            "remove casings from sausage. crumble meat. melt butter in deep, heavy frying pan. add sausage and onion and cook slowly until meat is lightly browned. stir in garlic, tomatoes, tomato sauce and wine. increase heat to medium and boil. cover. reduce heat and simmer for 15 minutes. mix in peas and cream and cook until thickened. spoon over cooked pasta. mix lightly. top with grated parmesan cheese."
+            "preheat oven to 350°.",
+            "boil chicken until done.",
+            "cube chicken into bite size pieces.",
+            "in another pot, heat up spaghetti sauce and add chicken pieces.",
+            "simmer together for 15 minutes.",
+            "cook elbow macaroni until done.",
+            "mix cheeses together in a bowl.",
+            "stir 1/2 of the cheese into chicken/sauce mixture.",
+            "sprinkle remaining cheese mixture on the top.",
+            "bake in oven for 15 minutes or until done (cheese will become brown and crispy).",
+            "remove from oven and let stand for 5 to 10 minutes."
           ],
           "ner": [
-            "italian sausage",
-            "butter",
-            "onion",
-            "clove garlic",
-            "tomatoes",
-            "tomato sauce",
-            "white wine",
-            "whipping cream",
-            "rigatoni",
-            "parmesan cheese"
+            "chicken breasts",
+            "spaghetti sauce",
+            "mozzarella cheese",
+            "cheese",
+            "pecorina cheese",
+            "elbow macaroni"
           ],
           "source": "RecipeNLG"
         },
         "valid": 0,
-        "reason": "Recipe contains diary and non vegetarian products."
+        "reason": "Recipe contains diary products."
       },
       {
         "rank": 2,
-        "score": 0.5504376888275146,
+        "score": 0.5310772657394409,
         "recipe": {
-          "id": "recnlg_1746",
-          "title": "Pasta With Marinara Sauce And Ricotta",
+          "id": "recnlg_222",
+          "title": "Ww Chicken and Pasta",
           "ingredients": [
-            "2 cloves garlic, minced",
-            "1 tsp. olive oil",
-            "1 c. canned tomatoes, chopped",
-            "1 tsp. each: dried basil and oregano",
-            "1 c. cooked pasta",
-            "1/2 c. part-skim ricotta cheese"
+            "34 lb whole wheat pasta (i used fusilli)",
+            "3 (1/4 lb) boneless skinless chicken breast",
+            "34 teaspoon salt",
+            "14 teaspoon pepper",
+            "1 12 cups nonfat milk (or use 1 cup fat free half and half and 1/2 cup skim milk)",
+            "2 tablespoons flour",
+            "18 teaspoon nutmeg",
+            "2 tablespoons butter",
+            "2 garlic cloves, minced",
+            "14 cup swiss cheese, grated (see note in description)",
+            "2 tablespoons parsley, chopped",
+            "pecorino romano cheese, shaved (garnish) (optional)"
           ],
           "directions": [
-            "saute garlic in oil.",
-            "add tomatoes and seasonings.",
-            "simmer for 10 to 15 minutes.",
-            "pour over pasta.",
-            "stir in ricotta cheese.",
-            "you may substitute 1/2 cup shredded mozzarella for the ricotta cheese."
+            "cook pasta according to package dirctions, drain.",
+            "while pasta is cooking sprinkle chicken with 1/4 teaspoon salt and 1/8 teaspoon pepper.",
+            "spray a skillet or ridged grill pan with pam or other cooking spray and set pan over medium high heat.",
+            "add chicken to pan and cook until cooked through (5-10 minutes per side).",
+            "transfer chicken to a cutting board and let cool for 5 minutes.",
+            "cut chicken into 1/2 inch cubes and set aside.",
+            "in a bowl whisk together milk (or half and half and milk), flour, nutmeg and the remaining salt and pepper.",
+            "melt butter in a skillet (i used the same one i cooked the chicken in) over medium high heat.",
+            "add garlic, cook stirring for one minute.",
+            "whisk in milk mixture and cook whisking constanly until mixture bubbles and is thickened 2-5 minutes.",
+            "stir in cooked pasta, chicken, grated cheese and parsley until heated through (1-3 minutes).",
+            "serve with shaved cheese (if using)."
           ],
           "ner": [
+            "whole wheat pasta",
+            "chicken breast",
+            "salt",
+            "pepper",
+            "nonfat milk",
+            "flour",
+            "nutmeg",
+            "butter",
             "garlic",
-            "olive oil",
-            "tomatoes",
-            "basil",
-            "pasta",
-            "ricotta cheese"
+            "swiss cheese",
+            "parsley",
+            "pecorino romano cheese"
           ],
           "source": "RecipeNLG"
         },
@@ -240,7 +259,7 @@
       },
       {
         "rank": 3,
-        "score": 0.5411361455917358,
+        "score": 0.5188161730766296,
         "recipe": {
           "id": "recnlg_4273",
           "title": "Dairy Meat Casserole",
@@ -284,90 +303,82 @@
           "source": "RecipeNLG"
         },
         "valid": 0,
-        "reason": "Recipe contains diary and non vegetarian products."
+        "reason": "Recipe contains diary products."
       },
       {
         "rank": 4,
-        "score": 0.5398952960968018,
+        "score": 0.5151048898696899,
         "recipe": {
-          "id": "recnlg_27",
-          "title": "Pasta with Anchovies and Tomatoes",
+          "id": "recnlg_4291",
+          "title": "15 Minute Pasta Combo",
           "ingredients": [
-            "1 pound bowtie-shaped pasta (farfalle)",
-            "3/4 cup finely chopped onion",
-            "1 garlic clove, minced",
-            "2 tablespoons olive oil",
-            "a 2-ounce can flat anchovy fillets, drained and minced",
-            "a 28- to 32-ounce can tomatoes, drained, reserving juice, and chopped",
-            "1 tablespoon balsamic vinegar",
-            "1/2 teaspoon dried hot red pepper flakes",
-            "2 tablespoons drained capers, chopped",
-            "2 ounces thinly sliced prosciutto, chopped (about 1/2 cup)",
-            "1/4 cup finely chopped fresh basil or parsley leaves (wash and dry before chopping), or to taste",
-            "accompaniment: freshly grated parmesan"
+            "8 ounces uncooked spaghetti, broken in half",
+            "1/2 cup italian salad dressing",
+            "2 large fresh tomatoes, seeded and chopped",
+            "2 cups smoked turkey breast, cubed",
+            "1 cup grated parmesan cheese"
           ],
           "directions": [
-            "in a 6-quart kettle bring 5 quarts salted water to a boil for pasta.",
-            "in a large skillet cook onion and garlic in oil over moderately low heat, stirring, until onion is softened.",
-            "add anchovies and cook, stirring, 1 minute.",
-            "add tomatoes with reserved juice, vinegar, and red pepper flakes and cook, stirring occasionally, until slightly thickened.",
-            "add capers, prosciutto, basil or parsley, and salt and pepper to taste and keep warm.",
-            "cook pasta in boiling water until al dente and drain in a colander.",
-            "in a large bowl toss pasta with sauce and serve with parmesan."
+            "cook spaghetti until tender; drain.",
+            "in same pan, heat the italian salad dressing over medium heat. add cooked pasta; toss to coat well. add tomatoes, turkey and parmesan cheese; toss lightly and serve.",
+            "note: i have substituted leftover chicken or ham for the turkey, but the smoked turkey is my family's favorite."
           ],
           "ner": [
-            "pasta",
-            "onion",
-            "garlic",
-            "olive oil",
-            "flat anchovy",
+            "italian salad dressing",
             "tomatoes",
-            "balsamic vinegar",
-            "capers",
-            "fresh basil",
-            "accompaniment"
+            "turkey",
+            "parmesan cheese"
           ],
           "source": "RecipeNLG"
         },
         "valid": 0,
-        "reason": "Recipe contains diary and non vegetarian products."
+        "reason": "Recipe contains diary products."
       },
       {
         "rank": 5,
-        "score": 0.5342745184898376,
+        "score": 0.5122100114822388,
         "recipe": {
-          "id": "recnlg_2804",
-          "title": "Summer Pasta",
+          "id": "recnlg_354",
+          "title": "Tuna Pasta Bake",
           "ingredients": [
-            "1 pt. cherry tomatoes, cut in half",
-            "3/4 c. olive oil (preferably extra virgin)",
-            "1/2 c. parmesan cheese, freshly grated",
-            "10 oz. mozzarella cheese, cubed",
-            "1/2 c. romano cheese, freshly grated",
-            "2 to 3 cloves garlic, chopped",
-            "handful of fresh basil, minced",
-            "1 lb. bow tie pasta or farfalle",
-            "salt to taste"
+            "6 strips lasagna",
+            "1/2 c. chopped onion",
+            "1 tbsp. vegetable oil",
+            "1/4 c. flour",
+            "2 c. chopped fresh or frozen vegetables",
+            "1 c. milk",
+            "1/3 c. lemon juice",
+            "1 1/2 c. shredded mozzarella cheese",
+            "1 c. cottage cheese",
+            "1/4 c. grated parmesan cheese",
+            "1 egg",
+            "1/4 tsp. pepper",
+            "1 can tuna, drained"
           ],
           "directions": [
-            "saute garlic in olive oil over low heat, but don't let it brown.",
-            "add tomatoes.",
-            "cook, stirring frequently.",
-            "meanwhile, cook pasta al dente; drain.",
-            "mix pasta, tomato mixture, romano cheese, parmesan cheese and mozzarella cheese, mixing well.",
-            "add basil and serve immediately.",
-            "serves 4 to 6."
+            "place lasagna in 12 x 7-inch glass baking dish.",
+            "cover with water and set aside.",
+            "combine onion, oil and flour.",
+            "cook on high 1 minute.",
+            "stir to dissolve flour.",
+            "stir in vegetables and milk. cook on high 4 minutes, stirring once.",
+            "stir in lemon juice. combine 1 cup mozzarella, cottage cheese, parmesan, egg and pepper.",
+            "drain lasagna."
           ],
           "ner": [
-            "cherry tomatoes",
-            "olive oil",
-            "parmesan cheese",
+            "lasagna",
+            "onion",
+            "vegetable oil",
+            "flour",
+            "vegetables",
+            "milk",
+            "lemon juice",
             "mozzarella cheese",
-            "romano cheese",
-            "garlic",
-            "handful of fresh basil",
-            "pasta",
-            "salt"
+            "cottage cheese",
+            "parmesan cheese",
+            "egg",
+            "pepper",
+            "tuna"
           ],
           "source": "RecipeNLG"
         },
