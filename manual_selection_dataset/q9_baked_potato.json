@@ -1,0 +1,31 @@
+[
+    {
+        "id": "recnlg_1122",
+        "title": "Baked Potato Skins",
+        "ingredients": [
+            "baking potatoes, baked",
+            "grated cheddar cheese",
+            "diced, cooked bacon",
+            "salt and pepper",
+            "dash of paprika",
+            "sour cream (optional)"
+        ],
+        "directions": [
+            "slice baked potatoes in half lengthwise.",
+            "scoop out about 3/4 of flesh and set aside for other recipes.",
+            "set skins on cookie sheet and place in oven about 4 inches away from top element. broil 8 minutes.",
+            "remove skins from oven and sprinkle with cheese. season well and add bacon and paprika.",
+            "broil another 4 to 5 minutes.",
+            "serve hot with sour cream, if desired."
+        ],
+        "ner": [
+            "baking potatoes",
+            "cheddar cheese",
+            "bacon",
+            "salt",
+            "paprika",
+            "sour cream"
+        ],
+        "source": "RecipeNLG"
+    }
+]

@@ -30,7 +30,7 @@ METRIC_DEFINITIONS = {
 }
 
 # ======== CONFIG ========
-JSON_PATH = "retrieval_results/faiss_fusion_results.json"
+JSON_PATH = "retrieval_results/manual_faiss_fusion_results.json"
 KS = (1, 3, 5)  # fixed cutoffs since you always retrieve 5
 # ========================
 
