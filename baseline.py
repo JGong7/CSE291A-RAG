@@ -1,6 +1,8 @@
 import json
 import faiss
 import numpy as np
+import torch
+import random
 from tqdm import tqdm
 from sentence_transformers import SentenceTransformer
 
@@ -12,6 +14,15 @@ OUTPUT_PATH = "retrieval_results/faiss_fusion_results.json"
 
 EMBED_MODEL = "sentence-transformers/all-MiniLM-L6-v2"
 TOP_K = 5
+SEED = 42
+
+# ======== Reproducibility ========
+np.random.seed(SEED)
+random.seed(SEED)
+torch.manual_seed(SEED)
+if torch.cuda.is_available():
+    torch.cuda.manual_seed_all(SEED)
+torch.backends.cudnn.deterministic = True
 
 # ======== Step 1: Load data ========
 print("Loading datasets...")

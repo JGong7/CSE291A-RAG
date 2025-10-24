@@ -27,7 +27,9 @@
             "milk"
           ],
           "source": "RecipeNLG"
-        }
+        },
+        "valid": 1,
+        "reason": "Recipe requires only two eggs, and include eggs and cheese as ingredient."
       },
       {
         "rank": 2,
@@ -65,7 +67,9 @@
             "black pepper"
           ],
           "source": "RecipeNLG"
-        }
+        },
+        "valid": 0,
+        "reason": "Recipe requires more than 2 eggs."
       },
       {
         "rank": 3,
@@ -81,7 +85,9 @@
           ],
           "instructions": "Scramble eggs with milk or cream and some salt and pepper.\nCook in a nonstick skillet over medium heat, stirring to lift the cooked eggs from the bottom of the pan as they cook.\nWhen the eggs are just about cooked, toss in jack cheese and cook for about 1-2 minutes more just to melt the cheese.\nServe as is, over toast, or in a tortilla.",
           "source": "Spoonacular"
-        }
+        },
+        "valid": 0,
+        "reason": "Recipe requires more than 2 eggs."
       },
       {
         "rank": 4,
@@ -108,7 +114,9 @@
             "eggs"
           ],
           "source": "RecipeNLG"
-        }
+        },
+        "valid": 0,
+        "reason": "Recipe doesn't include cheese."
       },
       {
         "rank": 5,
@@ -146,106 +154,93 @@
             "green pepper"
           ],
           "source": "RecipeNLG"
-        }
+        },
+        "valid": 0,
+        "reason": "Recipe requires more than 2 eggs."
       }
     ]
   },
   {
     "query_id": 2,
-    "query": "I am lactose intolerance, give me a pasta dish",
+    "query": "I am lactose intolerance, give me a vegetarian pasta dish with tomato sauce.",
     "results": [
       {
         "rank": 1,
-        "score": 0.5353754162788391,
+        "score": 0.5546693801879883,
         "recipe": {
-          "id": "recnlg_1913",
-          "title": "Chicken Parmesan Casserole",
+          "id": "recnlg_3184",
+          "title": "Pasta With Sausage And Creamy Tomato Sauce",
           "ingredients": [
-            "2 whole boneless chicken breasts",
-            "16 oz. jar spaghetti sauce",
-            "8 oz. bag grated mozzarella cheese",
-            "8 oz. bag grated cooper sharp cheese",
-            "8 oz. jar of la pecorina cheese",
-            "1 lb. elbow macaroni"
+            "italian sausage",
+            "2 tbsp. butter",
+            "1 small onion, finely chopped",
+            "1 clove garlic, crushed",
+            "2 medium-size ripe tomatoes, peeled, seeded and chopped",
+            "1/2 c. canned tomato sauce",
+            "1/2 c. dry white wine",
+            "1/4 c. fresh or frozen peas",
+            "1/2 c. whipping cream",
+            "1/2 lb. (about 2 1/2 c.) rigatoni or mostaccioli, cooked",
+            "grated parmesan cheese"
           ],
           "directions": [
-            "preheat oven to 350°.",
-            "boil chicken until done.",
-            "cube chicken into bite size pieces.",
-            "in another pot, heat up spaghetti sauce and add chicken pieces.",
-            "simmer together for 15 minutes.",
-            "cook elbow macaroni until done.",
-            "mix cheeses together in a bowl.",
-            "stir 1/2 of the cheese into chicken/sauce mixture.",
-            "sprinkle remaining cheese mixture on the top.",
-            "bake in oven for 15 minutes or until done (cheese will become brown and crispy).",
-            "remove from oven and let stand for 5 to 10 minutes."
+            "remove casings from sausage. crumble meat. melt butter in deep, heavy frying pan. add sausage and onion and cook slowly until meat is lightly browned. stir in garlic, tomatoes, tomato sauce and wine. increase heat to medium and boil. cover. reduce heat and simmer for 15 minutes. mix in peas and cream and cook until thickened. spoon over cooked pasta. mix lightly. top with grated parmesan cheese."
           ],
           "ner": [
-            "chicken breasts",
-            "spaghetti sauce",
-            "mozzarella cheese",
-            "cheese",
-            "pecorina cheese",
-            "elbow macaroni"
+            "italian sausage",
+            "butter",
+            "onion",
+            "clove garlic",
+            "tomatoes",
+            "tomato sauce",
+            "white wine",
+            "whipping cream",
+            "rigatoni",
+            "parmesan cheese"
           ],
           "source": "RecipeNLG"
-        }
+        },
+        "valid": 0,
+        "reason": "Recipe contains diary and non vegetarian products."
       },
       {
         "rank": 2,
-        "score": 0.5310772657394409,
+        "score": 0.5504376888275146,
         "recipe": {
-          "id": "recnlg_222",
-          "title": "Ww Chicken and Pasta",
+          "id": "recnlg_1746",
+          "title": "Pasta With Marinara Sauce And Ricotta",
           "ingredients": [
-            "34 lb whole wheat pasta (i used fusilli)",
-            "3 (1/4 lb) boneless skinless chicken breast",
-            "34 teaspoon salt",
-            "14 teaspoon pepper",
-            "1 12 cups nonfat milk (or use 1 cup fat free half and half and 1/2 cup skim milk)",
-            "2 tablespoons flour",
-            "18 teaspoon nutmeg",
-            "2 tablespoons butter",
-            "2 garlic cloves, minced",
-            "14 cup swiss cheese, grated (see note in description)",
-            "2 tablespoons parsley, chopped",
-            "pecorino romano cheese, shaved (garnish) (optional)"
+            "2 cloves garlic, minced",
+            "1 tsp. olive oil",
+            "1 c. canned tomatoes, chopped",
+            "1 tsp. each: dried basil and oregano",
+            "1 c. cooked pasta",
+            "1/2 c. part-skim ricotta cheese"
           ],
           "directions": [
-            "cook pasta according to package dirctions, drain.",
-            "while pasta is cooking sprinkle chicken with 1/4 teaspoon salt and 1/8 teaspoon pepper.",
-            "spray a skillet or ridged grill pan with pam or other cooking spray and set pan over medium high heat.",
-            "add chicken to pan and cook until cooked through (5-10 minutes per side).",
-            "transfer chicken to a cutting board and let cool for 5 minutes.",
-            "cut chicken into 1/2 inch cubes and set aside.",
-            "in a bowl whisk together milk (or half and half and milk), flour, nutmeg and the remaining salt and pepper.",
-            "melt butter in a skillet (i used the same one i cooked the chicken in) over medium high heat.",
-            "add garlic, cook stirring for one minute.",
-            "whisk in milk mixture and cook whisking constanly until mixture bubbles and is thickened 2-5 minutes.",
-            "stir in cooked pasta, chicken, grated cheese and parsley until heated through (1-3 minutes).",
-            "serve with shaved cheese (if using)."
+            "saute garlic in oil.",
+            "add tomatoes and seasonings.",
+            "simmer for 10 to 15 minutes.",
+            "pour over pasta.",
+            "stir in ricotta cheese.",
+            "you may substitute 1/2 cup shredded mozzarella for the ricotta cheese."
           ],
           "ner": [
-            "whole wheat pasta",
-            "chicken breast",
-            "salt",
-            "pepper",
-            "nonfat milk",
-            "flour",
-            "nutmeg",
-            "butter",
             "garlic",
-            "swiss cheese",
-            "parsley",
-            "pecorino romano cheese"
+            "olive oil",
+            "tomatoes",
+            "basil",
+            "pasta",
+            "ricotta cheese"
           ],
           "source": "RecipeNLG"
-        }
+        },
+        "valid": 0,
+        "reason": "Recipe contains diary products."
       },
       {
         "rank": 3,
-        "score": 0.5188161730766296,
+        "score": 0.5411361455917358,
         "recipe": {
           "id": "recnlg_4273",
           "title": "Dairy Meat Casserole",
@@ -287,83 +282,97 @@
             "olives"
           ],
           "source": "RecipeNLG"
-        }
+        },
+        "valid": 0,
+        "reason": "Recipe contains diary and non vegetarian products."
       },
       {
         "rank": 4,
-        "score": 0.5151048898696899,
+        "score": 0.5398952960968018,
         "recipe": {
-          "id": "recnlg_4291",
-          "title": "15 Minute Pasta Combo",
+          "id": "recnlg_27",
+          "title": "Pasta with Anchovies and Tomatoes",
           "ingredients": [
-            "8 ounces uncooked spaghetti, broken in half",
-            "1/2 cup italian salad dressing",
-            "2 large fresh tomatoes, seeded and chopped",
-            "2 cups smoked turkey breast, cubed",
-            "1 cup grated parmesan cheese"
+            "1 pound bowtie-shaped pasta (farfalle)",
+            "3/4 cup finely chopped onion",
+            "1 garlic clove, minced",
+            "2 tablespoons olive oil",
+            "a 2-ounce can flat anchovy fillets, drained and minced",
+            "a 28- to 32-ounce can tomatoes, drained, reserving juice, and chopped",
+            "1 tablespoon balsamic vinegar",
+            "1/2 teaspoon dried hot red pepper flakes",
+            "2 tablespoons drained capers, chopped",
+            "2 ounces thinly sliced prosciutto, chopped (about 1/2 cup)",
+            "1/4 cup finely chopped fresh basil or parsley leaves (wash and dry before chopping), or to taste",
+            "accompaniment: freshly grated parmesan"
           ],
           "directions": [
-            "cook spaghetti until tender; drain.",
-            "in same pan, heat the italian salad dressing over medium heat. add cooked pasta; toss to coat well. add tomatoes, turkey and parmesan cheese; toss lightly and serve.",
-            "note: i have substituted leftover chicken or ham for the turkey, but the smoked turkey is my family's favorite."
+            "in a 6-quart kettle bring 5 quarts salted water to a boil for pasta.",
+            "in a large skillet cook onion and garlic in oil over moderately low heat, stirring, until onion is softened.",
+            "add anchovies and cook, stirring, 1 minute.",
+            "add tomatoes with reserved juice, vinegar, and red pepper flakes and cook, stirring occasionally, until slightly thickened.",
+            "add capers, prosciutto, basil or parsley, and salt and pepper to taste and keep warm.",
+            "cook pasta in boiling water until al dente and drain in a colander.",
+            "in a large bowl toss pasta with sauce and serve with parmesan."
           ],
           "ner": [
-            "italian salad dressing",
+            "pasta",
+            "onion",
+            "garlic",
+            "olive oil",
+            "flat anchovy",
             "tomatoes",
-            "turkey",
-            "parmesan cheese"
+            "balsamic vinegar",
+            "capers",
+            "fresh basil",
+            "accompaniment"
           ],
           "source": "RecipeNLG"
-        }
+        },
+        "valid": 0,
+        "reason": "Recipe contains diary and non vegetarian products."
       },
       {
         "rank": 5,
-        "score": 0.5122100114822388,
+        "score": 0.5342745184898376,
         "recipe": {
-          "id": "recnlg_354",
-          "title": "Tuna Pasta Bake",
+          "id": "recnlg_2804",
+          "title": "Summer Pasta",
           "ingredients": [
-            "6 strips lasagna",
-            "1/2 c. chopped onion",
-            "1 tbsp. vegetable oil",
-            "1/4 c. flour",
-            "2 c. chopped fresh or frozen vegetables",
-            "1 c. milk",
-            "1/3 c. lemon juice",
-            "1 1/2 c. shredded mozzarella cheese",
-            "1 c. cottage cheese",
-            "1/4 c. grated parmesan cheese",
-            "1 egg",
-            "1/4 tsp. pepper",
-            "1 can tuna, drained"
+            "1 pt. cherry tomatoes, cut in half",
+            "3/4 c. olive oil (preferably extra virgin)",
+            "1/2 c. parmesan cheese, freshly grated",
+            "10 oz. mozzarella cheese, cubed",
+            "1/2 c. romano cheese, freshly grated",
+            "2 to 3 cloves garlic, chopped",
+            "handful of fresh basil, minced",
+            "1 lb. bow tie pasta or farfalle",
+            "salt to taste"
           ],
           "directions": [
-            "place lasagna in 12 x 7-inch glass baking dish.",
-            "cover with water and set aside.",
-            "combine onion, oil and flour.",
-            "cook on high 1 minute.",
-            "stir to dissolve flour.",
-            "stir in vegetables and milk. cook on high 4 minutes, stirring once.",
-            "stir in lemon juice. combine 1 cup mozzarella, cottage cheese, parmesan, egg and pepper.",
-            "drain lasagna."
+            "saute garlic in olive oil over low heat, but don't let it brown.",
+            "add tomatoes.",
+            "cook, stirring frequently.",
+            "meanwhile, cook pasta al dente; drain.",
+            "mix pasta, tomato mixture, romano cheese, parmesan cheese and mozzarella cheese, mixing well.",
+            "add basil and serve immediately.",
+            "serves 4 to 6."
           ],
           "ner": [
-            "lasagna",
-            "onion",
-            "vegetable oil",
-            "flour",
-            "vegetables",
-            "milk",
-            "lemon juice",
-            "mozzarella cheese",
-            "cottage cheese",
+            "cherry tomatoes",
+            "olive oil",
             "parmesan cheese",
-            "egg",
-            "pepper",
-            "tuna"
+            "mozzarella cheese",
+            "romano cheese",
+            "garlic",
+            "handful of fresh basil",
+            "pasta",
+            "salt"
           ],
           "source": "RecipeNLG"
-        }
+        },
+        "valid": 0,
+        "reason": "Recipe contains diary products."
       }
     ]
   },
@@ -396,7 +405,9 @@
             "peanuts"
           ],
           "source": "RecipeNLG"
-        }
+        },
+        "valid": 1,
+        "reason": "1. Contain main ingredient from the query[peanuts chocolate]. 2. Suitable for special occasions: Amazing Peanut Butter Cookies are a delightful dessert perfect for celebrations."
       },
       {
         "rank": 2,
@@ -432,7 +443,9 @@
             "chocolate"
           ],
           "source": "RecipeNLG"
-        }
+        },
+        "valid": 1,
+        "reason": "1. Contain main ingredient from the query[peanuts chocolate]. 2. Suitable for special occasions: Peanutty Ice Cream Pie is a decadent dessert perfect for celebrations."
       },
       {
         "rank": 3,
@@ -454,7 +467,9 @@
             "salt"
           ],
           "source": "RecipeNLG"
-        }
+        },
+        "valid": 0,
+        "reason": "1. Contain main ingredient from the query[peanuts]. 2. Missing chocolate ingredient from the query[chocolate]. 3. Not suitable for special occasions: Basic Oven Roasted Peanuts can be served as a delightful snack"
       },
       {
         "rank": 4,
@@ -482,7 +497,9 @@
             "chocolate chips"
           ],
           "source": "RecipeNLG"
-        }
+        },
+        "valid": 1,
+        "reason": "1. Contain main ingredient from the query[peanuts chocolate]. 2. Suitable for special occasions: Easy Peasy Banana Treat is a delightful dessert perfect for celebrations."
       },
       {
         "rank": 5,
@@ -535,17 +552,19 @@
             "chocolate chips"
           ],
           "source": "RecipeNLG"
-        }
+        },
+        "valid": 1,
+        "reason": "1. Contain main ingredient from the query[peanuts chocolate] ,2. Suitable for special occasions: Peanut Butter Chocolate Cake is a delightful dessert perfect for celebrations."
       }
     ]
   },
   {
     "query_id": 4,
-    "query": "Give me a spicy chicken curry with coconut milk optional.",
+    "query": "Give me a spicy chicken curry using coconut milk.",
     "results": [
       {
         "rank": 1,
-        "score": 0.5745220184326172,
+        "score": 0.5779552459716797,
         "recipe": {
           "id": "recnlg_1553",
           "title": "Curried Chicken Salad With Cashews",
@@ -576,92 +595,13 @@
             "lemon juice"
           ],
           "source": "RecipeNLG"
-        }
+        },
+        "valid": 0,
+        "reason": "1. Missing main ingredient from the query[coconut milk]. 2. Spiciness level: Need a evaluation for spiciness of curry."
       },
       {
         "rank": 2,
-        "score": 0.5634937286376953,
-        "recipe": {
-          "id": "recnlg_4487",
-          "title": "Curried Rice",
-          "ingredients": [
-            "2 c. long grain rice",
-            "4 c. chicken broth",
-            "3 green peppers, diced",
-            "1/2 c. pimento",
-            "2 tsp. curry",
-            "1/4 c. lemon juice",
-            "1/2 c. vegetable oil",
-            "1/4 c. sugar"
-          ],
-          "directions": [
-            "cook rice in broth.",
-            "cool.",
-            "add all the following ingredients. mix and toss.",
-            "chill and serve."
-          ],
-          "ner": [
-            "long grain rice",
-            "chicken broth",
-            "green peppers",
-            "pimento",
-            "curry",
-            "lemon juice",
-            "vegetable oil",
-            "sugar"
-          ],
-          "source": "RecipeNLG"
-        }
-      },
-      {
-        "rank": 3,
-        "score": 0.5559373497962952,
-        "recipe": {
-          "id": "recnlg_4195",
-          "title": "Delicious Curried Chicken Salad",
-          "ingredients": [
-            "2 1/2 lbs chicken breasts, cooked and cut into 1-inch cubes",
-            "3 -4 celery ribs, thinly sliced on diagonal",
-            "2 cups red seedless grapes",
-            "1/2 cup walnuts or 1/2 cup peanuts",
-            "1/2 cup raisins (or use both) or 1/2 cup dried cranberries (or use both)",
-            "1 large apples, peeled and chopped (optional) or 1 orange, peeled and diced (optional)",
-            "curry mayo dressing",
-            "1 cup mayonnaise",
-            "1/4 cup half-and-half cream",
-            "1/2 cup apricot preserves",
-            "1/4 cup rice wine vinegar",
-            "2 tablespoons curry powder",
-            "salt and pepper"
-          ],
-          "directions": [
-            "in a large bowl, mix together the chicken and all remaining ingredients (except the dressing ingredients); mix well to combine.",
-            "for the dressing, mix/whisk all dressing ingredients adjusting salt and pepper to taste.",
-            "gently add/mix in dressing with the chicken salad in the bowl; toss well to combine.",
-            "cover and refrigerate for a minimum of 2 or more hours before serving.",
-            "delicious!"
-          ],
-          "ner": [
-            "chicken breasts",
-            "celery",
-            "grapes",
-            "walnuts",
-            "raisins",
-            "apples",
-            "curry",
-            "mayonnaise",
-            "cream",
-            "apricot preserves",
-            "rice wine vinegar",
-            "curry powder",
-            "salt"
-          ],
-          "source": "RecipeNLG"
-        }
-      },
-      {
-        "rank": 4,
-        "score": 0.5556426048278809,
+        "score": 0.5677478909492493,
         "recipe": {
           "id": "recnlg_661",
           "title": "Easy Chicken Curry",
@@ -699,11 +639,79 @@
             "lime"
           ],
           "source": "RecipeNLG"
-        }
+        },
+        "valid": 1,
+        "reason": "1. Contain all ingredients from the query[coconut milk & chicken]. 2. Spiciness level:  Need a evaluation for spiciness of curry."
+      },
+      {
+        "rank": 3,
+        "score": 0.5616748332977295,
+        "recipe": {
+          "id": "recnlg_4487",
+          "title": "Curried Rice",
+          "ingredients": [
+            "2 c. long grain rice",
+            "4 c. chicken broth",
+            "3 green peppers, diced",
+            "1/2 c. pimento",
+            "2 tsp. curry",
+            "1/4 c. lemon juice",
+            "1/2 c. vegetable oil",
+            "1/4 c. sugar"
+          ],
+          "directions": [
+            "cook rice in broth.",
+            "cool.",
+            "add all the following ingredients. mix and toss.",
+            "chill and serve."
+          ],
+          "ner": [
+            "long grain rice",
+            "chicken broth",
+            "green peppers",
+            "pimento",
+            "curry",
+            "lemon juice",
+            "vegetable oil",
+            "sugar"
+          ],
+          "source": "RecipeNLG"
+        },
+        "valid": 0,
+        "reason": "1. Missing main ingredient from the query[chicken & coconut milk]. Chicken Broth is not considered a substitute for chicken meat. 2. Spiciness level: Need a evaluation for spiciness of curry."
+      },
+      {
+        "rank": 4,
+        "score": 0.5594871640205383,
+        "recipe": {
+          "id": 650606,
+          "title": "Madras Beef Curry",
+          "ingredients": [
+            "1 teaspoon garam masala",
+            "1/2 teaspoon ground cinnamon",
+            "2 teaspoons curry powder (mild or hot)",
+            "1/2 teaspoon freshly ground black pepper",
+            "1/2 teaspoon salt",
+            "1/4 teaspoon cayenne pepper (or more to taste)",
+            "1 tablespoon light brown sugar",
+            "2 garlic cloves, crushed",
+            "2 teaspoons grated ginger",
+            "2 tablespoons lemon juice",
+            "1/4 cup olive or vegetable oil",
+            "1 pound beef thinly sliced",
+            "14 1/2 ounces can diced tomatoes",
+            "Chopped green onions",
+            "Steamed basmati rice"
+          ],
+          "instructions": "Slice the beef thinly (as for a stir fry) and place in a medium bowl. Add all of the other ingredients, except the tomatoes, green onions and rice and combine to coat the meat well. Let sit for 10-15 minutes to flavor the meat.\nHeat a medium pan with a lid over medium heat. Add the meat and brown well, stirring occasionally. Continue to cook over medium heat until all of the meat juices have evaporated and only oil remains in the bottom of the pan with the meat.\nAdd the tomatoes, stir to combine and lower the heat to medium low. Cover and simmer, stirring occasionally, until the meat is tender and most of the moisture from the tomatoes has been absorbed by the meat, about 30 minutes. If sauce becomes too thick before the beef is tender, add  cup water and continue to simmer with the lid on.\nTaste and adjust the seasoning adding additional salt if needed. Madras curries are often spicy. Additional cayenne pepper may be added at this point if a spicier curry is desired.\nServe over steamed basmati rice with chopped green onions on top.",
+          "source": "Spoonacular"
+        },
+        "valid": 0,
+        "reason": "1. Missing main ingredient [coconut milk]. 2. Spiciness level: Need a evaluation for spiciness of curry."
       },
       {
         "rank": 5,
-        "score": 0.5403581261634827,
+        "score": 0.5590269565582275,
         "recipe": {
           "id": "recnlg_1576",
           "title": "Curried Chicken Salad W/ Grapes,Walnuts And Poppy Seed Dressing",
@@ -757,7 +765,9 @@
             "poppy seeds"
           ],
           "source": "RecipeNLG"
-        }
+        },
+        "valid": 0,
+        "reason": "1. Missing main ingredient [coconut milk]. 2. Spiciness level: Need a evaluation for spiciness of curry."
       }
     ]
   },
@@ -791,7 +801,9 @@
             "cubes"
           ],
           "source": "RecipeNLG"
-        }
+        },
+        "valid": 1,
+        "reason": "1. Contain all ingredients from the query[Banana & yogurt]. 2. Healthy ingredients[vanilla yogurt, apple juice, honey, bananas, milk, ice cubes], no sugar or other adds-on."
       },
       {
         "rank": 2,
@@ -824,7 +836,9 @@
             "frozen raspberries"
           ],
           "source": "RecipeNLG"
-        }
+        },
+        "valid": 1,
+        "reason": "1. Contain all ingredients from the query[Banana & yogurt]. 2. Healthy ingredients[low-fat plain, grape juice, honey, banana, frozen blackberrie, frozen strawberries, frozen raspberries], no sugar or other adds-on."
       },
       {
         "rank": 3,
@@ -854,7 +868,9 @@
             "water"
           ],
           "source": "RecipeNLG"
-        }
+        },
+        "valid": 0,
+        "reason": "1. Missing ingredient from the query[banana]. 2. Healthy ingredients[vanilla yogurt, almond butter, frozen blueberries, frozen pineapple, kale, water], no sugar or other adds-on."
       },
       {
         "rank": 4,
@@ -881,7 +897,9 @@
             "sugar"
           ],
           "source": "RecipeNLG"
-        }
+        },
+        "valid": 0,
+        "reason": "1. Missing ingredient from the query[yogurt]. 2. Less Healthy: contain sugar."
       },
       {
         "rank": 5,
@@ -915,7 +933,9 @@
             "pomegranate molasses"
           ],
           "source": "RecipeNLG"
-        }
+        },
+        "valid": 0,
+        "reason": "1. Missing ingredient from the query[yogurt]. 2. Less Healthy: contain agave nectar."
       }
     ]
   },
@@ -965,7 +985,9 @@
             "frozen peas"
           ],
           "source": "RecipeNLG"
-        }
+        },
+        "valid": 0,
+        "reason": "1. Non-vegetarian ingredient[ground beef or pork, beef broth]. "
       },
       {
         "rank": 2,
@@ -1013,7 +1035,9 @@
             "salt"
           ],
           "source": "RecipeNLG"
-        }
+        },
+        "valid": 0,
+        "reason": "1. Non-vegetarian ingredient[ground chuck, beef bouillon]. "
       },
       {
         "rank": 3,
@@ -1056,7 +1080,9 @@
             "salt"
           ],
           "source": "RecipeNLG"
-        }
+        },
+        "valid": 1,
+        "reason": "1. Contain all ingredients from the query[vegetarian]. 2. Soup for cold weather"
       },
       {
         "rank": 4,
@@ -1097,7 +1123,9 @@
             "salt"
           ],
           "source": "RecipeNLG"
-        }
+        },
+        "valid": 1,
+        "reason": "1. All ingredients are vegetarian. 2. Soup for cold weather"
       },
       {
         "rank": 5,
@@ -1139,7 +1167,9 @@
             "bay leaves"
           ],
           "source": "RecipeNLG"
-        }
+        },
+        "valid": 0,
+        "reason": "1. Non-vegetarian ingredient[chicken, broth from chicken, ham]. "
       }
     ]
   },
@@ -1186,8 +1216,8 @@
           ],
           "source": "RecipeNLG"
         },
-        "valid": 1,
-        "reason": "1. A bit rare, but potato-based desserts do have Irish roots"
+        "valid": 0,
+        "reason": "1. Traditional Irish cuisine doesn’t include a sweet potato pie–style dessert; potatoes in Ireland are almost always used in savory dishes."
       },
       {
         "rank": 2,
@@ -1218,7 +1248,9 @@
             "cinnamon"
           ],
           "source": "RecipeNLG"
-        }
+        },
+        "valid": 0,
+        "reason": "1. This is actually the recipe for Irish Potato Candy, a Philadelphia-origin American sweet that traditionally appears around St. Patrick’s Day, not a traditional Irish dessert. "
       },
       {
         "rank": 3,
@@ -1254,7 +1286,9 @@
             "oatmeal"
           ],
           "source": "RecipeNLG"
-        }
+        },
+        "valid": 1,
+        "reason": "1. The use of oats ties it to Irish cuisine — oats have long been a staple ingredient in Irish cooking and baking."
       },
       {
         "rank": 4,
@@ -1332,7 +1366,9 @@
             "nutmeg"
           ],
           "source": "RecipeNLG"
-        }
+        },
+        "valid": 1,
+        "reason": "1. Trifle is an authentic Irish (or Anglo-Irish) dessert with a long history in Ireland."
       },
       {
         "rank": 5,
@@ -1367,7 +1403,9 @@
             "margarine"
           ],
           "source": "RecipeNLG"
-        }
+        },
+        "valid": 0,
+        "reason": "1. It is a modern American comfort food recipe."
       }
     ]
   },
@@ -1430,7 +1468,9 @@
             "rice"
           ],
           "source": "RecipeNLG"
-        }
+        },
+        "valid": 0,
+        "reason": "1. Contains 4 tablespoons of crico oil and 2/3 cup of flour, which are high in carbohydrates."
       },
       {
         "rank": 2,
@@ -1475,7 +1515,9 @@
             "salt"
           ],
           "source": "RecipeNLG"
-        }
+        },
+        "valid": 0,
+        "reason": "1. Contains 1 lb of linguine, which is high in carbohydrates."
       },
       {
         "rank": 3,
@@ -1530,7 +1572,9 @@
             "rice"
           ],
           "source": "RecipeNLG"
-        }
+        },
+        "valid": 0,
+        "reason": "1. Contains hot cooked rice; 2. Contains 6 tablespoons of all-purpose flour, which is high in carbohydrates."
       },
       {
         "rank": 4,
@@ -1562,8 +1606,8 @@
           ],
           "source": "RecipeNLG"
         },
-        "valid": 0,
-        "reason": "1. Contains pasta, which is high in carbohydrates."
+        "valid": 1,
+        "reason": "1. Contains shrimp and garlic as requested in the query. 2. Low carbohydrate content."
       },
       {
         "rank": 5,
@@ -1592,7 +1636,9 @@
             "white wine"
           ],
           "source": "RecipeNLG"
-        }
+        },
+        "valid": 1,
+        "reason": "1. Contains shrimp and garlic as requested in the query. 2. Low carbohydrate content."
       }
     ]
   },
@@ -1647,7 +1693,9 @@
             "salt"
           ],
           "source": "RecipeNLG"
-        }
+        },
+        "valid": 0,
+        "reason": "1. Complex instructions do not meet the 'simple' criteria in the query."
       },
       {
         "rank": 2,
@@ -1679,7 +1727,9 @@
             "nonfat"
           ],
           "source": "RecipeNLG"
-        }
+        },
+        "valid": 1,
+        "reason": "1. The instructions basically meet the 'simple' criteria in the query, and the ingredients are relatively simple."
       },
       {
         "rank": 3,
@@ -1714,7 +1764,9 @@
             "fresh chives"
           ],
           "source": "RecipeNLG"
-        }
+        },
+        "valid": 1,
+        "reason": "1. The instructions basically meet the 'simple' criteria in the query, and the ingredients are relatively simple."
       },
       {
         "rank": 4,
@@ -1747,7 +1799,9 @@
             "sour cream"
           ],
           "source": "RecipeNLG"
-        }
+        },
+        "valid": 1,
+        "reason": "1. The instructions basically meet the 'simple' criteria in the query, and the ingredients are relatively simple."
       },
       {
         "rank": 5,
@@ -1801,7 +1855,9 @@
             "sour cream"
           ],
           "source": "RecipeNLG"
-        }
+        },
+        "valid": 0,
+        "reason": "1. Complex instructions do not meet the 'simple' criteria in the query."
       }
     ]
   },
@@ -1892,7 +1948,9 @@
             "basil"
           ],
           "source": "RecipeNLG"
-        }
+        },
+        "valid": 0,
+        "reason": "1. Ingredients do not include tofu. 2. Instructions are complex and may exceed 2 hours."
       },
       {
         "rank": 2,
@@ -1927,7 +1985,9 @@
             "fresh mint"
           ],
           "source": "RecipeNLG"
-        }
+        },
+        "valid": 0,
+        "reason": "1. Ingredients do not include tofu."
       },
       {
         "rank": 3,
@@ -1971,7 +2031,9 @@
             "freshly ground black pepper"
           ],
           "source": "RecipeNLG"
-        }
+        },
+        "valid": 0,
+        "reason": "1. Ingredients do not include tofu."
       },
       {
         "rank": 4,
@@ -2017,7 +2079,9 @@
             "cider vinegar"
           ],
           "source": "RecipeNLG"
-        }
+        },
+        "valid": 0,
+        "reason": "1. Ingredients do not include tofu."
       },
       {
         "rank": 5,
@@ -2072,7 +2136,9 @@
             "basil"
           ],
           "source": "RecipeNLG"
-        }
+        },
+        "valid": 0,
+        "reason": "1. Ingredients do not include tofu. 2. Instructions are complex and may exceed 2 hours."
       }
     ]
   }
