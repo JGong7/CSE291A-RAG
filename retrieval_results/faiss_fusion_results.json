@@ -369,11 +369,11 @@
   },
   {
     "query_id": 3,
-    "query": "I love peanuts, give me a chocolate dessert recipe for special occasions",
+    "query": "I love peanuts, give me a chocolate dessert recipe for special birthday occasions",
     "results": [
       {
         "rank": 1,
-        "score": 0.6648218631744385,
+        "score": 0.6454297304153442,
         "recipe": {
           "id": "recnlg_4609",
           "title": "Amazing Peanut Butter Cookies",
@@ -400,7 +400,35 @@
       },
       {
         "rank": 2,
-        "score": 0.6460933089256287,
+        "score": 0.6065946817398071,
+        "recipe": {
+          "id": "recnlg_1094",
+          "title": "Easy Peasy Banana Treat",
+          "ingredients": [
+            "1 banana",
+            "peanut butter",
+            "chocolate chips"
+          ],
+          "directions": [
+            "put oven on broil.",
+            "cut banana in half length-wise, but keep the skin on.",
+            "spread peanut butter between sides, sprinkle w/chocolate chips.",
+            "squeeze together and cover with foil.",
+            "put under broiler for 30 minutes or until banana is soft.",
+            "enjoy!",
+            "*could also be done on the grill, if you wrap in foil*."
+          ],
+          "ner": [
+            "banana",
+            "peanut butter",
+            "chocolate chips"
+          ],
+          "source": "RecipeNLG"
+        }
+      },
+      {
+        "rank": 3,
+        "score": 0.5892375707626343,
         "recipe": {
           "id": "recnlg_4378",
           "title": "Peanutty Ice Cream Pie",
@@ -435,8 +463,53 @@
         }
       },
       {
-        "rank": 3,
-        "score": 0.6367551684379578,
+        "rank": 4,
+        "score": 0.5818893909454346,
+        "recipe": {
+          "id": "recnlg_1702",
+          "title": "Chocolate Bit Cookies",
+          "ingredients": [
+            "2 c. brown sugar",
+            "1 c. white sugar",
+            "1 c. shortening",
+            "1 c. margarine",
+            "6 eggs",
+            "1 tbsp. vanilla",
+            "2 tsp. salt",
+            "4 tsp. soda",
+            "4 tsp. cream of tartar",
+            "7 c. sifted flour",
+            "1 pkg. chocolate bits",
+            "chopped nuts (if you wish)"
+          ],
+          "directions": [
+            "cream the sugar, oleo and shortening.",
+            "add eggs and vanilla, beating well.",
+            "add dry ingredients, mixing well.",
+            "add chocolate bits and nuts.",
+            "drop onto cookie sheet.",
+            "bake at 350° for 10 to 12 minutes."
+          ],
+          "ner": [
+            "brown sugar",
+            "white sugar",
+            "shortening",
+            "margarine",
+            "eggs",
+            "vanilla",
+            "salt",
+            "soda",
+            "cream of tartar",
+            "flour",
+            "chocolate bits",
+            "nuts"
+          ],
+          "source": "RecipeNLG"
+        }
+      },
+      {
+        "rank": 5,
+        "score": 0.5784523487091064,
         "recipe": {
           "id": "recnlg_3599",
           "title": "Basic Oven Roasted Peanuts",
@@ -455,97 +528,16 @@
           ],
           "source": "RecipeNLG"
         }
-      },
-      {
-        "rank": 4,
-        "score": 0.631824254989624,
-        "recipe": {
-          "id": "recnlg_1094",
-          "title": "Easy Peasy Banana Treat",
-          "ingredients": [
-            "1 banana",
-            "peanut butter",
-            "chocolate chips"
-          ],
-          "directions": [
-            "put oven on broil.",
-            "cut banana in half length-wise, but keep the skin on.",
-            "spread peanut butter between sides, sprinkle w/chocolate chips.",
-            "squeeze together and cover with foil.",
-            "put under broiler for 30 minutes or until banana is soft.",
-            "enjoy!",
-            "*could also be done on the grill, if you wrap in foil*."
-          ],
-          "ner": [
-            "banana",
-            "peanut butter",
-            "chocolate chips"
-          ],
-          "source": "RecipeNLG"
-        }
-      },
-      {
-        "rank": 5,
-        "score": 0.6168630123138428,
-        "recipe": {
-          "id": "recnlg_2112",
-          "title": "Peanut Butter Chocolate Cake",
-          "ingredients": [
-            "2 c. flour",
-            "2 c. sugar",
-            "2/3 c. cocoa",
-            "2 t. baking soda",
-            "1 t. baking powder",
-            "1/2 t. salt",
-            "2 eggs",
-            "1 c. milk",
-            "2/3 c. vegetable oil",
-            "1 t. vanilla",
-            "1 c. coffee, room temperature",
-            "peanut butter frosting",
-            "3 oz. cream cheese",
-            "1/4 c. creamy peanut butter",
-            "2 c. powered sugar",
-            "2 t. milk",
-            "1/2 t. vanilla",
-            "miniature chocolate chips (these add a lot!)"
-          ],
-          "directions": [
-            "cake directions:",
-            "combine dry ingredients. add eggs, milk, oil and vanilla; beat for 2 minutes. stir in coffee (batter will be thin. pour into greased 9x13\" pan. bake at 350 degrees for 35-40 minutes or until done. cool completely on a wire rack.",
-            "frosting directions - beat the cream cheese and peanut butter in a mixing bowl until smooth. beat in sugar, milk and vanilla. spread over cake. sprinkle with chocolate chips if desired. store in the refrigerator."
-          ],
-          "ner": [
-            "flour",
-            "sugar",
-            "cocoa",
-            "baking soda",
-            "baking powder",
-            "salt",
-            "eggs",
-            "milk",
-            "vegetable oil",
-            "vanilla",
-            "coffee",
-            "peanut butter",
-            "cream cheese",
-            "powered sugar",
-            "milk",
-            "vanilla",
-            "chocolate chips"
-          ],
-          "source": "RecipeNLG"
-        }
       }
     ]
   },
   {
     "query_id": 4,
-    "query": "Give me a spicy chicken curry with coconut milk optional.",
+    "query": "Give me a spicy chicken curry with coconut milk.",
     "results": [
       {
         "rank": 1,
-        "score": 0.5745220184326172,
+        "score": 0.5773857235908508,
         "recipe": {
           "id": "recnlg_1553",
           "title": "Curried Chicken Salad With Cashews",
@@ -580,42 +572,7 @@
       },
       {
         "rank": 2,
-        "score": 0.5634937286376953,
-        "recipe": {
-          "id": "recnlg_4487",
-          "title": "Curried Rice",
-          "ingredients": [
-            "2 c. long grain rice",
-            "4 c. chicken broth",
-            "3 green peppers, diced",
-            "1/2 c. pimento",
-            "2 tsp. curry",
-            "1/4 c. lemon juice",
-            "1/2 c. vegetable oil",
-            "1/4 c. sugar"
-          ],
-          "directions": [
-            "cook rice in broth.",
-            "cool.",
-            "add all the following ingredients. mix and toss.",
-            "chill and serve."
-          ],
-          "ner": [
-            "long grain rice",
-            "chicken broth",
-            "green peppers",
-            "pimento",
-            "curry",
-            "lemon juice",
-            "vegetable oil",
-            "sugar"
-          ],
-          "source": "RecipeNLG"
-        }
-      },
-      {
-        "rank": 3,
-        "score": 0.5559373497962952,
+        "score": 0.5619316697120667,
         "recipe": {
           "id": "recnlg_4195",
           "title": "Delicious Curried Chicken Salad",
@@ -660,8 +617,8 @@
         }
       },
       {
-        "rank": 4,
-        "score": 0.5556426048278809,
+        "rank": 3,
+        "score": 0.5602957010269165,
         "recipe": {
           "id": "recnlg_661",
           "title": "Easy Chicken Curry",
@@ -702,8 +659,43 @@
         }
       },
       {
+        "rank": 4,
+        "score": 0.5587489604949951,
+        "recipe": {
+          "id": "recnlg_4487",
+          "title": "Curried Rice",
+          "ingredients": [
+            "2 c. long grain rice",
+            "4 c. chicken broth",
+            "3 green peppers, diced",
+            "1/2 c. pimento",
+            "2 tsp. curry",
+            "1/4 c. lemon juice",
+            "1/2 c. vegetable oil",
+            "1/4 c. sugar"
+          ],
+          "directions": [
+            "cook rice in broth.",
+            "cool.",
+            "add all the following ingredients. mix and toss.",
+            "chill and serve."
+          ],
+          "ner": [
+            "long grain rice",
+            "chicken broth",
+            "green peppers",
+            "pimento",
+            "curry",
+            "lemon juice",
+            "vegetable oil",
+            "sugar"
+          ],
+          "source": "RecipeNLG"
+        }
+      },
+      {
         "rank": 5,
-        "score": 0.5403581261634827,
+        "score": 0.5521780252456665,
         "recipe": {
           "id": "recnlg_1576",
           "title": "Curried Chicken Salad W/ Grapes,Walnuts And Poppy Seed Dressing",
@@ -1185,9 +1177,7 @@
             "crust"
           ],
           "source": "RecipeNLG"
-        },
-        "valid": 1,
-        "reason": "1. A bit rare, but potato-based desserts do have Irish roots"
+        }
       },
       {
         "rank": 2,
@@ -1561,9 +1551,7 @@
             "sd tomatoes"
           ],
           "source": "RecipeNLG"
-        },
-        "valid": 0,
-        "reason": "1. Contains pasta, which is high in carbohydrates."
+        }
       },
       {
         "rank": 5,
