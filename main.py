@@ -7,20 +7,28 @@ import os
 from tqdm import tqdm
 from sentence_transformers import SentenceTransformer
 from llm_query_processor import process_queries_with_llm
-
+from llm_reranker import llm_rerank_results
+import time    #Add timer
 # ======== Config ========
 DATA_1_PATH = "RecipeNLG_dataset/recipes_nlg_clean.json"
 DATA_2_PATH = "Spoonacular_API/spoonacular_dataset.json"
 QUERIES_PATH = "manual_queries.json"
-OUTPUT_PATH = "retrieval_results/LLM_structured_queries_results.json"
+OUTPUT_PATH = "retrieval_results/LLM_reranker_result.json"
 EMBED_MODEL = "sentence-transformers/all-MiniLM-L6-v2"
 MODEL_CACHE_PATH = "cache/model"
 EMBEDDINGS_CACHE_PATH = "cache/embeddings_cache.npy"
 FAISS_INDEX_CACHE_PATH = "cache/faiss_index_cache.bin"
 USE_LLM_STRUCTURING = False # Set to False to skip LLM query structuring
-TOP_K = 5
+
 SEED = 42
 
+# ===== Two-stage Retrieval Config =====
+USE_LLM_RERANK = True       # Turn re-ranking on/off
+FIRST_STAGE_TOP_K = 10      # FAISS retrieval
+SECOND_STAGE_TOP_K = 5      # LLM rerank output
+LLM_RERANK_MODEL = "gpt-4o-mini"   # Model for reranking
+
+TOP_K = FIRST_STAGE_TOP_K if USE_LLM_RERANK else SECOND_STAGE_TOP_K  # Number of items to retrieve from FAISS
 # ======== Reproducibility ========
 np.random.seed(SEED)
 random.seed(SEED)
@@ -43,6 +51,8 @@ data1 = load_json(DATA_1_PATH)
 data2 = load_json(DATA_2_PATH)
 recipes = data1 + data2
 print(f"Loaded {len(recipes)} total recipes ({len(data1)} from RecipeNLG, {len(data2)} from Spoonacular).")
+
+start_time = time.time() # Start timer
 
 with open(QUERIES_PATH, "r", encoding="utf-8") as f:
     queries = json.load(f)
@@ -112,26 +122,48 @@ for q in tqdm(queries, desc="Retrieving"):
     faiss.normalize_L2(q_emb)
     D, I = index.search(q_emb, TOP_K)
 
-    matched = [
+    stage1_items = [
         {
             "rank": int(rank + 1),
             "score": float(D[0][rank]),
             "recipe": recipes[int(I[0][rank])]
         }
-        for rank in range(TOP_K)
+        for rank in range(FIRST_STAGE_TOP_K)
     ]
+    # print(stage1_items[0])
+    # ===== Two-stage retrieval with LLM reranking =====
+    if USE_LLM_RERANK:
+        final_items = llm_rerank_results(
+            q["query"],
+            stage1_items,
+            top_k=SECOND_STAGE_TOP_K,
+            model="gpt-4o-mini"
+        )
+    else:
+        # Just take top 5 if LLM reranking is disabled
+        final_items = stage1_items[:SECOND_STAGE_TOP_K]
+
+    # Build result entry
     result_entry = {
         "query_id": q["id"],
         "query": q["query"],
-        "results": matched
+        "results": final_items
     }
-    # Include original query if it was structured by LLM
+
+    # Keep original query if structured by LLM
     if "original_query" in q:
         result_entry["original_query"] = q["original_query"]
+
     results.append(result_entry)
+
+
 
 # ======== Step 5: Save ========
 with open(OUTPUT_PATH, "w", encoding="utf-8") as f:
     json.dump(results, f, indent=2, ensure_ascii=False)
 
 print(f"Retrieval results saved to {OUTPUT_PATH}")
+# ======== TIMER OUTPUT ========
+end_time = time.time()
+elapsed = end_time - start_time
+print(f"Total retrieval pipeline time: {elapsed:.2f} seconds ({elapsed/60:.2f} minutes)")
