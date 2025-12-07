@@ -18,12 +18,12 @@ EMBED_MODEL = "sentence-transformers/all-MiniLM-L6-v2"
 MODEL_CACHE_PATH = "cache/model"
 EMBEDDINGS_CACHE_PATH = "cache/embeddings_cache.npy"
 FAISS_INDEX_CACHE_PATH = "cache/faiss_index_cache.bin"
-USE_LLM_STRUCTURING = False # Set to False to skip LLM query structuring
+USE_LLM_STRUCTURING = 0 # Set to False to skip LLM query structuring
 
 SEED = 42
 
 # ===== Two-stage Retrieval Config =====
-USE_LLM_RERANK = True       # Turn re-ranking on/off
+USE_LLM_RERANK = 0       # Turn re-ranking on/off
 FIRST_STAGE_TOP_K = 10      # FAISS retrieval
 SECOND_STAGE_TOP_K = 5      # LLM rerank output
 LLM_RERANK_MODEL = "gpt-4o-mini"   # Model for reranking
@@ -128,7 +128,7 @@ for q in tqdm(queries, desc="Retrieving"):
             "score": float(D[0][rank]),
             "recipe": recipes[int(I[0][rank])]
         }
-        for rank in range(FIRST_STAGE_TOP_K)
+        for rank in range(TOP_K)
     ]
     # print(stage1_items[0])
     # ===== Two-stage retrieval with LLM reranking =====
