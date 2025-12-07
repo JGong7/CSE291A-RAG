@@ -14,8 +14,9 @@ from sentence_transformers import SentenceTransformer
 from typing import List, Dict, Any, Optional, Set
 import re
 
-# Import quantity filter
+# Import filters
 from quantity_filter import QuantityFilter
+from nutrition_filter import NutritionFilter
 
 # ======== Config ========
 DATA_1_PATH = "RecipeNLG_dataset/recipes_nlg_clean.json"
@@ -51,11 +52,12 @@ class MetadataExtractor:
     # Ingredient categories for filtering
     INGREDIENT_EXCLUDES = {
         'lactose': ['milk', 'cheese', 'cream', 'butter', 'yogurt', 'cream cheese', 'sour cream', 
-                    'parmesan', 'mozzarella', 'cheddar', 'ricotta', 'whey'],
+                    'parmesan', 'mozzarella', 'cheddar', 'ricotta', 'whey', 'alfredo sauce'],
         'gluten': ['flour', 'wheat', 'bread', 'pasta', 'noodles', 'soy sauce'],
         'meat': ['beef', 'pork', 'chicken', 'turkey', 'lamb', 'steak', 'bacon', 'ham', 
                  'sausage', 'meat'],
-        'seafood': ['fish', 'salmon', 'tuna', 'shrimp', 'crab', 'lobster', 'shellfish'],
+        'seafood': ['fish', 'salmon', 'tuna', 'shrimp', 'crab', 'lobster', 'shellfish', 'fillet', 'anchovy',
+                    'cod', 'tilapia', 'trout', 'sardines'],
         'nuts': ['peanut', 'almond', 'walnut', 'cashew', 'pistachio', 'pecan', 'hazelnut'],
         'eggs': ['egg', 'eggs'],
     }
@@ -71,6 +73,8 @@ class MetadataExtractor:
         'pasta': ['pasta', 'spaghetti', 'linguine', 'fettuccine', 'penne', 'noodle', 'lasagna'],
         'salad': ['salad'],
         'appetizer': ['appetizer', 'starter', 'snack'],
+        'beverage': ['drink', 'beverage', 'smoothie', 'juice', 'cocktail'],
+        'smoothie': ['smoothie', 'shake', 'fruit drink'],
     }
     
     # Cooking methods
@@ -169,6 +173,9 @@ class MetadataExtractor:
                                'pound', 'gram', 'the', 'and', 'or']:
                     metadata['contains_ingredients'].add(word)
         
+        # Analyze nutrition using NutritionFilter
+        metadata['nutrition'] = NutritionFilter.analyze_nutrition(recipe, ingredients, title)
+        
         return metadata
 
 
@@ -186,7 +193,11 @@ class MetadataFilter:
             'excluded_ingredients': set(),
             'dish_type': set(),
             'cooking_method': set(),
+            'ingredient_logic': 'AND',  # Default: all ingredients required
         }
+        
+        # Parse nutrition requirements using NutritionFilter
+        requirements['nutrition'] = NutritionFilter.parse_nutrition_requirements(query)
         
         # Detect dietary requirements
         if 'vegan' in query_lower:
@@ -233,6 +244,21 @@ class MetadataFilter:
             if any(pattern in query_lower for pattern in patterns):
                 requirements['required_ingredients'].add(ingredient)
         
+        # Detect ingredient logic: check for "or" between ingredients
+        # Look for patterns like "eggs or cheese", "egg or cheese"
+        if requirements['required_ingredients'] and ' or ' in query_lower:
+            # Check if "or" appears between ingredient mentions
+            for ing1 in requirements['required_ingredients']:
+                for ing2 in requirements['required_ingredients']:
+                    if ing1 != ing2:
+                        # Pattern: "ingredient1 or ingredient2"
+                        pattern = rf'\b{ing1}s?\s+or\s+{ing2}s?\b'
+                        if re.search(pattern, query_lower):
+                            requirements['ingredient_logic'] = 'OR'
+                            break
+                if requirements['ingredient_logic'] == 'OR':
+                    break
+        
         return requirements
     
     @staticmethod
@@ -249,14 +275,24 @@ class MetadataFilter:
             if excluded in metadata['ingredients_text']:
                 return False
         
-        # Check required ingredients (at least one should match if specified)
+        # Check required ingredients based on logic (AND/OR)
         if requirements['required_ingredients']:
-            has_required = any(
-                req in metadata['ingredients_text'] or req in metadata['contains_ingredients']
-                for req in requirements['required_ingredients']
-            )
-            if not has_required:
-                return False
+            if requirements.get('ingredient_logic', 'AND') == 'AND':
+                # ALL ingredients must be present
+                has_all_required = all(
+                    req in metadata['ingredients_text'] or req in metadata['contains_ingredients']
+                    for req in requirements['required_ingredients']
+                )
+                if not has_all_required:
+                    return False
+            else:  # OR logic
+                # At least ONE ingredient must be present
+                has_any_required = any(
+                    req in metadata['ingredients_text'] or req in metadata['contains_ingredients']
+                    for req in requirements['required_ingredients']
+                )
+                if not has_any_required:
+                    return False
         
         # Check dish type (at least one should match if specified)
         if requirements['dish_type']:
@@ -267,6 +303,11 @@ class MetadataFilter:
         if requirements['cooking_method']:
             if not requirements['cooking_method'].intersection(metadata['cooking_methods']):
                 return False
+        
+        # Check nutrition requirements using NutritionFilter
+        nutrition = metadata.get('nutrition', {})
+        if not NutritionFilter.matches_nutrition_requirements(nutrition, requirements.get('nutrition', {})):
+            return False
         
         return True
 
@@ -434,7 +475,12 @@ def main():
     # ======== Step 3: Retrieve for all queries ========
     results = []
     for q in tqdm(queries, desc="Retrieving"):
-        matched = retriever.retrieve(q["query"], top_k=TOP_K, use_metadata_filter=True)
+        matched = retriever.retrieve(
+            q["query"], 
+            top_k=TOP_K, 
+            use_metadata_filter=True, 
+            use_quantity_filter=True  # Explicitly enable quantity filtering
+        )
         
         results.append({
             "query_id": q["id"],

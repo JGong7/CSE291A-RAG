@@ -34,155 +34,14 @@
             "vegetarian"
           ],
           "dish_types": [
-            "breakfast",
-            "dessert"
+            "dessert",
+            "breakfast"
           ],
           "cooking_methods": []
         }
       },
       {
         "rank": 2,
-        "score": 0.5943556427955627,
-        "recipe": {
-          "id": "recnlg_4356",
-          "title": "Buttermilk Oatmeal Pancakes",
-          "ingredients": [
-            "2 eggs",
-            "1 12 cups buttermilk",
-            "2 teaspoons butter, melted",
-            "12 cup whole wheat flour",
-            "13 cup flour",
-            "12 cup rolled oats",
-            "34 teaspoon baking soda",
-            "1 pinch salt",
-            "3 tablespoons sugar"
-          ],
-          "directions": [
-            "whisk eggs lightly with buttermilk and butter.",
-            "in a separate bowl, combine rest of the ingredients.",
-            "stir to mix well.",
-            "whisk egg mixture into flour mixture just until combined."
-          ],
-          "ner": [
-            "eggs",
-            "buttermilk",
-            "butter",
-            "whole wheat flour",
-            "flour",
-            "rolled oats",
-            "baking soda",
-            "salt",
-            "sugar"
-          ],
-          "source": "RecipeNLG"
-        },
-        "metadata": {
-          "dietary_tags": [
-            "vegetarian"
-          ],
-          "dish_types": [
-            "breakfast",
-            "dessert"
-          ],
-          "cooking_methods": []
-        }
-      },
-      {
-        "rank": 3,
-        "score": 0.5788392424583435,
-        "recipe": {
-          "id": "recnlg_2851",
-          "title": "Pancakes",
-          "ingredients": [
-            "1 egg",
-            "1 1/2 c. milk",
-            "1/2 tsp. vanilla",
-            "3 tbsp. sugar",
-            "3 tbsp. baking powder",
-            "1/2 tsp. salt",
-            "3 tbsp. margarine or butter, melted",
-            "1 1/2 c. flour"
-          ],
-          "directions": [
-            "beat egg.",
-            "add milk, vanilla and sugar; beat.",
-            "add butter or margarine.",
-            "add everything except flour.",
-            "beat again.",
-            "slowly add flour, beating continuously and scraping side of bowl.",
-            "if batter is too thick, add milk.",
-            "if too thin, add more flour.",
-            "serves 2 hungry people."
-          ],
-          "ner": [
-            "egg",
-            "milk",
-            "vanilla",
-            "sugar",
-            "baking powder",
-            "salt",
-            "margarine",
-            "flour"
-          ],
-          "source": "RecipeNLG"
-        },
-        "metadata": {
-          "dietary_tags": [
-            "vegetarian"
-          ],
-          "dish_types": [
-            "breakfast",
-            "dessert"
-          ],
-          "cooking_methods": []
-        }
-      },
-      {
-        "rank": 4,
-        "score": 0.5287429690361023,
-        "recipe": {
-          "id": "recnlg_4577",
-          "title": "The Best Pancakes",
-          "ingredients": [
-            "1 egg, beaten",
-            "1 c. buttermilk or sour milk *",
-            "2 tbsp. oil",
-            "1 c. flour",
-            "1 tbsp. sugar",
-            "1 tsp. baking powder",
-            "1 tsp. baking soda",
-            "1/2 tsp. salt"
-          ],
-          "directions": [
-            "mix all ingredients in blender.",
-            "can put in refrigerator overnight.",
-            "batter will be thicker and smoother."
-          ],
-          "ner": [
-            "egg",
-            "buttermilk",
-            "oil",
-            "flour",
-            "sugar",
-            "baking powder",
-            "baking soda",
-            "salt"
-          ],
-          "source": "RecipeNLG"
-        },
-        "metadata": {
-          "dietary_tags": [
-            "vegetarian"
-          ],
-          "dish_types": [
-            "breakfast",
-            "dessert"
-          ],
-          "cooking_methods": []
-        }
-      },
-      {
-        "rank": 5,
         "score": 0.5228434801101685,
         "recipe": {
           "id": "recnlg_3185",
@@ -218,6 +77,144 @@
           ],
           "cooking_methods": [
             "fried"
+          ]
+        }
+      },
+      {
+        "rank": 3,
+        "score": 0.5191781520843506,
+        "recipe": {
+          "id": "recnlg_1519",
+          "title": "Quick Breakfast Cheesecake",
+          "ingredients": [
+            "1 pkg. hungry jack biscuits (cinnamon if you can find them)",
+            "1 (8 oz.) cream cheese, softened",
+            "1 egg",
+            "1 tbsp. flour",
+            "1/2 c. sugar",
+            "1 tbsp. cinnamon",
+            "2 tbsp. sugar",
+            "1 tsp. nutmeg"
+          ],
+          "directions": [
+            "put biscuits into ungreased pie plate. mix remaining ingredients, except sugar, cinnamon and nutmeg until smooth and pour over biscuits. sprinkle sugar, cinnamon and nutmeg over top. bake at 350° for 25 minutes."
+          ],
+          "ner": [
+            "cinnamon",
+            "cream cheese",
+            "egg",
+            "flour",
+            "sugar",
+            "cinnamon",
+            "sugar",
+            "nutmeg"
+          ],
+          "source": "RecipeNLG"
+        },
+        "metadata": {
+          "dietary_tags": [
+            "vegetarian"
+          ],
+          "dish_types": [
+            "dessert",
+            "dinner",
+            "breakfast"
+          ],
+          "cooking_methods": [
+            "baked"
+          ]
+        }
+      },
+      {
+        "rank": 4,
+        "score": 0.5135339498519897,
+        "recipe": {
+          "id": "recnlg_282",
+          "title": "Morning Breakfast Panini",
+          "ingredients": [
+            "2 slices white bread or 2 slices brioche bread, 1/2-inch thick",
+            "unsalted butter (melted for brushing)",
+            "3 tablespoons cheddar cheese, grated",
+            "2 slices cooked bacon, fried until crispy",
+            "1 egg, fried",
+            "salt & freshly ground black pepper, to taste",
+            "14 cup arugula"
+          ],
+          "directions": [
+            "preheat an electric panini maker on high heat according to the manufacturer's instructions.",
+            "place the bread slices on a cutting board.",
+            "brush one side of each slice with melted butter.",
+            "turn one slice over and sprinkle with the cheese.",
+            "top with the bacon and fried egg, and season with salt and pepper.",
+            "top with the arugula and the other bread slice, buttered side up.",
+            "place the sandwich on the preheated panini maker and cook according to the manufacturers instructions until the bread is golden and the cheese is melted, 3 to 5 minutes.",
+            "transfer the sandwich to a cutting board and cut in half.",
+            "serve immediately.",
+            "serves 1."
+          ],
+          "ner": [
+            "white bread",
+            "unsalted butter",
+            "cheddar cheese",
+            "bacon",
+            "egg",
+            "salt",
+            "arugula"
+          ],
+          "source": "RecipeNLG"
+        },
+        "metadata": {
+          "dietary_tags": [],
+          "dish_types": [
+            "lunch",
+            "breakfast"
+          ],
+          "cooking_methods": [
+            "fried"
+          ]
+        }
+      },
+      {
+        "rank": 5,
+        "score": 0.5133674144744873,
+        "recipe": {
+          "id": "recnlg_4193",
+          "title": "Baked Cheddar-Potato Pancakes",
+          "ingredients": [
+            "2 eggs",
+            "4 cups (12 oz.) ore-ida shredded hash brown potatoes, thawed",
+            "2 tbsp. kraft real mayo mayonnaise",
+            "1 cup kraft shredded cheddar cheese",
+            "6 tbsp. breakstone's or knudsen sour cream"
+          ],
+          "directions": [
+            "heat oven to 450 degrees f. line 15x10x1-inch baking pan with foil; spray with cooking spray.",
+            "combine eggs, hash browns, mayo and cheese.",
+            "drop, by scant 1/2 cupfuls, into 6 mounds on baking sheet; press each with back of spatula to form 1/2-inch-thick patty.",
+            "bake 16 to 20 min.",
+            "or golden brown, turning over after 10 min.",
+            "serve with sour cream."
+          ],
+          "ner": [
+            "eggs",
+            "brown potatoes",
+            "mayonnaise",
+            "cheddar cheese",
+            "'s"
+          ],
+          "source": "RecipeNLG"
+        },
+        "metadata": {
+          "dietary_tags": [
+            "gluten-free",
+            "vegetarian"
+          ],
+          "dish_types": [
+            "dessert",
+            "breakfast"
+          ],
+          "cooking_methods": [
+            "baked"
           ]
         }
       }
@@ -270,8 +267,8 @@
           ],
           "dish_types": [
             "salad",
-            "pasta",
-            "lunch"
+            "lunch",
+            "pasta"
           ],
           "cooking_methods": []
         }
@@ -312,10 +309,10 @@
             "vegetarian"
           ],
           "dish_types": [
-            "salad",
             "dinner",
-            "pasta",
-            "lunch"
+            "salad",
+            "lunch",
+            "pasta"
           ],
           "cooking_methods": []
         }
@@ -357,60 +354,17 @@
             "vegetarian"
           ],
           "dish_types": [
-            "salad",
-            "dinner",
             "pasta",
-            "lunch"
+            "beverage",
+            "dinner",
+            "lunch",
+            "salad"
           ],
           "cooking_methods": []
         }
       },
       {
         "rank": 4,
-        "score": 0.4227592945098877,
-        "recipe": {
-          "id": "recnlg_4113",
-          "title": "Tuna Twist Casserole",
-          "ingredients": [
-            "12 cup reduced-fat alfredo sauce",
-            "2 eggs",
-            "1 -2 garlic clove, minced",
-            "4 cups cooked tricolor rotelle pasta",
-            "2 cups frozen broccoli carrots cauliflower mix, thawed and drained",
-            "1 (12 ounce) can tuna in water, drained",
-            "1 cup seasoned croutons"
-          ],
-          "directions": [
-            "preheat oven to 350.",
-            "mix alfredo sauce, eggs, and garlic in an ungreased 8x8 inch square baking dish; stir in pasta, vegetables, and tuna; press lightly in baking dish.",
-            "cover and bake 20 minutes or until set.",
-            "sprinkle with croutons."
-          ],
-          "ner": [
-            "alfredo sauce",
-            "eggs",
-            "garlic",
-            "pasta",
-            "frozen broccoli carrots cauliflower",
-            "tuna",
-            "croutons"
-          ],
-          "source": "RecipeNLG"
-        },
-        "metadata": {
-          "dietary_tags": [
-            "lactose-free"
-          ],
-          "dish_types": [
-            "pasta"
-          ],
-          "cooking_methods": [
-            "baked"
-          ]
-        }
-      },
-      {
-        "rank": 5,
         "score": 0.407711386680603,
         "recipe": {
           "id": "recnlg_3345",
@@ -445,10 +399,60 @@
             "vegetarian"
           ],
           "dish_types": [
+            "beverage",
             "pasta"
           ],
           "cooking_methods": [
             "boiled"
+          ]
+        }
+      },
+      {
+        "rank": 5,
+        "score": 0.40397876501083374,
+        "recipe": {
+          "id": "recnlg_4839",
+          "title": "Pasta Puttanesca",
+          "ingredients": [
+            "1 lb. pasta",
+            "2 gloves finely chopped garlic",
+            "1 handful capers, soaked and drained",
+            "2 handfuls of black olives (kalamata)",
+            "12 anchovy fillets, roughly chopped",
+            "3 dried red chiles, crumbled",
+            "2 (14 oz.) canned tomatoes, drained and chopped",
+            "1 tbsp. dried oregano",
+            "extra virgin olive oil",
+            "fresh basil",
+            "salt and pepper"
+          ],
+          "directions": [
+            "cook pasta until done. fry garlic, capers, olives, anchovies, chiles and oregano in a little olive oil for 3 to 4 minutes. add tomatoes and cook on a simmer for 5 minutes. remove from heat. add drained pasta and toss through. top with fresh basil and good olive oil."
+          ],
+          "ner": [
+            "pasta",
+            "garlic",
+            "handful capers",
+            "black olives",
+            "anchovy",
+            "red chiles",
+            "tomatoes",
+            "oregano",
+            "extra virgin olive oil",
+            "fresh basil",
+            "salt"
+          ],
+          "source": "RecipeNLG"
+        },
+        "metadata": {
+          "dietary_tags": [
+            "lactose-free"
+          ],
+          "dish_types": [
+            "pasta"
+          ],
+          "cooking_methods": [
+            "fried"
           ]
         }
       }
@@ -653,38 +657,41 @@
             "vegetarian"
           ],
           "dish_types": [
-            "dessert"
+            "dessert",
+            "smoothie"
           ],
           "cooking_methods": []
         }
       },
       {
         "rank": 5,
-        "score": 0.5675026178359985,
+        "score": 0.567314624786377,
         "recipe": {
-          "id": "recnlg_584",
-          "title": "Easy Peanut Patties",
+          "id": "recnlg_4465",
+          "title": "Peanut Butter Candy",
           "ingredients": [
-            "1 1/2 cups sugar",
-            "1 (3 ounce) package vanilla pudding mix (not instant)",
-            "3/4 cup evaporated milk",
-            "1 teaspoon vanilla extract",
-            "2 cups spanish peanuts"
+            "3 c. rice krispies",
+            "1 box confectioners sugar",
+            "18 oz. jar creamy peanut butter",
+            "1 stick butter",
+            "semi-sweet chocolate"
           ],
           "directions": [
-            "combine the sugar, pudding mix, and milk in medium sauce pan over medium high heat stirring frequently. bring the mixture to a boil; reduce the heat to medium and boil for 5 minutes.",
-            "remove from the heat and stir in the vanilla.",
-            "beat for 3 minutes until thickens and stir in the peanuts.",
-            "drop by tablespoon full onto wax paper and allow candy to harden.",
-            "store in an airtight container.",
-            "for gifts, give in tins."
+            "melt in regular pot on low heat the peanut butter and butter. mix sugar, rice krispies and butter with the other ingredients together.",
+            "roll in balls.",
+            "put on wax paper.",
+            "put in refrigerator.",
+            "melt chocolate. dip in ball.",
+            "store in refrigerator 2 hours.",
+            "the kind of chocolate you melt in the microwave.",
+            "brand name favorite almond flavoring."
           ],
           "ner": [
-            "sugar",
-            "vanilla pudding",
-            "evaporated milk",
-            "vanilla",
-            "peanuts"
+            "rice krispies",
+            "confectioners sugar",
+            "peanut butter",
+            "butter",
+            "semi-sweet chocolate"
           ],
           "source": "RecipeNLG"
         },
@@ -696,9 +703,7 @@
           "dish_types": [
             "dessert"
           ],
-          "cooking_methods": [
-            "boiled"
-          ]
+          "cooking_methods": []
         }
       }
     ]
@@ -762,9 +767,9 @@
             "gluten-free"
           ],
           "dish_types": [
+            "soup",
             "dinner",
             "pasta",
-            "soup",
             "dessert"
           ],
           "cooking_methods": [
@@ -775,149 +780,6 @@
       },
       {
         "rank": 2,
-        "score": 0.5800132751464844,
-        "recipe": {
-          "id": "recnlg_4487",
-          "title": "Curried Rice",
-          "ingredients": [
-            "2 c. long grain rice",
-            "4 c. chicken broth",
-            "3 green peppers, diced",
-            "1/2 c. pimento",
-            "2 tsp. curry",
-            "1/4 c. lemon juice",
-            "1/2 c. vegetable oil",
-            "1/4 c. sugar"
-          ],
-          "directions": [
-            "cook rice in broth.",
-            "cool.",
-            "add all the following ingredients. mix and toss.",
-            "chill and serve."
-          ],
-          "ner": [
-            "long grain rice",
-            "chicken broth",
-            "green peppers",
-            "pimento",
-            "curry",
-            "lemon juice",
-            "vegetable oil",
-            "sugar"
-          ],
-          "source": "RecipeNLG"
-        },
-        "metadata": {
-          "dietary_tags": [
-            "lactose-free",
-            "gluten-free"
-          ],
-          "dish_types": [
-            "soup"
-          ],
-          "cooking_methods": []
-        }
-      },
-      {
-        "rank": 3,
-        "score": 0.5610538721084595,
-        "recipe": {
-          "id": "recnlg_1553",
-          "title": "Curried Chicken Salad With Cashews",
-          "ingredients": [
-            "6 boneless skinless chicken breasts, cooked and cut into small chunks",
-            "1 cup cashews, coarsely broken",
-            "1 cup seedless grapes, halved",
-            "1/2 cup celery, finely diced",
-            "1 cup mayonnaise",
-            "1 teaspoon curry powder",
-            "1 teaspoon honey",
-            "1 1/2 teaspoons lemon juice"
-          ],
-          "directions": [
-            "combine the chicken, cashews, grapes, and celery in a bowl.",
-            "in a smaller bowl, mix the mayonnaise, curry powder, honey and lemon juice until well-blended.",
-            "add the dressing to the chicken mixture and toss lightly.",
-            "refrigerate at least 2 hours before serving."
-          ],
-          "ner": [
-            "chicken breasts",
-            "cashews",
-            "seedless grapes",
-            "celery",
-            "mayonnaise",
-            "curry powder",
-            "honey",
-            "lemon juice"
-          ],
-          "source": "RecipeNLG"
-        },
-        "metadata": {
-          "dietary_tags": [
-            "lactose-free",
-            "gluten-free"
-          ],
-          "dish_types": [
-            "salad",
-            "lunch"
-          ],
-          "cooking_methods": []
-        }
-      },
-      {
-        "rank": 4,
-        "score": 0.5588206052780151,
-        "recipe": {
-          "id": "recnlg_2537",
-          "title": "Chicken And Spinach Curry",
-          "ingredients": [
-            "2 tablespoons canola oil",
-            "2 cups chopped onions",
-            "1 tablespoon indian curry paste",
-            "1 tablespoon chopped garlic",
-            "1 tablespoon chopped ginger",
-            "1 pound (500 grams) ground chicken",
-            "1 cup chicken stock",
-            "3 tablespoons tomato paste",
-            "5 ounces (150 grams) fresh baby spinach (about 4 cups)",
-            "1/2 teaspoon garam masala",
-            "2 tablespoons chopped mint or coriander",
-            "salt to taste"
-          ],
-          "directions": [
-            "heat oil in a skillet over medium heat. add chopped onions and curry paste and saute for 5 minutes or until softened and light brown in colour. add garlic and ginger and saute for 1 minute. add chicken and saute for 2 minutes or until it loses its rawness.",
-            "add chicken stock, tomato paste and bring to a boil. reduce heat and cook gently for 8 to 10 minutes or until the chicken is cooked through. add baby spinach and cook for another 2 minutes, until it is wilted.",
-            "sprinkle with garam masala and chopped mint or coriander. season with salt to taste. accompany with chapattis, naan or any other bread."
-          ],
-          "ner": [
-            "canola oil",
-            "onions",
-            "curry",
-            "garlic",
-            "ginger",
-            "ground chicken",
-            "chicken stock",
-            "tomato paste",
-            "baby spinach",
-            "garam masala",
-            "mint",
-            "salt"
-          ],
-          "source": "RecipeNLG"
-        },
-        "metadata": {
-          "dietary_tags": [
-            "lactose-free",
-            "gluten-free"
-          ],
-          "dish_types": [],
-          "cooking_methods": [
-            "boiled"
-          ]
-        }
-      },
-      {
-        "rank": 5,
         "score": 0.5414838194847107,
         "recipe": {
           "id": "recnlg_661",
@@ -963,12 +825,157 @@
           ],
           "dish_types": [
             "soup",
-            "dessert"
+            "dessert",
+            "beverage"
           ],
           "cooking_methods": [
             "baked",
             "boiled"
           ]
+        }
+      },
+      {
+        "rank": 3,
+        "score": 0.538669764995575,
+        "recipe": {
+          "id": 639737,
+          "title": "Coconut Carrot-Ginger Soup",
+          "ingredients": [
+            "1 tablespoon coconut oil",
+            "1 medium onion, diced",
+            "8 large carrots, chopped",
+            "1 teaspoon salt",
+            "1/4 teaspoon pepper",
+            "3 cloves garlic, minced",
+            "4 cups vegetable/chicken stock",
+            "2 tablespoons grated ginger",
+            "1 can coconut milk"
+          ],
+          "instructions": "Sautee onions in coconut oil, add carrots and salt, cook through.\nSeason and add garlic.\nFor 30 seconds and remove from heat.\nPlace vegetables in a blender with stock and ginger, blend well.\nReturn to heat and bring to a boil for 3 minutes.\nRemove from heat and stir in coconut milk.\nAdd more salt to taste.",
+          "source": "Spoonacular"
+        },
+        "metadata": {
+          "dietary_tags": [
+            "gluten-free"
+          ],
+          "dish_types": [
+            "soup"
+          ],
+          "cooking_methods": [
+            "boiled"
+          ]
+        }
+      },
+      {
+        "rank": 4,
+        "score": 0.4902149438858032,
+        "recipe": {
+          "id": "recnlg_2629",
+          "title": "Chicken and Pineapple Skewers",
+          "ingredients": [
+            "34 teaspoon cumin",
+            "2 teaspoons curry powder",
+            "1 teaspoon turmeric",
+            "1 cup unsweetened coconut milk (light version is fine)",
+            "1 teaspoon olive oil",
+            "12 tablespoon rice vinegar",
+            "12 tablespoon honey",
+            "salt and pepper",
+            "1 12 lbs boneless chicken breasts, cut into 2 inch pieces",
+            "2 red bell peppers, seeded and cut into 1 inch pieces",
+            "12 fresh pineapple, peeled,cored and cut into 1 1/2 inch chunks",
+            "6 -8 wooden skewers or 6 -8 metal skewers (if using wood soak for at least 30 minutes)"
+          ],
+          "directions": [
+            "in a small skillet toast the cumin, curry powder and turmeric over low heat stirring for about 20 seconds.",
+            "remove from heat and set aside.",
+            "in a large bowl whisk together the toasted spices, coconut milk, oil, vinegar, honey, salt and pepper.",
+            "add chicken, tossing to coat evenly and then refrigerate for at least one hour.",
+            "start the grill or preheat the broiler (if using broiler grease the broiler pan well).",
+            "thread the skewers alternating pieces of chicken, bell pepper and pineapple.",
+            "season skewers with salt and pepper.",
+            "lightly grease the grill rack with oil and then place the skewers on it and grill for 4-6 minutes per side, or until chicken is cooked."
+          ],
+          "ner": [
+            "cumin",
+            "curry powder",
+            "turmeric",
+            "unsweetened coconut milk",
+            "olive oil",
+            "rice vinegar",
+            "honey",
+            "salt",
+            "chicken breasts",
+            "red bell peppers",
+            "pineapple",
+            "wooden skewers"
+          ],
+          "source": "RecipeNLG"
+        },
+        "metadata": {
+          "dietary_tags": [
+            "gluten-free"
+          ],
+          "dish_types": [
+            "dessert"
+          ],
+          "cooking_methods": [
+            "grilled"
+          ]
+        }
+      },
+      {
+        "rank": 5,
+        "score": 0.48578909039497375,
+        "recipe": {
+          "id": "recnlg_1253",
+          "title": "Curried Crab",
+          "ingredients": [
+            "1 lb imitation crabmeat, chopped",
+            "1 onion, chopped",
+            "1 garlic clove, minced",
+            "14 cup margarine",
+            "14 cup flour",
+            "1 (13 1/2 ounce) can coconut milk",
+            "1 34 cups milk",
+            "1 tablespoon curry powder (or more, to taste)",
+            "1 tablespoon chicken bouillon",
+            "14 cup lemon juice",
+            "rice",
+            "soy sauce"
+          ],
+          "directions": [
+            "cook onion & garlic in margarine until tender.",
+            "stir in flour.",
+            "combine milk, coconut milk, curry & bouillon.",
+            "gradually add the milk mixture, stirring until smooth.",
+            "over medium heat, cook & stir until thickened.",
+            "add lemon juice, reduce heat & simmer 10 minutes.",
+            "add imitation crab meat & cook 10 minutes longer.",
+            "serve over cooked rice with soy sauce."
+          ],
+          "ner": [
+            "imitation crabmeat",
+            "onion",
+            "garlic",
+            "margarine",
+            "flour",
+            "coconut milk",
+            "milk",
+            "curry powder",
+            "chicken bouillon",
+            "lemon juice",
+            "rice",
+            "soy sauce"
+          ],
+          "source": "RecipeNLG"
+        },
+        "metadata": {
+          "dietary_tags": [],
+          "dish_types": [
+            "beverage"
+          ],
+          "cooking_methods": []
         }
       }
     ]
@@ -1009,7 +1016,10 @@
             "gluten-free",
             "vegetarian"
           ],
-          "dish_types": [],
+          "dish_types": [
+            "beverage",
+            "smoothie"
+          ],
           "cooking_methods": []
         }
       },
@@ -1050,120 +1060,93 @@
             "gluten-free",
             "vegetarian"
           ],
-          "dish_types": [],
+          "dish_types": [
+            "beverage",
+            "smoothie"
+          ],
           "cooking_methods": []
         }
       },
       {
         "rank": 3,
-        "score": 0.6758853197097778,
+        "score": 0.540398895740509,
         "recipe": {
-          "id": "recnlg_2951",
-          "title": "Strawberry Banana Smoothie",
+          "id": "recnlg_4736",
+          "title": "Peachy Fruit and Yogurt Shake",
           "ingredients": [
-            "1 lb strawberries (about 1 qt), trimmed and halved",
-            "1 ripe banana, cut into pieces",
-            "1 cup ice cubes",
-            "1/2 cup silken tofu",
-            "1/2 cup orange juice",
-            "2 tablespoons sugar"
+            "1 (8 ounce) can peach halves in juice, do not drain",
+            "12 ripe small banana",
+            "12 cup plain nonfat yogurt (or use peach or vanilla yogurt if you like)",
+            "12 teaspoon pure vanilla extract",
+            "1 cup ice cube"
           ],
           "directions": [
-            "blend all ingredients in a blender until smooth."
+            "in a blender container, combine undrained peaches, banana, yogurt and vanilla.",
+            "cover and blend till smooth.",
+            "add ice cubes; cover and blend until frothy.",
+            "makes 2(1 1/4 cup) servings.",
+            "enjoy!"
           ],
           "ner": [
-            "strawberries",
+            "peach",
             "banana",
-            "silken tofu",
-            "orange juice",
-            "sugar"
+            "nonfat yogurt",
+            "vanilla"
           ],
           "source": "RecipeNLG"
         },
         "metadata": {
           "dietary_tags": [
-            "lactose-free",
             "gluten-free",
-            "vegan",
             "vegetarian"
           ],
           "dish_types": [
-            "dessert"
+            "beverage",
+            "smoothie"
           ],
           "cooking_methods": []
         }
       },
       {
         "rank": 4,
-        "score": 0.6545507311820984,
+        "score": 0.5045458674430847,
         "recipe": {
-          "id": "recnlg_203",
-          "title": "kale smoothie for flat belly",
+          "id": "recnlg_123",
+          "title": "Watermelon Sour Cream Popsicles",
           "ingredients": [
-            "3 oz greek vanilla yogurt",
-            "1 tbsp almond butter",
-            "1/2 cup frozen blueberries",
-            "1/2 cup frozen pineapple",
-            "1 cup kale",
-            "3/4 cup water"
+            "1/4 watermelon",
+            "1 ripe banana",
+            "7 ounces sour cream",
+            "2.3 ounces fruit or vanilla yogurt",
+            "4 tablespoons sugar",
+            "3 tablespoons honey",
+            "1 lemon, the juice",
+            "vanilla extract to taste"
           ],
           "directions": [
-            "blend all ingredients.",
-            "enjoy right away.",
-            "drink at least 2-3 times weekly"
+            "remove the peel of the watermelon. place in the blender together with the rest of the ingredients and blend until very smooth.",
+            "add more sugar/honey or lemon juice according to your taste.",
+            "pour the mixture into the popsicle moulds and freeze."
           ],
           "ner": [
+            "watermelon",
+            "banana",
+            "sour cream",
             "vanilla yogurt",
-            "almond butter",
-            "frozen blueberries",
-            "frozen pineapple",
-            "kale",
-            "water"
+            "sugar",
+            "honey",
+            "lemon",
+            "vanilla"
           ],
           "source": "RecipeNLG"
         },
         "metadata": {
           "dietary_tags": [
             "gluten-free",
-            "vegetarian"
-          ],
-          "dish_types": [],
-          "cooking_methods": []
-        }
-      },
-      {
-        "rank": 5,
-        "score": 0.6381735801696777,
-        "recipe": {
-          "id": "recnlg_1566",
-          "title": "Blue Smoothie",
-          "ingredients": [
-            "3/4 cup unsweetened apple juice",
-            "1/4 cup orange juice",
-            "3/4 cup frozen blueberries",
-            "1 very ripe banana",
-            "1 cup ice cubes"
-          ],
-          "directions": [
-            "combine all ingredients in a blender and process until smooth. serve immediately."
-          ],
-          "ner": [
-            "apple juice",
-            "orange juice",
-            "frozen blueberries",
-            "very ripe banana"
-          ],
-          "source": "RecipeNLG"
-        },
-        "metadata": {
-          "dietary_tags": [
-            "lactose-free",
-            "gluten-free",
-            "vegan",
             "vegetarian"
           ],
           "dish_types": [
-            "dessert"
+            "beverage"
           ],
           "cooking_methods": []
         }
@@ -1249,8 +1232,8 @@
         },
         "metadata": {
           "dietary_tags": [
-            "lactose-free",
             "gluten-free",
+            "lactose-free",
             "vegetarian"
           ],
           "dish_types": [
@@ -1303,8 +1286,8 @@
         },
         "metadata": {
           "dietary_tags": [
-            "lactose-free",
             "gluten-free",
+            "lactose-free",
             "vegan",
             "vegetarian"
           ],
@@ -1358,8 +1341,8 @@
             "vegetarian"
           ],
           "dish_types": [
-            "pasta",
-            "soup"
+            "soup",
+            "pasta"
           ],
           "cooking_methods": []
         }
@@ -1710,57 +1693,92 @@
     "results": [
       {
         "rank": 1,
-        "score": 0.5968430042266846,
+        "score": 0.5718570947647095,
         "recipe": {
-          "id": "recnlg_4639",
-          "title": "Mississippi Seafood Gumbo",
+          "id": "recnlg_2170",
+          "title": "Grilled Shrimp Packets With Basil, Garlic And Red Curry Compound Butter",
           "ingredients": [
-            "4 tbsp. crisco oil",
-            "2/3 c. flour",
-            "2 large onions, chopped",
-            "2 cloves garlic, minced",
-            "1 1/2 c. chopped ham",
-            "6 c. chopped okra",
-            "4 qt. water",
-            "3 tbsp. worcestershire sauce",
-            "3 (16 oz.) cans tomatoes",
-            "dash of tabasco",
-            "salt and pepper to taste",
-            "2 to 4 lb. peeled, raw shrimp",
-            "1 lb. crab meat",
-            "4 to 5 bay leaves",
-            "cooked rice"
+            "2 garlic cloves",
+            "3-5 fresh basil leaves",
+            "3 sprigs cilantro",
+            "4 tablespoons butter, softened",
+            "2 teaspoons red curry paste",
+            "salt, to taste",
+            "freshly ground pepper, to taste",
+            "24 large shrimp, peeled and deveined (tail left on if desired)",
+            "large shrimp, peeled and deveined (tail left on if desired)",
+            "sriracha sauce for serving, optional",
+            "fresh basil leaves, chiffonade for garnish"
           ],
           "directions": [
-            "heat crisco oil in heavy pot; add flour and brown slowly until a very dark roux has been made.",
-            "add onions and garlic and brown, then add ham and brown.",
-            "add okra.",
-            "continue to brown mixture very slowly for about an hour or more.",
-            "bring to a boil in large pot the water, worcestershire sauce, tomatoes, tabasco, salt and pepper.",
-            "add browned mixture and cook slowly for 4 hours.",
-            "add shrimp.",
-            "cook slowly for 2 hours.",
-            "add bay leaves 1 hour before serving.",
-            "serve over 2 tablespoons rice in large bowl.",
-            "may be prepared several days ahead.",
-            "freezes well.",
-            "serves 6 to 8."
+            "in a mini food processor, mince garlic, basil and cilantro. add butter, red curry paste, salt and pepper and process till combined.",
+            "on two pieces of heavy duty foil, divide shrimp and lay in a row. dot with desired amount of compound butter (you can control the fat here). seal tightly and place on a hot grill. allow it to cook for about 10 minutes; you will notice the packets puff up when it is done.",
+            "serve the shrimp straight out of the packets if you wish! or plate it with chiffonades of basil and sriracha sauce. don't forget the bread!"
           ],
           "ner": [
-            "crisco oil",
-            "flour",
-            "onions",
             "garlic",
-            "ham",
-            "okra",
-            "water",
-            "worcestershire sauce",
-            "tomatoes",
+            "fresh basil",
+            "cilantro",
+            "butter",
+            "red curry",
             "salt",
+            "freshly ground pepper",
             "shrimp",
-            "crab meat",
-            "bay leaves",
-            "rice"
+            "shrimp",
+            "sriracha sauce",
+            "fresh basil"
+          ],
+          "source": "RecipeNLG"
+        },
+        "metadata": {
+          "dietary_tags": [
+            "gluten-free"
+          ],
+          "dish_types": [
+            "dessert"
+          ],
+          "cooking_methods": [
+            "grilled"
+          ]
+        }
+      },
+      {
+        "rank": 2,
+        "score": 0.5716171264648438,
+        "recipe": {
+          "id": "recnlg_811",
+          "title": "Tod Mun",
+          "ingredients": [
+            "1/4 cup fresh cilantro leaves, plus more for garnish",
+            "1 teaspoon hot red pepper flakes, or to taste",
+            "1 large shallot, roughly chopped",
+            "1 garlic clove, peeled",
+            "2 tablespoons nam pla or soy sauce",
+            "one 1/2-inch piece fresh ginger, peeled and roughly chopped",
+            "2 limes",
+            "1 1/2 pounds shrimp, peeled, or 1 1/2 pounds skinned mackerel fillet",
+            "corn, grapeseed, or other neutral oil for frying"
+          ],
+          "directions": [
+            "put the cilantro, hot pepper, shallot, garlic clove, nam pla, ginger, and juice and zest of 1 lime in a food processor.",
+            "process until the mixture is pureed, stopping to scrape down the sides if necessary.",
+            "add a third to half of the shrimp or mackerel and puree; add the remaining fish and pulse just until chopped and combined.",
+            "put 1/4 inch of oil in a large skillet (you can use less if you use a nonstick skillet) and turn the heat to medium-high.",
+            "shape the mixture into small balls or 4 or 8 burger like patties.",
+            "when the oil shimmers, cook the patties until browned on both sides, a total of about 10 minutes.",
+            "meanwhile, quarter the remaining lime.",
+            "serve the fish cakes with the lime wedges, garnished with the remaining cilantro.",
+            "follow the same procedure, omitting the lime juice and zest but using the cilantro, hot red pepper flakes, and shallot as above, along with 3 garlic cloves, peeled, 1 teaspoon ground cumin, and 1 tablespoon any curry powder or garam masala (see pages 592594)."
+          ],
+          "ner": [
+            "fresh cilantro",
+            "hot red pepper",
+            "shallot",
+            "garlic",
+            "soy sauce",
+            "ginger",
+            "limes",
+            "shrimp"
           ],
           "source": "RecipeNLG"
         },
@@ -1768,95 +1786,62 @@
           "dietary_tags": [
             "lactose-free"
           ],
-          "dish_types": [],
-          "cooking_methods": [
-            "boiled"
-          ]
-        }
-      },
-      {
-        "rank": 2,
-        "score": 0.5869746208190918,
-        "recipe": {
-          "id": 659907,
-          "title": "Shrimp & Orzo",
-          "ingredients": [
-            "28 oz. can diced tomatoes, drained",
-            "3/4 c. dry white wine",
-            "1 fennel bulb, chopped, reserving about 2 T. of the feathery fennel fronds for garnish",
-            "6 oz. package of crumbled feta cheese",
-            "2 T. chopped fresh parsley, divinded",
-            "6 loves of garlic, minced",
-            "lemon wedges, for serving",
-            "2 c. low-sodium chicken broth",
-            "3 T. extra-virgin olive oil",
-            "1 Onion, finely diced",
-            "4 t. chopped fresh oregano (1 t. dried can be subbed)",
-            "1 lb. orzo pasta",
-            "3/4 t. crushed red pepper flakes",
-            "Salt & Pepper",
-            "1 1/2 lb. large shrimp, peeled, deveined and patted dry",
-            "2 1/2 c. water"
-          ],
-          "instructions": "<ol><li>Preheat oven to 400 degrees f. Season the shrimp with salt &amp; pepper, refrigerate until ready to use. Grease a 13x9-inch baking dish.</li><li>Heat the oil in a large Dutch oven over medium-high heat until the oil is shimmering. Add the onion, fennel bulb and 1/2 t. salt. Cook, stirring frequently until the vegetables are softened and starting to brown around the edges, about 10 minutes. Add the minced garlic and crushed red pepper flakes, cook and stir until the garlic becomes very fragrant, about 30 seconds.</li><li>Add the orzo to the vegetables, stir to coat the orzo with oil, continue cooking, stirring fairly constantly, about 4 minutes, until the orzo has a toasty aroma. Add the wine, cook,stirring constantly, until the liquid evaporates, about 1 minute. Add the chicken broth, water and 1/4 t. salt. Bring to a boil, then reduce heat, simmer, until the orzo is almost completely tender, about 12 minutes, stirring fairly constantly to prevent sticking and adjusting the heat as necessary to maintain a lively simmer.</li><li>After the 12 minutes, remove from heat and stir in the shrimp, tomatoes, oregano and 1 T. of the parsley. Transfer to the prepared baking dish, sprinkle with the feta. Bake for about 20 minutes, until the shrimp is cooked through and the feta is lightly browned. Before serving, sprinkle with the remaining parsley and the reserved fennel fronds. Serve with lemon wedges.</li></ol>",
-          "source": "Spoonacular"
-        },
-        "metadata": {
-          "dietary_tags": [],
           "dish_types": [
+            "beverage",
             "dinner",
-            "pasta",
-            "soup"
+            "dessert"
           ],
-          "cooking_methods": [
-            "baked",
-            "boiled"
-          ]
+          "cooking_methods": []
         }
       },
       {
         "rank": 3,
-        "score": 0.5825018882751465,
+        "score": 0.5660039782524109,
         "recipe": {
-          "id": "recnlg_1569",
-          "title": "Camarones al Carbon: Grilled Tiger Shrimp with Two Sauces",
+          "id": "recnlg_45",
+          "title": "Grilled Shrimp",
           "ingredients": [
-            "1/2 medium avocado peeled and pitted",
-            "2 medium tomatillos, husks removed",
-            "1/2 cup cilantro",
-            "1 cup cold water, plus 1 cup for chipotle sauce",
-            "1/2 teaspoon salt, plus 1/2 teaspoon for chipotle sauce",
-            "3 medium plum tomatoes, roasted, peeled and seeded",
-            "7 canned chipotles, seeds removed",
-            "1 pound tiger shrimp (16-20 count peeled and deveined)",
-            "1 medium fresh mango peeled and cut into thin wedges"
+            "4 cloves garlic, roasted",
+            "1 tablespoon olive oil",
+            "2 teaspoons dried mint leaves, divided",
+            "17 whole raw shrimp",
+            "2 teaspoons fish sauce",
+            "6 teaspoons cold water",
+            "1 teaspoon hoisin sauce",
+            "1/4 teaspoons chili garlic sauce",
+            "2 teaspoons maple syrup",
+            "1 teaspoon lime juice"
           ],
           "directions": [
-            "in a blender or food processor blend the avocado, tomatillos, cilantro, water and salt, until you get a smooth puree.",
-            "set aside.",
-            "in a blender or food processor blend the tomatoes, chipotles, water and salt, until you get a smooth puree.",
-            "set aside.",
-            "season the shrimp with salt and on a grill or broiler cook the shrimp until tender; (being careful not to overcook).",
-            "on a medium-size plate place the avocado sauce on half of the plate, and on the other half the tomato-chipotle sauce; garnish the plate with the mango slices and set the grilled shrimp between the 2 salsas."
+            "start preparing a day in advance.",
+            "crush the garlic cloves with a fork.",
+            "mix in the oil and the 1 teaspoon of dried mint then add the raw shrimp and let marinate overnight.",
+            "in another bowl with a cover, mix all the sauce ingredients (fish sauce, water, hoisin sauce, chili garlic sauce, maple syrup and lime juice) and keep in the fridge till the next day.",
+            "when youre ready to eat them the next day, start the grill or heat your pan and cook your shrimp for 2-3 minutes.",
+            "enjoy!"
           ],
           "ner": [
-            "avocado",
-            "cilantro",
-            "cold water",
-            "salt",
-            "tomatoes",
-            "chipotles",
+            "garlic",
+            "olive oil",
+            "mint leaves",
             "shrimp",
-            "fresh mango"
+            "fish sauce",
+            "water",
+            "hoisin sauce",
+            "garlic sauce",
+            "maple syrup",
+            "lime juice"
           ],
           "source": "RecipeNLG"
         },
         "metadata": {
           "dietary_tags": [
-            "lactose-free",
-            "gluten-free"
+            "gluten-free",
+            "lactose-free"
           ],
-          "dish_types": [],
+          "dish_types": [
+            "beverage"
+          ],
           "cooking_methods": [
             "grilled"
           ]
@@ -1864,95 +1849,85 @@
       },
       {
         "rank": 4,
-        "score": 0.5823776125907898,
+        "score": 0.5650971531867981,
         "recipe": {
-          "id": "recnlg_3774",
-          "title": "Mary Ann'S Special Shrimp Chowder",
+          "id": "recnlg_4299",
+          "title": "15 Minute Spanish Garlic Shrimp Tapa",
           "ingredients": [
-            "1 lb. bacon",
-            "3 tbsp. bacon drippings",
-            "1/2 c. celery",
-            "6 carrots, diced",
-            "1/2 c. onions",
-            "3 tbsp. flour",
-            "4 c. water",
-            "2 c. diced potatoes",
-            "1 bay leaf",
-            "salt and pepper to taste",
-            "4 to 5 lb. shrimp",
-            "1 can whole kernel corn",
-            "1 can cream-style corn",
-            "1 small can pet milk"
+            "1/2 cup olive oil",
+            "5 cloves garlic, minced",
+            "1/4 teaspoon cayenne pepper (more if you like it spicey)",
+            "1 pound raw peeled and deveined shrimp (about 25 per pound)",
+            "juice of 1 lemon",
+            "1/4 cup dry sherry (optional)",
+            "salt and freshly ground pepper to taste",
+            "fresh parsley leaves"
           ],
           "directions": [
-            "fry until crisp, bacon.",
-            "crumble and set aside.",
-            "saute in bacon drippings, celery, carrots and onions.",
-            "when done, stir in flour.",
-            "add water, potatoes and bay leaf.",
-            "salt and pepper to taste.",
-            "simmer 20 minutes.",
-            "to this, add shrimp and both corns. simmer until smooth and add milk.",
-            "serve bacon atop each serving. can be served from a crock-pot.",
-            "can also be made leaving out shrimp."
+            "if using frozen shrimp, defrost. rinse shrimp under cold water and pat dry.",
+            "in a non-stick pan or cast iron skillet heat the olive oil over medium heat.",
+            "add the garlic and cayenne pepper and saute until fragrant, about one minute. be careful not to burn the garlic!\r\nnext, add the shrimp, lemon juice, and sherry and increase the heat to medium-high.\r\nstir well, then saute turning them once until the shrimp turn pink and curl - about 3-4 minutes.\r\nseason to taste with salt and freshly ground black pepper.",
+            "transfer shrimp with oil and sauce to a serving plate or serve right from the pan.\r\nsprinkle with parsley. serve with fresh bread."
           ],
           "ner": [
-            "bacon",
-            "bacon drippings",
-            "celery",
-            "carrots",
-            "onions",
-            "flour",
-            "water",
-            "potatoes",
-            "bay leaf",
-            "salt",
+            "olive oil",
+            "garlic",
+            "cayenne pepper",
             "shrimp",
-            "whole kernel corn",
-            "cream-style corn",
-            "pet milk"
+            "lemon",
+            "sherry",
+            "salt",
+            "parsley"
           ],
           "source": "RecipeNLG"
         },
         "metadata": {
-          "dietary_tags": [],
-          "dish_types": [
-            "soup"
+          "dietary_tags": [
+            "gluten-free",
+            "lactose-free"
           ],
-          "cooking_methods": [
-            "fried"
-          ]
+          "dish_types": [
+            "beverage"
+          ],
+          "cooking_methods": []
         }
       },
       {
         "rank": 5,
-        "score": 0.5811305046081543,
+        "score": 0.5412924289703369,
         "recipe": {
-          "id": 644140,
-          "title": "Gambas Al Ajillo",
+          "id": 631748,
+          "title": "Asian Shrimp Stir-Fry",
           "ingredients": [
-            "3 slices bacon, broken into bits",
-            "3 tablespoons butter",
-            "1/2 teaspoon cayenne pepper",
-            "1 tablespoon chili powder",
-            "1 cup dry sherry",
-            "2 tablespoons garlic, minced",
-            "lemon wedges",
-            "2 tablespoons olive oil",
-            "1 tablespoon paprika",
-            "chopped parsley",
-            "toasted slices of rustic bread",
-            "1 teaspoon salt",
-            "1 pound small shrimp (31/40 count), peeled and deveined",
-            "1/2 cup tomato, diced"
+            "2 tablespoons canola oil",
+            "1 pound uncooked large shrimp (20/25 count per pound), peeled and deveined",
+            "1 red bell pepper, sliced (about 1 cup)",
+            "1 large yellow onion, sliced (about 1 cup)",
+            "2 cloves garlic, minced",
+            "1 (1-inch) piece fresh ginger root, peeled and minced (about 1 tablespoon)",
+            "1/4 teaspoon crushed red pepper",
+            "1 packet Swanson® Flavor Concentrated Seafood Broth",
+            "1 tablespoon soy sauce",
+            "1 teaspoon sugar",
+            "1/4 cup water",
+            "1/4 teaspoon sesame oil",
+            "1 teaspoon sesame seeds",
+            "1 green onion, sliced (about 2 tablespoons)"
           ],
-          "instructions": "<ol><li>In a saut pan over medium-high heat, add olive oil. When hot, add shrimp and seasonings, and saut until they are cooked halfway.</li><li>Add garlic, tomatoes, bacon and saut a bit longer. Add sherry and cook until reduced by half. Add butter and stir in.</li><li>Sprinkle with parsley and squeeze the lemon wedges over the shrimp. Serve with crusty bread and a crisp white wine like a Verdejo from Rueda or a bubbly Cava from Penedes.</li></ol>",
+          "instructions": "Heat the oil in a 12-inch skillet over medium-high heat. Add the shrimp and stir-fry for 3 minutes or until cooked through. Remove the shrimp from the skillet.\nAdd the red bell pepper and yellow onion to the skillet and stir-fry for 2 minutes or until the vegetables are tender-crisp.\nAdd the garlic, ginger root and crushed red pepper to the skillet and stir-fry for 30 seconds. Return the shrimp to the skillet. Stir in the concentrated broth, soy sauce, sugar and water and cook for 1 minute or until the mixture is hot. Remove the skillet from the heat and stir in the sesame oil. Sprinkle the shrimp mixture with the sesame seeds and green onion.",
           "source": "Spoonacular"
         },
         "metadata": {
-          "dietary_tags": [],
-          "dish_types": [],
-          "cooking_methods": []
+          "dietary_tags": [
+            "lactose-free"
+          ],
+          "dish_types": [
+            "soup",
+            "dessert"
+          ],
+          "cooking_methods": [
+            "fried"
+          ]
         }
       }
     ]
@@ -2129,8 +2104,8 @@
             "gluten-free"
           ],
           "dish_types": [
-            "dinner",
-            "soup"
+            "soup",
+            "dinner"
           ],
           "cooking_methods": [
             "baked"
@@ -2139,64 +2114,59 @@
       },
       {
         "rank": 5,
-        "score": 0.6316264867782593,
+        "score": 0.6290014386177063,
         "recipe": {
-          "id": "recnlg_1289",
-          "title": "Potato, Parmesan, and Anchovy Focaccia",
+          "id": "recnlg_3662",
+          "title": "Crispy Potato Crust",
           "ingredients": [
-            "a 1/4-ounce package (2 1/2 teaspoons) active dry yeast",
-            "1/2 teaspoon sugar",
-            "1 cup lukewarm water",
-            "4 to 4 1/2 cups all-purpose flour",
-            "2 cups mashed cooked peeled russet (baking) potatoes (about 1 1/4 pounds)",
-            "2 teaspoons table salt",
-            "6 tablespoons olive oil",
-            "2 garlic cloves, sliced thin",
-            "1 tablespoon fresh rosemary leaves, chopped fine, or 1 teaspoon crumbled dried",
-            "1/4 teaspoon anchovy paste, or to taste",
-            "1 1/2 pounds small red potatoes, scrubbed",
-            "1/4 cup freshly grated parmesan",
-            "1 tablespoon coarse salt, or to taste"
+            "3 idaho potatoes, peeled and grated",
+            "1 teaspoon salt",
+            "1 egg, lightly beaten",
+            "1 tablespoon unsalted butter",
+            "1/2 cup chopped onion",
+            "2 cups sliced mushrooms",
+            "1 1/2 cups grated swiss cheese",
+            "4 eggs",
+            "1 1/2 cups light cream",
+            "salt and pepper"
           ],
           "directions": [
-            "in the bowl of an electric mixer fitted with the paddle attachment proof the yeast with the sugar in the water for 5 minutes, or until the mixture is foamy.",
-            "in a large bowl combine 4 cups of the flour, the mashed potatoes, and the table salt until the mixture resembles coarse meal, add it with 2 tablespoons of the oil to the yeast mixture, and combine the dough well.",
-            "with the dough hook knead the dough, scraping down the dough hook occasionally and incorporating as much of the remaining 1/2 cup flour as necessary to prevent it from sticking, for 2 minutes, or until it is smooth and elastic.",
-            "form the dough into a ball, transfer it to an oiled bowl, and turn it to coat it with the oil.",
-            "let the dough rise, covered with plastic wrap, in a warm place for 1 1/2 hours, or until it is double in bulk.",
-            "the dough may be made up to this point, punched down, and kept, covered and chilled, overnight.",
-            "let the dough return to room temperature before proceeding with the recipe.",
-            "in a small bowl stir together the garlic, the rosemary, the anchovy paste, and the remaining 4 tablespoons oil and let the mixture stand, covered.",
-            "press the dough evenly into an oiled jelly-roll pan, 15 1/2 by 10 1/2 by 1 inches, and let it rise, covered loosely, in a warm place for 1 hour, or until it is almost double in bulk.",
-            "cut the red potatoes into paper-thin slices with a mandoline or handheld slicer, arrange the slices on the dough, overlapping them, and brush them with the oil mixture, discarding the garlic.",
-            "sprinkle the focaccia with the parmesan, the coarse salt, and pepper to taste.",
-            "bake the focaccia in the bottom third of a preheated 400f.",
-            "oven for 40 to 50 minutes, or until it is golden brown, let it cool in the pan on a rack, and serve it warm or at room temperature."
+            "preheat oven to 400 degrees f. heavily oil a 9-inch metal pie pan.",
+            "squeeze out excess liquid from grated potatoes and place in large bowl.",
+            "mix in salt and egg until well combined.",
+            "press potatoes into pie pan and up the sides.",
+            "if mixture is too sticky, dip fingers in flour.",
+            "bake crust for 30 minutes or until it begins to turn golden brown, brushing occasionally with oil.",
+            "in a medium skillet melt butter over medium heat and cook onion until tender.",
+            "stir in the mushrooms and cook until golden brown.",
+            "spread grated cheese over bottom of potato crust.",
+            "spread out the onion and mushroom mixture over the cheese.",
+            "in a medium bowl, whisk or beat together with a fork the eggs and the cream.",
+            "season mixture with salt and pepper and pour over vegetables and cheese.",
+            "reduce oven heat to 375 degrees f and bake for 40 minutes or until firm.",
+            "allow quiche to cool for 15 minutes before slicing and serving."
           ],
           "ner": [
-            "active dry yeast",
-            "sugar",
-            "water",
-            "flour",
             "potatoes",
             "salt",
-            "olive oil",
-            "garlic",
-            "rosemary",
-            "anchovy paste",
-            "red potatoes",
-            "freshly grated parmesan",
-            "coarse salt"
+            "egg",
+            "unsalted butter",
+            "onion",
+            "mushrooms",
+            "swiss cheese",
+            "eggs",
+            "light cream",
+            "salt"
           ],
           "source": "RecipeNLG"
         },
         "metadata": {
           "dietary_tags": [
+            "gluten-free",
             "vegetarian"
           ],
           "dish_types": [
-            "dinner",
-            "lunch"
+            "dessert"
           ],
           "cooking_methods": [
             "baked"
@@ -2244,8 +2214,9 @@
             "vegetarian"
           ],
           "dish_types": [
-            "salad",
-            "lunch"
+            "beverage",
+            "lunch",
+            "salad"
           ],
           "cooking_methods": []
         }
@@ -2445,12 +2416,13 @@
         },
         "metadata": {
           "dietary_tags": [
-            "lactose-free",
             "gluten-free",
+            "lactose-free",
             "vegan",
             "vegetarian"
           ],
           "dish_types": [
+            "beverage",
             "dinner"
           ],
           "cooking_methods": []

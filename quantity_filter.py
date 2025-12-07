@@ -8,7 +8,29 @@ from typing import Dict, List, Tuple, Optional
 
 
 class QuantityFilter:
-    """Extract and filter based on ingredient quantity constraints"""
+    """Extract and filter based on ingr    # Test recipe requirement extraction
+    print("\nTesting recipe requirement extraction:")
+    test_ingredients = [
+        ["6 eggs", "1 c. milk", "2 cups flour"],
+        ["1 egg", "3 tablespoons butter"],
+        ["2 lb chicken breast", "1/2 cup cheese"],
+        ["2 or more eggs", "2 or more tomatoes", "grated cheese"],  # NEW TEST
+        ["7 large eggs", "1/2 cup cheddar cheese"],  # NEW TEST
+    ]
+    for ingredients in test_ingredients:
+        requirements = QuantityFilter.extract_recipe_requirements(ingredients)
+        print(f"  Ingredients: {ingredients}")
+        print(f"  Requirements: {requirements}")
+    
+    # Test constraint satisfaction
+    print("\nTesting constraint satisfaction:")
+    test_cases = [
+        ({'egg': 2.0}, {'egg': 1.0}, "User has 2 eggs, recipe needs 1"),
+        ({'egg': 2.0}, {'egg': 6.0}, "User has 2 eggs, recipe needs 6"),
+        ({'egg': 2.0}, {'egg': 2.5}, "User has 2 eggs, recipe needs 2.5"),
+        ({'egg': 2.0}, {'egg': 2.0}, "User has 2 eggs, recipe needs 2 (exact)"),  # NEW TEST
+        ({'egg': 2.0}, {'egg': 7.0}, "User has 2 eggs, recipe needs 7"),  # NEW TEST
+    ]straints"""
     
     # Number word to digit mapping
     NUMBER_WORDS = {
@@ -18,30 +40,30 @@ class QuantityFilter:
     }
     
     # Common ingredient patterns for quantity extraction
-    # Updated to handle modifiers like "jumbo", "large", "fresh" between number and ingredient
+    # Updated to handle modifiers like "jumbo", "large", "fresh" and "or more" patterns
     INGREDIENT_PATTERNS = {
         'egg': [  # Use singular form as canonical key
-            r'(\d+(?:\.\d+)?)\s*(?:\w+\s+)?eggs?',  # Matches both "egg" and "eggs"
+            r'(\d+(?:\.\d+)?)\s*(?:or\s+more\s+)?(?:\w+\s+)?eggs?',  # "2 or more eggs", "2 large eggs"
             r'eggs?\s*(\d+)',
         ],
         'chicken': [
-            r'(\d+(?:\.\d+)?)\s*(?:lb\.?|lbs?\.?|pound|pounds)?\s*(?:\w+\s+)?chicken',  # "2 lb fresh chicken"
+            r'(\d+(?:\.\d+)?)\s*(?:lb\.?|lbs?\.?|pound|pounds)?\s*(?:or\s+more\s+)?(?:\w+\s+)?chicken',
             r'(\d+)\s*chicken\s*(?:breast|thigh|wing)',
         ],
         'butter': [
-            r'(\d+(?:\.\d+)?)\s*(?:stick|sticks|cup|cups|tbsp|tablespoon)?\s*(?:\w+\s+)?butter',
+            r'(\d+(?:\.\d+)?)\s*(?:stick|sticks|cup|cups|tbsp|tablespoon)?\s*(?:or\s+more\s+)?(?:\w+\s+)?butter',
         ],
         'milk': [
-            r'(\d+(?:\.\d+)?)\s*(?:c\.?|cup|cups|pt\.?|pint)?\s*(?:\w+\s+)?milk',
+            r'(\d+(?:\.\d+)?)\s*(?:c\.?|cup|cups|pt\.?|pint)?\s*(?:or\s+more\s+)?(?:\w+\s+)?milk',
         ],
         'cheese': [
-            r'(\d+(?:\.\d+)?)\s*(?:c\.?|cup|cups|oz\.?|ounce)?\s*(?:\w+\s+)?cheese',
+            r'(\d+(?:\.\d+)?)\s*(?:c\.?|cup|cups|oz\.?|ounce)?\s*(?:or\s+more\s+)?(?:\w+\s+)?cheese',
         ],
         'flour': [
-            r'(\d+(?:\.\d+)?)\s*(?:c\.?|cup|cups)?\s*(?:\w+\s+)?flour',
+            r'(\d+(?:\.\d+)?)\s*(?:c\.?|cup|cups)?\s*(?:or\s+more\s+)?(?:\w+\s+)?flour',
         ],
         'sugar': [
-            r'(\d+(?:\.\d+)?)\s*(?:c\.?|cup|cups)?\s*(?:\w+\s+)?sugar',
+            r'(\d+(?:\.\d+)?)\s*(?:c\.?|cup|cups)?\s*(?:or\s+more\s+)?(?:\w+\s+)?sugar',
         ],
     }
     
@@ -111,6 +133,7 @@ class QuantityFilter:
         
         Examples:
             ["6 eggs", "1 cup milk"] -> {'eggs': 6.0, 'milk': 1.0}
+            ["2 or more eggs"] -> {'eggs': 2.0}  # Treat as minimum
         """
         requirements = {}
         
@@ -124,7 +147,6 @@ class QuantityFilter:
                     if match:
                         try:
                             quantity = float(match.group(1))
-                            
                             # Keep the maximum quantity if multiple mentions
                             if ingredient_name in requirements:
                                 requirements[ingredient_name] = max(
@@ -242,7 +264,10 @@ if __name__ == "__main__":
     test_ingredients = [
         ["6 eggs", "1 c. milk", "2 cups flour"],
         ["1 egg", "3 tablespoons butter"],
-        ["2 lb chicken breast", "1/2 cup cheese"]
+        ["2 lb chicken breast", "1/2 cup cheese"],
+        ["2 or more eggs", "2 or more tomatoes", "grated cheese"],  # NEW TEST
+        ["7 large eggs", "1/2 cup cheddar cheese"],  # NEW TEST
+        ["6 jumbo eggs", "1 cup milk"],  # NEW TEST
     ]
     for ingredients in test_ingredients:
         requirements = QuantityFilter.extract_recipe_requirements(ingredients)
@@ -252,9 +277,11 @@ if __name__ == "__main__":
     # Test constraint satisfaction
     print("\nTesting constraint satisfaction:")
     test_cases = [
-        ({'eggs': 2.0}, {'eggs': 1.0}, "User has 2 eggs, recipe needs 1"),
-        ({'eggs': 2.0}, {'eggs': 6.0}, "User has 2 eggs, recipe needs 6"),
-        ({'eggs': 2.0}, {'eggs': 2.5}, "User has 2 eggs, recipe needs 2.5"),
+        ({'egg': 2.0}, {'egg': 1.0}, "User has 2 eggs, recipe needs 1"),
+        ({'egg': 2.0}, {'egg': 6.0}, "User has 2 eggs, recipe needs 6"),
+        ({'egg': 2.0}, {'egg': 2.5}, "User has 2 eggs, recipe needs 2.5"),
+        ({'egg': 2.0}, {'egg': 2.0}, "User has 2 eggs, recipe needs 2 (exact)"),  # NEW TEST
+        ({'egg': 2.0}, {'egg': 7.0}, "User has 2 eggs, recipe needs 7"),  # NEW TEST
     ]
     for user_c, recipe_r, desc in test_cases:
         result = QuantityFilter.satisfies_constraints(recipe_r, user_c)
