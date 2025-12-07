@@ -3497,42 +3497,6 @@
           "source": "RecipeNLG"
         },
         {
-          "id": "recnlg_4323",
-          "title": "Irish Potato Pie",
-          "ingredients": [
-            "2 potatoes, cooked",
-            "2 1/2 c. sugar",
-            "1 1/2 c. butter",
-            "1/2 c. milk",
-            "2 or 3 eggs",
-            "1 1/2 tsp. lemon flavor",
-            "1 tsp. nutmeg or vanilla",
-            "1 tbsp. flour",
-            "1 pinch salt (optional)",
-            "1 9-inch pie crust"
-          ],
-          "directions": [
-            "mix hot potatoes, sugar, butter and milk.",
-            "beat well.",
-            "add eggs, one at a time.",
-            "add remaining ingredients and pour into pie shell.",
-            "bake at 350° for 30 to 35 minutes or until set."
-          ],
-          "ner": [
-            "potatoes",
-            "sugar",
-            "butter",
-            "milk",
-            "eggs",
-            "lemon flavor",
-            "nutmeg",
-            "flour",
-            "salt",
-            "crust"
-          ],
-          "source": "RecipeNLG"
-        },
-        {
           "id": "recnlg_191",
           "title": "Bread Pudding",
           "ingredients": [
