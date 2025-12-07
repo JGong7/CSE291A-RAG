@@ -16,7 +16,7 @@
     "results": [
       {
         "rank": 1,
-        "score": 0.6130187511444092,
+        "score": 0.6130188703536987,
         "recipe": {
           "id": "recnlg_1783",
           "title": "Baked Cheese Omelet",
@@ -41,8 +41,8 @@
         },
         "metadata": {
           "dietary_tags": [
-            "vegetarian",
-            "gluten-free"
+            "gluten-free",
+            "vegetarian"
           ],
           "dish_types": [
             "breakfast",
@@ -53,7 +53,7 @@
       },
       {
         "rank": 2,
-        "score": 0.599377453327179,
+        "score": 0.5993776321411133,
         "recipe": {
           "id": "recnlg_3967",
           "title": "Breakfast Casserole",
@@ -100,7 +100,7 @@
       },
       {
         "rank": 3,
-        "score": 0.5943556427955627,
+        "score": 0.5943557024002075,
         "recipe": {
           "id": "recnlg_4356",
           "title": "Buttermilk Oatmeal Pancakes",
@@ -147,7 +147,7 @@
       },
       {
         "rank": 4,
-        "score": 0.591758668422699,
+        "score": 0.5917587280273438,
         "recipe": {
           "id": "recnlg_1730",
           "title": "Dad'S Breakfast Egg Muffins",
@@ -201,7 +201,7 @@
       },
       {
         "rank": 5,
-        "score": 0.5788392424583435,
+        "score": 0.5788393020629883,
         "recipe": {
           "id": "recnlg_2851",
           "title": "Pancakes",
@@ -260,7 +260,7 @@
     "results": [
       {
         "rank": 1,
-        "score": 0.46276557445526123,
+        "score": 0.46276548504829407,
         "recipe": {
           "id": "recnlg_2426",
           "title": "Famous Bill'S Pasta Salad",
@@ -295,9 +295,9 @@
         },
         "metadata": {
           "dietary_tags": [
+            "lactose-free",
             "vegetarian",
-            "vegan",
-            "lactose-free"
+            "vegan"
           ],
           "dish_types": [
             "pasta",
@@ -309,7 +309,7 @@
       },
       {
         "rank": 2,
-        "score": 0.4501928687095642,
+        "score": 0.45019277930259705,
         "recipe": {
           "id": "recnlg_1741",
           "title": "Pasta Salad",
@@ -338,22 +338,22 @@
         },
         "metadata": {
           "dietary_tags": [
+            "lactose-free",
             "vegetarian",
-            "vegan",
-            "lactose-free"
+            "vegan"
           ],
           "dish_types": [
+            "pasta",
             "dinner",
             "salad",
-            "lunch",
-            "pasta"
+            "lunch"
           ],
           "cooking_methods": []
         }
       },
       {
         "rank": 3,
-        "score": 0.4291820526123047,
+        "score": 0.4291820228099823,
         "recipe": {
           "id": "recnlg_779",
           "title": "Lanai Pasta Salad",
@@ -383,15 +383,15 @@
         },
         "metadata": {
           "dietary_tags": [
+            "lactose-free",
             "vegetarian",
-            "vegan",
-            "lactose-free"
+            "vegan"
           ],
           "dish_types": [
+            "pasta",
             "dinner",
             "salad",
-            "lunch",
-            "pasta"
+            "lunch"
           ],
           "cooking_methods": []
         }
@@ -442,7 +442,7 @@
       },
       {
         "rank": 5,
-        "score": 0.407711386680603,
+        "score": 0.4077114462852478,
         "recipe": {
           "id": "recnlg_3345",
           "title": "Whole Wheat Pasta With Avocado Sauce",
@@ -471,9 +471,9 @@
         },
         "metadata": {
           "dietary_tags": [
+            "lactose-free",
             "vegetarian",
-            "vegan",
-            "lactose-free"
+            "vegan"
           ],
           "dish_types": [
             "pasta"
@@ -488,7 +488,7 @@
   {
     "query_id": 3,
     "query": "I love peanuts, give me a chocolate dessert recipe for special birthday occasions",
-    "expanded_query": "I love peanuts, give me a chocolate dessert recipe for special birthday occasions celebration festive special cake chocolate",
+    "expanded_query": "I love peanuts, give me a chocolate dessert recipe for special birthday occasions celebration festive special chocolate cake",
     "expansion_info": {
       "birthday": [
         "cake",
@@ -502,7 +502,7 @@
     "results": [
       {
         "rank": 1,
-        "score": 0.5646284818649292,
+        "score": 0.5602444410324097,
         "recipe": {
           "id": "recnlg_2068",
           "title": "Chocolate Surprise",
@@ -552,7 +552,43 @@
       },
       {
         "rank": 2,
-        "score": 0.5614255666732788,
+        "score": 0.5590357780456543,
+        "recipe": {
+          "id": "recnlg_3057",
+          "title": "Peanut Butter Balls",
+          "ingredients": [
+            "1 c. peanut butter",
+            "1 c. nonfat dry milk powder",
+            "8 tsp. honey",
+            "2 tsp. vanilla"
+          ],
+          "directions": [
+            "make sugar cookies except before baking, paint designs on the cookies with \"egg yolk paint.\""
+          ],
+          "ner": [
+            "peanut butter",
+            "nonfat dry milk powder",
+            "honey",
+            "vanilla"
+          ],
+          "source": "RecipeNLG"
+        },
+        "metadata": {
+          "dietary_tags": [
+            "gluten-free",
+            "vegetarian"
+          ],
+          "dish_types": [
+            "dessert"
+          ],
+          "cooking_methods": [
+            "baked"
+          ]
+        }
+      },
+      {
+        "rank": 3,
+        "score": 0.5567529201507568,
         "recipe": {
           "id": "recnlg_1426",
           "title": "Double Chocolate Peanut Butter Cookies",
@@ -610,14 +646,14 @@
             "dessert"
           ],
           "cooking_methods": [
-            "baked",
-            "boiled"
+            "boiled",
+            "baked"
           ]
         }
       },
       {
-        "rank": 3,
-        "score": 0.5596380233764648,
+        "rank": 4,
+        "score": 0.5542095303535461,
         "recipe": {
           "id": "recnlg_4894",
           "title": "Peanut Clusters",
@@ -651,8 +687,8 @@
         },
         "metadata": {
           "dietary_tags": [
-            "vegetarian",
-            "gluten-free"
+            "gluten-free",
+            "vegetarian"
           ],
           "dish_types": [
             "dessert"
@@ -663,8 +699,8 @@
         }
       },
       {
-        "rank": 4,
-        "score": 0.5588008165359497,
+        "rank": 5,
+        "score": 0.5488845109939575,
         "recipe": {
           "id": "recnlg_4153",
           "title": "Chocolate Peanut Butter Candy",
@@ -692,44 +728,8 @@
         },
         "metadata": {
           "dietary_tags": [
-            "vegetarian",
-            "gluten-free"
-          ],
-          "dish_types": [
-            "dessert"
-          ],
-          "cooking_methods": [
-            "baked"
-          ]
-        }
-      },
-      {
-        "rank": 5,
-        "score": 0.5574948191642761,
-        "recipe": {
-          "id": "recnlg_3057",
-          "title": "Peanut Butter Balls",
-          "ingredients": [
-            "1 c. peanut butter",
-            "1 c. nonfat dry milk powder",
-            "8 tsp. honey",
-            "2 tsp. vanilla"
-          ],
-          "directions": [
-            "make sugar cookies except before baking, paint designs on the cookies with \"egg yolk paint.\""
-          ],
-          "ner": [
-            "peanut butter",
-            "nonfat dry milk powder",
-            "honey",
-            "vanilla"
-          ],
-          "source": "RecipeNLG"
-        },
-        "metadata": {
-          "dietary_tags": [
-            "vegetarian",
-            "gluten-free"
+            "gluten-free",
+            "vegetarian"
           ],
           "dish_types": [
             "dessert"
@@ -744,7 +744,7 @@
   {
     "query_id": 4,
     "query": "Give me a spicy chicken curry with coconut milk.",
-    "expanded_query": "Give me a spicy chicken curry with coconut milk. jalapeño hot cayenne chili pepper",
+    "expanded_query": "Give me a spicy chicken curry with coconut milk. cayenne pepper chili jalapeño hot",
     "expansion_info": {
       "spicy": [
         "hot",
@@ -758,7 +758,7 @@
     "results": [
       {
         "rank": 1,
-        "score": 0.6045511960983276,
+        "score": 0.590704083442688,
         "recipe": {
           "id": "recnlg_4487",
           "title": "Curried Rice",
@@ -803,7 +803,7 @@
       },
       {
         "rank": 2,
-        "score": 0.5677355527877808,
+        "score": 0.5722832679748535,
         "recipe": {
           "id": "recnlg_3415",
           "title": "Spicy Chicken Chili",
@@ -854,7 +854,113 @@
       },
       {
         "rank": 3,
-        "score": 0.5424008965492249,
+        "score": 0.5426450371742249,
+        "recipe": {
+          "id": "recnlg_2337",
+          "title": "Hot Chicken Salad",
+          "ingredients": [
+            "4 c. cooked chicken, diced",
+            "4 hard-boiled eggs, sliced",
+            "1 can cream of chicken soup (undiluted)",
+            "2 tsp. lemon juice",
+            "1 tsp. salt",
+            "1 c. grated american cheese",
+            "3 c. celery, chopped",
+            "3/4 c. mayonnaise",
+            "1 small jar pimentos, chopped fine",
+            "1 tsp. minced onion",
+            "1 1/2 c. crushed potato chips",
+            "1/2 c. slivered almonds"
+          ],
+          "directions": [
+            "combine all ingredients except potato chips, cheese and almonds.",
+            "place in large greased rectangular baking dish."
+          ],
+          "ner": [
+            "chicken",
+            "eggs",
+            "cream of chicken soup",
+            "lemon juice",
+            "salt",
+            "american cheese",
+            "celery",
+            "mayonnaise",
+            "pimentos",
+            "onion",
+            "potato chips",
+            "almonds"
+          ],
+          "source": "RecipeNLG"
+        },
+        "metadata": {
+          "dietary_tags": [
+            "gluten-free"
+          ],
+          "dish_types": [
+            "soup",
+            "salad",
+            "lunch"
+          ],
+          "cooking_methods": [
+            "baked"
+          ]
+        }
+      },
+      {
+        "rank": 4,
+        "score": 0.5333230495452881,
+        "recipe": {
+          "id": "recnlg_2537",
+          "title": "Chicken And Spinach Curry",
+          "ingredients": [
+            "2 tablespoons canola oil",
+            "2 cups chopped onions",
+            "1 tablespoon indian curry paste",
+            "1 tablespoon chopped garlic",
+            "1 tablespoon chopped ginger",
+            "1 pound (500 grams) ground chicken",
+            "1 cup chicken stock",
+            "3 tablespoons tomato paste",
+            "5 ounces (150 grams) fresh baby spinach (about 4 cups)",
+            "1/2 teaspoon garam masala",
+            "2 tablespoons chopped mint or coriander",
+            "salt to taste"
+          ],
+          "directions": [
+            "heat oil in a skillet over medium heat. add chopped onions and curry paste and saute for 5 minutes or until softened and light brown in colour. add garlic and ginger and saute for 1 minute. add chicken and saute for 2 minutes or until it loses its rawness.",
+            "add chicken stock, tomato paste and bring to a boil. reduce heat and cook gently for 8 to 10 minutes or until the chicken is cooked through. add baby spinach and cook for another 2 minutes, until it is wilted.",
+            "sprinkle with garam masala and chopped mint or coriander. season with salt to taste. accompany with chapattis, naan or any other bread."
+          ],
+          "ner": [
+            "canola oil",
+            "onions",
+            "curry",
+            "garlic",
+            "ginger",
+            "ground chicken",
+            "chicken stock",
+            "tomato paste",
+            "baby spinach",
+            "garam masala",
+            "mint",
+            "salt"
+          ],
+          "source": "RecipeNLG"
+        },
+        "metadata": {
+          "dietary_tags": [
+            "lactose-free",
+            "gluten-free"
+          ],
+          "dish_types": [],
+          "cooking_methods": [
+            "boiled"
+          ]
+        }
+      },
+      {
+        "rank": 5,
+        "score": 0.5316922664642334,
         "recipe": {
           "id": "recnlg_4488",
           "title": "Thai Green Curry Chicken",
@@ -908,133 +1014,12 @@
           ],
           "dish_types": [
             "soup",
-            "dinner",
             "pasta",
+            "dinner",
             "dessert"
           ],
           "cooking_methods": [
-            "fried",
-            "boiled"
-          ]
-        }
-      },
-      {
-        "rank": 4,
-        "score": 0.540744423866272,
-        "recipe": {
-          "id": "recnlg_2537",
-          "title": "Chicken And Spinach Curry",
-          "ingredients": [
-            "2 tablespoons canola oil",
-            "2 cups chopped onions",
-            "1 tablespoon indian curry paste",
-            "1 tablespoon chopped garlic",
-            "1 tablespoon chopped ginger",
-            "1 pound (500 grams) ground chicken",
-            "1 cup chicken stock",
-            "3 tablespoons tomato paste",
-            "5 ounces (150 grams) fresh baby spinach (about 4 cups)",
-            "1/2 teaspoon garam masala",
-            "2 tablespoons chopped mint or coriander",
-            "salt to taste"
-          ],
-          "directions": [
-            "heat oil in a skillet over medium heat. add chopped onions and curry paste and saute for 5 minutes or until softened and light brown in colour. add garlic and ginger and saute for 1 minute. add chicken and saute for 2 minutes or until it loses its rawness.",
-            "add chicken stock, tomato paste and bring to a boil. reduce heat and cook gently for 8 to 10 minutes or until the chicken is cooked through. add baby spinach and cook for another 2 minutes, until it is wilted.",
-            "sprinkle with garam masala and chopped mint or coriander. season with salt to taste. accompany with chapattis, naan or any other bread."
-          ],
-          "ner": [
-            "canola oil",
-            "onions",
-            "curry",
-            "garlic",
-            "ginger",
-            "ground chicken",
-            "chicken stock",
-            "tomato paste",
-            "baby spinach",
-            "garam masala",
-            "mint",
-            "salt"
-          ],
-          "source": "RecipeNLG"
-        },
-        "metadata": {
-          "dietary_tags": [
-            "lactose-free",
-            "gluten-free"
-          ],
-          "dish_types": [],
-          "cooking_methods": [
-            "boiled"
-          ]
-        }
-      },
-      {
-        "rank": 5,
-        "score": 0.5385201573371887,
-        "recipe": {
-          "id": "recnlg_435",
-          "title": "Indian-Spiced Chicken and Spinach",
-          "ingredients": [
-            "2 tablespoons cooking oil",
-            "1 onion, chopped",
-            "3 garlic cloves, chopped",
-            "1 tablespoon ginger, chopped",
-            "1 tablespoon ground cumin",
-            "1 tablespoon ground coriander",
-            "12 teaspoon turmeric",
-            "12 teaspoon paprika",
-            "1 12 teaspoons salt",
-            "2 jalapeno peppers, seeds and ribs removed, minced",
-            "12 cup crushed tomatoes, drained",
-            "12 cup heavy cream",
-            "1 cinnamon stick",
-            "1 12 cups water",
-            "2 (10 ounce) packages frozen chopped spinach, thawed",
-            "1 13 lbs boneless skinless chicken breasts"
-          ],
-          "directions": [
-            "in a large frying pan, heat the oil over moderately low heat.",
-            "add the onion and cook until starting to soften, about 3 minutes.",
-            "add the garlic and ginger and cook, stirring occasionally, for 2 minutes longer.",
-            "stir in the cumin, coriander, turmeric, paprika, and 1 teaspoon of the salt.",
-            "cook until the spices are fragrant, about 1 minute, and then stir in the jalapenos and tomatoes.",
-            "add the cream, cinnamon stick, and water.",
-            "squeeze the spinach to remove excess liquid and add the spinach to the pan.",
-            "bring to a simmer.",
-            "cover the pan, reduce the heat, and simmer for 5 minutes.",
-            "stir in the chicken and the remaining 1/2 teaspoon salt, cover, and simmer the stew until just done, about 10 minutes.",
-            "remove the cinnamon stick before serving."
-          ],
-          "ner": [
-            "cooking oil",
-            "onion",
-            "garlic",
-            "ginger",
-            "ground cumin",
-            "ground coriander",
-            "turmeric",
-            "paprika",
-            "salt",
-            "jalapeno peppers",
-            "tomatoes",
-            "heavy cream",
-            "cinnamon",
-            "water",
-            "chicken breasts"
-          ],
-          "source": "RecipeNLG"
-        },
-        "metadata": {
-          "dietary_tags": [
-            "gluten-free"
-          ],
-          "dish_types": [
-            "dinner",
-            "soup"
-          ],
-          "cooking_methods": [
+            "boiled",
             "fried"
           ]
         }
@@ -1044,7 +1029,7 @@
   {
     "query_id": 5,
     "query": "a healthy smoothie with banana and yogurt.",
-    "expanded_query": "a healthy smoothie with banana and yogurt. low-calorie low-fat fresh nutritious wholesome",
+    "expanded_query": "a healthy smoothie with banana and yogurt. wholesome nutritious fresh low-fat low-calorie",
     "expansion_info": {
       "healthy": [
         "nutritious",
@@ -1058,7 +1043,7 @@
     "results": [
       {
         "rank": 1,
-        "score": 0.7397478818893433,
+        "score": 0.7422292232513428,
         "recipe": {
           "id": "recnlg_4342",
           "title": "Simple Banana Smoothie",
@@ -1085,8 +1070,8 @@
         },
         "metadata": {
           "dietary_tags": [
-            "vegetarian",
-            "gluten-free"
+            "gluten-free",
+            "vegetarian"
           ],
           "dish_types": [],
           "cooking_methods": []
@@ -1094,7 +1079,7 @@
       },
       {
         "rank": 2,
-        "score": 0.7011033892631531,
+        "score": 0.7020810842514038,
         "recipe": {
           "id": "recnlg_2694",
           "title": "Low-Fat Berry Good Smoothie",
@@ -1126,8 +1111,8 @@
         },
         "metadata": {
           "dietary_tags": [
-            "vegetarian",
-            "gluten-free"
+            "gluten-free",
+            "vegetarian"
           ],
           "dish_types": [],
           "cooking_methods": []
@@ -1135,7 +1120,7 @@
       },
       {
         "rank": 3,
-        "score": 0.6656241416931152,
+        "score": 0.6741513013839722,
         "recipe": {
           "id": "recnlg_2951",
           "title": "Strawberry Banana Smoothie",
@@ -1161,10 +1146,10 @@
         },
         "metadata": {
           "dietary_tags": [
-            "vegetarian",
-            "vegan",
             "lactose-free",
-            "gluten-free"
+            "gluten-free",
+            "vegetarian",
+            "vegan"
           ],
           "dish_types": [
             "dessert"
@@ -1174,7 +1159,7 @@
       },
       {
         "rank": 4,
-        "score": 0.6518805027008057,
+        "score": 0.6582728624343872,
         "recipe": {
           "id": "recnlg_203",
           "title": "kale smoothie for flat belly",
@@ -1203,8 +1188,8 @@
         },
         "metadata": {
           "dietary_tags": [
-            "vegetarian",
-            "gluten-free"
+            "gluten-free",
+            "vegetarian"
           ],
           "dish_types": [],
           "cooking_methods": []
@@ -1212,7 +1197,7 @@
       },
       {
         "rank": 5,
-        "score": 0.6327497959136963,
+        "score": 0.639780580997467,
         "recipe": {
           "id": "recnlg_1881",
           "title": "Healthy Strawberry Breakfast Parfait",
@@ -1236,8 +1221,8 @@
         },
         "metadata": {
           "dietary_tags": [
-            "vegetarian",
-            "gluten-free"
+            "gluten-free",
+            "vegetarian"
           ],
           "dish_types": [
             "breakfast",
@@ -1272,7 +1257,7 @@
     "results": [
       {
         "rank": 1,
-        "score": 0.6114833354949951,
+        "score": 0.6114832162857056,
         "recipe": {
           "id": "recnlg_2227",
           "title": "Potato Soup",
@@ -1313,8 +1298,8 @@
         },
         "metadata": {
           "dietary_tags": [
-            "vegetarian",
-            "gluten-free"
+            "gluten-free",
+            "vegetarian"
           ],
           "dish_types": [
             "soup"
@@ -1326,7 +1311,7 @@
       },
       {
         "rank": 2,
-        "score": 0.6002163290977478,
+        "score": 0.6002163887023926,
         "recipe": {
           "id": "recnlg_76",
           "title": "Bachelor'S Soup",
@@ -1345,9 +1330,9 @@
         },
         "metadata": {
           "dietary_tags": [
-            "vegetarian",
             "lactose-free",
-            "gluten-free"
+            "gluten-free",
+            "vegetarian"
           ],
           "dish_types": [
             "soup"
@@ -1357,7 +1342,7 @@
       },
       {
         "rank": 3,
-        "score": 0.5970155000686646,
+        "score": 0.5970154404640198,
         "recipe": {
           "id": "recnlg_2414",
           "title": "Vegetarian Split Pea Soup",
@@ -1399,10 +1384,10 @@
         },
         "metadata": {
           "dietary_tags": [
-            "vegetarian",
-            "vegan",
             "lactose-free",
-            "gluten-free"
+            "gluten-free",
+            "vegetarian",
+            "vegan"
           ],
           "dish_types": [
             "soup"
@@ -1412,7 +1397,7 @@
       },
       {
         "rank": 4,
-        "score": 0.5942643284797668,
+        "score": 0.5942642688751221,
         "recipe": {
           "id": "recnlg_2041",
           "title": "Garlic Soup",
@@ -1450,8 +1435,8 @@
         },
         "metadata": {
           "dietary_tags": [
-            "vegetarian",
-            "gluten-free"
+            "gluten-free",
+            "vegetarian"
           ],
           "dish_types": [
             "soup",
@@ -1502,8 +1487,8 @@
         },
         "metadata": {
           "dietary_tags": [
-            "vegetarian",
-            "gluten-free"
+            "gluten-free",
+            "vegetarian"
           ],
           "dish_types": [
             "soup"
@@ -1518,7 +1503,7 @@
   {
     "query_id": 7,
     "query": "Give me a traditional Irish dessert recipe.",
-    "expanded_query": "Give me a traditional Irish dessert recipe. stew beef potato cabbage soda bread",
+    "expanded_query": "Give me a traditional Irish dessert recipe. potato cabbage soda bread stew beef",
     "expansion_info": {
       "irish": [
         "potato",
@@ -1532,97 +1517,7 @@
     "results": [
       {
         "rank": 1,
-        "score": 0.5450971126556396,
-        "recipe": {
-          "id": "recnlg_4323",
-          "title": "Irish Potato Pie",
-          "ingredients": [
-            "2 potatoes, cooked",
-            "2 1/2 c. sugar",
-            "1 1/2 c. butter",
-            "1/2 c. milk",
-            "2 or 3 eggs",
-            "1 1/2 tsp. lemon flavor",
-            "1 tsp. nutmeg or vanilla",
-            "1 tbsp. flour",
-            "1 pinch salt (optional)",
-            "1 9-inch pie crust"
-          ],
-          "directions": [
-            "mix hot potatoes, sugar, butter and milk.",
-            "beat well.",
-            "add eggs, one at a time.",
-            "add remaining ingredients and pour into pie shell.",
-            "bake at 350° for 30 to 35 minutes or until set."
-          ],
-          "ner": [
-            "potatoes",
-            "sugar",
-            "butter",
-            "milk",
-            "eggs",
-            "lemon flavor",
-            "nutmeg",
-            "flour",
-            "salt",
-            "crust"
-          ],
-          "source": "RecipeNLG"
-        },
-        "metadata": {
-          "dietary_tags": [
-            "vegetarian"
-          ],
-          "dish_types": [
-            "dinner",
-            "dessert"
-          ],
-          "cooking_methods": [
-            "baked"
-          ]
-        }
-      },
-      {
-        "rank": 2,
-        "score": 0.5271036624908447,
-        "recipe": {
-          "id": "recnlg_4310",
-          "title": "Sweet Potato Cranberry Casserole",
-          "ingredients": [
-            "2 cans sweet potatoes",
-            "2 cans cranberry sauce",
-            "brown sugar",
-            "4 slices crustless bread",
-            "oleo"
-          ],
-          "directions": [
-            "add potato, cranberry sauce and bread in a casserole dish. sprinkle with brown sugar.",
-            "dot top with oleo."
-          ],
-          "ner": [
-            "sweet potatoes",
-            "cranberry sauce",
-            "brown sugar",
-            "bread",
-            "oleo"
-          ],
-          "source": "RecipeNLG"
-        },
-        "metadata": {
-          "dietary_tags": [
-            "vegetarian",
-            "vegan",
-            "lactose-free"
-          ],
-          "dish_types": [
-            "dessert"
-          ],
-          "cooking_methods": []
-        }
-      },
-      {
-        "rank": 3,
-        "score": 0.5257981419563293,
+        "score": 0.543822705745697,
         "recipe": {
           "id": "recnlg_105",
           "title": "Hungarian Placki (Potato Pancakes with Spicy Tomato-Beef Sauce)",
@@ -1701,89 +1596,243 @@
         }
       },
       {
-        "rank": 4,
-        "score": 0.517375111579895,
+        "rank": 2,
+        "score": 0.5348712205886841,
         "recipe": {
-          "id": "recnlg_4366",
-          "title": "Sweet Potato Pudding",
+          "id": "recnlg_2731",
+          "title": "Middle Eastern Beef Stew",
           "ingredients": [
-            "3 c. yams, mashed",
-            "1/2 c. sugar",
-            "1/2 tsp. salt",
-            "2 eggs, well beaten",
-            "1/2 stick butter or margarine",
-            "1/2 c. milk",
-            "1 tsp. vanilla"
+            "2 tablespoons extra virgin olive oil, divided",
+            "1 1/2 lbs lean boneless beef chuck roast, cut into 1 inch pieces",
+            "1 (14 1/2 ounce) can diced tomatoes, with peppers and onions, undrained",
+            "1 (8 ounce) can green beans or 6 ounces fresh green beans, trimmed and broken into pieces",
+            "1 cup onion, chopped",
+            "1/2 teaspoon ground cinnamon",
+            "1/4 teaspoon ground allspice (or cumin)",
+            "1 1/2 teaspoons sugar",
+            "1/4 teaspoon garlic powder",
+            "1/2 teaspoon salt",
+            "1/4 teaspoon black pepper"
           ],
           "directions": [
-            "mix and pour into a casserole."
+            "brown half the beef in 2 teaspoons olive oil, and repeat with remaining beef and more oil.",
+            "throw beef and the remaining ingredients into crock pot on low for 8 hours or high for 4 hours. my sister didn't have allspice when she made it, so she used cumin, which is fab!"
           ],
           "ner": [
-            "yams",
+            "extra virgin olive oil",
+            "chuck roast",
+            "tomatoes",
+            "green beans",
+            "onion",
+            "ground cinnamon",
+            "ground allspice",
             "sugar",
+            "garlic",
             "salt",
-            "eggs",
-            "butter",
-            "milk",
-            "vanilla"
+            "black pepper"
           ],
           "source": "RecipeNLG"
         },
         "metadata": {
           "dietary_tags": [
-            "vegetarian",
+            "lactose-free",
             "gluten-free"
           ],
           "dish_types": [
+            "soup",
+            "dinner",
             "dessert"
           ],
-          "cooking_methods": []
+          "cooking_methods": [
+            "slow-cooked"
+          ]
+        }
+      },
+      {
+        "rank": 3,
+        "score": 0.5316720008850098,
+        "recipe": {
+          "id": "recnlg_4323",
+          "title": "Irish Potato Pie",
+          "ingredients": [
+            "2 potatoes, cooked",
+            "2 1/2 c. sugar",
+            "1 1/2 c. butter",
+            "1/2 c. milk",
+            "2 or 3 eggs",
+            "1 1/2 tsp. lemon flavor",
+            "1 tsp. nutmeg or vanilla",
+            "1 tbsp. flour",
+            "1 pinch salt (optional)",
+            "1 9-inch pie crust"
+          ],
+          "directions": [
+            "mix hot potatoes, sugar, butter and milk.",
+            "beat well.",
+            "add eggs, one at a time.",
+            "add remaining ingredients and pour into pie shell.",
+            "bake at 350° for 30 to 35 minutes or until set."
+          ],
+          "ner": [
+            "potatoes",
+            "sugar",
+            "butter",
+            "milk",
+            "eggs",
+            "lemon flavor",
+            "nutmeg",
+            "flour",
+            "salt",
+            "crust"
+          ],
+          "source": "RecipeNLG"
+        },
+        "metadata": {
+          "dietary_tags": [
+            "vegetarian"
+          ],
+          "dish_types": [
+            "dinner",
+            "dessert"
+          ],
+          "cooking_methods": [
+            "baked"
+          ]
+        }
+      },
+      {
+        "rank": 4,
+        "score": 0.522318959236145,
+        "recipe": {
+          "id": "recnlg_1968",
+          "title": "Crowned Beef Bake",
+          "ingredients": [
+            "1 pound ground beef",
+            "1 can (4 ounces) mushroom stems and pieces, drained",
+            "1 can (2.8 ounces) french-fried onions, crumbled, divided",
+            "2 cups frozen mixed vegetables",
+            "1 can (10-3/4 ounces) condensed cream of celery soup, undiluted",
+            "1 cup sour cream, divided",
+            "1 tube (7-1/2 ounces) refrigerated buttermilk biscuits",
+            "1 large egg, lightly beaten",
+            "1 teaspoon celery seed",
+            "1/2 teaspoon salt"
+          ],
+          "directions": [
+            "in a large skillet, cook beef over medium heat until no longer pink; drain. place half in a greased 2-qt. baking dish. layer with mushrooms, two-thirds of the onions and all of the vegetables. top with remaining beef.",
+            "in a large saucepan, combine soup and 1/2 cup sour cream; cook over low heat until heated through. pour over beef. cut each biscuit in half; arrange cut side down around edge of dish. sprinkle remaining onions in center of casserole.",
+            "in a small bowl, combine the egg, celery seed, salt and remaining sour cream; drizzle over biscuits. bake, uncovered, at 375° for 25-30 minutes or until golden brown."
+          ],
+          "ner": [
+            "ground beef",
+            "mushroom stems",
+            "onions",
+            "mixed vegetables",
+            "condensed cream",
+            "sour cream",
+            "buttermilk",
+            "egg",
+            "celery",
+            "salt"
+          ],
+          "source": "RecipeNLG"
+        },
+        "metadata": {
+          "dietary_tags": [
+            "gluten-free"
+          ],
+          "dish_types": [
+            "soup",
+            "dinner",
+            "dessert"
+          ],
+          "cooking_methods": [
+            "baked"
+          ]
         }
       },
       {
         "rank": 5,
-        "score": 0.5152311325073242,
+        "score": 0.5134350657463074,
         "recipe": {
-          "id": "recnlg_439",
-          "title": "Sweet Potato Pudding",
+          "id": "recnlg_2691",
+          "title": "Cowboy Pie",
           "ingredients": [
-            "3 c. grated sweet potatoes",
-            "1/2 tsp. cinnamon",
-            "2 eggs, well beaten",
-            "1/3 c. melted butter",
-            "1 c. coconut",
-            "1/2 c. raisins",
-            "1 tsp. vanilla",
-            "1 c. brown sugar"
+            "4 medium white potatoes, peeled and chopped",
+            "2 sweet potatoes, peeled and chopped",
+            "1/2 swede, peeled and chopped",
+            "3/4 cup grated mature cheddar cheese",
+            "3/4 cup grated red leicester cheese",
+            "1 tablespoon butter",
+            "1/4 cup milk",
+            "1/4 teaspoon salt",
+            "1/4 teaspoon pepper",
+            "1 tablespoon vegetable oil",
+            "400 g cocktail franks",
+            "2 medium red onions, sliced",
+            "1/2 red pepper, chopped",
+            "1/2 green pepper, chopped",
+            "3 garlic cloves, chopped",
+            "1/2 tablespoon mixed herbs",
+            "6 drops maggi seasoning sauce",
+            "1 (400 g) can chopped tomatoes",
+            "1 (400 g) can baked beans",
+            "1 (400 g) can kidney beans",
+            "2 tablespoons barbecue sauce",
+            "1 cup frozen mixed vegetables",
+            "1/2 savoy cabbage, shredded",
+            "1 1/2 tablespoons beef gravy granules"
           ],
           "directions": [
-            "combine all ingredients, except eggs.",
-            "blend well.",
-            "add eggs. pour into well-greased casserole dish.",
-            "bake at 325° for about 1 hour.",
-            "may top with dream whip or whipped cream."
+            "preheat oven to 180c/350°f.",
+            "put potato, sweet potato, and swede in saucepan of cold water, bring to boil and simmer till cooked. once cooked drain and mash with the grated cheese, butter, milk, salt and pepper.",
+            "meanwhile, heat oil in pan (i find a wok works best), and brown sausages.",
+            "add onions, pepper, garlic and cook till onions and peppers are going soft, dont let them burn as this will affect the taste.",
+            "add cabbage and give good stir and cook till cabbage just beginning to go slightly soft.",
+            "add all the remaining ingredients and give good stir.",
+            "heat till bubbling and then reduce heat and allow to simmer for 5/10 mins, or till the cabbage is just beginning to wilt.",
+            "spoon the bean mixture into an ovenproof dish and top with the potatoes mixture.",
+            "put in oven for around 15 to 20 minutes.",
+            "serve and enjoy!"
           ],
           "ner": [
-            "grated sweet potatoes",
-            "cinnamon",
-            "eggs",
+            "white potatoes",
+            "sweet potatoes",
+            "swede",
+            "grated mature",
+            "grated red leicester cheese",
             "butter",
-            "coconut",
-            "raisins",
-            "vanilla",
-            "brown sugar"
+            "milk",
+            "salt",
+            "pepper",
+            "vegetable oil",
+            "cocktail franks",
+            "red onions",
+            "red pepper",
+            "green pepper",
+            "garlic",
+            "mixed herbs",
+            "sauce",
+            "tomatoes",
+            "beans",
+            "kidney beans",
+            "barbecue sauce",
+            "vegetables",
+            "cabbage",
+            "beef gravy granules"
           ],
           "source": "RecipeNLG"
         },
         "metadata": {
           "dietary_tags": [
-            "vegetarian",
             "gluten-free"
           ],
           "dish_types": [
+            "dinner",
             "dessert"
           ],
           "cooking_methods": [
+            "boiled",
             "baked"
           ]
         }
@@ -1799,7 +1848,7 @@
     "results": [
       {
         "rank": 1,
-        "score": 0.5968430042266846,
+        "score": 0.596842885017395,
         "recipe": {
           "id": "recnlg_4639",
           "title": "Mississippi Seafood Gumbo",
@@ -1865,7 +1914,7 @@
       },
       {
         "rank": 2,
-        "score": 0.5869746208190918,
+        "score": 0.586974561214447,
         "recipe": {
           "id": 659907,
           "title": "Shrimp & Orzo",
@@ -1893,13 +1942,13 @@
         "metadata": {
           "dietary_tags": [],
           "dish_types": [
-            "dinner",
+            "soup",
             "pasta",
-            "soup"
+            "dinner"
           ],
           "cooking_methods": [
-            "baked",
-            "boiled"
+            "boiled",
+            "baked"
           ]
         }
       },
@@ -1953,7 +2002,7 @@
       },
       {
         "rank": 4,
-        "score": 0.5823776125907898,
+        "score": 0.5823774933815002,
         "recipe": {
           "id": "recnlg_3774",
           "title": "Mary Ann'S Special Shrimp Chowder",
@@ -2063,7 +2112,7 @@
     "results": [
       {
         "rank": 1,
-        "score": 0.669410228729248,
+        "score": 0.6694103479385376,
         "recipe": {
           "id": "recnlg_1592",
           "title": "Loaded Baked Potato Casserole",
@@ -2137,8 +2186,8 @@
         },
         "metadata": {
           "dietary_tags": [
-            "vegetarian",
-            "gluten-free"
+            "gluten-free",
+            "vegetarian"
           ],
           "dish_types": [],
           "cooking_methods": [
@@ -2148,7 +2197,7 @@
       },
       {
         "rank": 3,
-        "score": 0.6384070515632629,
+        "score": 0.6384071707725525,
         "recipe": {
           "id": "recnlg_3283",
           "title": "Party Potatoes",
@@ -2182,8 +2231,8 @@
         },
         "metadata": {
           "dietary_tags": [
-            "vegetarian",
-            "gluten-free"
+            "gluten-free",
+            "vegetarian"
           ],
           "dish_types": [],
           "cooking_methods": [
@@ -2193,7 +2242,7 @@
       },
       {
         "rank": 4,
-        "score": 0.6328595876693726,
+        "score": 0.6328597068786621,
         "recipe": {
           "id": "recnlg_3364",
           "title": "Rich Potato Casserole",
@@ -2229,8 +2278,8 @@
             "gluten-free"
           ],
           "dish_types": [
-            "dinner",
-            "soup"
+            "soup",
+            "dinner"
           ],
           "cooking_methods": [
             "baked"
@@ -2239,7 +2288,7 @@
       },
       {
         "rank": 5,
-        "score": 0.6316264867782593,
+        "score": 0.631626546382904,
         "recipe": {
           "id": "recnlg_1289",
           "title": "Potato, Parmesan, and Anchovy Focaccia",
@@ -2314,7 +2363,7 @@
     "results": [
       {
         "rank": 1,
-        "score": 0.601285457611084,
+        "score": 0.6012853384017944,
         "recipe": {
           "id": "recnlg_3394",
           "title": "Faux Egg Salad ( Tofu )",
@@ -2342,9 +2391,9 @@
         },
         "metadata": {
           "dietary_tags": [
+            "lactose-free",
             "vegetarian",
-            "vegan",
-            "lactose-free"
+            "vegan"
           ],
           "dish_types": [
             "salad",
@@ -2355,7 +2404,7 @@
       },
       {
         "rank": 2,
-        "score": 0.5958583354949951,
+        "score": 0.5958582162857056,
         "recipe": {
           "id": "recnlg_2396",
           "title": "Tofu Cutlets",
@@ -2397,9 +2446,9 @@
         },
         "metadata": {
           "dietary_tags": [
+            "lactose-free",
             "vegetarian",
-            "vegan",
-            "lactose-free"
+            "vegan"
           ],
           "dish_types": [
             "dinner",
@@ -2413,7 +2462,7 @@
       },
       {
         "rank": 3,
-        "score": 0.5950607657432556,
+        "score": 0.5950607061386108,
         "recipe": {
           "id": "recnlg_2242",
           "title": "Marinated Baked Tofu",
@@ -2446,9 +2495,9 @@
         },
         "metadata": {
           "dietary_tags": [
+            "lactose-free",
             "vegetarian",
-            "vegan",
-            "lactose-free"
+            "vegan"
           ],
           "dish_types": [
             "dessert"
@@ -2460,7 +2509,7 @@
       },
       {
         "rank": 4,
-        "score": 0.588248610496521,
+        "score": 0.5882485508918762,
         "recipe": {
           "id": "recnlg_552",
           "title": "Brownie Chocolate Chip Cookie Bars",
@@ -2513,7 +2562,7 @@
       },
       {
         "rank": 5,
-        "score": 0.5691719055175781,
+        "score": 0.5691718459129333,
         "recipe": {
           "id": "recnlg_3001",
           "title": "Tofu Herb Spread",
@@ -2548,10 +2597,10 @@
         },
         "metadata": {
           "dietary_tags": [
-            "vegetarian",
-            "vegan",
             "lactose-free",
-            "gluten-free"
+            "gluten-free",
+            "vegetarian",
+            "vegan"
           ],
           "dish_types": [
             "dinner"
