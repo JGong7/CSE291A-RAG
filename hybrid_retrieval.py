@@ -315,26 +315,52 @@ class MetadataFilter:
 class HybridRetriever:
     """Hybrid retrieval combining metadata filtering and vector search"""
     
-    def __init__(self, recipes: List[Dict], model: SentenceTransformer):
+    def __init__(self, recipes: List[Dict], model: SentenceTransformer, 
+                 embeddings: Optional[np.ndarray] = None,
+                 metadata_list: Optional[List[Dict]] = None):
+        """
+        Initialize hybrid retriever.
+        
+        Args:
+            recipes: List of recipe dictionaries
+            model: SentenceTransformer model for encoding
+            embeddings: Optional pre-computed embeddings (must be normalized). 
+                       If None, will encode recipes from scratch.
+            metadata_list: Optional pre-extracted metadata for all recipes.
+                          If None, will extract metadata from scratch.
+        """
         self.recipes = recipes
         self.model = model
         
-        # Extract metadata for all recipes
-        print("Extracting metadata from recipes...")
-        self.metadata_list = [MetadataExtractor.extract_metadata(r) for r in tqdm(recipes)]
+        # Use provided metadata or extract new ones
+        if metadata_list is not None:
+            print(f"Using provided metadata for {len(metadata_list)} recipes")
+            self.metadata_list = metadata_list
+        else:
+            # Extract metadata for all recipes
+            print("Extracting metadata from recipes...")
+            self.metadata_list = [MetadataExtractor.extract_metadata(r) for r in tqdm(recipes)]
         
-        # Build embeddings
-        print("Building embeddings...")
-        self.texts = [self._build_text(r) for r in recipes]
-        self.embeddings = model.encode(
-            self.texts, 
-            show_progress_bar=True, 
-            batch_size=64, 
-            convert_to_numpy=True
-        )
-        
-        # Normalize embeddings
-        faiss.normalize_L2(self.embeddings)
+        # Use provided embeddings or build new ones
+        if embeddings is not None:
+            print(f"Using provided embeddings with shape: {embeddings.shape}")
+            self.embeddings = embeddings
+            # Ensure embeddings are normalized
+            if not np.allclose(np.linalg.norm(embeddings, axis=1), 1.0, atol=1e-5):
+                print("Normalizing provided embeddings...")
+                faiss.normalize_L2(self.embeddings)
+        else:
+            # Build embeddings from scratch
+            print("Building embeddings...")
+            self.texts = [self._build_text(r) for r in recipes]
+            self.embeddings = model.encode(
+                self.texts, 
+                show_progress_bar=True, 
+                batch_size=64, 
+                convert_to_numpy=True
+            )
+            # Normalize embeddings
+            faiss.normalize_L2(self.embeddings)
         
         print(f"Initialized retriever with {len(recipes)} recipes")
     
