@@ -1630,7 +1630,7 @@
           "source": "RecipeNLG"
         },
         "valid": 0,
-        "reason": "1. Contains heavy carbohydrate ingredient[pasta]"
+        "reason": "1. Contains heavy carbohydrate ingredient[pasta]."
       },
       {
         "rank": 5,
