@@ -119,6 +119,8 @@ class MetadataExtractor:
             'cooking_methods': set(),
             'contains_ingredients': set(),
             'excludes_ingredients': set(),
+            # New: coarse-grained ingredient categories for general queries
+            'general_ingredient_tags': set(),  # e.g. {"fruit", "vegetable", "meat", "spice"}
         }
         
         # Extract dietary tags
@@ -173,6 +175,34 @@ class MetadataExtractor:
                                'pound', 'gram', 'the', 'and', 'or']:
                     metadata['contains_ingredients'].add(word)
         
+        # New: coarse general ingredient tags (very simple heuristics)
+        VEGETABLE_TOKENS = [
+            'broccoli', 'carrot', 'spinach', 'lettuce', 'cabbage', 'pepper',
+            'onion', 'tomato', 'zucchini', 'cucumber', 'kale', 'celery', 'bean', 'beans'
+        ]
+        FRUIT_TOKENS = [
+            'apple', 'banana', 'orange', 'strawberry', 'blueberry', 'berry',
+            'mango', 'pineapple', 'grape', 'pear', 'peach', 'plum'
+        ]
+        SPICE_TOKENS = [
+            'curry', 'cumin', 'turmeric', 'paprika', 'chili', 'chilli', 'garam masala',
+            'oregano', 'basil', 'thyme', 'rosemary', 'coriander', 'clove', 'cinnamon'
+        ]
+        
+        if any(tok in ingredients for tok in VEGETABLE_TOKENS):
+            metadata['general_ingredient_tags'].add('vegetable')
+        if any(tok in ingredients for tok in FRUIT_TOKENS):
+            metadata['general_ingredient_tags'].add('fruit')
+        if any(tok in ingredients for tok in SPICE_TOKENS):
+            metadata['general_ingredient_tags'].add('spice')
+        # reuse meat/seafood info for a coarse "meat" tag
+        if has_meat:
+            metadata['general_ingredient_tags'].add('meat')
+        if has_seafood:
+            metadata['general_ingredient_tags'].add('seafood')
+        if has_dairy:
+            metadata['general_ingredient_tags'].add('dairy')
+
         # Analyze nutrition using NutritionFilter
         metadata['nutrition'] = NutritionFilter.analyze_nutrition(recipe, ingredients, title)
         
@@ -194,6 +224,8 @@ class MetadataFilter:
             'dish_type': set(),
             'cooking_method': set(),
             'ingredient_logic': 'AND',  # Default: all ingredients required
+            # New: general ingredient tags like fruit/vegetable/meat/spice
+            'general_ingredient_tags': set(),
         }
         
         # Parse nutrition requirements using NutritionFilter
@@ -223,7 +255,6 @@ class MetadataFilter:
                 requirements['cooking_method'].add(method)
         
         # Extract specific ingredients mentioned
-        # Simple pattern matching for common ingredients
         ingredient_patterns = {
             'egg': ['egg', 'eggs'],
             'cheese': ['cheese'],
@@ -240,18 +271,31 @@ class MetadataFilter:
             'garlic': ['garlic'],
         }
         
+        # General ingredient patterns: do NOT add these to required_ingredients,
+        # instead record coarse tags so they don't interfere with OR-logic over
+        # specific ingredients.
+        general_ingredient_patterns = {
+            'fruit': ['fruit', 'fruits'],
+            'vegetable': ['vegetable', 'vegetables', 'veggies'],
+            'meat': ['meat', 'meats'],
+            'spice': ['spice', 'spices', 'seasoning'],
+            'seafood': ['seafood', 'fish', 'shellfish'],
+            'dairy': ['dairy', 'milk product', 'milk products'],
+        }
+        
         for ingredient, patterns in ingredient_patterns.items():
             if any(pattern in query_lower for pattern in patterns):
                 requirements['required_ingredients'].add(ingredient)
         
+        for tag, patterns in general_ingredient_patterns.items():
+            if any(pattern in query_lower for pattern in patterns):
+                requirements['general_ingredient_tags'].add(tag)
+        
         # Detect ingredient logic: check for "or" between ingredients
-        # Look for patterns like "eggs or cheese", "egg or cheese"
         if requirements['required_ingredients'] and ' or ' in query_lower:
-            # Check if "or" appears between ingredient mentions
             for ing1 in requirements['required_ingredients']:
                 for ing2 in requirements['required_ingredients']:
                     if ing1 != ing2:
-                        # Pattern: "ingredient1 or ingredient2"
                         pattern = rf'\b{ing1}s?\s+or\s+{ing2}s?\b'
                         if re.search(pattern, query_lower):
                             requirements['ingredient_logic'] = 'OR'
@@ -278,21 +322,28 @@ class MetadataFilter:
         # Check required ingredients based on logic (AND/OR)
         if requirements['required_ingredients']:
             if requirements.get('ingredient_logic', 'AND') == 'AND':
-                # ALL ingredients must be present
                 has_all_required = all(
                     req in metadata['ingredients_text'] or req in metadata['contains_ingredients']
                     for req in requirements['required_ingredients']
                 )
                 if not has_all_required:
                     return False
-            else:  # OR logic
-                # At least ONE ingredient must be present
+            else:
                 has_any_required = any(
                     req in metadata['ingredients_text'] or req in metadata['contains_ingredients']
                     for req in requirements['required_ingredients']
                 )
                 if not has_any_required:
                     return False
+        
+        # New: check general ingredient tags (coarse-grained). Use OR-semantics:
+        # if user asked for any general tag(s), require at least one to be
+        # present in metadata.
+        general_req = requirements.get('general_ingredient_tags', set())
+        if general_req:
+            meta_general = metadata.get('general_ingredient_tags', set())
+            if not general_req.intersection(meta_general):
+                return False
         
         # Check dish type (at least one should match if specified)
         if requirements['dish_type']:

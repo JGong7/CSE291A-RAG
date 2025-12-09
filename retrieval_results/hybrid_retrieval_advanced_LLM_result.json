@@ -1,0 +1,2051 @@
+[
+  {
+    "query_id": 1,
+    "query": "I only have two eggs, give me a quick breakfast recipe with eggs and cheese.",
+    "rewritten_query": "I only have two eggs, give me a quick breakfast recipe with eggs and cheese.; must contain: egg, cheese; meal types: breakfast; egg: have 2 egg",
+    "structured_query": {
+      "dietary_tags": [],
+      "must_have_ingredients": [
+        "egg",
+        "cheese"
+      ],
+      "avoid_ingredients": [],
+      "meal_types": [
+        "breakfast"
+      ],
+      "quantity_constraints": {
+        "egg": {
+          "max": 2,
+          "kind": "count"
+        }
+      },
+      "general_ingredient_tags": [
+        "dairy"
+      ],
+      "cooking_methods": [],
+      "notes": "The user specified they have two eggs and requested a quick breakfast recipe that includes eggs and cheese."
+    },
+    "results": [
+      {
+        "rank": 1,
+        "score": 0.032266458495966696,
+        "recipe": {
+          "id": "recnlg_1519",
+          "title": "Quick Breakfast Cheesecake",
+          "ingredients": [
+            "1 pkg. hungry jack biscuits (cinnamon if you can find them)",
+            "1 (8 oz.) cream cheese, softened",
+            "1 egg",
+            "1 tbsp. flour",
+            "1/2 c. sugar",
+            "1 tbsp. cinnamon",
+            "2 tbsp. sugar",
+            "1 tsp. nutmeg"
+          ],
+          "directions": [
+            "put biscuits into ungreased pie plate. mix remaining ingredients, except sugar, cinnamon and nutmeg until smooth and pour over biscuits. sprinkle sugar, cinnamon and nutmeg over top. bake at 350° for 25 minutes."
+          ],
+          "ner": [
+            "cinnamon",
+            "cream cheese",
+            "egg",
+            "flour",
+            "sugar",
+            "cinnamon",
+            "sugar",
+            "nutmeg"
+          ],
+          "source": "RecipeNLG"
+        },
+        "source": "fusion"
+      },
+      {
+        "rank": 2,
+        "score": 0.03200204813108039,
+        "recipe": {
+          "id": "recnlg_2531",
+          "title": "Tasty Tortilla Breakfast Sandwich",
+          "ingredients": [
+            "2 (10 inch) tomato-basil tortillas or (10 inch) flour tortillas",
+            "2 eggs, cooked to scrambled (pan or microwave)",
+            "2 slices deli ham",
+            "1 small onion, chopped",
+            "1 small tomatoes, chopped",
+            "2 slices american cheese or 2 slices cheddar cheese",
+            "nonstick cooking spray"
+          ],
+          "directions": [
+            "-preheat oven to 375.",
+            "-treat sheet pan with nonstick cooking spray.",
+            "-microwave tortillas for 20 seconds each (ovens vary).",
+            "-put fillings in the middle; any order you choose.",
+            "-roll up egg roll-style.",
+            "-put seam-side down on sheet pan.",
+            "-bake for 15 minutes.",
+            "-let rest for 2 minutes.",
+            "-eat whole, or cut in half and enjoy."
+          ],
+          "ner": [
+            "tomato-basil tortillas",
+            "eggs",
+            "deli ham",
+            "onion",
+            "tomatoes",
+            "american cheese",
+            "nonstick cooking spray"
+          ],
+          "source": "RecipeNLG"
+        },
+        "source": "fusion"
+      },
+      {
+        "rank": 3,
+        "score": 0.03128054740957967,
+        "recipe": {
+          "id": "recnlg_282",
+          "title": "Morning Breakfast Panini",
+          "ingredients": [
+            "2 slices white bread or 2 slices brioche bread, 1/2-inch thick",
+            "unsalted butter (melted for brushing)",
+            "3 tablespoons cheddar cheese, grated",
+            "2 slices cooked bacon, fried until crispy",
+            "1 egg, fried",
+            "salt & freshly ground black pepper, to taste",
+            "14 cup arugula"
+          ],
+          "directions": [
+            "preheat an electric panini maker on high heat according to the manufacturer's instructions.",
+            "place the bread slices on a cutting board.",
+            "brush one side of each slice with melted butter.",
+            "turn one slice over and sprinkle with the cheese.",
+            "top with the bacon and fried egg, and season with salt and pepper.",
+            "top with the arugula and the other bread slice, buttered side up.",
+            "place the sandwich on the preheated panini maker and cook according to the manufacturers instructions until the bread is golden and the cheese is melted, 3 to 5 minutes.",
+            "transfer the sandwich to a cutting board and cut in half.",
+            "serve immediately.",
+            "serves 1."
+          ],
+          "ner": [
+            "white bread",
+            "unsalted butter",
+            "cheddar cheese",
+            "bacon",
+            "egg",
+            "salt",
+            "arugula"
+          ],
+          "source": "RecipeNLG"
+        },
+        "source": "fusion"
+      },
+      {
+        "rank": 4,
+        "score": 0.030679156908665108,
+        "recipe": {
+          "id": "recnlg_1783",
+          "title": "Baked Cheese Omelet",
+          "ingredients": [
+            "2 or more eggs",
+            "2 or more tomatoes",
+            "grated cheese",
+            "1/4 pt. milk"
+          ],
+          "directions": [
+            "skin and slice tomatoes, cook in a little margarine in a saucepan, and then pour into a greased pie dish.",
+            "in the same pan, with a little more margarine, add the milk and the slightly beaten eggs.",
+            "cook over low heat, stirring as for scrambled eggs, until just beginning to set."
+          ],
+          "ner": [
+            "eggs",
+            "tomatoes",
+            "grated cheese",
+            "milk"
+          ],
+          "source": "RecipeNLG"
+        },
+        "source": "fusion"
+      },
+      {
+        "rank": 5,
+        "score": 0.030309988518943745,
+        "recipe": {
+          "id": "recnlg_4545",
+          "title": "Green Onion Pancakes With Tomato-Avocado Salsa",
+          "ingredients": [
+            "1 23 cups plum tomatoes, chopped and seeded",
+            "12 cup red onion, minced",
+            "12 cup avocado, peeled and chopped",
+            "2 tablespoons jalapenos, seeded and chopped",
+            "2 tablespoons red wine vinegar",
+            "1 teaspoon fresh oregano, minced",
+            "18 teaspoon salt",
+            "18 teaspoon pepper",
+            "1 dash sugar",
+            "1 12 cups flour",
+            "2 teaspoons sugar",
+            "1 teaspoon baking powder",
+            "1 teaspoon baking soda",
+            "12 teaspoon salt",
+            "18 teaspoon pepper",
+            "1 12 cups low-fat buttermilk",
+            "1 large egg, beaten",
+            "1 cup green onion, chopped",
+            "6 tablespoons provolone cheese, shredded, about 1 1/2 oz"
+          ],
+          "directions": [
+            "salsa: combine first 9 ingredients in a bowl.",
+            "cover and chill.",
+            "pancakes: lightly spoon flour into dry measuring cups; level with a knife.",
+            "combine flour and next 5 ingredients in a large bowl; make a well in center.",
+            "combine buttermilk and egg in a bowl; add to flour mixture.",
+            "stir just until moist.",
+            "let stand 10 minute fold in green onions and cheese.",
+            "spoon about 1/4 c batter onto a hot nonstick skillet or griddle coated with cooking spray.",
+            "turn pancakes when tops are coated with bubbles and edges look cooked (about 3 min).",
+            "serve salsa over warm pancakes."
+          ],
+          "ner": [
+            "tomatoes",
+            "red onion",
+            "avocado",
+            "jalapenos",
+            "red wine vinegar",
+            "fresh oregano",
+            "salt",
+            "pepper",
+            "sugar",
+            "flour",
+            "sugar",
+            "baking powder",
+            "baking soda",
+            "salt",
+            "pepper",
+            "low-fat buttermilk",
+            "egg",
+            "green onion",
+            "provolone cheese"
+          ],
+          "source": "RecipeNLG"
+        },
+        "source": "fusion"
+      }
+    ],
+    "used_query_rewriting": true
+  },
+  {
+    "query_id": 2,
+    "query": "I am lactose intolerance, give me a pasta dish",
+    "rewritten_query": "I am lactose intolerance, give me a pasta dish; must contain: pasta; avoid: lactose; dietary: lactose-free; meal types: dinner, pasta",
+    "structured_query": {
+      "dietary_tags": [
+        "lactose-free"
+      ],
+      "must_have_ingredients": [
+        "pasta"
+      ],
+      "avoid_ingredients": [
+        "lactose"
+      ],
+      "meal_types": [
+        "dinner",
+        "pasta"
+      ],
+      "quantity_constraints": {},
+      "general_ingredient_tags": [],
+      "cooking_methods": [],
+      "notes": "The user is looking for a pasta dish that is suitable for someone who is lactose intolerant."
+    },
+    "results": [
+      {
+        "rank": 1,
+        "score": 0.032266458495966696,
+        "recipe": {
+          "id": "recnlg_1741",
+          "title": "Pasta Salad",
+          "ingredients": [
+            "8 oz. pasta noodles",
+            "3 large chopped tomatoes",
+            "5 green scallions, chopped (including tops)",
+            "2 cucumbers, peeled and chopped",
+            "1 (8 oz.) bottle kraft zesty italian dressing",
+            "1/2 bottle mccormick salad supreme seasoning"
+          ],
+          "directions": [
+            "cook pasta as directed.",
+            "rinse in cold water and drain well. put in serving bowl and add remaining ingredients.",
+            "mix well. refrigerate several hours or overnight."
+          ],
+          "ner": [
+            "pasta noodles",
+            "tomatoes",
+            "green scallions",
+            "cucumbers",
+            "italian dressing",
+            "salad supreme seasoning"
+          ],
+          "source": "RecipeNLG"
+        },
+        "source": "fusion"
+      },
+      {
+        "rank": 2,
+        "score": 0.03200204813108039,
+        "recipe": {
+          "id": "recnlg_3358",
+          "title": "Red Pepper Pasta Salad",
+          "ingredients": [
+            "1 lb. cavatapi (or other pasta shape)",
+            "1 cup mayonaise",
+            "1 sm. jar roasted red peppers",
+            "1 package good seasons salad dressing mix",
+            "1 teaspoon chopped garlic",
+            "juice of 1/2 lemon",
+            "1 package frozen mixed vegetables"
+          ],
+          "directions": [
+            "cook pasta according to package directions.",
+            "drain red peppers",
+            "blend peppers in blender with mayonaise, lemon juice, garlic and seasoning packet.",
+            "cook vegetables until just defrosted, then mix with pasta",
+            "add dressing to pasta & vegetable mixture and mix well"
+          ],
+          "ner": [
+            "mayonaise",
+            "red peppers",
+            "salad dressing",
+            "garlic",
+            "lemon",
+            "vegetables"
+          ],
+          "source": "RecipeNLG"
+        },
+        "source": "fusion"
+      },
+      {
+        "rank": 3,
+        "score": 0.030886196246139225,
+        "recipe": {
+          "id": "recnlg_3345",
+          "title": "Whole Wheat Pasta With Avocado Sauce",
+          "ingredients": [
+            "2 ripe avocados",
+            "1 lemon, juice of",
+            "1 fat garlic clove, crushed",
+            "salt and black pepper",
+            "1 tablespoon olive oil",
+            "12 ounces dry pasta, preferably wholewheat tagliatelle"
+          ],
+          "directions": [
+            "scoop out the flesh of the two avocados in to the bowl in which you will serve the pasta. mash the avocado flesh well. add the lemon juice and mash again. add the crushed garlic and stir. add the seasoning to taste, followed by the olive oil, and mash thoroughly to make a creamy sauce.",
+            "cook the pasta to al dente consistency in plenty of boiling water. drain well and add to sauce. toss thoroughly and serve.",
+            "note: you can use more or less lemon jice, garlic or olive oil according to your family's taste."
+          ],
+          "ner": [
+            "avocados",
+            "lemon",
+            "garlic",
+            "salt",
+            "olive oil",
+            "pasta"
+          ],
+          "source": "RecipeNLG"
+        },
+        "source": "fusion"
+      },
+      {
+        "rank": 4,
+        "score": 0.030536130536130537,
+        "recipe": {
+          "id": "recnlg_779",
+          "title": "Lanai Pasta Salad",
+          "ingredients": [
+            "1 (20 ounce) can pineapple chunks in juice",
+            "3 cups cooked spiral shaped pasta",
+            "2 cups sugar snap peas",
+            "1 cup sliced carrot",
+            "1 cup sliced cucumber",
+            "1/2 cup reduced-calorie italian dressing",
+            "1/4 cup chopped cilantro or 1/4 cup chopped parsley"
+          ],
+          "directions": [
+            "drain pineapple; reserve 1/4 c juice.",
+            "combine pineapple, reserved juice and remaining ingredients in large bowl; toss to coat."
+          ],
+          "ner": [
+            "pineapple",
+            "pasta",
+            "sugar snap peas",
+            "carrot",
+            "cucumber",
+            "italian dressing",
+            "cilantro"
+          ],
+          "source": "RecipeNLG"
+        },
+        "source": "fusion"
+      },
+      {
+        "rank": 5,
+        "score": 0.030536130536130537,
+        "recipe": {
+          "id": "recnlg_2426",
+          "title": "Famous Bill'S Pasta Salad",
+          "ingredients": [
+            "1 lb. rainbow pasta",
+            "8 oz. red wine and vinegar dressing",
+            "8 oz. oxford orange dijon dressing",
+            "1 medium onion, diced",
+            "3 ribs celery, diced",
+            "2 red peppers, diced",
+            "1 green pepper, diced",
+            "1/2 c. sliced ripe olives",
+            "1 tsp. granulated garlic"
+          ],
+          "directions": [
+            "cook pasta; drain well.",
+            "add all ingredients.",
+            "let set in refrigerator overnight."
+          ],
+          "ner": [
+            "pasta",
+            "red wine",
+            "dressing",
+            "onion",
+            "celery",
+            "red peppers",
+            "green pepper",
+            "olives",
+            "garlic"
+          ],
+          "source": "RecipeNLG"
+        },
+        "source": "fusion"
+      }
+    ],
+    "used_query_rewriting": true
+  },
+  {
+    "query_id": 3,
+    "query": "I love peanuts, give me a chocolate dessert recipe for special birthday occasions",
+    "rewritten_query": "I love peanuts, give me a chocolate dessert recipe for special birthday occasions; must contain: peanuts, chocolate; meal types: dessert",
+    "structured_query": {
+      "dietary_tags": [],
+      "must_have_ingredients": [
+        "peanuts",
+        "chocolate"
+      ],
+      "avoid_ingredients": [],
+      "meal_types": [
+        "dessert"
+      ],
+      "quantity_constraints": {},
+      "general_ingredient_tags": [],
+      "cooking_methods": [],
+      "notes": "The user loves peanuts and is looking for a chocolate dessert recipe suitable for special birthday occasions."
+    },
+    "results": [
+      {
+        "rank": 1,
+        "score": 0.031544957774465976,
+        "recipe": {
+          "id": "recnlg_3832",
+          "title": "Bear Paw Cookies",
+          "ingredients": [
+            "1 cup butter or 1 cup margarine, softened",
+            "2/3 cup sugar",
+            "1/2 cup chocolate flavored syrup",
+            "2 eggs",
+            "1 teaspoon vanilla",
+            "2 1/3 cups flour",
+            "2 teaspoons baking powder",
+            "1 teaspoon salt",
+            "1/4 cup milk",
+            "peanuts, halves or cashews"
+          ],
+          "directions": [
+            "cream butter and sugar until light and fluffy.",
+            "blend in chocolate syrup.",
+            "add eggs one at a time, beating well after each.",
+            "blend in vanilla.",
+            "combine flour, powder and salt.",
+            "add dry ingredients alternately with milk to chocolate mixture, beating well.",
+            "cover and chill one hour.",
+            "drop batter by heaping teaspoonsful onto a greased baking sheet.",
+            "press 4 peanut halves or cashews into each cookie, to resemble a bear's paw.",
+            "bake at 375* for 10 to 12 minutes or until center springs back when lightly touched.",
+            "cool on baking sheet for 2 minutes and transfer to wire rack to cool completely."
+          ],
+          "ner": [
+            "butter",
+            "sugar",
+            "chocolate flavored syrup",
+            "eggs",
+            "vanilla",
+            "flour",
+            "baking powder",
+            "salt",
+            "milk",
+            "peanuts"
+          ],
+          "source": "RecipeNLG"
+        },
+        "source": "fusion"
+      },
+      {
+        "rank": 2,
+        "score": 0.03057889822595705,
+        "recipe": {
+          "id": "recnlg_1426",
+          "title": "Double Chocolate Peanut Butter Cookies",
+          "ingredients": [
+            "1 (6 ounce) package semisweet chocolate, coarse chopped",
+            "2 cups all-purpose flour",
+            "12 teaspoon baking soda",
+            "14 teaspoon salt",
+            "34 cup dark brown sugar, firmly packed",
+            "34 cup sugar",
+            "1 -2 cup unsalted butter, 1c",
+            "1 cup creamy peanut butter",
+            "2 large eggs",
+            "2 teaspoons vanilla",
+            "12 ounces milk chocolate chips, 2c",
+            "24 -30 whole peanuts"
+          ],
+          "directions": [
+            "preheat oven 300f.",
+            "in double boiler, over hot but not boiling water, (or microwave), melt semisweet chocolate.",
+            "set aside to cool to room temperature.",
+            "in a small bowl, whisk together flour, baking soda and salt.",
+            "in a medium bowl; whisk together sugars.",
+            "add butter and beat until well combined.",
+            "add peanut butter and beat until smooth.",
+            "add eggs and vanilla; beat until just combined.",
+            "add flour mixture and milk chocolate chips; beat until no streaks of flour are visible.",
+            "pour in melted chocolate; mix partially with a wooden spoon until marbled.",
+            "drop dough in 3 t mounds, 2\" apart on ungreased baking sheet.",
+            "top with one whole peanut.",
+            "bake 23 minutes or until just set but still soft.",
+            "cool on cookie sheet 30 seconds, then transfer to wire rack."
+          ],
+          "ner": [
+            "semisweet chocolate",
+            "flour",
+            "baking soda",
+            "salt",
+            "brown sugar",
+            "sugar",
+            "unsalted butter",
+            "peanut butter",
+            "eggs",
+            "vanilla",
+            "chocolate chips",
+            "peanuts"
+          ],
+          "source": "RecipeNLG"
+        },
+        "source": "fusion"
+      },
+      {
+        "rank": 3,
+        "score": 0.03055037313432836,
+        "recipe": {
+          "id": "recnlg_3124",
+          "title": "Peanut Clusters",
+          "ingredients": [
+            "2 lb. white almond bark",
+            "1 (12 oz.) pkg. chocolate chips",
+            "1 sq. unsweetened chocolate",
+            "1 (24 oz.) jar dry roasted peanuts"
+          ],
+          "directions": [
+            "melt almond bark, chocolate and chocolate chips in crock-pot on high temperature.",
+            "unplug pot and stir in peanuts.",
+            "drop by teaspoon onto waxed paper."
+          ],
+          "ner": [
+            "white almond bark",
+            "chocolate chips",
+            "unsweetened chocolate",
+            "peanuts"
+          ],
+          "source": "RecipeNLG"
+        },
+        "source": "fusion"
+      },
+      {
+        "rank": 4,
+        "score": 0.03021353930031804,
+        "recipe": {
+          "id": "recnlg_2832",
+          "title": "Mabel Hill'S Peanut Chip Cookies",
+          "ingredients": [
+            "2 c. flour",
+            "2 tsp. baking powder",
+            "1/2 tsp. salt",
+            "1 c. margarine",
+            "1 c. white sugar",
+            "1 c. brown sugar",
+            "2 eggs",
+            "1 tsp. vanilla",
+            "1 c. creamy peanut butter",
+            "1 c. spanish peanuts",
+            "1 c. chocolate chips"
+          ],
+          "directions": [
+            "cream all ingredients except peanuts and chips.",
+            "add peanuts and chips; mix well.",
+            "drop on cookie sheet and bake 9 minutes at 350°."
+          ],
+          "ner": [
+            "flour",
+            "baking powder",
+            "salt",
+            "margarine",
+            "white sugar",
+            "brown sugar",
+            "eggs",
+            "vanilla",
+            "peanut butter",
+            "peanuts",
+            "chocolate chips"
+          ],
+          "source": "RecipeNLG"
+        },
+        "source": "fusion"
+      },
+      {
+        "rank": 5,
+        "score": 0.03009207275993712,
+        "recipe": {
+          "id": "recnlg_4378",
+          "title": "Peanutty Ice Cream Pie",
+          "ingredients": [
+            "1 1/3 cups finely chopped peanuts",
+            "3 tablespoons margarine, melted",
+            "2 tablespoons white sugar",
+            "1/4 cup peanut butter",
+            "1/4 cup light corn syrup",
+            "1/4 cup flaked coconut",
+            "3 tablespoons chopped peanuts",
+            "1 quart vanilla ice cream, softened",
+            "1/4 cup mini candy-coated chocolate pieces (optional)"
+          ],
+          "directions": [
+            "combine the peanuts, butter and sugar; press onto the bottom and up the sides of a greased 9-inch pie plate. cover and refrigerate for 15 minutes.",
+            "in a large bowl, combine peanut butter and corn syrup. add coconut and peanuts. stir in ice cream just until combined. spoon into crust.",
+            "cover and freeze overnight or until firm. just before serving, sprinkle with mini candy-coated chocolate pieces, if desired."
+          ],
+          "ner": [
+            "peanuts",
+            "margarine",
+            "white sugar",
+            "peanut butter",
+            "light corn syrup",
+            "flaked coconut",
+            "peanuts",
+            "vanilla ice cream",
+            "chocolate"
+          ],
+          "source": "RecipeNLG"
+        },
+        "source": "fusion"
+      }
+    ],
+    "used_query_rewriting": true
+  },
+  {
+    "query_id": 4,
+    "query": "Give me a spicy chicken curry with coconut milk.",
+    "rewritten_query": "Give me a spicy chicken curry with coconut milk.; must contain: chicken, curry, coconut milk; meal types: dinner",
+    "structured_query": {
+      "dietary_tags": [],
+      "must_have_ingredients": [
+        "chicken",
+        "curry",
+        "coconut milk"
+      ],
+      "avoid_ingredients": [],
+      "meal_types": [
+        "dinner"
+      ],
+      "quantity_constraints": {},
+      "general_ingredient_tags": [
+        "meat",
+        "spice"
+      ],
+      "cooking_methods": [],
+      "notes": "The user requested a spicy chicken curry that includes coconut milk, indicating a preference for a meat-based dish with specific flavor profiles."
+    },
+    "results": [
+      {
+        "rank": 1,
+        "score": 0.03278688524590164,
+        "recipe": {
+          "id": "recnlg_4488",
+          "title": "Thai Green Curry Chicken",
+          "ingredients": [
+            "1 1/2 cups coconut milk",
+            "1 tablespoon green curry paste (found in plastic tubs in oriental food sections)",
+            "1 stalk lemongrass, cut into 1 inch pieces and bruised or 3 tablespoons frozen minced lemongrass",
+            "1 cup reduced-sodium chicken broth",
+            "2 tablespoons fish sauce",
+            "3 tablespoons sugar",
+            "1/2 teaspoon turmeric",
+            "2 kaffir lime leaves, cut into fine slivers (or zest of 1 lime)",
+            "1 1/2 lbs boneless skinless chicken breasts, sliced into 1/4 inch strips",
+            "2 cups bamboo shoots, boiled in fresh water for 5 minutes and drained",
+            "1/2 cup frozen peas",
+            "2 tomatoes, cut into wedges",
+            "15 -20 fresh basil leaves, coarsely chopped (thai basil is best)"
+          ],
+          "directions": [
+            "heat 1/2 cup of the coconut milk in a large wok (or other pan large enough for stir fry) over medium-high heat until bubbling.",
+            "add curry paste and lemon grass, and stir for 1 minute.",
+            "add chicken broth, fush sauce, sugar, turmeric, and lime leaves,.",
+            "bring to a boil.",
+            "add chicken and cook 2-3 minutes, you do not need to completely cook it in this step. if you do, it may be tough by the end.",
+            "reduce heat to low.",
+            "add remaining coconut milk, bamboo shoots, peas, and tomatoes.",
+            "simmer 3 minutes, until additions are hot.",
+            "remove from heat, and stir in basil leaves.",
+            "serve hot over jasmine rice or pasta."
+          ],
+          "ner": [
+            "coconut milk",
+            "green curry",
+            "stalk lemongrass",
+            "chicken broth",
+            "fish sauce",
+            "sugar",
+            "turmeric",
+            "lime",
+            "chicken breasts",
+            "bamboo shoots",
+            "frozen peas",
+            "tomatoes",
+            "basil"
+          ],
+          "source": "RecipeNLG"
+        },
+        "source": "fusion"
+      }
+    ],
+    "used_query_rewriting": true
+  },
+  {
+    "query_id": 5,
+    "query": "a healthy smoothie with banana and yogurt.",
+    "rewritten_query": "a healthy smoothie with banana and yogurt.; must contain: banana, yogurt; meal types: beverage, smoothie",
+    "structured_query": {
+      "dietary_tags": [],
+      "must_have_ingredients": [
+        "banana",
+        "yogurt"
+      ],
+      "avoid_ingredients": [],
+      "meal_types": [
+        "beverage",
+        "smoothie"
+      ],
+      "quantity_constraints": {},
+      "general_ingredient_tags": [
+        "fruit",
+        "dairy"
+      ],
+      "cooking_methods": [],
+      "notes": "The user is looking for a healthy smoothie recipe that includes banana and yogurt, indicating a preference for fruit and dairy ingredients."
+    },
+    "results": [
+      {
+        "rank": 1,
+        "score": 0.03278688524590164,
+        "recipe": {
+          "id": "recnlg_4342",
+          "title": "Simple Banana Smoothie",
+          "ingredients": [
+            "3/4 cup vanilla yogurt",
+            "1/2 cup apple juice",
+            "1 tablespoon honey, or to taste",
+            "2 ripe bananas",
+            "1 teaspoon milk, or to taste",
+            "4 ice cubes"
+          ],
+          "directions": [
+            "blend yogurt, apple juice, honey, bananas, milk and ice cubes in a blender until smooth."
+          ],
+          "ner": [
+            "vanilla yogurt",
+            "apple juice",
+            "honey",
+            "bananas",
+            "milk",
+            "cubes"
+          ],
+          "source": "RecipeNLG"
+        },
+        "source": "fusion"
+      },
+      {
+        "rank": 2,
+        "score": 0.03225806451612903,
+        "recipe": {
+          "id": "recnlg_2694",
+          "title": "Low-Fat Berry Good Smoothie",
+          "ingredients": [
+            "1 12 cups low-fat plain kefir ((yogurt drink) *i use raspberry kefir)",
+            "12 cup grape juice",
+            "2 tablespoons honey",
+            "1 banana",
+            "78 cup frozen blackberrie",
+            "78 cup frozen strawberries",
+            "78 cup frozen raspberries"
+          ],
+          "directions": [
+            "combine the kefir, grape juice, honey and banana in a blender.",
+            "add the berries and blend until smooth.",
+            "strain or put through sieve {note: i don't strain}.",
+            "i eliminate the blackberries"
+          ],
+          "ner": [
+            "low-fat plain",
+            "grape juice",
+            "honey",
+            "banana",
+            "frozen blackberrie",
+            "frozen strawberries",
+            "frozen raspberries"
+          ],
+          "source": "RecipeNLG"
+        },
+        "source": "fusion"
+      },
+      {
+        "rank": 3,
+        "score": 0.031746031746031744,
+        "recipe": {
+          "id": "recnlg_4736",
+          "title": "Peachy Fruit and Yogurt Shake",
+          "ingredients": [
+            "1 (8 ounce) can peach halves in juice, do not drain",
+            "12 ripe small banana",
+            "12 cup plain nonfat yogurt (or use peach or vanilla yogurt if you like)",
+            "12 teaspoon pure vanilla extract",
+            "1 cup ice cube"
+          ],
+          "directions": [
+            "in a blender container, combine undrained peaches, banana, yogurt and vanilla.",
+            "cover and blend till smooth.",
+            "add ice cubes; cover and blend until frothy.",
+            "makes 2(1 1/4 cup) servings.",
+            "enjoy!"
+          ],
+          "ner": [
+            "peach",
+            "banana",
+            "nonfat yogurt",
+            "vanilla"
+          ],
+          "source": "RecipeNLG"
+        },
+        "source": "fusion"
+      },
+      {
+        "rank": 4,
+        "score": 0.03125,
+        "recipe": {
+          "id": "recnlg_123",
+          "title": "Watermelon Sour Cream Popsicles",
+          "ingredients": [
+            "1/4 watermelon",
+            "1 ripe banana",
+            "7 ounces sour cream",
+            "2.3 ounces fruit or vanilla yogurt",
+            "4 tablespoons sugar",
+            "3 tablespoons honey",
+            "1 lemon, the juice",
+            "vanilla extract to taste"
+          ],
+          "directions": [
+            "remove the peel of the watermelon. place in the blender together with the rest of the ingredients and blend until very smooth.",
+            "add more sugar/honey or lemon juice according to your taste.",
+            "pour the mixture into the popsicle moulds and freeze."
+          ],
+          "ner": [
+            "watermelon",
+            "banana",
+            "sour cream",
+            "vanilla yogurt",
+            "sugar",
+            "honey",
+            "lemon",
+            "vanilla"
+          ],
+          "source": "RecipeNLG"
+        },
+        "source": "fusion"
+      }
+    ],
+    "used_query_rewriting": true
+  },
+  {
+    "query_id": 6,
+    "query": "I am a vegetarian, give me a simple soup recipe for cold weather.",
+    "rewritten_query": "I am a vegetarian, give me a simple soup recipe for cold weather.; avoid: meat; dietary: vegetarian; meal types: soup",
+    "structured_query": {
+      "dietary_tags": [
+        "vegetarian"
+      ],
+      "must_have_ingredients": [],
+      "avoid_ingredients": [
+        "meat"
+      ],
+      "meal_types": [
+        "soup"
+      ],
+      "quantity_constraints": {},
+      "general_ingredient_tags": [
+        "vegetable"
+      ],
+      "cooking_methods": [],
+      "notes": "The user is looking for a simple vegetarian soup recipe suitable for cold weather."
+    },
+    "results": [
+      {
+        "rank": 1,
+        "score": 0.030536130536130537,
+        "recipe": {
+          "id": "recnlg_176",
+          "title": "Beer Cheese Soup",
+          "ingredients": [
+            "1 celery soup",
+            "1 leek soup mix",
+            "12 french onion soup mix",
+            "5 cups water",
+            "1 lb sharp cheddar cheese (cut into cubes)",
+            "6 ounces beer, at room temperature"
+          ],
+          "directions": [
+            "combine all soups mixes and water and simmer on medium until thick.",
+            "slowly add cheese, stir until smooth and add beer.",
+            "serve.",
+            "leftovers can be frozen and thawed in fridge."
+          ],
+          "ner": [
+            "celery soup",
+            "leek soup mix",
+            "onion soup",
+            "water",
+            "cheddar cheese",
+            "beer"
+          ],
+          "source": "RecipeNLG"
+        },
+        "source": "fusion"
+      },
+      {
+        "rank": 2,
+        "score": 0.029116045245077504,
+        "recipe": {
+          "id": "recnlg_2202",
+          "title": "The Potatoes",
+          "ingredients": [
+            "1 envelope lipton onion soup mix",
+            "2 lb. all-purpose potatoes, cut into large chunks (leave peelings; i use red potatoes for this, it's great!)",
+            "1/3 c. olive or vegetable oil"
+          ],
+          "directions": [
+            "preheat oven to 450°.",
+            "in large bag, add all ingredients. shake until evenly coated.",
+            "place potatoes in shallow baking or roasting pan.",
+            "bake, stirring occasionally, 40 minutes or until tender and golden brown.",
+            "garnish if desired with parsley flakes. makes 8 servings."
+          ],
+          "ner": [
+            "onion soup",
+            "all-purpose potatoes",
+            "olive"
+          ],
+          "source": "RecipeNLG"
+        },
+        "source": "fusion"
+      },
+      {
+        "rank": 3,
+        "score": 0.028370221327967807,
+        "recipe": {
+          "id": "recnlg_2510",
+          "title": "Lazy Chicken",
+          "ingredients": [
+            "1 c. long grain rice",
+            "1 fryer, cut in pieces",
+            "2 c. water",
+            "1 pkg. dry onion soup mix",
+            "1 can mushroom soup"
+          ],
+          "directions": [
+            "in greased (spray generously with pam) baking dish, evenly spread uncooked rice. place chicken on rice, skin side up. mix dry onion soup, water and soup. pour mixture over chicken. bake for 1 hour at 350°."
+          ],
+          "ner": [
+            "long grain rice",
+            "fryer",
+            "water",
+            "onion soup",
+            "mushroom soup"
+          ],
+          "source": "RecipeNLG"
+        },
+        "source": "fusion"
+      },
+      {
+        "rank": 4,
+        "score": 0.028283227848101264,
+        "recipe": {
+          "id": "recnlg_3065",
+          "title": "Recommended For Summer Fatique, Chilled Kabocha Squash Soup",
+          "ingredients": [
+            "1000 grams kabocha squash (whole)",
+            "1/2 onion (sliced)",
+            "40 ml water",
+            "10 grams butter",
+            "2 soup stock cube",
+            "600 to 800 ml milk",
+            "1 heavy cream",
+            "1 parsley etc."
+          ],
+          "directions": [
+            "cut up the kabocha squash with the skin on, take out the seeds and pulpy insides and line the cut up pieces on a heatproof dish.",
+            "add 50 ml of water, and cover loosely with plastic wrap.",
+            "microwave for 10 minutes at 700 w. when the kabocha squash is tender, leave for about 20 minutes to cool down.",
+            "when the kabocha squash has cooled down enough to touch, use a spoon to remove the insides from the skin.",
+            "heat the butter in a pan and saute the sliced onion.",
+            "when the onion is translucent, add 50 ml of water and the soup stock cubes, and heat.",
+            "put the contents of the pan in the food processor.",
+            "add some of the cooked kabocha squash too and process to a paste.",
+            "return the contents of the food processor to the pan.",
+            "add the remaining kabocha squash, and add the milk a little at a time, stirring constantly and heating.",
+            "when the soup has reached the consistency you like, season with salt and pepper.",
+            "chill well in the refrigerator.",
+            "serve topped with cream or parsley.",
+            "addition: some kabocha squash may be a bit dry.",
+            "if the kabocha squash doesn't blend well with the milk, pass it through a fine meshed sieve first.",
+            "return the kabocha squash stuck on the sieve to the pan, and simmer while adding some cream to make it smooth.",
+            "then add the rest of the sieved squash and mix well."
+          ],
+          "ner": [
+            "onion",
+            "water",
+            "butter",
+            "cube",
+            "milk",
+            "heavy cream",
+            "parsley"
+          ],
+          "source": "RecipeNLG"
+        },
+        "source": "fusion"
+      },
+      {
+        "rank": 5,
+        "score": 0.02819138376017471,
+        "recipe": {
+          "id": "recnlg_3380",
+          "title": "Tomato Soup With Fines Herbes (Soupe a La Tomate Aux Fines Herbe",
+          "ingredients": [
+            "3 tablespoons olive oil",
+            "1 large yellow onion, finely chopped",
+            "2 lbs ripe tomatoes, peeled, seeded, and coarsely chopped",
+            "1 tablespoon sugar",
+            "12 celery, finely chopped",
+            "6 cups water",
+            "1 tablespoon tomato paste (to taste)",
+            "kosher sea salt",
+            "fresh ground pepper",
+            "5 green onions, including tender green tops, thinly sliced",
+            "13 cup chopped fresh flat-leaf parsley",
+            "13 cup chopped fresh chervil",
+            "12 fresh basil leaves, chopped"
+          ],
+          "directions": [
+            "in a large soup pot over medium heat, warm the oil.",
+            "add the onion and saute until softened, about 1 minutes.",
+            "add the tomatoes and stir until they release their liquid, about 2 minutes.",
+            "add the sugar and continue stirring until all the liquid evaporates and the tomatoes begin to stick - or even caramelize - a little on the bottom of the pan, 2 to 3 minutes.",
+            "add half of the celery, the water, and the tomato paste and mix well.",
+            "season lightly with salt and pepper, then bring to a boil, reduce the heat to low, and simmer, uncovered, for about 30 minutes.",
+            "using a hand held blender or a potato masher, partially puree the soup, leaving the tomato fairly chunky.",
+            "add the remaining celery and simmer for 5 minutes longer to blend the flavors.",
+            "just before serving, add the green onions, parsley, chervil, and basil and stir to blend.",
+            "taste and adjust the seasoning.",
+            "ladle into bowls and serve.",
+            "note: chervil is the leaves and root of this parsley family herb; they are edible and have a mild anise flavor.",
+            "the leaves are a curly and dark green.",
+            "chervil is one of the main ingredients in fines herbes.",
+            "substitutions: parsley or tarragon."
+          ],
+          "ner": [
+            "olive oil",
+            "yellow onion",
+            "tomatoes",
+            "sugar",
+            "celery",
+            "water",
+            "tomato paste",
+            "kosher sea salt",
+            "fresh ground pepper",
+            "green onions",
+            "parsley",
+            "chervil",
+            "basil"
+          ],
+          "source": "RecipeNLG"
+        },
+        "source": "fusion"
+      }
+    ],
+    "used_query_rewriting": true
+  },
+  {
+    "query_id": 7,
+    "query": "Give me a traditional Irish dessert recipe.",
+    "rewritten_query": "Give me a traditional Irish dessert recipe.; meal types: dessert",
+    "structured_query": {
+      "dietary_tags": [],
+      "must_have_ingredients": [],
+      "avoid_ingredients": [],
+      "meal_types": [
+        "dessert"
+      ],
+      "quantity_constraints": {},
+      "general_ingredient_tags": [
+        "dairy",
+        "fruit"
+      ],
+      "cooking_methods": [],
+      "notes": "The query specifically asks for a traditional Irish dessert recipe, which typically includes dairy and possibly fruit, but does not specify any particular ingredients or constraints."
+    },
+    "results": [
+      {
+        "rank": 1,
+        "score": 0.02803379416282642,
+        "recipe": {
+          "id": "recnlg_4112",
+          "title": "Irish Lace Cookies(Makes About 9 Dozen)",
+          "ingredients": [
+            "1/2 c. sweet butter",
+            "1 c. sugar",
+            "1 egg",
+            "1 tsp. vanilla",
+            "2 tbsp. flour",
+            "1/3 tsp. salt",
+            "1 c. quick cooking oatmeal"
+          ],
+          "directions": [
+            "cream butter and sugar.",
+            "add egg and vanilla; mix well.",
+            "add flour, salt and oatmeal.",
+            "line cookie sheet with aluminum foil and drop dough by 1/2 teaspoon onto foil.",
+            "bake 5 to 8 minutes in a 350° oven until lightly browned.",
+            "let cool.",
+            "remove from foil."
+          ],
+          "ner": [
+            "sweet butter",
+            "sugar",
+            "egg",
+            "vanilla",
+            "flour",
+            "salt",
+            "oatmeal"
+          ],
+          "source": "RecipeNLG"
+        },
+        "source": "fusion"
+      },
+      {
+        "rank": 2,
+        "score": 0.02788769549651404,
+        "recipe": {
+          "id": "recnlg_4323",
+          "title": "Irish Potato Pie",
+          "ingredients": [
+            "2 potatoes, cooked",
+            "2 1/2 c. sugar",
+            "1 1/2 c. butter",
+            "1/2 c. milk",
+            "2 or 3 eggs",
+            "1 1/2 tsp. lemon flavor",
+            "1 tsp. nutmeg or vanilla",
+            "1 tbsp. flour",
+            "1 pinch salt (optional)",
+            "1 9-inch pie crust"
+          ],
+          "directions": [
+            "mix hot potatoes, sugar, butter and milk.",
+            "beat well.",
+            "add eggs, one at a time.",
+            "add remaining ingredients and pour into pie shell.",
+            "bake at 350° for 30 to 35 minutes or until set."
+          ],
+          "ner": [
+            "potatoes",
+            "sugar",
+            "butter",
+            "milk",
+            "eggs",
+            "lemon flavor",
+            "nutmeg",
+            "flour",
+            "salt",
+            "crust"
+          ],
+          "source": "RecipeNLG"
+        },
+        "source": "fusion"
+      },
+      {
+        "rank": 3,
+        "score": 0.02666666666666667,
+        "recipe": {
+          "id": "recnlg_4823",
+          "title": "St. Patrick'S Day Dessert",
+          "ingredients": [
+            "10 oz. crushed oreo cookies",
+            "1/4 c. melted oleo",
+            "4 oz. german's sweet chocolate",
+            "1/2 c. real butter",
+            "2/3 c. sugar",
+            "1/8 tsp. salt",
+            "2/3 c. evaporated milk",
+            "1 tsp. vanilla",
+            "1 qt. mint chocolate chip ice cream"
+          ],
+          "directions": [
+            "mix cookie crumbs and oleo.",
+            "set aside 2/3 cup for topping. press rest into a 9 x 13-inch pan.",
+            "chill."
+          ],
+          "ner": [
+            "cookies",
+            "oleo",
+            "chocolate",
+            "butter",
+            "sugar",
+            "salt",
+            "milk",
+            "vanilla",
+            "mint chocolate chip ice cream"
+          ],
+          "source": "RecipeNLG"
+        },
+        "source": "fusion"
+      },
+      {
+        "rank": 4,
+        "score": 0.025563671006668783,
+        "recipe": {
+          "id": "recnlg_121",
+          "title": "Irish Trifle",
+          "ingredients": [
+            "1 tablespoon butter, softened, for greasing pan",
+            "85 grams cake flour (scant 3/4 cup)",
+            "14 grams cornstarch (1 1/2 tablespoons)",
+            "120 grams eggs (2 extra-large eggs plus 1 tablespoon)",
+            "150 grams sugar (2/3 cup), divided",
+            "2 teaspoons vanilla extract",
+            "85 grams egg whites (2 1/2 whites)",
+            "pinch of salt",
+            "1 tablespoon butter, melted",
+            "13 cup cream sherry, more to taste",
+            "13 cup raspberry jam",
+            "2 23 cups chilled creme anglaise (see recipe)",
+            "1 cup plus 1 tablespoon heavy cream",
+            "freshly grated nutmeg"
+          ],
+          "directions": [
+            "make the cake: brush a 9-inch cake pan with softened butter and lightly flour sides.",
+            "lay pan on a sheet of parchment paper and trace around bottom of pan.",
+            "cut parchment round and place in pan with pencil marks facing down.",
+            "heat oven to 350 degrees.",
+            "sift cake flour and cornstarch into a bowl or onto a sheet of parchment.",
+            "in the bowl of the stand mixer fitted with the paddle, combine 2 eggs, half the sugar and the vanilla.",
+            "mix at low speed for 30 seconds to combine.",
+            "turn mixer to highest speed and beat for 5 minutes, until mixture is light, pale and fluffy.",
+            "turn mixer down to medium and beat for 3 minutes.",
+            "scrape mixture out into a large bowl.",
+            "gently fold in half the flour mixture, then gently fold in remaining half.",
+            "wash the stand mixer bowl thoroughly with soap and hot water, then dry.",
+            "add egg whites, remaining sugar and salt to bowl.",
+            "using the whisk attachment, beat at medium speed for 3 to 4 minutes, or long enough to obtain a soft, creamy meringue.",
+            "do not over-whip; you do not want a stiff and dry meringue.",
+            "carefully fold half the egg white mixture into batter, along with melted butter.",
+            "carefully fold in remaining egg white mixture.",
+            "gently scrape into prepared cake pan.",
+            "put cake pan on a baking sheet and place in oven.",
+            "bake 30 minutes, until light golden brown and a tester comes out clean.",
+            "remove from oven and reverse onto a rack.",
+            "remove parchment paper and cool for 5 minutes, then flip cake over and let cool completely.",
+            "wrap tightly in plastic if not using right away.",
+            "cake can be made a few days ahead and refrigerated, or frozen for several weeks.",
+            "assemble the trifle: at least 6 hours, and no more than 24 hours, before you plan to serve trifle, spread top of cake with jam and cut into 2-inch squares.",
+            "line a flat wide bowl (preferably a trifle dish) with cake squares, in one layer.",
+            "douse cake with 2 to 4 tablespoons cream sherry, more if desired.",
+            "cover with parchment or plastic wrap , set a plate on top, and set a weight (such as a large can of tomatoes) on top of the plate.",
+            "cover and refrigerate for 4 hours or longer.",
+            "uncover cake.",
+            "spike creme anglaise with a tablespoon or two of sherry if desired, and pour over cake.",
+            "chill for an hour or more in refrigerator.",
+            "just before serving, beat cream until it forms soft peaks, and flavor it with a spoonful of cream sherry if desired.",
+            "spoon over trifle.",
+            "dust with a very small amount of nutmeg and serve."
+          ],
+          "ner": [
+            "butter",
+            "cake flour",
+            "cornstarch",
+            "eggs",
+            "sugar",
+            "vanilla",
+            "egg whites",
+            "salt",
+            "butter",
+            "cream sherry",
+            "raspberry",
+            "chilled creme anglaise",
+            "heavy cream",
+            "nutmeg"
+          ],
+          "source": "RecipeNLG"
+        },
+        "source": "fusion"
+      },
+      {
+        "rank": 5,
+        "score": 0.0251414204902577,
+        "recipe": {
+          "id": "recnlg_3955",
+          "title": "Irish Cream Liqueur",
+          "ingredients": [
+            "3 eggs",
+            "1 tbsp. instant coffee crystals",
+            "1 tbsp. real vanilla",
+            "1 tbsp. chocolate syrup",
+            "2 c. whipping cream",
+            "2 c. half and half",
+            "1 c. sweetened condensed milk",
+            "1 1/2 c. whiskey",
+            "1/2 c. brandy (optional)"
+          ],
+          "directions": [
+            "in large mixing bowl (at least 3-quart), beat the eggs well. add coffee, vanilla, chocolate syrup and whipping cream.",
+            "mix well (use electric mixer on low).",
+            "add half and half, condensed milk, whiskey and brandy.",
+            "stir with large spoon.",
+            "bottle and refrigerate.",
+            "makes 2 1/2 fifths."
+          ],
+          "ner": [
+            "eggs",
+            "instant coffee crystals",
+            "vanilla",
+            "chocolate syrup",
+            "whipping cream",
+            "condensed milk",
+            "whiskey",
+            "brandy"
+          ],
+          "source": "RecipeNLG"
+        },
+        "source": "fusion"
+      }
+    ],
+    "used_query_rewriting": true
+  },
+  {
+    "query_id": 8,
+    "query": "I want to cut my carbohydrates intake, give me a seafood dish with shrimp and garlic.",
+    "rewritten_query": "I want to cut my carbohydrates intake, give me a seafood dish with shrimp and garlic.; must contain: shrimp, garlic; avoid: carbohydrates",
+    "structured_query": {
+      "dietary_tags": [],
+      "must_have_ingredients": [
+        "shrimp",
+        "garlic"
+      ],
+      "avoid_ingredients": [
+        "carbohydrates"
+      ],
+      "meal_types": [],
+      "quantity_constraints": {},
+      "general_ingredient_tags": [
+        "seafood",
+        "spice"
+      ],
+      "cooking_methods": [],
+      "notes": "The user wants a seafood dish specifically with shrimp and garlic while cutting down on carbohydrates."
+    },
+    "results": [
+      {
+        "rank": 1,
+        "score": 0.03125763125763126,
+        "recipe": {
+          "id": "recnlg_4639",
+          "title": "Mississippi Seafood Gumbo",
+          "ingredients": [
+            "4 tbsp. crisco oil",
+            "2/3 c. flour",
+            "2 large onions, chopped",
+            "2 cloves garlic, minced",
+            "1 1/2 c. chopped ham",
+            "6 c. chopped okra",
+            "4 qt. water",
+            "3 tbsp. worcestershire sauce",
+            "3 (16 oz.) cans tomatoes",
+            "dash of tabasco",
+            "salt and pepper to taste",
+            "2 to 4 lb. peeled, raw shrimp",
+            "1 lb. crab meat",
+            "4 to 5 bay leaves",
+            "cooked rice"
+          ],
+          "directions": [
+            "heat crisco oil in heavy pot; add flour and brown slowly until a very dark roux has been made.",
+            "add onions and garlic and brown, then add ham and brown.",
+            "add okra.",
+            "continue to brown mixture very slowly for about an hour or more.",
+            "bring to a boil in large pot the water, worcestershire sauce, tomatoes, tabasco, salt and pepper.",
+            "add browned mixture and cook slowly for 4 hours.",
+            "add shrimp.",
+            "cook slowly for 2 hours.",
+            "add bay leaves 1 hour before serving.",
+            "serve over 2 tablespoons rice in large bowl.",
+            "may be prepared several days ahead.",
+            "freezes well.",
+            "serves 6 to 8."
+          ],
+          "ner": [
+            "crisco oil",
+            "flour",
+            "onions",
+            "garlic",
+            "ham",
+            "okra",
+            "water",
+            "worcestershire sauce",
+            "tomatoes",
+            "salt",
+            "shrimp",
+            "crab meat",
+            "bay leaves",
+            "rice"
+          ],
+          "source": "RecipeNLG"
+        },
+        "source": "fusion"
+      },
+      {
+        "rank": 2,
+        "score": 0.0304147465437788,
+        "recipe": {
+          "id": "recnlg_2170",
+          "title": "Grilled Shrimp Packets With Basil, Garlic And Red Curry Compound Butter",
+          "ingredients": [
+            "2 garlic cloves",
+            "3-5 fresh basil leaves",
+            "3 sprigs cilantro",
+            "4 tablespoons butter, softened",
+            "2 teaspoons red curry paste",
+            "salt, to taste",
+            "freshly ground pepper, to taste",
+            "24 large shrimp, peeled and deveined (tail left on if desired)",
+            "large shrimp, peeled and deveined (tail left on if desired)",
+            "sriracha sauce for serving, optional",
+            "fresh basil leaves, chiffonade for garnish"
+          ],
+          "directions": [
+            "in a mini food processor, mince garlic, basil and cilantro. add butter, red curry paste, salt and pepper and process till combined.",
+            "on two pieces of heavy duty foil, divide shrimp and lay in a row. dot with desired amount of compound butter (you can control the fat here). seal tightly and place on a hot grill. allow it to cook for about 10 minutes; you will notice the packets puff up when it is done.",
+            "serve the shrimp straight out of the packets if you wish! or plate it with chiffonades of basil and sriracha sauce. don't forget the bread!"
+          ],
+          "ner": [
+            "garlic",
+            "fresh basil",
+            "cilantro",
+            "butter",
+            "red curry",
+            "salt",
+            "freshly ground pepper",
+            "shrimp",
+            "shrimp",
+            "sriracha sauce",
+            "fresh basil"
+          ],
+          "source": "RecipeNLG"
+        },
+        "source": "fusion"
+      },
+      {
+        "rank": 3,
+        "score": 0.03028233151183971,
+        "recipe": {
+          "id": "recnlg_3626",
+          "title": "Mediterranean Seafood Sauté     (Serves 6)",
+          "ingredients": [
+            "1# sea scallops 1# 26/30 shrimp, peeled and de-veined",
+            "1 large yellow onion, sliced 1/3 cup oil cured olives, pitted",
+            "1 can artichoke hearts, quartered 1/3 cup pine nuts",
+            "1/4 cup capers 3 cloves garlic, minced 1 cup white wine",
+            "1/3 cup evoo s & p, to taste 1 cup spinach, chiffonaded",
+            "3/4 cup parm chz, large grate 1/2 cup cilantro, rough chop",
+            "1/3 cup sd tomatoes, minced 1 # pasta, your choice"
+          ],
+          "directions": [
+            "this saute only takes about 10-12 minutes, so plan your pasta start time accordingly. in a large, heavy saute pan, heat the evoo over med-high heat for 1-2 minutes. when adding ingredients, saute/flip them as needed. add the onions when the oil is hot and cook for 2 minutes. add the sd tomatoes, pine nuts, garlic, scallops and shrimp and cook for 1 minute. add the capers, artichoke hearts, olives, white wine and cilantro and cook for 4 minutes. add s & p, spinach and cook for 1 minute.",
+            "remove from heat and serve over pasta, sprinkling parm chz on top. do not overcook scallops and/or shrimp - adjust cooking times to barely cook the seafood on your own individual ranges and pans. bay scallops may be substituted for the larger sea scallops, but add them about 3 minutes later than the shrimp."
+          ],
+          "ner": [
+            "shrimp",
+            "yellow onion",
+            "hearts",
+            "capers",
+            "evoo",
+            "parm",
+            "sd tomatoes"
+          ],
+          "source": "RecipeNLG"
+        },
+        "source": "fusion"
+      },
+      {
+        "rank": 4,
+        "score": 0.029726775956284153,
+        "recipe": {
+          "id": "recnlg_3943",
+          "title": "Sizzling Shrimp",
+          "ingredients": [
+            "1 1/2 lbs (750 g) raw large shrimp, peeled and deveined, patted dry",
+            "3 cloves garlic, sliced",
+            "1/4 tsp (1 ml) salt",
+            "1/4 tsp (1 ml) hot pepper flakes",
+            "1/2 cup (125 ml) olive oil",
+            "9-inch (22.5 cm) ovenproof earthenware dish or glass pie plate"
+          ],
+          "directions": [
+            "preheat oven to 450f (230c)",
+            "spread out shrimp in baking dish; tuck slices of garlic in amongst shrimp.",
+            "sprinkle with salt and hot pepper flakes.",
+            "drizzle oil evenly over shrimp.",
+            "preheat oven to 350f (180c).",
+            "bake for 10 to 12 minutes, stirring once or twice, until shrimp are pink and opaque and oil is bubbling.",
+            "serve at once.",
+            "from julia aitken: easy entertaining"
+          ],
+          "ner": [
+            "shrimp",
+            "garlic",
+            "salt",
+            "hot pepper",
+            "olive oil",
+            "ovenproof earthenware"
+          ],
+          "source": "RecipeNLG"
+        },
+        "source": "fusion"
+      },
+      {
+        "rank": 5,
+        "score": 0.029418126757516764,
+        "recipe": {
+          "id": "recnlg_2719",
+          "title": "Brandied Shrimp With Pasta",
+          "ingredients": [
+            "1 (16 ounce) package dry fettuccini noodles",
+            "1/4 cup olive oil",
+            "1 pound shrimp, peeled and deveined",
+            "6 green onions, thinly sliced",
+            "4 cloves garlic, thinly sliced",
+            "1/4 cup brandy",
+            "2 large tomatoes, diced",
+            "1/2 cup dry white wine",
+            "1/2 cup butter",
+            "1/2 cup chopped fresh basil",
+            "2 teaspoons salt",
+            "1 teaspoon pepper",
+            "1/2 cup grated parmesan cheese"
+          ],
+          "directions": [
+            "bring a large pot of lightly salted water to a boil. add pasta and cook for 8 to 10 minutes or until al dente; drain.",
+            "heat olive oil in a large skillet over medium heat. saute shrimp until pink. stir in green onions, garlic and brandy. carefully ignite brandy with a match, or the gas flame. cook for 2 minutes. add chopped tomatoes, and cook 2 minutes. stir in wine and butter, and season with basil, salt and pepper. cook for 3 minutes. stir in parmesan. toss with pasta until evenly coated."
+          ],
+          "ner": [
+            "fettuccini noodles",
+            "olive oil",
+            "shrimp",
+            "green onions",
+            "garlic",
+            "brandy",
+            "tomatoes",
+            "white wine",
+            "butter",
+            "fresh basil",
+            "salt",
+            "pepper",
+            "parmesan cheese"
+          ],
+          "source": "RecipeNLG"
+        },
+        "source": "fusion"
+      }
+    ],
+    "used_query_rewriting": true
+  },
+  {
+    "query_id": 9,
+    "query": "Give me a baked dish receipe with simple instruction that includes potatoes and cheese.",
+    "rewritten_query": "Give me a baked dish receipe with simple instruction that includes potatoes and cheese.; must contain: potato, cheese; cooking methods: baked",
+    "structured_query": {
+      "dietary_tags": [],
+      "must_have_ingredients": [
+        "potato",
+        "cheese"
+      ],
+      "avoid_ingredients": [],
+      "meal_types": [],
+      "quantity_constraints": {},
+      "general_ingredient_tags": [
+        "vegetable",
+        "dairy"
+      ],
+      "cooking_methods": [
+        "baked"
+      ],
+      "notes": "The user requested a baked dish recipe that includes potatoes and cheese with simple instructions."
+    },
+    "results": [
+      {
+        "rank": 1,
+        "score": 0.03177805800756621,
+        "recipe": {
+          "id": "recnlg_1122",
+          "title": "Baked Potato Skins",
+          "ingredients": [
+            "baking potatoes, baked",
+            "grated cheddar cheese",
+            "diced, cooked bacon",
+            "salt and pepper",
+            "dash of paprika",
+            "sour cream (optional)"
+          ],
+          "directions": [
+            "slice baked potatoes in half lengthwise.",
+            "scoop out about 3/4 of flesh and set aside for other recipes.",
+            "set skins on cookie sheet and place in oven about 4 inches away from top element. broil 8 minutes.",
+            "remove skins from oven and sprinkle with cheese. season well and add bacon and paprika.",
+            "broil another 4 to 5 minutes.",
+            "serve hot with sour cream, if desired."
+          ],
+          "ner": [
+            "baking potatoes",
+            "cheddar cheese",
+            "bacon",
+            "salt",
+            "paprika",
+            "sour cream"
+          ],
+          "source": "RecipeNLG"
+        },
+        "source": "fusion"
+      },
+      {
+        "rank": 2,
+        "score": 0.03057889822595705,
+        "recipe": {
+          "id": "recnlg_2272",
+          "title": "Baked Mashed Potatoes",
+          "ingredients": [
+            "2/3 c. chopped onions",
+            "1 tsp. salt",
+            "1 egg, beaten",
+            "1 (8 oz.) pkg. cream cheese, softened",
+            "4 c. hot mashed potatoes",
+            "pepper to taste"
+          ],
+          "directions": [
+            "combine cream cheese and hot mashed potatoes.",
+            "add remaining ingredients.",
+            "mix well.",
+            "bake in 1 1/2-quart casserole dish at 350° for 45 minutes.",
+            "serves 6."
+          ],
+          "ner": [
+            "onions",
+            "salt",
+            "egg",
+            "cream cheese",
+            "hot mashed potatoes",
+            "pepper"
+          ],
+          "source": "RecipeNLG"
+        },
+        "source": "fusion"
+      },
+      {
+        "rank": 3,
+        "score": 0.029418126757516764,
+        "recipe": {
+          "id": "recnlg_1592",
+          "title": "Loaded Baked Potato Casserole",
+          "ingredients": [
+            "1 (22-oz.) package frozen mashed potatoes",
+            "1 (6.5-oz.) container garlic-and-herb spreadable cheese",
+            "1/2 cup milk",
+            "4 cooked bacon slices, crumbled",
+            "1 teaspoon salt",
+            "1/2 teaspoon pepper",
+            "1 cup (4 oz.) shredded cheddar cheese",
+            "garnish: chopped fresh chives"
+          ],
+          "directions": [
+            "prepare potatoes according to package directions.",
+            "stir in spreadable cheese and next 4 ingredients; stir until blended. spread mixture on bottom of a lightly-greased 11- x 7-inch baking dish; top with cheddar cheese.",
+            "bake at 350° for 25 to 30 minutes or until thoroughly heated. garnish, if desired.",
+            "note: for testing purposes only, we used frozen ore-ida mashed potatoes and alouette garlic & herbs spreadable cheese."
+          ],
+          "ner": [
+            "potatoes",
+            "garlic",
+            "milk",
+            "bacon",
+            "salt",
+            "pepper",
+            "cheddar cheese",
+            "fresh chives"
+          ],
+          "source": "RecipeNLG"
+        },
+        "source": "fusion"
+      },
+      {
+        "rank": 4,
+        "score": 0.028693528693528692,
+        "recipe": {
+          "id": "recnlg_2687",
+          "title": "Mashed Potatoes With Carrots And Caramelized Onions",
+          "ingredients": [
+            "1 small onion, chopped",
+            "1 tsp. butter",
+            "1 large idaho baking potato",
+            "1 large or 2 medium carrots",
+            "1/4 tsp. salt",
+            "1/4 c. nonfat or part-skim ricotta cheese"
+          ],
+          "directions": [
+            "saute onion in butter in small skillet over medium-high heat, stirring often until onion is golden brown, 8 to 10 minutes.",
+            "peel potato and carrot.",
+            "cut potato into 8 pieces and carrot into 6. cook in boiling water until tender 8 to 10 minutes; drain well. mash potato and carrot together until carrot is in small chunks. beat in onion, ricotta cheese and salt.",
+            "cover to keep warm.",
+            "can be reheated in microwave or in double boiler oven on low heat. serves 2. increase ingredients as needed."
+          ],
+          "ner": [
+            "onion",
+            "butter",
+            "baking potato",
+            "carrots",
+            "salt",
+            "nonfat"
+          ],
+          "source": "RecipeNLG"
+        },
+        "source": "fusion"
+      },
+      {
+        "rank": 5,
+        "score": 0.02862400327131466,
+        "recipe": {
+          "id": "recnlg_3924",
+          "title": "Sliced Baked Potatoes(4 Servings)",
+          "ingredients": [
+            "4 medium even-sized potatoes",
+            "1 tsp. salt",
+            "2 to 3 tbsp. melted butter",
+            "2 to 3 tbsp. fresh herbs, chopped or dry herbs",
+            "4 tbsp. grated cheddar cheese",
+            "1 1/2 tbsp. parmesan cheese"
+          ],
+          "directions": [
+            "peel potatoes if skins are tough, otherwise, scrub and rinse. cut into thin slices, not all the way through.",
+            "put in baking dish; fan them slightly.",
+            "sprinkle with salt and drizzle with butter.",
+            "sprinkle with herbs."
+          ],
+          "ner": [
+            "potatoes",
+            "salt",
+            "butter",
+            "fresh herbs",
+            "cheddar cheese",
+            "parmesan cheese"
+          ],
+          "source": "RecipeNLG"
+        },
+        "source": "fusion"
+      }
+    ],
+    "used_query_rewriting": true
+  },
+  {
+    "query_id": 10,
+    "query": "Give me a vegan recipe that can be done within 2 hours that uses tofu and vegetables",
+    "rewritten_query": "Give me a vegan recipe that can be done within 2 hours that uses tofu and vegetables; must contain: tofu, vegetables; dietary: vegan",
+    "structured_query": {
+      "dietary_tags": [
+        "vegan"
+      ],
+      "must_have_ingredients": [
+        "tofu",
+        "vegetables"
+      ],
+      "avoid_ingredients": [],
+      "meal_types": [],
+      "quantity_constraints": {},
+      "general_ingredient_tags": [
+        "vegetable"
+      ],
+      "cooking_methods": [],
+      "notes": "The user requested a vegan recipe that specifically includes tofu and vegetables, with no mention of avoiding any specific ingredients or meal types."
+    },
+    "results": [
+      {
+        "rank": 1,
+        "score": 0.030090497737556562,
+        "recipe": {
+          "id": "recnlg_4922",
+          "title": "Vegan Cream of Mushroom Soup",
+          "ingredients": [
+            "2 cups fresh mushrooms (diced)",
+            "18 cup onion",
+            "12 cup almond milk",
+            "12 cup water",
+            "12 tablespoon ground pepper",
+            "12 tablespoon cornstarch",
+            "14 teaspoon salt"
+          ],
+          "directions": [
+            "fry onions and mushrooms.",
+            "mix all ingredients together.",
+            "boil mixture.",
+            "use an imersion blender to make it creamy."
+          ],
+          "ner": [
+            "fresh mushrooms",
+            "onion",
+            "almond milk",
+            "water",
+            "ground pepper",
+            "cornstarch",
+            "salt"
+          ],
+          "source": "RecipeNLG"
+        },
+        "source": "fusion"
+      },
+      {
+        "rank": 2,
+        "score": 0.029726775956284153,
+        "recipe": {
+          "id": "recnlg_3925",
+          "title": "Vegan Pizza Margherita",
+          "ingredients": [
+            "pizza crust:",
+            "1/4 cup water",
+            "3 tablespoons flaxseed meal",
+            "5 cups cauliflower florets",
+            "1/2 cup rolled oats",
+            "1 teaspoon dried rosemary",
+            "1/2 teaspoon salt",
+            "1/4 teaspoon garlic powder",
+            "vegan mozzarella cheese:",
+            "3/4 cup cashews",
+            "1 1/4 cups water",
+            "2 tablespoons tapioca starch",
+            "1 tablespoon nutritional yeast",
+            "1 teaspoon apple cider vinegar",
+            "1/2 teaspoon salt",
+            "1/4 teaspoon garlic powder",
+            "marinara sauce:",
+            "1 tablespoon olive oil",
+            "6 cloves garlic, finely chopped",
+            "1 (14 ounce) can crushed tomatoes",
+            "2 tablespoons balsamic vinegar",
+            "1 teaspoon maple syrup",
+            "1 teaspoon salt",
+            "1 teaspoon red pepper flakes",
+            "1 teaspoon dried oregano",
+            "1/2 teaspoon ground black pepper",
+            "toppings:",
+            "1/2 cup cherry tomatoes, sliced",
+            "1/2 cup basil leaves"
+          ],
+          "directions": [
+            "preheat the oven to 450 degrees f (230 degrees c). line a baking sheet with parchment paper.",
+            "whisk 1/4 cup water and flaxseed meal together in a large bowl. let sit for 5 minutes.",
+            "place a steamer insert into a saucepan and fill with water to just below the bottom of the steamer. bring water to a boil. add cauliflower, cover, and steam until fall-apart tender, 3 to 6 minutes. let cool, at least 10 minutes.",
+            "grind oats, rosemary, 1/2 teaspoon salt, and 1/4 teaspoon garlic powder together in a food processor until flourlike in texture.",
+            "place cooled cauliflower in a fine cheesecloth and squeeze out as much moisture as possible. add pressed cauliflower to the bowl with the flaxseed-water mixture and stir well. stir in the oat mixture. form dough into a ball and place onto the lined baking sheet.",
+            "press dough ball down into a circle. lay a sheet of parchment on top and roll dough flat using a rolling pin to about 1/4-inch thick.",
+            "bake in the preheated oven until crust is set, about 15 minutes. remove from the oven; leave oven on.",
+            "place cashews into a pot with water to cover; bring to a boil. reduce heat to medium-low and simmer until soft, about 15 minutes. drain.",
+            "puree boiled cashews, 1 1/4 cups fresh water, tapioca starch, nutritional yeast, cider vinegar, 1/2 teaspoon salt, and 1/4 teaspoon garlic powder in a blender. pour puree into a saucepan over medium heat. cook, stirring continuously, until thickened, about 5 minutes.",
+            "heat olive oil in a saucepan over medium-high heat. saute garlic until fragrant, about 2 minutes. add crushed tomatoes, balsamic vinegar, maple syrup, 1 teaspoon salt, red pepper flakes, oregano, and black pepper. simmer marinara sauce until flavors blend, about 10 minutes.",
+            "fill blender halfway with marinara sauce. cover and hold lid down with a potholder; pulse a few times before leaving on to blend. pour into a bowl. repeat with any remaining marinara sauce.",
+            "spread marinara sauce over the cauliflower crust; top with the 'mozzarella cheese' and add cherry tomatoes.",
+            "bake in the hot oven until sauce is bubbling and crust is golden brown, about 8 minutes. top with basil."
+          ],
+          "ner": [
+            "crust",
+            "water",
+            "meal",
+            "cauliflower florets",
+            "rolled oats",
+            "rosemary",
+            "salt",
+            "garlic",
+            "mozzarella cheese",
+            "cashews",
+            "water",
+            "tapioca starch",
+            "nutritional yeast",
+            "apple cider vinegar",
+            "salt",
+            "garlic",
+            "olive oil",
+            "garlic",
+            "tomatoes",
+            "balsamic vinegar",
+            "maple syrup",
+            "salt",
+            "red pepper",
+            "oregano",
+            "ground black pepper",
+            "toppings",
+            "cherry tomatoes",
+            "basil"
+          ],
+          "source": "RecipeNLG"
+        },
+        "source": "fusion"
+      },
+      {
+        "rank": 3,
+        "score": 0.028484848484848488,
+        "recipe": {
+          "id": "recnlg_3201",
+          "title": "Bree's Vegan Mexican Rice and Veggies",
+          "ingredients": [
+            "2 (16 ounce) cans tomato sauce",
+            "3 cups rice (i prefer jasmine rice)",
+            "12 cup cumin",
+            "4 cups of choice mixed vegetables",
+            "2 tablespoons margarine",
+            "1 cup water"
+          ],
+          "directions": [
+            "in a frying pan melt margarine.",
+            "add rice and stir over high heat until rice is browned.",
+            "once rice has browned add water and bring to boil.",
+            "reduce heat to medium high and let rice absorb most of the water.",
+            "add tomato sauce and cumin.",
+            "cook until rice is tender.",
+            "add veggies and cook until completely heated through."
+          ],
+          "ner": [
+            "tomato sauce",
+            "rice",
+            "cumin",
+            "mixed vegetables",
+            "margarine",
+            "water"
+          ],
+          "source": "RecipeNLG"
+        },
+        "source": "fusion"
+      },
+      {
+        "rank": 4,
+        "score": 0.028006267136701922,
+        "recipe": {
+          "id": "recnlg_1033",
+          "title": "Vegan Chili",
+          "ingredients": [
+            "16 ounces tomato sauce",
+            "8 ounces black beans",
+            "8 ounces dark red kidney beans",
+            "8 ounces light kidney beans",
+            "8 ounces dieced tomatoes",
+            "1 1/2 cups onions",
+            "1 cup corn",
+            "2 tablespoons chili powder",
+            "2 teaspoons cumin",
+            "1 garlic clove",
+            "1 teaspoon cayenne pepper",
+            "1 teaspoon paprika"
+          ],
+          "directions": [
+            "satue onions and corn together, add seasoning, deglaze pan with tomato sauce, add remaining ingredients and simmer."
+          ],
+          "ner": [
+            "tomato sauce",
+            "black beans",
+            "dark red kidney beans",
+            "kidney beans",
+            "tomatoes",
+            "onions",
+            "corn",
+            "chili powder",
+            "cumin",
+            "garlic",
+            "cayenne pepper",
+            "paprika"
+          ],
+          "source": "RecipeNLG"
+        },
+        "source": "fusion"
+      },
+      {
+        "rank": 5,
+        "score": 0.027777777777777776,
+        "recipe": {
+          "id": "recnlg_3792",
+          "title": "Vegan Vietnamese Noodle Salad",
+          "ingredients": [
+            "4 ounces rice noodles thin",
+            "6 tablespoons sweet chile sauce",
+            "1 fresh lime juiced",
+            "3 cups cabbage thinly sliced",
+            "4 carrots small rainbow, sliced diagonally in thin coins",
+            "3/4 cup chickpeas cooked",
+            "1/2 cup cilantro leaves",
+            "2 tablespoons chopped fresh mint",
+            "1/4 cup unsalted cashews chopped"
+          ],
+          "directions": [
+            "prepare rice noodles according to package. drain in colander, and rinse under cold water until completely cooled.",
+            "stir together sweet chile sauce, lime, and 1/4 cilantro in measuring cup.",
+            "combine noodles, cabbage, carrots, chickpeas, remaining cilantro, and mint in large bowl. serve with chile sauce and cashews."
+          ],
+          "ner": [
+            "rice noodles",
+            "sweet chile sauce",
+            "lime juiced",
+            "cabbage",
+            "carrots",
+            "chickpeas cooked",
+            "cilantro",
+            "fresh mint"
+          ],
+          "source": "RecipeNLG"
+        },
+        "source": "fusion"
+      }
+    ],
+    "used_query_rewriting": true
+  }
+]
