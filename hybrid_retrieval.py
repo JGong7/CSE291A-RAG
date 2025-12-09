@@ -52,7 +52,7 @@ class MetadataExtractor:
     # Ingredient categories for filtering
     INGREDIENT_EXCLUDES = {
         'lactose': ['milk', 'cheese', 'cream', 'butter', 'yogurt', 'cream cheese', 'sour cream', 
-                    'parmesan', 'mozzarella', 'cheddar', 'ricotta', 'whey', 'alfredo sauce'],
+                    'parmesan', 'mozzarella', 'cheddar', 'ricotta', 'whey', 'alfredo sauce', 'mayonnaise'],
         'gluten': ['flour', 'wheat', 'bread', 'pasta', 'noodles', 'soy sauce'],
         'meat': ['beef', 'pork', 'chicken', 'turkey', 'lamb', 'steak', 'bacon', 'ham', 
                  'sausage', 'meat'],
@@ -74,7 +74,7 @@ class MetadataExtractor:
         'salad': ['salad'],
         'appetizer': ['appetizer', 'starter', 'snack'],
         'beverage': ['drink', 'beverage', 'smoothie', 'juice', 'cocktail'],
-        'smoothie': ['smoothie', 'shake', 'fruit drink'],
+        'smoothie': ['smoothie', 'blender', 'fruit drink', 'milkshake']
     }
     
     # Cooking methods
@@ -85,11 +85,21 @@ class MetadataExtractor:
         'boiled': ['boil', 'boiled', 'boiling'],
         'slow-cooked': ['slow cooker', 'crock pot', 'crockpot'],
     }
+
+    # Stopwords for ingredient token extraction to reduce noise in contains_ingredients
+    INGREDIENT_STOPWORDS = {
+        'cup', 'cups', 'tablespoon', 'tablespoons', 'teaspoon', 'teaspoons', 'tbsp', 'tsp',
+        'ounce', 'ounces', 'oz', 'pound', 'pounds', 'lb', 'lbs', 'gram', 'grams', 'g', 'kg',
+        'the', 'and', 'or', 'of', 'to', 'for', 'with', 'on', 'in', 'into', 'from', 'as',
+        'this', 'that', 'these', 'those', 'use', 'used', 'large', 'small', 'medium',
+        'great', 'good', 'best', 'optional', 'fresh', 'dried', '(' , ')',
+    }
     
     @staticmethod
     def extract_metadata(recipe: Dict[str, Any]) -> Dict[str, Any]:
         """Extract metadata from a recipe"""
         title = recipe.get('title', '').lower()
+        title_set = set(title.split(" ")) - MetadataExtractor.INGREDIENT_STOPWORDS
         ingredients_list = recipe.get('ingredients', [])
         ingredients = ' '.join([str(i).lower() for i in ingredients_list])
         
@@ -141,13 +151,13 @@ class MetadataExtractor:
                 metadata['contains_ingredients'].add('seafood')
         
         # Check if vegan/vegetarian based on ingredients
-        has_meat = any(item in ingredients or item in ner_text 
+        has_meat = any(item in ingredients or item in ner_text or item in title_set
                       for item in MetadataExtractor.INGREDIENT_EXCLUDES['meat'])
-        has_seafood = any(item in ingredients or item in ner_text 
+        has_seafood = any(item in ingredients or item in ner_text or item in title_set
                          for item in MetadataExtractor.INGREDIENT_EXCLUDES['seafood'])
-        has_eggs = any(item in ingredients or item in ner_text 
+        has_eggs = any(item in ingredients or item in ner_text or item in title_set
                       for item in MetadataExtractor.INGREDIENT_EXCLUDES['eggs'])
-        has_dairy = any(item in ingredients or item in ner_text 
+        has_dairy = any(item in ingredients or item in ner_text or item in title_set
                        for item in MetadataExtractor.INGREDIENT_EXCLUDES['lactose'])
         
         if not has_meat and not has_seafood and not has_eggs and not has_dairy:
@@ -155,30 +165,37 @@ class MetadataExtractor:
         if not has_meat and not has_seafood:
             metadata['dietary_tags'].add('vegetarian')
         
-        # Extract dish types
+        # Extract dish types — avoid misclassifying based solely on ingredient names
+        # Tokenize title and directions; ignore ingredients_text for dish-type decision
+        title_tokens = set(re.findall(r'\b[a-z]{3,}\b', title))
+        directions_tokens = set(re.findall(r'\b[a-z]{3,}\b', directions))
+        text_tokens = title_tokens | directions_tokens
+        
         for dish_type, patterns in MetadataExtractor.DISH_TYPES.items():
-            if any(pattern in title or pattern in full_text for pattern in patterns):
-                metadata['dish_types'].add(dish_type)
+            for pattern in patterns:
+                # treat each pattern as a token; only match if it's a full token in title/directions
+                if pattern in text_tokens:
+                    metadata['dish_types'].add(dish_type)
+                    break
         
         # Extract cooking methods
         for method, patterns in MetadataExtractor.COOKING_METHODS.items():
             if any(pattern in directions for pattern in patterns):
                 metadata['cooking_methods'].add(method)
         
-        # Extract specific ingredients mentioned
+        # Extract specific ingredients mentioned (reduced noise)
         for ingredient in ingredients_list:
             ing_lower = str(ingredient).lower()
             # Extract key ingredients (simple heuristic)
             words = re.findall(r'\b[a-z]{3,}\b', ing_lower)
             for word in words:
-                if word not in ['cup', 'cups', 'tablespoon', 'teaspoon', 'ounce', 
-                               'pound', 'gram', 'the', 'and', 'or']:
+                if word not in MetadataExtractor.INGREDIENT_STOPWORDS:
                     metadata['contains_ingredients'].add(word)
         
         # New: coarse general ingredient tags (very simple heuristics)
         VEGETABLE_TOKENS = [
             'broccoli', 'carrot', 'spinach', 'lettuce', 'cabbage', 'pepper',
-            'onion', 'tomato', 'zucchini', 'cucumber', 'kale', 'celery', 'bean', 'beans'
+            'onion', 'tomato', 'zucchini', 'cucumber', 'kale', 'celery', 'bean', 'beans', 'potato', 'potatoes'
         ]
         FRUIT_TOKENS = [
             'apple', 'banana', 'orange', 'strawberry', 'blueberry', 'berry',
@@ -349,7 +366,7 @@ class MetadataFilter:
         if requirements['dish_type']:
             if not requirements['dish_type'].intersection(metadata['dish_types']):
                 return False
-        
+              
         # Check cooking method (at least one should match if specified)
         if requirements['cooking_method']:
             if not requirements['cooking_method'].intersection(metadata['cooking_methods']):
@@ -512,6 +529,7 @@ class HybridRetriever:
                 "score": float(D[0][rank]),
                 "recipe": self.recipes[original_idx],
                 "metadata": {
+                    "general_ingredient_tags": list(self.metadata_list[original_idx]['general_ingredient_tags']),
                     "dietary_tags": list(self.metadata_list[original_idx]['dietary_tags']),
                     "dish_types": list(self.metadata_list[original_idx]['dish_types']),
                     "cooking_methods": list(self.metadata_list[original_idx]['cooking_methods']),

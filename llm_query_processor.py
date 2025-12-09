@@ -157,9 +157,9 @@ Query: "{query}"
 Return a JSON object with the following schema (no extra text):
 {{
   "dietary_tags": ["vegan" | "vegetarian" | "lactose-free" | "gluten-free" | "nut-free"],
-  "must_have_ingredients": ["egg", "chicken", "curry", ...] (if ingredients are general like "fruit", "vegetable", "meat", do not include the general term),
+  "must_have_ingredients": ["egg", "chicken", "curry", ...],
   "avoid_ingredients": ["lactose", "gluten", "meat", "seafood", "nuts", "eggs"],
-  "meal_types": ["breakfast" | "lunch" | "dinner" | "dessert" | "soup" | "pasta" | "salad" | "appetizer" | "beverage" | "smoothie" ],
+  "meal_types": ["breakfast" | "lunch" | "dinner" | "dessert" | "soup" | "pasta" | "salad" | "appetizer" | "beverage" | "smoothie"]  (optional if not specified),
   "quantity_constraints": {{
     "ingredient": {{
       "max": float (optional),
@@ -168,8 +168,8 @@ Return a JSON object with the following schema (no extra text):
     }},
     ...
   }},
-  "general_ingredient_tags": ["vegetable" | "meat" | "fruit" | "dairy" | "spice"] (if the query implies general categories of ingredients),
-  "cooking_methods": ["baked" | "fried" | "grilled" | "boiled" | "slow-cooked", ...] (optional if not specified),
+  "general_ingredient_tags": ["vegetable" | "meat" | "fruit" | "dairy" | "spice"] (optional if not specified),
+  "cooking_methods": ["baked" | "fried" | "grilled" | "boiled" | "slow-cooked"] (optional if not specified),
   "notes": "free-form explanation of how you interpreted the query"
 }}
 
@@ -183,6 +183,8 @@ Rules:
   "at least" means min is set and Don't set max!!!
   "at most" / "Using" / "I (only) have" means max is set and Don't set min!!!
 - If "OR" logic appears in the query, use " or " connect ingredients in must_have_ingredients
+- Do not include general ingredient tags (without plural form) in "must_have_ingredients".
+- Do not include avoid_ingredients in "general_ingredient_tags".
 - Do not invent ingredients or constraints that are not implied by the query.
 """  # noqa: E501
 

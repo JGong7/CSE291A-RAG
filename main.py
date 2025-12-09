@@ -16,7 +16,7 @@ import time    #Add timer
 DATA_1_PATH = "RecipeNLG_dataset/recipes_nlg_clean.json"
 DATA_2_PATH = "Spoonacular_API/spoonacular_dataset.json"
 QUERIES_PATH = "manual_queries.json"
-OUTPUT_PATH = "retrieval_results/hybrid_retrieval_old_LLM_result.json"
+OUTPUT_PATH = "retrieval_results/hybrid_retrieval_advanced_LLM_Rerank_result.json"
 EMBED_MODEL = "sentence-transformers/all-MiniLM-L6-v2"
 MODEL_CACHE_PATH = "cache/model"
 EMBEDDINGS_CACHE_PATH = "cache/embeddings_cache.npy"
@@ -29,12 +29,12 @@ SEED = 42
 
 # ===== Hybrid Retrieval Config =====
 USE_HYBRID_RETRIEVAL = True     # Use hybrid retrieval (metadata filtering + vector search)
-HYBRID_MODE = "old"        # "old" -> HybridRetriever, "advanced" -> AdvancedRetriever
+HYBRID_MODE = "advanced"        # "old" -> HybridRetriever, "advanced" -> AdvancedRetriever
 USE_METADATA_FILTER = True      # Enable metadata filtering
 USE_QUANTITY_FILTER = True      # Enable quantity filtering
 
 # ===== Two-stage Retrieval Config =====
-USE_LLM_RERANK = False       # Turn re-ranking on/off
+USE_LLM_RERANK = True       # Turn re-ranking on/off
 FIRST_STAGE_TOP_K = 10      # FAISS retrieval
 SECOND_STAGE_TOP_K = 5      # LLM rerank output
 LLM_RERANK_MODEL = "gpt-4o-mini"   # Model for reranking
@@ -138,16 +138,16 @@ if USE_LLM_STRUCTURING:
     print(f"Processed {len(queries)} queries with LLM.")
 
 # Small demo: show original vs structured vs rewritten for first few queries
-if USE_QUERY_REWRITING and queries:
-    demo_n = min(1, len(queries))
-    print("\n[Query Rewriting Demo] Showing first", demo_n, "queries:")
-    for i in range(demo_n):
-        q_demo = queries[i]["query"]
-        structured_demo = rewrite_query_to_structured(q_demo, llm_model="gpt-4o-mini", use_llm=True)
-        rewritten_demo = rewrite_query_text(q_demo, structured_demo)
-        print(f"Original Query: {q_demo}")
-        print(f"Structured Query: {structured_demo}")
-        print(f"Rewritten Query: {rewritten_demo}")
+# if USE_QUERY_REWRITING and queries:
+#     demo_n = min(1, len(queries))
+#     print("\n[Query Rewriting Demo] Showing first", demo_n, "queries:")
+#     for i in range(demo_n):
+#         q_demo = queries[i]["query"]
+#         structured_demo = rewrite_query_to_structured(q_demo, llm_model="gpt-4o-mini", use_llm=True)
+#         rewritten_demo = rewrite_query_text(q_demo, structured_demo)
+#         print(f"Original Query: {q_demo}")
+#         print(f"Structured Query: {structured_demo}")
+#         print(f"Rewritten Query: {rewritten_demo}")
 
 # ===== Initialize Hybrid Retriever (if enabled) =====
 if USE_HYBRID_RETRIEVAL:
@@ -194,6 +194,7 @@ if USE_HYBRID_RETRIEVAL:
                 m_copy["cooking_methods"] = list(m["cooking_methods"])
                 m_copy["contains_ingredients"] = list(m["contains_ingredients"])
                 m_copy["excludes_ingredients"] = list(m["excludes_ingredients"])
+                m_copy["general_ingredient_tags"] = list(m["general_ingredient_tags"])
                 metadata_to_save.append(m_copy)
 
             with open(METADATA_CACHE_PATH, "w", encoding="utf-8") as f:

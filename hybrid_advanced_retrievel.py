@@ -246,9 +246,28 @@ class FilterManager:
         self.metadata_list = metadata_list
 
     def _requirements_from_structured(self, structured: Dict[str, Any]) -> Dict[str, Any]:
+        general_ingredient_patterns = {
+            'fruit': ['fruit', 'fruits'],
+            'vegetable': ['vegetable', 'vegetables', 'veggies'],
+            'meat': ['meat', 'meats'],
+            'spice': ['spice', 'spices', 'seasoning'],
+            'seafood': ['seafood', 'fish', 'shellfish'],
+            'dairy': ['dairy', 'milk product', 'milk products'],
+        }
+        general_terms = set(sum(general_ingredient_patterns.values(), []))
+        must_have = []
+        for ing in structured.get("must_have_ingredients", []):
+            if ing not in general_terms:
+                if len(ing.split(" ")) == 1:
+                    must_have.append(ing)
+                else:
+                    # check if any word in the phrase is a general term
+                    if not any(word in general_terms for word in ing.split(" ")):
+                        must_have.extend(ing.split(" "))
+
         return {
             "dietary_requirements": set(structured.get("dietary_tags", [])),
-            "required_ingredients": set(structured.get("must_have_ingredients", [])),
+            "required_ingredients": set(must_have),
             "excluded_ingredients": set(structured.get("avoid_ingredients", [])),
             "dish_type": set(structured.get("meal_types", [])),
             "cooking_method": set(),
@@ -307,6 +326,7 @@ class FilterManager:
         relaxed = dict(requirements)
         relaxed["dish_type"] = set()
         relaxed["cooking_method"] = set()
+        relaxed["general_ingredient_tags"] = set()
         return relaxed
 
     def apply_filters(
@@ -325,8 +345,13 @@ class FilterManager:
         """
         if structured_query is not None:
             requirements = self._requirements_from_structured(structured_query)
+            requirements['nutrition'] = NutritionFilter.parse_nutrition_requirements(query)
         else:
             requirements = MetadataFilter.parse_query_requirements(query)
+
+        no_llm_requirements = MetadataFilter.parse_query_requirements(query)
+        print(requirements)
+        print(no_llm_requirements)
 
         # 1. metadata filter
         if config.use_metadata_filter:
@@ -571,6 +596,7 @@ class AdvancedRetriever:
             config=config,
             structured_query=structured_query,
         )
+        print(f"Number of candidates after filtering: {len(candidate_indices)}")
 
         # 3. build query embedding
         q_emb = self.model.encode(query, convert_to_numpy=True)
@@ -586,6 +612,8 @@ class AdvancedRetriever:
         if config.use_sparse:
             sparse_results = self.sparse.search(query, config.first_stage_top_k, candidate_indices)
 
+        # print(f"Dense results: {dense_results}")
+        # print(f"Sparse results: {sparse_results}")
         # 6. fusion
         fused: List[Tuple[int, float]]
         source = "dense"
