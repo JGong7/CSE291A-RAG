@@ -31,13 +31,17 @@
           "source": "RecipeNLG"
         },
         "metadata": {
+          "general_ingredient_tags": [
+            "dairy",
+            "vegetable"
+          ],
           "dietary_tags": [
             "vegetarian",
             "gluten-free"
           ],
           "dish_types": [
-            "breakfast",
-            "dessert"
+            "dessert",
+            "breakfast"
           ],
           "cooking_methods": []
         }
@@ -74,13 +78,16 @@
           "source": "RecipeNLG"
         },
         "metadata": {
+          "general_ingredient_tags": [
+            "spice",
+            "dairy"
+          ],
           "dietary_tags": [
             "vegetarian"
           ],
           "dish_types": [
-            "breakfast",
-            "dinner",
-            "dessert"
+            "dessert",
+            "breakfast"
           ],
           "cooking_methods": [
             "baked"
@@ -89,50 +96,6 @@
       },
       {
         "rank": 3,
-        "score": 0.5468498468399048,
-        "recipe": {
-          "id": "recnlg_4193",
-          "title": "Baked Cheddar-Potato Pancakes",
-          "ingredients": [
-            "2 eggs",
-            "4 cups (12 oz.) ore-ida shredded hash brown potatoes, thawed",
-            "2 tbsp. kraft real mayo mayonnaise",
-            "1 cup kraft shredded cheddar cheese",
-            "6 tbsp. breakstone's or knudsen sour cream"
-          ],
-          "directions": [
-            "heat oven to 450 degrees f. line 15x10x1-inch baking pan with foil; spray with cooking spray.",
-            "combine eggs, hash browns, mayo and cheese.",
-            "drop, by scant 1/2 cupfuls, into 6 mounds on baking sheet; press each with back of spatula to form 1/2-inch-thick patty.",
-            "bake 16 to 20 min.",
-            "or golden brown, turning over after 10 min.",
-            "serve with sour cream."
-          ],
-          "ner": [
-            "eggs",
-            "brown potatoes",
-            "mayonnaise",
-            "cheddar cheese",
-            "'s"
-          ],
-          "source": "RecipeNLG"
-        },
-        "metadata": {
-          "dietary_tags": [
-            "vegetarian",
-            "gluten-free"
-          ],
-          "dish_types": [
-            "breakfast",
-            "dessert"
-          ],
-          "cooking_methods": [
-            "baked"
-          ]
-        }
-      },
-      {
-        "rank": 4,
         "score": 0.5419437885284424,
         "recipe": {
           "id": "recnlg_2531",
@@ -169,6 +132,12 @@
           "source": "RecipeNLG"
         },
         "metadata": {
+          "general_ingredient_tags": [
+            "spice",
+            "dairy",
+            "meat",
+            "vegetable"
+          ],
           "dietary_tags": [],
           "dish_types": [
             "breakfast",
@@ -180,40 +149,99 @@
         }
       },
       {
-        "rank": 5,
-        "score": 0.5313143134117126,
+        "rank": 4,
+        "score": 0.5103085041046143,
         "recipe": {
-          "id": "recnlg_4569",
-          "title": "Corn Spoon Bread",
+          "id": "recnlg_282",
+          "title": "Morning Breakfast Panini",
           "ingredients": [
-            "2 slightly beaten eggs",
-            "1 (8 1/2 ounce) package jiffy corn muffin mix",
-            "1 (8 ounce) can cream-style corn",
-            "1 (8 ounce) can whole kernel corn, drained",
-            "1 cup sour cream",
-            "12 cup margarine, melted",
-            "1 cup shredded swiss cheese"
+            "2 slices white bread or 2 slices brioche bread, 1/2-inch thick",
+            "unsalted butter (melted for brushing)",
+            "3 tablespoons cheddar cheese, grated",
+            "2 slices cooked bacon, fried until crispy",
+            "1 egg, fried",
+            "salt & freshly ground black pepper, to taste",
+            "14 cup arugula"
           ],
           "directions": [
-            "combine all ingredients except cheese.",
-            "spread in 11x7x2 baking dish.",
-            "bake at 350 for 35 minutes.",
-            "sprinkle cheese on top and bake 10-15 minutes longer or until knife comes out clean."
+            "preheat an electric panini maker on high heat according to the manufacturer's instructions.",
+            "place the bread slices on a cutting board.",
+            "brush one side of each slice with melted butter.",
+            "turn one slice over and sprinkle with the cheese.",
+            "top with the bacon and fried egg, and season with salt and pepper.",
+            "top with the arugula and the other bread slice, buttered side up.",
+            "place the sandwich on the preheated panini maker and cook according to the manufacturers instructions until the bread is golden and the cheese is melted, 3 to 5 minutes.",
+            "transfer the sandwich to a cutting board and cut in half.",
+            "serve immediately.",
+            "serves 1."
           ],
           "ner": [
-            "eggs",
-            "corn muffin",
-            "cream-style",
-            "whole kernel corn",
-            "sour cream",
-            "margarine",
-            "swiss cheese"
+            "white bread",
+            "unsalted butter",
+            "cheddar cheese",
+            "bacon",
+            "egg",
+            "salt",
+            "arugula"
           ],
           "source": "RecipeNLG"
         },
         "metadata": {
+          "general_ingredient_tags": [
+            "dairy",
+            "meat",
+            "vegetable"
+          ],
+          "dietary_tags": [],
+          "dish_types": [
+            "breakfast",
+            "lunch"
+          ],
+          "cooking_methods": [
+            "fried"
+          ]
+        }
+      },
+      {
+        "rank": 5,
+        "score": 0.5011410713195801,
+        "recipe": {
+          "id": "recnlg_956",
+          "title": "Oven Pancake",
+          "ingredients": [
+            "1 12 cups bisquick baking mix",
+            "1 tablespoon sugar",
+            "2 eggs",
+            "34 cup milk",
+            "14 cup maple syrup",
+            "1 12 cups cheddar cheese, divided",
+            "10 -12 slices bacon, fried & crumbled"
+          ],
+          "directions": [
+            "heat oven to 425 degrees.",
+            "spray a 9x13 baking dish with pam.",
+            "beat baking mix, sugar, eggs, milk, syrup, and 1/2c cheese with a whisk until smooth.",
+            "pour mixture into dish and bake uncovered about 10 - 15 minute or until wooden toothpick comes out clean.",
+            "sprinkle pancake with remaining cheese and bacon and continue baking 3-5 minute or until cheese is melted.",
+            "serve with syrup."
+          ],
+          "ner": [
+            "bisquick baking",
+            "sugar",
+            "eggs",
+            "milk",
+            "maple syrup",
+            "cheddar cheese",
+            "bacon"
+          ],
+          "source": "RecipeNLG"
+        },
+        "metadata": {
+          "general_ingredient_tags": [
+            "dairy",
+            "meat"
+          ],
           "dietary_tags": [
-            "vegetarian",
             "gluten-free"
           ],
           "dish_types": [
@@ -262,14 +290,18 @@
           "source": "RecipeNLG"
         },
         "metadata": {
+          "general_ingredient_tags": [
+            "spice",
+            "vegetable"
+          ],
           "dietary_tags": [
-            "vegetarian",
             "lactose-free",
+            "vegetarian",
             "vegan"
           ],
           "dish_types": [
-            "beverage",
-            "pasta"
+            "pasta",
+            "beverage"
           ],
           "cooking_methods": [
             "boiled"
@@ -314,6 +346,11 @@
           "source": "RecipeNLG"
         },
         "metadata": {
+          "general_ingredient_tags": [
+            "spice",
+            "seafood",
+            "vegetable"
+          ],
           "dietary_tags": [
             "lactose-free"
           ],
@@ -356,17 +393,20 @@
           "source": "RecipeNLG"
         },
         "metadata": {
+          "general_ingredient_tags": [
+            "fruit",
+            "vegetable"
+          ],
           "dietary_tags": [
-            "vegetarian",
             "lactose-free",
+            "vegetarian",
             "vegan"
           ],
           "dish_types": [
             "salad",
             "pasta",
             "lunch",
-            "beverage",
-            "dinner"
+            "beverage"
           ],
           "cooking_methods": []
         }
@@ -407,14 +447,18 @@
           "source": "RecipeNLG"
         },
         "metadata": {
+          "general_ingredient_tags": [
+            "fruit",
+            "vegetable"
+          ],
           "dietary_tags": [
-            "vegetarian",
             "lactose-free",
+            "vegetarian",
             "vegan"
           ],
           "dish_types": [
-            "pasta",
             "salad",
+            "pasta",
             "lunch"
           ],
           "cooking_methods": []
@@ -422,43 +466,51 @@
       },
       {
         "rank": 5,
-        "score": 0.41865891218185425,
+        "score": 0.39946556091308594,
         "recipe": {
-          "id": "recnlg_4210",
-          "title": "Chicken Cacciatore",
+          "id": "recnlg_753",
+          "title": "Pork with garlic and mushrooms",
           "ingredients": [
-            "1 onion, sliced thin",
-            "1 green pepper, sliced thin",
-            "1 red pepper, sliced thin",
-            "1 c. healthy choice traditional pasta sauce",
-            "1/2 c. chicken broth",
-            "2 fresh tomatoes *",
-            "4 chicken breasts, skinned and boned"
+            "1 small lean pork steak",
+            "1 tsp minced garlic",
+            "100 gallon baby mushrooms, qurtered",
+            "1 tbsp dry white wine",
+            "1 shallot chopped",
+            "1/2 tsp cornflour",
+            "1 1/2 tbsp water",
+            "1 small serve pasta"
           ],
           "directions": [
-            "*immerse in boiling water to peel, then squeeze out seeds and chop."
+            "lightly grill the pork until tender and cooked through.",
+            "coat a small pan with oil, heat and add garlic, mushrooms, wine and shallots.",
+            "cook gently until the mushrooms are softened.",
+            "stir in the combined cornflour and water until sauce thickens.",
+            "serve with the pork and pasta."
           ],
           "ner": [
-            "onion",
-            "green pepper",
-            "red pepper",
-            "pasta sauce",
-            "chicken broth",
-            "fresh tomatoes",
-            "chicken breasts"
+            "lean pork",
+            "garlic",
+            "mushrooms",
+            "white wine",
+            "shallot",
+            "cornflour",
+            "water",
+            "pasta"
           ],
           "source": "RecipeNLG"
         },
         "metadata": {
+          "general_ingredient_tags": [
+            "meat"
+          ],
           "dietary_tags": [
             "lactose-free"
           ],
           "dish_types": [
-            "pasta",
-            "soup"
+            "pasta"
           ],
           "cooking_methods": [
-            "boiled"
+            "grilled"
           ]
         }
       }
@@ -498,13 +550,17 @@
           "source": "RecipeNLG"
         },
         "metadata": {
+          "general_ingredient_tags": [
+            "fruit",
+            "dairy"
+          ],
           "dietary_tags": [
             "vegetarian",
             "gluten-free"
           ],
           "dish_types": [
-            "lunch",
-            "dessert"
+            "dessert",
+            "lunch"
           ],
           "cooking_methods": [
             "baked",
@@ -548,6 +604,9 @@
           "source": "RecipeNLG"
         },
         "metadata": {
+          "general_ingredient_tags": [
+            "dairy"
+          ],
           "dietary_tags": [
             "vegetarian",
             "gluten-free"
@@ -598,6 +657,9 @@
           "source": "RecipeNLG"
         },
         "metadata": {
+          "general_ingredient_tags": [
+            "dairy"
+          ],
           "dietary_tags": [
             "vegetarian"
           ],
@@ -662,6 +724,9 @@
           "source": "RecipeNLG"
         },
         "metadata": {
+          "general_ingredient_tags": [
+            "dairy"
+          ],
           "dietary_tags": [
             "vegetarian"
           ],
@@ -727,6 +792,9 @@
           "source": "RecipeNLG"
         },
         "metadata": {
+          "general_ingredient_tags": [
+            "dairy"
+          ],
           "dietary_tags": [
             "vegetarian"
           ],
@@ -788,13 +856,18 @@
           "source": "RecipeNLG"
         },
         "metadata": {
+          "general_ingredient_tags": [
+            "spice",
+            "dairy",
+            "meat",
+            "vegetable"
+          ],
           "dietary_tags": [
             "gluten-free"
           ],
           "dish_types": [
-            "beverage",
-            "dessert",
-            "soup"
+            "soup",
+            "beverage"
           ],
           "cooking_methods": [
             "baked",
@@ -823,11 +896,18 @@
           "source": "Spoonacular"
         },
         "metadata": {
+          "general_ingredient_tags": [
+            "spice",
+            "dairy",
+            "meat",
+            "vegetable"
+          ],
           "dietary_tags": [
             "gluten-free"
           ],
           "dish_types": [
-            "soup"
+            "soup",
+            "smoothie"
           ],
           "cooking_methods": [
             "boiled"
@@ -885,18 +965,23 @@
           "source": "RecipeNLG"
         },
         "metadata": {
+          "general_ingredient_tags": [
+            "meat",
+            "spice",
+            "seafood",
+            "vegetable",
+            "dairy"
+          ],
           "dietary_tags": [
             "gluten-free"
           ],
           "dish_types": [
-            "pasta",
-            "dinner",
-            "dessert",
-            "soup"
+            "soup",
+            "pasta"
           ],
           "cooking_methods": [
-            "boiled",
-            "fried"
+            "fried",
+            "boiled"
           ]
         }
       },
@@ -947,6 +1032,13 @@
           "source": "RecipeNLG"
         },
         "metadata": {
+          "general_ingredient_tags": [
+            "meat",
+            "spice",
+            "seafood",
+            "vegetable",
+            "dairy"
+          ],
           "dietary_tags": [],
           "dish_types": [
             "beverage"
@@ -1001,12 +1093,17 @@
           "source": "RecipeNLG"
         },
         "metadata": {
+          "general_ingredient_tags": [
+            "meat",
+            "fruit",
+            "spice",
+            "vegetable",
+            "dairy"
+          ],
           "dietary_tags": [
             "gluten-free"
           ],
-          "dish_types": [
-            "dessert"
-          ],
+          "dish_types": [],
           "cooking_methods": [
             "grilled"
           ]
@@ -1048,13 +1145,17 @@
           "source": "RecipeNLG"
         },
         "metadata": {
+          "general_ingredient_tags": [
+            "fruit",
+            "dairy"
+          ],
           "dietary_tags": [
             "vegetarian",
             "gluten-free"
           ],
           "dish_types": [
-            "beverage",
-            "smoothie"
+            "smoothie",
+            "beverage"
           ],
           "cooking_methods": []
         }
@@ -1092,13 +1193,17 @@
           "source": "RecipeNLG"
         },
         "metadata": {
+          "general_ingredient_tags": [
+            "fruit",
+            "dairy"
+          ],
           "dietary_tags": [
             "vegetarian",
             "gluten-free"
           ],
           "dish_types": [
-            "beverage",
-            "smoothie"
+            "smoothie",
+            "beverage"
           ],
           "cooking_methods": []
         }
@@ -1132,12 +1237,15 @@
           "source": "RecipeNLG"
         },
         "metadata": {
+          "general_ingredient_tags": [
+            "fruit",
+            "dairy"
+          ],
           "dietary_tags": [
             "vegetarian",
             "gluten-free"
           ],
           "dish_types": [
-            "beverage",
             "smoothie"
           ],
           "cooking_methods": []
@@ -1177,12 +1285,94 @@
           "source": "RecipeNLG"
         },
         "metadata": {
+          "general_ingredient_tags": [
+            "fruit",
+            "dairy"
+          ],
           "dietary_tags": [
             "vegetarian",
             "gluten-free"
           ],
           "dish_types": [
+            "smoothie",
             "beverage"
+          ],
+          "cooking_methods": []
+        }
+      },
+      {
+        "rank": 5,
+        "score": 0.4829143285751343,
+        "recipe": {
+          "id": "recnlg_3973",
+          "title": "Eating For Two: The Well-Rounded Pregnancy Cookbook Recipe",
+          "ingredients": [
+            "&nbsp 1 1/2 teaspoons canola oil",
+            "2 teaspoons peeled and grated fresh ginger",
+            "1 garlic clove, minced",
+            "4 ounces green beans, trimmed and cut on the diagonal into 1 1/2-inch pieces",
+            "2 cups broccoli florets",
+            "1 medium carrot, peeled and cut into matchsticks",
+            "1/2 cup vegetable stock",
+            "1 teaspoon sweet or hot curry paste",
+            "3/4 cup canned coconut milk",
+            "salt and freshly ground pepper",
+            "2 tablespoons chopped scallions, white and green parts",
+            "2 tablespoons chopped roasted peanuts",
+            "1/2 cup fresh cilantro leaves",
+            "4 ounces soba noodles &nbsp",
+            "&nbsp 1 cup mixed fresh or frozen berries",
+            "1/2 cup vanilla yogurt",
+            "1/4 cup vanilla protein powder (i skip this)",
+            "1/2 cup milk",
+            "1 tablespoon flax seed oil (i skip this, too)",
+            "a generous drizzle of honey (this is my addition)",
+            "1 banana (also my addition)"
+          ],
+          "directions": [
+            "heat the oil over medium high heat in a large skillet. add the ginger and garlic and cook for 1 minute. add the green beans, broccoli, carrot, and stock, cover the pan, and cook until the beans and broccoli have turned bright green, 1-2 minutes.",
+            "meantime, cook the soba noodles according to package instructions.",
+            "stir the curry paste into the coconut milk. turn the heat under the skillet to high and add the curry mixture to the vegetables. cook, stirring often, until the vegetables are crisp-tender, 3 or 4 minutes. add salt and pepper to taste and stir in the scallions.",
+            "sprinkle with chopped nuts and cilantro leaves before serving over cooked soba noodles.",
+            "combine all ingredients in a blender and blend on high speed until creamy."
+          ],
+          "ner": [
+            "canola oil",
+            "ginger",
+            "garlic",
+            "green beans",
+            "broccoli florets",
+            "carrot",
+            "vegetable stock",
+            "sweet",
+            "coconut milk",
+            "salt",
+            "scallions",
+            "peanuts",
+            "fresh cilantro",
+            "noodles",
+            "mixed fresh",
+            "vanilla yogurt",
+            "vanilla protein powder",
+            "milk",
+            "oil",
+            "generous drizzle",
+            "banana"
+          ],
+          "source": "RecipeNLG"
+        },
+        "metadata": {
+          "general_ingredient_tags": [
+            "fruit",
+            "spice",
+            "dairy",
+            "vegetable"
+          ],
+          "dietary_tags": [
+            "vegetarian"
+          ],
+          "dish_types": [
+            "smoothie"
           ],
           "cooking_methods": []
         }
@@ -1238,9 +1428,12 @@
           "source": "RecipeNLG"
         },
         "metadata": {
+          "general_ingredient_tags": [
+            "vegetable"
+          ],
           "dietary_tags": [
-            "vegetarian",
             "lactose-free",
+            "vegetarian",
             "vegan",
             "gluten-free"
           ],
@@ -1291,12 +1484,19 @@
           "source": "RecipeNLG"
         },
         "metadata": {
+          "general_ingredient_tags": [
+            "fruit",
+            "spice",
+            "dairy",
+            "vegetable"
+          ],
           "dietary_tags": [
             "vegetarian",
             "gluten-free"
           ],
           "dish_types": [
-            "soup"
+            "soup",
+            "smoothie"
           ],
           "cooking_methods": [
             "boiled"
@@ -1360,6 +1560,11 @@
           "source": "RecipeNLG"
         },
         "metadata": {
+          "general_ingredient_tags": [
+            "spice",
+            "dairy",
+            "vegetable"
+          ],
           "dietary_tags": [
             "vegetarian",
             "gluten-free"
@@ -1433,14 +1638,18 @@
           "source": "RecipeNLG"
         },
         "metadata": {
+          "general_ingredient_tags": [
+            "spice",
+            "dairy",
+            "vegetable"
+          ],
           "dietary_tags": [
             "vegetarian",
             "gluten-free"
           ],
           "dish_types": [
-            "beverage",
-            "dinner",
-            "soup"
+            "soup",
+            "beverage"
           ],
           "cooking_methods": []
         }
@@ -1482,9 +1691,13 @@
           "source": "RecipeNLG"
         },
         "metadata": {
+          "general_ingredient_tags": [
+            "spice",
+            "vegetable"
+          ],
           "dietary_tags": [
-            "vegetarian",
             "lactose-free",
+            "vegetarian",
             "vegan",
             "gluten-free"
           ],
@@ -1542,11 +1755,14 @@
           "source": "RecipeNLG"
         },
         "metadata": {
+          "general_ingredient_tags": [
+            "dairy",
+            "vegetable"
+          ],
           "dietary_tags": [
             "vegetarian"
           ],
           "dish_types": [
-            "dinner",
             "dessert"
           ],
           "cooking_methods": [
@@ -1590,6 +1806,9 @@
           "source": "RecipeNLG"
         },
         "metadata": {
+          "general_ingredient_tags": [
+            "dairy"
+          ],
           "dietary_tags": [
             "vegetarian"
           ],
@@ -1679,13 +1898,16 @@
           "source": "RecipeNLG"
         },
         "metadata": {
+          "general_ingredient_tags": [
+            "fruit",
+            "dairy"
+          ],
           "dietary_tags": [
             "vegetarian"
           ],
           "dish_types": [
-            "dinner",
-            "lunch",
-            "dessert"
+            "dessert",
+            "lunch"
           ],
           "cooking_methods": [
             "baked"
@@ -1758,12 +1980,17 @@
           "source": "RecipeNLG"
         },
         "metadata": {
+          "general_ingredient_tags": [
+            "dairy",
+            "vegetable"
+          ],
           "dietary_tags": [
             "vegetarian",
             "gluten-free"
           ],
           "dish_types": [
-            "dessert"
+            "dessert",
+            "smoothie"
           ],
           "cooking_methods": [
             "boiled"
@@ -1808,6 +2035,9 @@
           "source": "RecipeNLG"
         },
         "metadata": {
+          "general_ingredient_tags": [
+            "dairy"
+          ],
           "dietary_tags": [
             "vegetarian",
             "gluten-free"
@@ -1855,6 +2085,11 @@
           "source": "RecipeNLG"
         },
         "metadata": {
+          "general_ingredient_tags": [
+            "spice",
+            "dairy",
+            "seafood"
+          ],
           "dietary_tags": [
             "gluten-free"
           ],
@@ -1903,13 +2138,18 @@
           "source": "RecipeNLG"
         },
         "metadata": {
+          "general_ingredient_tags": [
+            "seafood",
+            "spice",
+            "meat",
+            "vegetable"
+          ],
           "dietary_tags": [
             "lactose-free",
             "gluten-free"
           ],
           "dish_types": [
-            "lunch",
-            "dessert"
+            "lunch"
           ],
           "cooking_methods": [
             "baked"
@@ -1951,6 +2191,11 @@
           "source": "RecipeNLG"
         },
         "metadata": {
+          "general_ingredient_tags": [
+            "spice",
+            "seafood",
+            "vegetable"
+          ],
           "dietary_tags": [
             "lactose-free",
             "gluten-free"
@@ -2003,12 +2248,18 @@
           "source": "RecipeNLG"
         },
         "metadata": {
+          "general_ingredient_tags": [
+            "spice",
+            "dairy",
+            "seafood",
+            "vegetable"
+          ],
           "dietary_tags": [
             "gluten-free"
           ],
           "dish_types": [
-            "beverage",
-            "pasta"
+            "pasta",
+            "beverage"
           ],
           "cooking_methods": []
         }
@@ -2054,6 +2305,10 @@
           "source": "RecipeNLG"
         },
         "metadata": {
+          "general_ingredient_tags": [
+            "spice",
+            "seafood"
+          ],
           "dietary_tags": [
             "lactose-free",
             "gluten-free"
@@ -2123,6 +2378,10 @@
           "source": "RecipeNLG"
         },
         "metadata": {
+          "general_ingredient_tags": [
+            "dairy",
+            "vegetable"
+          ],
           "dietary_tags": [
             "vegetarian",
             "gluten-free"
@@ -2167,13 +2426,15 @@
           "source": "RecipeNLG"
         },
         "metadata": {
+          "general_ingredient_tags": [
+            "dairy",
+            "vegetable"
+          ],
           "dietary_tags": [
             "vegetarian",
             "gluten-free"
           ],
-          "dish_types": [
-            "dessert"
-          ],
+          "dish_types": [],
           "cooking_methods": [
             "baked",
             "boiled"
@@ -2215,6 +2476,11 @@
           "source": "RecipeNLG"
         },
         "metadata": {
+          "general_ingredient_tags": [
+            "dairy",
+            "meat",
+            "vegetable"
+          ],
           "dietary_tags": [
             "gluten-free"
           ],
@@ -2257,6 +2523,12 @@
           "source": "RecipeNLG"
         },
         "metadata": {
+          "general_ingredient_tags": [
+            "spice",
+            "dairy",
+            "meat",
+            "vegetable"
+          ],
           "dietary_tags": [
             "gluten-free"
           ],
@@ -2327,12 +2599,15 @@
           "source": "RecipeNLG"
         },
         "metadata": {
+          "general_ingredient_tags": [
+            "spice",
+            "dairy",
+            "vegetable"
+          ],
           "dietary_tags": [
             "vegetarian"
           ],
-          "dish_types": [
-            "dinner"
-          ],
+          "dish_types": [],
           "cooking_methods": [
             "baked",
             "boiled"
@@ -2390,15 +2665,16 @@
           "source": "RecipeNLG"
         },
         "metadata": {
+          "general_ingredient_tags": [
+            "vegetable"
+          ],
           "dietary_tags": [
-            "vegetarian",
             "lactose-free",
+            "vegetarian",
             "vegan"
           ],
           "dish_types": [
-            "dinner",
-            "lunch",
-            "dessert"
+            "lunch"
           ],
           "cooking_methods": [
             "fried"
@@ -2462,19 +2738,21 @@
           "source": "RecipeNLG"
         },
         "metadata": {
+          "general_ingredient_tags": [
+            "spice",
+            "vegetable"
+          ],
           "dietary_tags": [
-            "vegetarian",
             "lactose-free",
+            "vegetarian",
             "vegan"
           ],
           "dish_types": [
-            "beverage",
-            "pasta",
             "dessert"
           ],
           "cooking_methods": [
-            "baked",
-            "fried"
+            "fried",
+            "baked"
           ]
         }
       },
@@ -2520,17 +2798,18 @@
           "source": "RecipeNLG"
         },
         "metadata": {
+          "general_ingredient_tags": [
+            "vegetable"
+          ],
           "dietary_tags": [
-            "vegetarian",
             "lactose-free",
+            "vegetarian",
             "vegan"
           ],
-          "dish_types": [
-            "dessert"
-          ],
+          "dish_types": [],
           "cooking_methods": [
-            "boiled",
-            "fried"
+            "fried",
+            "boiled"
           ]
         }
       },
@@ -2586,19 +2865,22 @@
           "source": "RecipeNLG"
         },
         "metadata": {
+          "general_ingredient_tags": [
+            "spice",
+            "vegetable"
+          ],
           "dietary_tags": [
-            "vegetarian",
             "lactose-free",
+            "vegetarian",
             "vegan"
           ],
           "dish_types": [
-            "dinner",
             "pasta"
           ],
           "cooking_methods": [
-            "baked",
+            "fried",
             "boiled",
-            "fried"
+            "baked"
           ]
         }
       },
@@ -2631,13 +2913,15 @@
           "source": "RecipeNLG"
         },
         "metadata": {
+          "general_ingredient_tags": [
+            "dairy",
+            "vegetable"
+          ],
           "dietary_tags": [
             "vegetarian",
-            "lactose-free",
             "vegan"
           ],
           "dish_types": [
-            "beverage",
             "salad",
             "lunch"
           ],

@@ -1,0 +1,392 @@
+[
+  {
+    "query_id": 1,
+    "query": "I only have two eggs, give me a quick breakfast recipe with eggs and cheese.",
+    "rewritten_query": "LLM Query Rewriting not used",
+    "structured_query": "LLM Query Structuring not used",
+    "results": [
+      {
+        "rank": 1,
+        "score": 0.03252247488101534,
+        "recipe": {
+          "id": "recnlg_1519",
+          "title": "Quick Breakfast Cheesecake",
+          "ingredients": [
+            "1 pkg. hungry jack biscuits (cinnamon if you can find them)",
+            "1 (8 oz.) cream cheese, softened",
+            "1 egg",
+            "1 tbsp. flour",
+            "1/2 c. sugar",
+            "1 tbsp. cinnamon",
+            "2 tbsp. sugar",
+            "1 tsp. nutmeg"
+          ],
+          "directions": [
+            "put biscuits into ungreased pie plate. mix remaining ingredients, except sugar, cinnamon and nutmeg until smooth and pour over biscuits. sprinkle sugar, cinnamon and nutmeg over top. bake at 350° for 25 minutes."
+          ],
+          "ner": [
+            "cinnamon",
+            "cream cheese",
+            "egg",
+            "flour",
+            "sugar",
+            "cinnamon",
+            "sugar",
+            "nutmeg"
+          ],
+          "source": "RecipeNLG"
+        },
+        "source": "fusion"
+      },
+      {
+        "rank": 2,
+        "score": 0.03200204813108039,
+        "recipe": {
+          "id": "recnlg_2531",
+          "title": "Tasty Tortilla Breakfast Sandwich",
+          "ingredients": [
+            "2 (10 inch) tomato-basil tortillas or (10 inch) flour tortillas",
+            "2 eggs, cooked to scrambled (pan or microwave)",
+            "2 slices deli ham",
+            "1 small onion, chopped",
+            "1 small tomatoes, chopped",
+            "2 slices american cheese or 2 slices cheddar cheese",
+            "nonstick cooking spray"
+          ],
+          "directions": [
+            "-preheat oven to 375.",
+            "-treat sheet pan with nonstick cooking spray.",
+            "-microwave tortillas for 20 seconds each (ovens vary).",
+            "-put fillings in the middle; any order you choose.",
+            "-roll up egg roll-style.",
+            "-put seam-side down on sheet pan.",
+            "-bake for 15 minutes.",
+            "-let rest for 2 minutes.",
+            "-eat whole, or cut in half and enjoy."
+          ],
+          "ner": [
+            "tomato-basil tortillas",
+            "eggs",
+            "deli ham",
+            "onion",
+            "tomatoes",
+            "american cheese",
+            "nonstick cooking spray"
+          ],
+          "source": "RecipeNLG"
+        },
+        "source": "fusion"
+      },
+      {
+        "rank": 3,
+        "score": 0.03149801587301587,
+        "recipe": {
+          "id": "recnlg_282",
+          "title": "Morning Breakfast Panini",
+          "ingredients": [
+            "2 slices white bread or 2 slices brioche bread, 1/2-inch thick",
+            "unsalted butter (melted for brushing)",
+            "3 tablespoons cheddar cheese, grated",
+            "2 slices cooked bacon, fried until crispy",
+            "1 egg, fried",
+            "salt & freshly ground black pepper, to taste",
+            "14 cup arugula"
+          ],
+          "directions": [
+            "preheat an electric panini maker on high heat according to the manufacturer's instructions.",
+            "place the bread slices on a cutting board.",
+            "brush one side of each slice with melted butter.",
+            "turn one slice over and sprinkle with the cheese.",
+            "top with the bacon and fried egg, and season with salt and pepper.",
+            "top with the arugula and the other bread slice, buttered side up.",
+            "place the sandwich on the preheated panini maker and cook according to the manufacturers instructions until the bread is golden and the cheese is melted, 3 to 5 minutes.",
+            "transfer the sandwich to a cutting board and cut in half.",
+            "serve immediately.",
+            "serves 1."
+          ],
+          "ner": [
+            "white bread",
+            "unsalted butter",
+            "cheddar cheese",
+            "bacon",
+            "egg",
+            "salt",
+            "arugula"
+          ],
+          "source": "RecipeNLG"
+        },
+        "source": "fusion"
+      },
+      {
+        "rank": 4,
+        "score": 0.03131881575727918,
+        "recipe": {
+          "id": "recnlg_1783",
+          "title": "Baked Cheese Omelet",
+          "ingredients": [
+            "2 or more eggs",
+            "2 or more tomatoes",
+            "grated cheese",
+            "1/4 pt. milk"
+          ],
+          "directions": [
+            "skin and slice tomatoes, cook in a little margarine in a saucepan, and then pour into a greased pie dish.",
+            "in the same pan, with a little more margarine, add the milk and the slightly beaten eggs.",
+            "cook over low heat, stirring as for scrambled eggs, until just beginning to set."
+          ],
+          "ner": [
+            "eggs",
+            "tomatoes",
+            "grated cheese",
+            "milk"
+          ],
+          "source": "RecipeNLG"
+        },
+        "source": "fusion"
+      },
+      {
+        "rank": 5,
+        "score": 0.03055037313432836,
+        "recipe": {
+          "id": "recnlg_3185",
+          "title": "Herb, Zucchini And Feta Omelette",
+          "ingredients": [
+            "2 none eggs, whisked",
+            "1 none small zucchini, grated, excess moisture squeezed out",
+            "2 tbsp low-fat feta cheese, crumbled",
+            "1 handful fresh herbs, chopped + extra, to serve",
+            "none none ground black pepper, to taste"
+          ],
+          "directions": [
+            "combine whisked eggs and zucchini.",
+            "lightly coat a small nonstick frying pan with olive oil and place over medium heat. add egg mixture, tilting pan to cover base. sprinkle with feta, herbs and pepper. cook for 1-2 mins, until almost set and underside is golden.",
+            "using a spatula, fold over omelette and cook for 1 min. gently slide onto a warmed plate. sprinkle with herbs."
+          ],
+          "ner": [
+            "eggs",
+            "zucchini",
+            "feta cheese",
+            "herbs",
+            "ground black pepper"
+          ],
+          "source": "RecipeNLG"
+        },
+        "source": "fusion"
+      }
+    ]
+  },
+  {
+    "query_id": 2,
+    "query": "I only have two eggs, give me a recipe with egg and cheese.",
+    "rewritten_query": "LLM Query Rewriting not used",
+    "structured_query": "LLM Query Structuring not used",
+    "results": [
+      {
+        "rank": 1,
+        "score": 0.029437229437229435,
+        "recipe": {
+          "id": "recnlg_367",
+          "title": "Chopped Egg And Avocado Sandwich",
+          "ingredients": [
+            "3 large hard-boiled eggs, peeled and chopped",
+            "3 tablespoons white onions, chopped (use less if you prefer i would)",
+            "2 tablespoons fresh parsley leaves, chopped",
+            "1 teaspoon fresh dill or 1/4 teaspoon dried dill, chopped",
+            "1/2 teaspoon dijon mustard",
+            "2 teaspoons mayonnaise",
+            "1 large hass avocado, diced (about 3/4 pound)",
+            "1/4 teaspoon sea salt (to taste)",
+            "1/16 teaspoon black pepper (to taste)",
+            "6 -8 slices brioche bread or 6 -8 slices challah, lightly toasted",
+            "4 slices muenster cheese, mexican manchegoor monterey jack cheese (optional)"
+          ],
+          "directions": [
+            "in a bowl, mix the eggs, onion, parsley, dill, dijon and mayonnaise together.",
+            "toss in the avocado, sprinkle with salt and pepper and gently mix well.",
+            "lightly toast the bread slices.",
+            "scoop a generous amount of the chopped egg and avocado on a slice of bread, add a slice of cheese and top with another slice of bread."
+          ],
+          "ner": [
+            "eggs",
+            "white onions",
+            "parsley",
+            "fresh dill",
+            "dijon mustard",
+            "mayonnaise",
+            "avocado",
+            "salt",
+            "black pepper",
+            "bread",
+            "muenster cheese"
+          ],
+          "source": "RecipeNLG"
+        },
+        "source": "fusion"
+      },
+      {
+        "rank": 2,
+        "score": 0.027222222222222224,
+        "recipe": {
+          "id": "recnlg_2579",
+          "title": "Deviled Eggs with Crab",
+          "ingredients": [
+            "4 ounces lump crabmeat",
+            "1/2 stick celery, finely chopped",
+            "2 tablespoons mascarpone cheese, at room temperature",
+            "1 tablespoon mayonnaise",
+            "1 tablespoon sour cream",
+            "1 tablespoon dijon mustard",
+            "1 tablespoon fresh lemon juice",
+            "3 tablespoons chopped fresh chives",
+            "salt and freshly ground black pepper",
+            "6 hard boiled eggs, peeled, halved, and yolks removed"
+          ],
+          "directions": [
+            "in a medium mixing bowl combine the crabmeat, celery, mascarpone cheese, mayonnaise, sour cream, dijon mustard, lemon juice, and chives.",
+            "season, to taste, with salt and pepper.",
+            "spoon the crab mixture into the egg halves.",
+            "transfer the filled eggs to a platter and serve."
+          ],
+          "ner": [
+            "lump crabmeat",
+            "celery",
+            "mascarpone cheese",
+            "mayonnaise",
+            "sour cream",
+            "mustard",
+            "lemon juice",
+            "fresh chives",
+            "salt",
+            "eggs"
+          ],
+          "source": "RecipeNLG"
+        },
+        "source": "fusion"
+      },
+      {
+        "rank": 3,
+        "score": 0.02482636323333826,
+        "recipe": {
+          "id": "recnlg_4249",
+          "title": "Estonian Ham and Cheese Rolls",
+          "ingredients": [
+            "1/2 recipe yeast dough (below)",
+            "24 slices ham, each 3 inches square",
+            "1/4 cup freshly grated parmesan cheese",
+            "4 tbsp. (1/2 stick each) unsalted butter, melted",
+            "2 lg. egg yolks mixed with 1 tsp. milk",
+            "3/4 cup milk",
+            "5 tbsp. unsalted butter",
+            "1 pkg. active dry yeast",
+            "1-1/2 tbsp. sugar",
+            "1/4 cup lukewarm water",
+            "1 lg. egg plus 2 lg. egg yolks, well beaten",
+            "3/4 tsp. salt",
+            "4 cups unbleached all-purpose flour"
+          ],
+          "directions": [
+            "for the yeast dough: combine the milk and butter in medium-size saucepan and bring to boil.",
+            "remove from the heat and cool to lukewarm (105 to 115 degrees f.) in a large bowl, stir together the yeast, sugar, and water.",
+            "let stand until foamy, about 5 minutes.",
+            "add the milk mixture, egg and egg yolks, and salt to the yeast mixture and mix well with a wooden spoon.",
+            "stir in 3 1/2 cups of the flour, 1 cup at a time, stirring well after each addition.",
+            "transfer the dough to a floured surface and knead, until smooth and elastic, about 10 minutes, adding as much of the remaining flour as needed to prevent sticking.",
+            "place the dough in a buttered bowl and turn to coat.",
+            "cover with a linen or cotton kitchen towel and let rise in a warm, draft-free spot until doubled in bulk, about 1 1/2 hours.",
+            "punch the dough down and knead very briefly before using.",
+            "you must do this whole recipe for yeast dough.",
+            "use the other half for making delicious buns.",
+            "for the filling: preheat the oven to 350 degrees f. butter two large baking sheets.",
+            "on a floured surface with a floured rolling pin, roll out 1/2 the dough to an 18 x 12 inch rectangle.",
+            "with a sharp knife, cut out twenty-four 3-inch squares.",
+            "place one ham slice on each square of dough.",
+            "place about 1/2 teaspoon of the parmesan in the middle of each ham square and drizzle with about 1/2 teaspoon melted butter.",
+            "starting at one corner, roll each square into a neat roll.",
+            "arrange the rolls, seam side down, on the prepared baking sheets, spacing well apart, and brush with the egg wash. let rise about 20 minutes.",
+            "bake until the rolls are golden brown, about 30 to 40 minutes.",
+            "makes 24 rolls, serves 8 to 12."
+          ],
+          "ner": [
+            "yeast",
+            "ham",
+            "freshly grated parmesan cheese",
+            "unsalted butter",
+            "egg yolks",
+            "milk",
+            "unsalted butter",
+            "active dry yeast",
+            "sugar",
+            "water",
+            "egg",
+            "salt",
+            "flour"
+          ],
+          "source": "RecipeNLG"
+        },
+        "source": "fusion"
+      },
+      {
+        "rank": 4,
+        "score": 0.024722804914593947,
+        "recipe": {
+          "id": "recnlg_4471",
+          "title": "Mini Cheesecakes Recipe",
+          "ingredients": [
+            "2 (8 ounce.) cream cheese, softened",
+            "3/4 c. sugar",
+            "1 tbsp. real lemon juice",
+            "2 large eggs",
+            "1 teaspoon vanilla",
+            "vanilla wafers"
+          ],
+          "directions": [
+            "blend together till smooth.",
+            "put cupcake paper in cake pan.",
+            "place a vanilla wafer in each cupcake paper.",
+            "fill each c. 3/4 full.",
+            "bake at 350 degrees for 18 min.",
+            "cold, then top with cherry pie filling or possibly as you please."
+          ],
+          "ner": [
+            "cream cheese",
+            "sugar",
+            "lemon juice",
+            "eggs",
+            "vanilla",
+            "vanilla wafers"
+          ],
+          "source": "RecipeNLG"
+        },
+        "source": "fusion"
+      },
+      {
+        "rank": 5,
+        "score": 0.02438307873090482,
+        "recipe": {
+          "id": "recnlg_4175",
+          "title": "Noodles And Tomatoes",
+          "ingredients": [
+            "1 bag egg noodles",
+            "1 stick margarine",
+            "1 can tomatoes",
+            "4 slices yellow american cheese"
+          ],
+          "directions": [
+            "cook noodles and drain.",
+            "cut up cheese and margarine; add and mix into noodles while still hot, until melted.",
+            "cut or mash tomatoes and add to noodles along with the juice.",
+            "mix well and serve."
+          ],
+          "ner": [
+            "egg noodles",
+            "margarine",
+            "tomatoes",
+            "cheese"
+          ],
+          "source": "RecipeNLG"
+        },
+        "source": "fusion"
+      }
+    ]
+  }
+]

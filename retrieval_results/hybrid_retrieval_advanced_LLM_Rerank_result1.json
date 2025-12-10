@@ -58,8 +58,8 @@
             "vegetable"
           ],
           "dietary_tags": [
-            "gluten-free",
-            "vegetarian"
+            "vegetarian",
+            "gluten-free"
           ],
           "dish_types": [
             "breakfast",
@@ -257,8 +257,8 @@
             "vegetable"
           ],
           "dietary_tags": [
-            "gluten-free",
-            "vegetarian"
+            "vegetarian",
+            "gluten-free"
           ],
           "dish_types": [
             "breakfast"
@@ -274,7 +274,7 @@
   {
     "query_id": 2,
     "query": "I am lactose intolerance, give me a pasta dish",
-    "rewritten_query": "I am lactose intolerance, give me a pasta dish; must contain: [pasta]; avoid: [lactose]; dietary: [lactose-free]; meal types: [dinner, pasta]",
+    "rewritten_query": "I am lactose intolerance, give me a pasta dish; must contain: [pasta]; avoid: [lactose]; dietary: [lactose-free]; meal types: [pasta]",
     "structured_query": {
       "dietary_tags": [
         "lactose-free"
@@ -286,7 +286,6 @@
         "lactose"
       ],
       "meal_types": [
-        "dinner",
         "pasta"
       ],
       "quantity_constraints": {},
@@ -298,7 +297,7 @@
     "results": [
       {
         "rank": 1,
-        "score": 0.49997949600219727,
+        "score": 0.5070546865463257,
         "recipe": {
           "id": "recnlg_3345",
           "title": "Whole Wheat Pasta With Avocado Sauce",
@@ -331,9 +330,9 @@
             "vegetable"
           ],
           "dietary_tags": [
-            "lactose-free",
             "vegan",
-            "vegetarian"
+            "vegetarian",
+            "lactose-free"
           ],
           "dish_types": [
             "pasta",
@@ -346,7 +345,7 @@
       },
       {
         "rank": 2,
-        "score": 0.46043694019317627,
+        "score": 0.46737533807754517,
         "recipe": {
           "id": "recnlg_3358",
           "title": "Red Pepper Pasta Salad",
@@ -381,15 +380,15 @@
             "vegetable"
           ],
           "dietary_tags": [
-            "lactose-free",
             "vegan",
-            "vegetarian"
+            "vegetarian",
+            "lactose-free"
           ],
           "dish_types": [
+            "lunch",
             "salad",
             "smoothie",
             "pasta",
-            "lunch",
             "beverage"
           ],
           "cooking_methods": []
@@ -397,7 +396,7 @@
       },
       {
         "rank": 3,
-        "score": 0.4501354694366455,
+        "score": 0.45659536123275757,
         "recipe": {
           "id": "recnlg_1741",
           "title": "Pasta Salad",
@@ -429,21 +428,75 @@
             "vegetable"
           ],
           "dietary_tags": [
-            "lactose-free",
             "vegan",
-            "vegetarian"
+            "vegetarian",
+            "lactose-free"
           ],
           "dish_types": [
-            "salad",
+            "pasta",
             "lunch",
-            "pasta"
+            "salad"
           ],
           "cooking_methods": []
         }
       },
       {
         "rank": 4,
-        "score": 0.4442524313926697,
+        "score": 0.4518612325191498,
+        "recipe": {
+          "id": "recnlg_4839",
+          "title": "Pasta Puttanesca",
+          "ingredients": [
+            "1 lb. pasta",
+            "2 gloves finely chopped garlic",
+            "1 handful capers, soaked and drained",
+            "2 handfuls of black olives (kalamata)",
+            "12 anchovy fillets, roughly chopped",
+            "3 dried red chiles, crumbled",
+            "2 (14 oz.) canned tomatoes, drained and chopped",
+            "1 tbsp. dried oregano",
+            "extra virgin olive oil",
+            "fresh basil",
+            "salt and pepper"
+          ],
+          "directions": [
+            "cook pasta until done. fry garlic, capers, olives, anchovies, chiles and oregano in a little olive oil for 3 to 4 minutes. add tomatoes and cook on a simmer for 5 minutes. remove from heat. add drained pasta and toss through. top with fresh basil and good olive oil."
+          ],
+          "ner": [
+            "pasta",
+            "garlic",
+            "handful capers",
+            "black olives",
+            "anchovy",
+            "red chiles",
+            "tomatoes",
+            "oregano",
+            "extra virgin olive oil",
+            "fresh basil",
+            "salt"
+          ],
+          "source": "RecipeNLG"
+        },
+        "metadata": {
+          "general_ingredient_tags": [
+            "spice",
+            "seafood",
+            "vegetable"
+          ],
+          "dietary_tags": [
+            "lactose-free"
+          ],
+          "dish_types": [
+            "pasta"
+          ],
+          "cooking_methods": [
+            "fried"
+          ]
+        }
+      },
+      {
+        "rank": 5,
+        "score": 0.4456355571746826,
         "recipe": {
           "id": "recnlg_2426",
           "title": "Famous Bill'S Pasta Salad",
@@ -482,63 +535,14 @@
             "vegetable"
           ],
           "dietary_tags": [
-            "lactose-free",
             "vegan",
-            "vegetarian"
+            "vegetarian",
+            "lactose-free"
           ],
           "dish_types": [
-            "salad",
-            "lunch",
-            "pasta"
-          ],
-          "cooking_methods": []
-        }
-      },
-      {
-        "rank": 5,
-        "score": 0.4388043284416199,
-        "recipe": {
-          "id": "recnlg_779",
-          "title": "Lanai Pasta Salad",
-          "ingredients": [
-            "1 (20 ounce) can pineapple chunks in juice",
-            "3 cups cooked spiral shaped pasta",
-            "2 cups sugar snap peas",
-            "1 cup sliced carrot",
-            "1 cup sliced cucumber",
-            "1/2 cup reduced-calorie italian dressing",
-            "1/4 cup chopped cilantro or 1/4 cup chopped parsley"
-          ],
-          "directions": [
-            "drain pineapple; reserve 1/4 c juice.",
-            "combine pineapple, reserved juice and remaining ingredients in large bowl; toss to coat."
-          ],
-          "ner": [
-            "pineapple",
             "pasta",
-            "sugar snap peas",
-            "carrot",
-            "cucumber",
-            "italian dressing",
-            "cilantro"
-          ],
-          "source": "RecipeNLG"
-        },
-        "metadata": {
-          "general_ingredient_tags": [
-            "fruit",
-            "vegetable"
-          ],
-          "dietary_tags": [
-            "lactose-free",
-            "vegan",
-            "vegetarian"
-          ],
-          "dish_types": [
-            "salad",
             "lunch",
-            "pasta",
-            "beverage"
+            "salad"
           ],
           "cooking_methods": []
         }
@@ -607,8 +611,8 @@
             "dairy"
           ],
           "dietary_tags": [
-            "gluten-free",
-            "vegetarian"
+            "vegetarian",
+            "gluten-free"
           ],
           "dish_types": [
             "dessert"
@@ -940,8 +944,8 @@
             "gluten-free"
           ],
           "dish_types": [
-            "beverage",
-            "soup"
+            "soup",
+            "beverage"
           ],
           "cooking_methods": [
             "boiled",
@@ -1011,8 +1015,8 @@
             "gluten-free"
           ],
           "dish_types": [
-            "pasta",
-            "soup"
+            "soup",
+            "pasta"
           ],
           "cooking_methods": [
             "boiled",
@@ -1051,8 +1055,8 @@
             "gluten-free"
           ],
           "dish_types": [
-            "smoothie",
-            "soup"
+            "soup",
+            "smoothie"
           ],
           "cooking_methods": [
             "boiled"
@@ -1187,9 +1191,9 @@
           ],
           "dietary_tags": [],
           "dish_types": [
+            "soup",
             "dinner",
-            "lunch",
-            "soup"
+            "lunch"
           ],
           "cooking_methods": [
             "baked"
@@ -1220,7 +1224,7 @@
       ],
       "excluded_general_tags": [],
       "cooking_methods": [],
-      "notes": "The user is looking for a healthy smoothie recipe that includes banana and yogurt, with no specified dietary restrictions or ingredient exclusions."
+      "notes": "The user is looking for a healthy smoothie recipe that includes banana and yogurt, with no specific dietary restrictions or exclusions mentioned."
     },
     "results": [
       {
@@ -1256,12 +1260,12 @@
             "dairy"
           ],
           "dietary_tags": [
-            "gluten-free",
-            "vegetarian"
+            "vegetarian",
+            "gluten-free"
           ],
           "dish_types": [
-            "smoothie",
-            "beverage"
+            "beverage",
+            "smoothie"
           ],
           "cooking_methods": []
         }
@@ -1304,12 +1308,12 @@
             "dairy"
           ],
           "dietary_tags": [
-            "gluten-free",
-            "vegetarian"
+            "vegetarian",
+            "gluten-free"
           ],
           "dish_types": [
-            "smoothie",
-            "beverage"
+            "beverage",
+            "smoothie"
           ],
           "cooking_methods": []
         }
@@ -1348,8 +1352,8 @@
             "dairy"
           ],
           "dietary_tags": [
-            "gluten-free",
-            "vegetarian"
+            "vegetarian",
+            "gluten-free"
           ],
           "dish_types": [
             "smoothie"
@@ -1396,12 +1400,12 @@
             "dairy"
           ],
           "dietary_tags": [
-            "gluten-free",
-            "vegetarian"
+            "vegetarian",
+            "gluten-free"
           ],
           "dish_types": [
-            "smoothie",
-            "beverage"
+            "beverage",
+            "smoothie"
           ],
           "cooking_methods": []
         }
@@ -1559,12 +1563,12 @@
             "vegetable"
           ],
           "dietary_tags": [
-            "gluten-free",
-            "vegetarian"
+            "vegetarian",
+            "gluten-free"
           ],
           "dish_types": [
-            "smoothie",
-            "soup"
+            "soup",
+            "smoothie"
           ],
           "cooking_methods": [
             "boiled"
@@ -1618,10 +1622,10 @@
             "vegetable"
           ],
           "dietary_tags": [
-            "gluten-free",
-            "lactose-free",
             "vegan",
-            "vegetarian"
+            "vegetarian",
+            "gluten-free",
+            "lactose-free"
           ],
           "dish_types": [
             "soup"
@@ -1692,8 +1696,8 @@
             "vegetable"
           ],
           "dietary_tags": [
-            "gluten-free",
-            "vegetarian"
+            "vegetarian",
+            "gluten-free"
           ],
           "dish_types": [
             "soup"
@@ -1743,10 +1747,10 @@
             "vegetable"
           ],
           "dietary_tags": [
-            "gluten-free",
-            "lactose-free",
             "vegan",
-            "vegetarian"
+            "vegetarian",
+            "gluten-free",
+            "lactose-free"
           ],
           "dish_types": [
             "soup"
@@ -1823,12 +1827,12 @@
             "vegetable"
           ],
           "dietary_tags": [
-            "gluten-free",
-            "vegetarian"
+            "vegetarian",
+            "gluten-free"
           ],
           "dish_types": [
-            "beverage",
-            "soup"
+            "soup",
+            "beverage"
           ],
           "cooking_methods": []
         }
@@ -1993,8 +1997,8 @@
             "vegetable"
           ],
           "dietary_tags": [
-            "gluten-free",
-            "vegetarian"
+            "vegetarian",
+            "gluten-free"
           ],
           "dish_types": [
             "dessert"
@@ -2073,12 +2077,12 @@
             "vegetable"
           ],
           "dietary_tags": [
-            "gluten-free",
-            "vegetarian"
+            "vegetarian",
+            "gluten-free"
           ],
           "dish_types": [
-            "smoothie",
-            "dessert"
+            "dessert",
+            "smoothie"
           ],
           "cooking_methods": [
             "boiled"
@@ -2117,9 +2121,9 @@
             "vegetable"
           ],
           "dietary_tags": [
-            "lactose-free",
             "vegan",
-            "vegetarian"
+            "vegetarian",
+            "lactose-free"
           ],
           "dish_types": [
             "dessert"
@@ -2143,10 +2147,13 @@
       "avoid_ingredients": [],
       "meal_types": [],
       "quantity_constraints": {},
-      "general_ingredient_tags": [],
+      "general_ingredient_tags": [
+        "seafood",
+        "spice"
+      ],
       "excluded_general_tags": [],
       "cooking_methods": [],
-      "notes": "The user wants a seafood dish that includes shrimp and garlic while cutting down on carbohydrates, but no specific dietary restrictions or meal types were mentioned."
+      "notes": "The user wants a seafood dish specifically with shrimp and garlic while cutting carbohydrate intake, indicating a focus on low-carb ingredients."
     },
     "results": [
       {
@@ -2438,7 +2445,7 @@
       "cooking_methods": [
         "baked"
       ],
-      "notes": "The user requested a baked dish recipe that includes potatoes and cheese with simple instructions."
+      "notes": "The user is looking for a baked dish recipe that includes potatoes and cheese with simple instructions."
     },
     "results": [
       {
@@ -2545,8 +2552,8 @@
             "vegetable"
           ],
           "dietary_tags": [
-            "gluten-free",
-            "vegetarian"
+            "vegetarian",
+            "gluten-free"
           ],
           "dish_types": [
             "dessert"
@@ -2593,8 +2600,8 @@
             "vegetable"
           ],
           "dietary_tags": [
-            "gluten-free",
-            "vegetarian"
+            "vegetarian",
+            "gluten-free"
           ],
           "dish_types": [],
           "cooking_methods": [
@@ -2645,8 +2652,8 @@
             "vegetable"
           ],
           "dietary_tags": [
-            "gluten-free",
-            "vegetarian"
+            "vegetarian",
+            "gluten-free"
           ],
           "dish_types": [],
           "cooking_methods": [
@@ -2690,8 +2697,8 @@
             "vegetable"
           ],
           "dietary_tags": [
-            "gluten-free",
-            "vegetarian"
+            "vegetarian",
+            "gluten-free"
           ],
           "dish_types": [],
           "cooking_methods": [
@@ -2771,9 +2778,9 @@
             "vegetable"
           ],
           "dietary_tags": [
-            "lactose-free",
             "vegan",
-            "vegetarian"
+            "vegetarian",
+            "lactose-free"
           ],
           "dish_types": [],
           "cooking_methods": [
@@ -2829,9 +2836,9 @@
             "vegetable"
           ],
           "dietary_tags": [
-            "lactose-free",
             "vegan",
-            "vegetarian"
+            "vegetarian",
+            "lactose-free"
           ],
           "dish_types": [
             "lunch"
@@ -2903,16 +2910,16 @@
             "vegetable"
           ],
           "dietary_tags": [
-            "lactose-free",
             "vegan",
-            "vegetarian"
+            "vegetarian",
+            "lactose-free"
           ],
           "dish_types": [
             "dessert"
           ],
           "cooking_methods": [
-            "baked",
-            "fried"
+            "fried",
+            "baked"
           ]
         }
       },
@@ -2973,9 +2980,9 @@
             "vegetable"
           ],
           "dietary_tags": [
-            "lactose-free",
             "vegan",
-            "vegetarian"
+            "vegetarian",
+            "lactose-free"
           ],
           "dish_types": [
             "pasta"
@@ -3025,8 +3032,8 @@
             "vegetarian"
           ],
           "dish_types": [
-            "salad",
-            "lunch"
+            "lunch",
+            "salad"
           ],
           "cooking_methods": []
         }

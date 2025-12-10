@@ -40,7 +40,7 @@
       },
       {
         "rank": 2,
-        "score": 0.031754032258064516,
+        "score": 0.03200204813108039,
         "recipe": {
           "id": "recnlg_2531",
           "title": "Tasty Tortilla Breakfast Sandwich",
@@ -79,34 +79,7 @@
       },
       {
         "rank": 3,
-        "score": 0.030886196246139225,
-        "recipe": {
-          "id": "recnlg_1783",
-          "title": "Baked Cheese Omelet",
-          "ingredients": [
-            "2 or more eggs",
-            "2 or more tomatoes",
-            "grated cheese",
-            "1/4 pt. milk"
-          ],
-          "directions": [
-            "skin and slice tomatoes, cook in a little margarine in a saucepan, and then pour into a greased pie dish.",
-            "in the same pan, with a little more margarine, add the milk and the slightly beaten eggs.",
-            "cook over low heat, stirring as for scrambled eggs, until just beginning to set."
-          ],
-          "ner": [
-            "eggs",
-            "tomatoes",
-            "grated cheese",
-            "milk"
-          ],
-          "source": "RecipeNLG"
-        },
-        "source": "fusion"
-      },
-      {
-        "rank": 4,
-        "score": 0.030798389007344232,
+        "score": 0.03149801587301587,
         "recipe": {
           "id": "recnlg_282",
           "title": "Morning Breakfast Panini",
@@ -145,8 +118,35 @@
         "source": "fusion"
       },
       {
+        "rank": 4,
+        "score": 0.03131881575727918,
+        "recipe": {
+          "id": "recnlg_1783",
+          "title": "Baked Cheese Omelet",
+          "ingredients": [
+            "2 or more eggs",
+            "2 or more tomatoes",
+            "grated cheese",
+            "1/4 pt. milk"
+          ],
+          "directions": [
+            "skin and slice tomatoes, cook in a little margarine in a saucepan, and then pour into a greased pie dish.",
+            "in the same pan, with a little more margarine, add the milk and the slightly beaten eggs.",
+            "cook over low heat, stirring as for scrambled eggs, until just beginning to set."
+          ],
+          "ner": [
+            "eggs",
+            "tomatoes",
+            "grated cheese",
+            "milk"
+          ],
+          "source": "RecipeNLG"
+        },
+        "source": "fusion"
+      },
+      {
         "rank": 5,
-        "score": 0.029910714285714284,
+        "score": 0.03055037313432836,
         "recipe": {
           "id": "recnlg_3185",
           "title": "Herb, Zucchini And Feta Omelette",
@@ -183,6 +183,37 @@
     "results": [
       {
         "rank": 1,
+        "score": 0.03131881575727918,
+        "recipe": {
+          "id": "recnlg_1741",
+          "title": "Pasta Salad",
+          "ingredients": [
+            "8 oz. pasta noodles",
+            "3 large chopped tomatoes",
+            "5 green scallions, chopped (including tops)",
+            "2 cucumbers, peeled and chopped",
+            "1 (8 oz.) bottle kraft zesty italian dressing",
+            "1/2 bottle mccormick salad supreme seasoning"
+          ],
+          "directions": [
+            "cook pasta as directed.",
+            "rinse in cold water and drain well. put in serving bowl and add remaining ingredients.",
+            "mix well. refrigerate several hours or overnight."
+          ],
+          "ner": [
+            "pasta noodles",
+            "tomatoes",
+            "green scallions",
+            "cucumbers",
+            "italian dressing",
+            "salad supreme seasoning"
+          ],
+          "source": "RecipeNLG"
+        },
+        "source": "fusion"
+      },
+      {
+        "rank": 2,
         "score": 0.03125763125763126,
         "recipe": {
           "id": "recnlg_779",
@@ -208,37 +239,6 @@
             "cucumber",
             "italian dressing",
             "cilantro"
-          ],
-          "source": "RecipeNLG"
-        },
-        "source": "fusion"
-      },
-      {
-        "rank": 2,
-        "score": 0.031099324975891997,
-        "recipe": {
-          "id": "recnlg_1741",
-          "title": "Pasta Salad",
-          "ingredients": [
-            "8 oz. pasta noodles",
-            "3 large chopped tomatoes",
-            "5 green scallions, chopped (including tops)",
-            "2 cucumbers, peeled and chopped",
-            "1 (8 oz.) bottle kraft zesty italian dressing",
-            "1/2 bottle mccormick salad supreme seasoning"
-          ],
-          "directions": [
-            "cook pasta as directed.",
-            "rinse in cold water and drain well. put in serving bowl and add remaining ingredients.",
-            "mix well. refrigerate several hours or overnight."
-          ],
-          "ner": [
-            "pasta noodles",
-            "tomatoes",
-            "green scallions",
-            "cucumbers",
-            "italian dressing",
-            "salad supreme seasoning"
           ],
           "source": "RecipeNLG"
         },
@@ -285,38 +285,7 @@
       },
       {
         "rank": 4,
-        "score": 0.030886196246139225,
-        "recipe": {
-          "id": "recnlg_3345",
-          "title": "Whole Wheat Pasta With Avocado Sauce",
-          "ingredients": [
-            "2 ripe avocados",
-            "1 lemon, juice of",
-            "1 fat garlic clove, crushed",
-            "salt and black pepper",
-            "1 tablespoon olive oil",
-            "12 ounces dry pasta, preferably wholewheat tagliatelle"
-          ],
-          "directions": [
-            "scoop out the flesh of the two avocados in to the bowl in which you will serve the pasta. mash the avocado flesh well. add the lemon juice and mash again. add the crushed garlic and stir. add the seasoning to taste, followed by the olive oil, and mash thoroughly to make a creamy sauce.",
-            "cook the pasta to al dente consistency in plenty of boiling water. drain well and add to sauce. toss thoroughly and serve.",
-            "note: you can use more or less lemon jice, garlic or olive oil according to your family's taste."
-          ],
-          "ner": [
-            "avocados",
-            "lemon",
-            "garlic",
-            "salt",
-            "olive oil",
-            "pasta"
-          ],
-          "source": "RecipeNLG"
-        },
-        "source": "fusion"
-      },
-      {
-        "rank": 5,
-        "score": 0.030798389007344232,
+        "score": 0.031024531024531024,
         "recipe": {
           "id": "recnlg_3358",
           "title": "Red Pepper Pasta Salad",
@@ -343,6 +312,37 @@
             "garlic",
             "lemon",
             "vegetables"
+          ],
+          "source": "RecipeNLG"
+        },
+        "source": "fusion"
+      },
+      {
+        "rank": 5,
+        "score": 0.030886196246139225,
+        "recipe": {
+          "id": "recnlg_3345",
+          "title": "Whole Wheat Pasta With Avocado Sauce",
+          "ingredients": [
+            "2 ripe avocados",
+            "1 lemon, juice of",
+            "1 fat garlic clove, crushed",
+            "salt and black pepper",
+            "1 tablespoon olive oil",
+            "12 ounces dry pasta, preferably wholewheat tagliatelle"
+          ],
+          "directions": [
+            "scoop out the flesh of the two avocados in to the bowl in which you will serve the pasta. mash the avocado flesh well. add the lemon juice and mash again. add the crushed garlic and stir. add the seasoning to taste, followed by the olive oil, and mash thoroughly to make a creamy sauce.",
+            "cook the pasta to al dente consistency in plenty of boiling water. drain well and add to sauce. toss thoroughly and serve.",
+            "note: you can use more or less lemon jice, garlic or olive oil according to your family's taste."
+          ],
+          "ner": [
+            "avocados",
+            "lemon",
+            "garlic",
+            "salt",
+            "olive oil",
+            "pasta"
           ],
           "source": "RecipeNLG"
         },
@@ -471,7 +471,7 @@
       },
       {
         "rank": 4,
-        "score": 0.029906956136464335,
+        "score": 0.03009207275993712,
         "recipe": {
           "id": "recnlg_3832",
           "title": "Bear Paw Cookies",
@@ -867,7 +867,70 @@
       },
       {
         "rank": 4,
-        "score": 0.03125,
+        "score": 0.031009615384615385,
+        "recipe": {
+          "id": "recnlg_3973",
+          "title": "Eating For Two: The Well-Rounded Pregnancy Cookbook Recipe",
+          "ingredients": [
+            "&nbsp 1 1/2 teaspoons canola oil",
+            "2 teaspoons peeled and grated fresh ginger",
+            "1 garlic clove, minced",
+            "4 ounces green beans, trimmed and cut on the diagonal into 1 1/2-inch pieces",
+            "2 cups broccoli florets",
+            "1 medium carrot, peeled and cut into matchsticks",
+            "1/2 cup vegetable stock",
+            "1 teaspoon sweet or hot curry paste",
+            "3/4 cup canned coconut milk",
+            "salt and freshly ground pepper",
+            "2 tablespoons chopped scallions, white and green parts",
+            "2 tablespoons chopped roasted peanuts",
+            "1/2 cup fresh cilantro leaves",
+            "4 ounces soba noodles &nbsp",
+            "&nbsp 1 cup mixed fresh or frozen berries",
+            "1/2 cup vanilla yogurt",
+            "1/4 cup vanilla protein powder (i skip this)",
+            "1/2 cup milk",
+            "1 tablespoon flax seed oil (i skip this, too)",
+            "a generous drizzle of honey (this is my addition)",
+            "1 banana (also my addition)"
+          ],
+          "directions": [
+            "heat the oil over medium high heat in a large skillet. add the ginger and garlic and cook for 1 minute. add the green beans, broccoli, carrot, and stock, cover the pan, and cook until the beans and broccoli have turned bright green, 1-2 minutes.",
+            "meantime, cook the soba noodles according to package instructions.",
+            "stir the curry paste into the coconut milk. turn the heat under the skillet to high and add the curry mixture to the vegetables. cook, stirring often, until the vegetables are crisp-tender, 3 or 4 minutes. add salt and pepper to taste and stir in the scallions.",
+            "sprinkle with chopped nuts and cilantro leaves before serving over cooked soba noodles.",
+            "combine all ingredients in a blender and blend on high speed until creamy."
+          ],
+          "ner": [
+            "canola oil",
+            "ginger",
+            "garlic",
+            "green beans",
+            "broccoli florets",
+            "carrot",
+            "vegetable stock",
+            "sweet",
+            "coconut milk",
+            "salt",
+            "scallions",
+            "peanuts",
+            "fresh cilantro",
+            "noodles",
+            "mixed fresh",
+            "vanilla yogurt",
+            "vanilla protein powder",
+            "milk",
+            "oil",
+            "generous drizzle",
+            "banana"
+          ],
+          "source": "RecipeNLG"
+        },
+        "source": "fusion"
+      },
+      {
+        "rank": 5,
+        "score": 0.031009615384615385,
         "recipe": {
           "id": "recnlg_123",
           "title": "Watermelon Sour Cream Popsicles",
@@ -910,7 +973,7 @@
     "results": [
       {
         "rank": 1,
-        "score": 0.02886002886002886,
+        "score": 0.02964254577157803,
         "recipe": {
           "id": "recnlg_2935",
           "title": "Simple & Easy To Remember Udon Noodle Soup",
@@ -944,7 +1007,7 @@
       },
       {
         "rank": 2,
-        "score": 0.02728937728937729,
+        "score": 0.02797067901234568,
         "recipe": {
           "id": "recnlg_4546",
           "title": "Scandinavian Cold Fruit Soup",
@@ -990,39 +1053,7 @@
       },
       {
         "rank": 3,
-        "score": 0.026875901875901876,
-        "recipe": {
-          "id": "recnlg_176",
-          "title": "Beer Cheese Soup",
-          "ingredients": [
-            "1 celery soup",
-            "1 leek soup mix",
-            "12 french onion soup mix",
-            "5 cups water",
-            "1 lb sharp cheddar cheese (cut into cubes)",
-            "6 ounces beer, at room temperature"
-          ],
-          "directions": [
-            "combine all soups mixes and water and simmer on medium until thick.",
-            "slowly add cheese, stir until smooth and add beer.",
-            "serve.",
-            "leftovers can be frozen and thawed in fridge."
-          ],
-          "ner": [
-            "celery soup",
-            "leek soup mix",
-            "onion soup",
-            "water",
-            "cheddar cheese",
-            "beer"
-          ],
-          "source": "RecipeNLG"
-        },
-        "source": "fusion"
-      },
-      {
-        "rank": 4,
-        "score": 0.02658450704225352,
+        "score": 0.027272727272727275,
         "recipe": {
           "id": "recnlg_3380",
           "title": "Tomato Soup With Fines Herbes (Soupe a La Tomate Aux Fines Herbe",
@@ -1078,8 +1109,40 @@
         "source": "fusion"
       },
       {
+        "rank": 4,
+        "score": 0.027242401779095628,
+        "recipe": {
+          "id": "recnlg_176",
+          "title": "Beer Cheese Soup",
+          "ingredients": [
+            "1 celery soup",
+            "1 leek soup mix",
+            "12 french onion soup mix",
+            "5 cups water",
+            "1 lb sharp cheddar cheese (cut into cubes)",
+            "6 ounces beer, at room temperature"
+          ],
+          "directions": [
+            "combine all soups mixes and water and simmer on medium until thick.",
+            "slowly add cheese, stir until smooth and add beer.",
+            "serve.",
+            "leftovers can be frozen and thawed in fridge."
+          ],
+          "ner": [
+            "celery soup",
+            "leek soup mix",
+            "onion soup",
+            "water",
+            "cheddar cheese",
+            "beer"
+          ],
+          "source": "RecipeNLG"
+        },
+        "source": "fusion"
+      },
+      {
         "rank": 5,
-        "score": 0.026153846153846153,
+        "score": 0.026875901875901876,
         "recipe": {
           "id": "recnlg_76",
           "title": "Bachelor'S Soup",
@@ -1108,7 +1171,7 @@
     "results": [
       {
         "rank": 1,
-        "score": 0.0315136476426799,
+        "score": 0.03200204813108039,
         "recipe": {
           "id": "recnlg_4112",
           "title": "Irish Lace Cookies(Makes About 9 Dozen)",
@@ -1145,7 +1208,7 @@
       },
       {
         "rank": 2,
-        "score": 0.03028233151183971,
+        "score": 0.030886196246139225,
         "recipe": {
           "id": "recnlg_4323",
           "title": "Irish Potato Pie",
@@ -1186,7 +1249,7 @@
       },
       {
         "rank": 3,
-        "score": 0.02946912242686891,
+        "score": 0.030090497737556562,
         "recipe": {
           "id": "recnlg_3955",
           "title": "Irish Cream Liqueur",
@@ -1225,34 +1288,7 @@
       },
       {
         "rank": 4,
-        "score": 0.02681010928961749,
-        "recipe": {
-          "id": "recnlg_2434",
-          "title": "Godiva Irish Cream",
-          "ingredients": [
-            "4 ounces hot coffee",
-            "1 12 ounces godiva original chocolate liqueur",
-            "34 ounce irish cream",
-            "whipped cream (to garnish)"
-          ],
-          "directions": [
-            "pour coffee, godiva liqueur and irish cream liqueur into mug.",
-            "stir.",
-            "garnish with whipped cream."
-          ],
-          "ner": [
-            "coffee",
-            "godiva original chocolate",
-            "irish cream",
-            "whipped cream"
-          ],
-          "source": "RecipeNLG"
-        },
-        "source": "fusion"
-      },
-      {
-        "rank": 5,
-        "score": 0.026399331662489554,
+        "score": 0.027637721755368813,
         "recipe": {
           "id": "recnlg_121",
           "title": "Irish Trifle",
@@ -1324,6 +1360,43 @@
             "chilled creme anglaise",
             "heavy cream",
             "nutmeg"
+          ],
+          "source": "RecipeNLG"
+        },
+        "source": "fusion"
+      },
+      {
+        "rank": 5,
+        "score": 0.02604430914933198,
+        "recipe": {
+          "id": "recnlg_4823",
+          "title": "St. Patrick'S Day Dessert",
+          "ingredients": [
+            "10 oz. crushed oreo cookies",
+            "1/4 c. melted oleo",
+            "4 oz. german's sweet chocolate",
+            "1/2 c. real butter",
+            "2/3 c. sugar",
+            "1/8 tsp. salt",
+            "2/3 c. evaporated milk",
+            "1 tsp. vanilla",
+            "1 qt. mint chocolate chip ice cream"
+          ],
+          "directions": [
+            "mix cookie crumbs and oleo.",
+            "set aside 2/3 cup for topping. press rest into a 9 x 13-inch pan.",
+            "chill."
+          ],
+          "ner": [
+            "cookies",
+            "oleo",
+            "chocolate",
+            "butter",
+            "sugar",
+            "salt",
+            "milk",
+            "vanilla",
+            "mint chocolate chip ice cream"
           ],
           "source": "RecipeNLG"
         },
