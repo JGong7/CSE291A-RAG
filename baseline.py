@@ -8,9 +8,9 @@ from tqdm import tqdm
 from sentence_transformers import SentenceTransformer
 
 # ======== Config ========
-DATA_1_PATH = "RecipeNLG_dataset/recipes_nlg_clean.json"
-DATA_2_PATH = "Spoonacular_API/spoonacular_dataset.json"
-QUERIES_PATH = "manual_queries.json"
+DATA_1_PATH = "dataset/RecipeNLG_dataset/recipes_nlg_clean.json"
+DATA_2_PATH = "dataset/Spoonacular_API/spoonacular_dataset.json"
+QUERIES_PATH = "dataset/manual_queries.json"
 OUTPUT_PATH = "retrieval_results/faiss_fusion_results.json"
 EMBED_MODEL = "sentence-transformers/all-MiniLM-L6-v2"
 MODEL_CACHE_PATH = "cache/model"

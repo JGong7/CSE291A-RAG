@@ -81,6 +81,7 @@ Candidates:
 
 JSON Output (example): [3, 1, 7, 2, 4]
 """
+    print(prompt)
 
     # ----------- LLM call with fallback -----------
     try:
