@@ -270,10 +270,11 @@ class FilterManager:
             "required_ingredients": set(must_have),
             "excluded_ingredients": set(structured.get("avoid_ingredients", [])),
             "dish_type": set(structured.get("meal_types", [])),
-            "cooking_method": set(),
+            "cooking_method": set(structured.get("cooking_methods", [])),
             "ingredient_logic": "AND",
             "general_ingredient_tags": set(structured.get("general_ingredient_tags", [])),
-            "nutrition": {},  # NutritionFilter is responsible for parse_nutrition_requirements
+            "excluded_general_tags": set(structured.get("excluded_general_tags", [])),
+            "nutrition": {},
         }
 
     def _structured_quantity_constraints(self, structured: Optional[Dict[str, Any]]) -> Optional[Dict[str, Dict[str, Any]]]:

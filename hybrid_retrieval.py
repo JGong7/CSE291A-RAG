@@ -40,7 +40,6 @@ torch.backends.cudnn.deterministic = True
 class MetadataExtractor:
     """Extract and normalize metadata from recipes for filtering"""
     
-    # Common dietary restrictions and their indicators
     DIETARY_PATTERNS = {
         'vegan': ['vegan'],
         'vegetarian': ['vegetarian'],
@@ -49,7 +48,6 @@ class MetadataExtractor:
         'nut-free': ['nut-free', 'nut free'],
     }
     
-    # Ingredient categories for filtering
     INGREDIENT_EXCLUDES = {
         'lactose': ['milk', 'cheese', 'cream', 'butter', 'yogurt', 'cream cheese', 'sour cream', 
                     'parmesan', 'mozzarella', 'cheddar', 'ricotta', 'whey', 'alfredo sauce', 'mayonnaise'],
@@ -62,7 +60,6 @@ class MetadataExtractor:
         'eggs': ['egg', 'eggs'],
     }
     
-    # Dish type patterns
     DISH_TYPES = {
         'breakfast': ['breakfast', 'pancake', 'waffle', 'omelet', 'omelette', 'muffin'],
         'lunch': ['lunch', 'sandwich', 'wrap', 'salad'],
@@ -74,10 +71,9 @@ class MetadataExtractor:
         'salad': ['salad'],
         'appetizer': ['appetizer', 'starter', 'snack'],
         'beverage': ['drink', 'beverage', 'smoothie', 'juice', 'cocktail'],
-        'smoothie': ['smoothie', 'blender', 'fruit drink', 'milkshake']
+        'smoothie': ['smoothie', 'blender', 'fruit drink', 'milkshake'],
     }
     
-    # Cooking methods
     COOKING_METHODS = {
         'baked': ['bake', 'baked', 'baking', 'oven', 'roast', 'roasted'],
         'grilled': ['grill', 'grilled', 'grilling', 'barbecue', 'bbq'],
@@ -86,37 +82,33 @@ class MetadataExtractor:
         'slow-cooked': ['slow cooker', 'crock pot', 'crockpot'],
     }
 
-    # Stopwords for ingredient token extraction to reduce noise in contains_ingredients
     INGREDIENT_STOPWORDS = {
         'cup', 'cups', 'tablespoon', 'tablespoons', 'teaspoon', 'teaspoons', 'tbsp', 'tsp',
         'ounce', 'ounces', 'oz', 'pound', 'pounds', 'lb', 'lbs', 'gram', 'grams', 'g', 'kg',
         'the', 'and', 'or', 'of', 'to', 'for', 'with', 'on', 'in', 'into', 'from', 'as',
         'this', 'that', 'these', 'those', 'use', 'used', 'large', 'small', 'medium',
-        'great', 'good', 'best', 'optional', 'fresh', 'dried', '(' , ')',
+        'great', 'good', 'best', 'optional', 'fresh', 'dried', '(', ')',
     }
-    
+
     @staticmethod
     def extract_metadata(recipe: Dict[str, Any]) -> Dict[str, Any]:
         """Extract metadata from a recipe"""
         title = recipe.get('title', '').lower()
-        title_set = set(title.split(" ")) - MetadataExtractor.INGREDIENT_STOPWORDS
+        title_set = set(title.split()) - MetadataExtractor.INGREDIENT_STOPWORDS
         ingredients_list = recipe.get('ingredients', [])
         ingredients = ' '.join([str(i).lower() for i in ingredients_list])
-        
-        # Get directions/instructions
+
         directions = recipe.get('directions', recipe.get('instructions', ''))
         if isinstance(directions, list):
             directions = ' '.join(directions).lower()
         else:
             directions = str(directions).lower()
-        
-        # Get NER if available
+
         ner = recipe.get('ner', [])
         ner_text = ' '.join([str(n).lower() for n in ner])
-        
-        # Combine all text for analysis
+
         full_text = f"{title} {ingredients} {directions} {ner_text}"
-        
+
         metadata = {
             'title': recipe.get('title', ''),
             'ingredients_list': ingredients_list,
@@ -129,15 +121,14 @@ class MetadataExtractor:
             'cooking_methods': set(),
             'contains_ingredients': set(),
             'excludes_ingredients': set(),
-            # New: coarse-grained ingredient categories for general queries
-            'general_ingredient_tags': set(),  # e.g. {"fruit", "vegetable", "meat", "spice"}
+            'general_ingredient_tags': set(),
         }
-        
+
         # Extract dietary tags
         for diet, patterns in MetadataExtractor.DIETARY_PATTERNS.items():
             if any(pattern in full_text for pattern in patterns):
                 metadata['dietary_tags'].add(diet)
-        
+
         # Check for ingredient exclusions (e.g., lactose-free if no dairy)
         for category, items in MetadataExtractor.INGREDIENT_EXCLUDES.items():
             has_item = any(item in ingredients or item in ner_text for item in items)
@@ -149,40 +140,40 @@ class MetadataExtractor:
                 metadata['contains_ingredients'].add('meat')
             if has_item and category == 'seafood':
                 metadata['contains_ingredients'].add('seafood')
-        
+
         # Check if vegan/vegetarian based on ingredients
         has_meat = any(item in ingredients or item in ner_text or item in title_set
-                      for item in MetadataExtractor.INGREDIENT_EXCLUDES['meat'])
+                       for item in MetadataExtractor.INGREDIENT_EXCLUDES['meat'])
         has_seafood = any(item in ingredients or item in ner_text or item in title_set
-                         for item in MetadataExtractor.INGREDIENT_EXCLUDES['seafood'])
+                          for item in MetadataExtractor.INGREDIENT_EXCLUDES['seafood'])
         has_eggs = any(item in ingredients or item in ner_text or item in title_set
-                      for item in MetadataExtractor.INGREDIENT_EXCLUDES['eggs'])
+                       for item in MetadataExtractor.INGREDIENT_EXCLUDES['eggs'])
         has_dairy = any(item in ingredients or item in ner_text or item in title_set
-                       for item in MetadataExtractor.INGREDIENT_EXCLUDES['lactose'])
-        
+                        for item in MetadataExtractor.INGREDIENT_EXCLUDES['lactose'])
+
         if not has_meat and not has_seafood and not has_eggs and not has_dairy:
             metadata['dietary_tags'].add('vegan')
         if not has_meat and not has_seafood:
             metadata['dietary_tags'].add('vegetarian')
-        
+
         # Extract dish types — avoid misclassifying based solely on ingredient names
         # Tokenize title and directions; ignore ingredients_text for dish-type decision
         title_tokens = set(re.findall(r'\b[a-z]{3,}\b', title))
         directions_tokens = set(re.findall(r'\b[a-z]{3,}\b', directions))
         text_tokens = title_tokens | directions_tokens
-        
+
         for dish_type, patterns in MetadataExtractor.DISH_TYPES.items():
             for pattern in patterns:
                 # treat each pattern as a token; only match if it's a full token in title/directions
                 if pattern in text_tokens:
                     metadata['dish_types'].add(dish_type)
                     break
-        
+
         # Extract cooking methods
         for method, patterns in MetadataExtractor.COOKING_METHODS.items():
             if any(pattern in directions for pattern in patterns):
                 metadata['cooking_methods'].add(method)
-        
+
         # Extract specific ingredients mentioned (reduced noise)
         for ingredient in ingredients_list:
             ing_lower = str(ingredient).lower()
@@ -191,21 +182,21 @@ class MetadataExtractor:
             for word in words:
                 if word not in MetadataExtractor.INGREDIENT_STOPWORDS:
                     metadata['contains_ingredients'].add(word)
-        
+
         # New: coarse general ingredient tags (very simple heuristics)
         VEGETABLE_TOKENS = [
             'broccoli', 'carrot', 'spinach', 'lettuce', 'cabbage', 'pepper',
-            'onion', 'tomato', 'zucchini', 'cucumber', 'kale', 'celery', 'bean', 'beans', 'potato', 'potatoes'
+            'onion', 'tomato', 'zucchini', 'cucumber', 'kale', 'celery', 'bean', 'beans', 'potato', 'potatoes',
         ]
         FRUIT_TOKENS = [
             'apple', 'banana', 'orange', 'strawberry', 'blueberry', 'berry',
-            'mango', 'pineapple', 'grape', 'pear', 'peach', 'plum'
+            'mango', 'pineapple', 'grape', 'pear', 'peach', 'plum',
         ]
         SPICE_TOKENS = [
             'curry', 'cumin', 'turmeric', 'paprika', 'chili', 'chilli', 'garam masala',
-            'oregano', 'basil', 'thyme', 'rosemary', 'coriander', 'clove', 'cinnamon'
+            'oregano', 'basil', 'thyme', 'rosemary', 'coriander', 'clove', 'cinnamon',
         ]
-        
+
         if any(tok in ingredients for tok in VEGETABLE_TOKENS):
             metadata['general_ingredient_tags'].add('vegetable')
         if any(tok in ingredients for tok in FRUIT_TOKENS):
@@ -232,7 +223,7 @@ class MetadataFilter:
     @staticmethod
     def parse_query_requirements(query: str) -> Dict[str, Any]:
         """Parse query to extract filtering requirements"""
-        query_lower = query.lower()
+        query_lower = query.lower().replace('.', '').replace(',', ' ').replace(';', ' ')
         
         requirements = {
             'dietary_requirements': set(),
@@ -243,6 +234,8 @@ class MetadataFilter:
             'ingredient_logic': 'AND',  # Default: all ingredients required
             # New: general ingredient tags like fruit/vegetable/meat/spice
             'general_ingredient_tags': set(),
+            # New: explicit general tags to avoid, e.g. {"meat", "seafood"}
+            'excluded_general_tags': set(),
         }
         
         # Parse nutrition requirements using NutritionFilter
@@ -280,12 +273,17 @@ class MetadataFilter:
             'potato': ['potato', 'potatoes'],
             'chicken': ['chicken'],
             'peanut': ['peanut', 'peanuts'],
+            'nuts': ['nuts', 'nut'],
             'chocolate': ['chocolate'],
             'coconut': ['coconut'],
             'banana': ['banana'],
             'yogurt': ['yogurt'],
             'shrimp': ['shrimp'],
             'garlic': ['garlic'],
+            'onion': ['onion', 'onions'],
+            'tomato': ['tomato', 'tomatoes'],
+            'coconut': ['coconut', 'coconuts'],
+            'ginger': ['ginger'],
         }
         
         # General ingredient patterns: do NOT add these to required_ingredients,
@@ -299,14 +297,50 @@ class MetadataFilter:
             'seafood': ['seafood', 'fish', 'shellfish'],
             'dairy': ['dairy', 'milk product', 'milk products'],
         }
+
+        avoid_keywords = [
+            'avoid', 'no', 'without', 'exclude', 'excluding',
+            'free of', 'free from', 'leave out', 'skip', "don't use",
+        ]
+
+        # 1) First, parse LLM-style avoid: [a, b, c]
+        avoid_list_match = re.search(r'avoid:\s*\[([^\]]+)\]', query_lower)
+        if avoid_list_match:
+            avoid_items_raw = avoid_list_match.group(1).split(' ')
+            avoid_items = [item.strip() for item in avoid_items_raw if item.strip()]
+            for item in avoid_items:
+                for ingredient, patterns in ingredient_patterns.items():
+                    if item in patterns or item == ingredient:
+                        requirements['excluded_ingredients'].add(ingredient)
+                for tag, patterns in general_ingredient_patterns.items():
+                    if item in patterns or item == tag:
+                        requirements['excluded_general_tags'].add(tag)
         
+        # 2) Then, run general natural language avoid patterns (apply to whole sentences)
         for ingredient, patterns in ingredient_patterns.items():
-            if any(pattern in query_lower for pattern in patterns):
-                requirements['required_ingredients'].add(ingredient)
+            for pat in patterns:
+                for ak in avoid_keywords:
+                    if f"{ak} {pat}" in query_lower or f"{ak}: {pat}" in query_lower:
+                        requirements['excluded_ingredients'].add(ingredient)
         
         for tag, patterns in general_ingredient_patterns.items():
-            if any(pattern in query_lower for pattern in patterns):
-                requirements['general_ingredient_tags'].add(tag)
+            for pat in patterns:
+                for ak in avoid_keywords:
+                    if f"{ak} {pat}" in query_lower or f"{ak}: {pat}" in query_lower:
+                        requirements['excluded_general_tags'].add(tag)
+        
+        # Then, detect positive mentions (required ingredients / general tags)
+        for ingredient, patterns in ingredient_patterns.items():
+            if any(pattern in query_lower.split() for pattern in patterns):
+                # Only treat as required if it wasn't explicitly excluded
+                if ingredient not in requirements['excluded_ingredients']:
+                    requirements['required_ingredients'].add(ingredient)
+        
+        for tag, patterns in general_ingredient_patterns.items():
+            if any(pattern in query_lower.split() for pattern in patterns):
+                # Only add to positive general tags if not explicitly avoided
+                if tag not in requirements['excluded_general_tags']:
+                    requirements['general_ingredient_tags'].add(tag)
         
         # Detect ingredient logic: check for "or" between ingredients
         if requirements['required_ingredients'] and ' or ' in query_lower:
@@ -319,6 +353,8 @@ class MetadataFilter:
                             break
                 if requirements['ingredient_logic'] == 'OR':
                     break
+
+        print(requirements)
         
         return requirements
     
@@ -331,7 +367,7 @@ class MetadataFilter:
             if diet not in metadata['dietary_tags']:
                 return False
         
-        # Check excluded ingredients
+        # Check excluded ingredients (exact words in ingredient text)
         for excluded in requirements['excluded_ingredients']:
             if excluded in metadata['ingredients_text']:
                 return False
@@ -360,6 +396,13 @@ class MetadataFilter:
         if general_req:
             meta_general = metadata.get('general_ingredient_tags', set())
             if not general_req.intersection(meta_general):
+                return False
+        
+        # New: check excluded general tags — if recipe has any of these tags, reject it
+        excluded_general = requirements.get('excluded_general_tags', set())
+        if excluded_general:
+            meta_general = metadata.get('general_ingredient_tags', set())
+            if excluded_general.intersection(meta_general):
                 return False
         
         # Check dish type (at least one should match if specified)
@@ -444,7 +487,8 @@ class HybridRetriever:
         
         return f"{title} {ingredients} {instructions}".strip()
     
-    def retrieve(self, query: str, top_k: int = 5, use_metadata_filter: bool = True, use_quantity_filter: bool = True) -> List[Dict]:
+    def retrieve(self, query: str, top_k: int = 5, use_metadata_filter: bool = True,
+                 use_quantity_filter: bool = True) -> List[Dict]:
         """
         Retrieve recipes using hybrid approach:
         1. Parse query for metadata requirements
@@ -533,7 +577,7 @@ class HybridRetriever:
                     "dietary_tags": list(self.metadata_list[original_idx]['dietary_tags']),
                     "dish_types": list(self.metadata_list[original_idx]['dish_types']),
                     "cooking_methods": list(self.metadata_list[original_idx]['cooking_methods']),
-                }
+                },
             })
         
         return results
@@ -604,4 +648,6 @@ def main():
 
 
 if __name__ == "__main__":
-    main()
+    # main()
+    MetadataFilter.parse_query_requirements("Vegan smoothie with banana and coconut, avoid: [nuts, eggs]")
+    MetadataFilter.parse_query_requirements("I am a vegetarian, give me a simple soup recipe for cold weather.; avoid: meat; dietary: vegetarian; meal types: soup")

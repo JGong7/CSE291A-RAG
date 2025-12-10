@@ -169,6 +169,7 @@ Return a JSON object with the following schema (no extra text):
     ...
   }},
   "general_ingredient_tags": ["vegetable" | "meat" | "fruit" | "dairy" | "spice"] (optional if not specified),
+  "excluded_general_tags": ["vegetable" | "meat" | "fruit" | "dairy" | "spice"] (optional if not specified),
   "cooking_methods": ["baked" | "fried" | "grilled" | "boiled" | "slow-cooked"] (optional if not specified),
   "notes": "free-form explanation of how you interpreted the query"
 }}
@@ -263,13 +264,13 @@ def rewrite_query_text(query: str, structured: Dict[str, Any]) -> str:
     cooking_methods = structured.get("cooking_methods") or []
 
     if must:
-        parts.append("must contain: " + ", ".join(must))
+        parts.append("must contain: [" + ", ".join(must) + "]")
     if avoid:
-        parts.append("avoid: " + ", ".join(avoid))
+        parts.append("avoid: [" + ", ".join(avoid) + "]")
     if dietary:
-        parts.append("dietary: " + ", ".join(dietary))
+        parts.append("dietary: [" + ", ".join(dietary) + "]")
     if meal_types:
-        parts.append("meal types: " + ", ".join(meal_types))
+        parts.append("meal types: [" + ", ".join(meal_types) + "]")
     if quantity_constraints:
         for ingredient, constraint in quantity_constraints.items():
             q_parts = []
@@ -282,9 +283,9 @@ def rewrite_query_text(query: str, structured: Dict[str, Any]) -> str:
 
                 q_parts.append(add_part)
             if q_parts:
-                parts.append(f"{ingredient}: " + ", ".join(q_parts))
+                parts.append(f"{ingredient}: [ " + ", ".join(q_parts) + " ]")
     if cooking_methods:
-        parts.append("cooking methods: " + ", ".join(cooking_methods))
+        parts.append("cooking methods: [" + ", ".join(cooking_methods) + "]")
 
     return "; ".join(p.strip() for p in parts if p and p.strip())
 

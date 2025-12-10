@@ -10,7 +10,7 @@ from llm_query_processor import process_queries_with_llm
 from llm_query_processor import rewrite_query_to_structured, rewrite_query_text
 from llm_reranker import llm_rerank_results
 from hybrid_retrieval import HybridRetriever
-from hybrid_advanced_retrievel import AdvancedRetriever, RetrievalConfig
+from hybrid_advanced_retrieval import AdvancedRetriever, RetrievalConfig
 import time    #Add timer
 # ======== Config ========
 DATA_1_PATH = "RecipeNLG_dataset/recipes_nlg_clean.json"

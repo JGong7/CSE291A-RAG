@@ -41,7 +41,7 @@ def build_gold_lookup(gold_data: List[dict]) -> Dict[int, Set[str]]:
 
 def llm_batch_is_reasonable(query_text: str,
                             recipe_list: List[dict],
-                            model: str = "gpt-4.1-mini") -> List[bool]:
+                            model: str = "gpt-4o-mini") -> List[bool]:
     """
     Ask the LLM, in one shot, whether each recipe is a reasonable answer.
 
@@ -67,6 +67,7 @@ def llm_batch_is_reasonable(query_text: str,
     - The recipe must fit what the user asked for (e.g., breakfast, soup, quick snack).
     - It must respect important constraints in the query (e.g. "only two eggs", "quick", "vegetarian", "no bacon").
     - It should be something a normal user would accept as a sensible response.
+    - Mostly consider ingredients, quantity and dietary constraints, some cultural context, the least constraints on cooking time or semantics like ("easy", "quick", "cold", "hot").
 
     User query:
     {query_text}
