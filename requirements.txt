@@ -1,10 +1,22 @@
 # Python=3.12 is recommended
 
-pandas==2.3.3
-torch==2.9.0
-torchvision==0.24.0
-sentence-transformers==5.1.1
+# Core dependencies
+pandas==2.2.3
+numpy==1.26.4
+torch==2.5.1
+sentence-transformers==3.3.1
 faiss-cpu==1.9.0
 tqdm==4.67.1
-requests==2.32.5
+
+# For BM25 sparse retrieval (optional but recommended)
+rank-bm25==0.2.2
+
+# For LLM query processing and reranking
+openai==1.57.4
+
+# For data fetching
+requests==2.32.3
+
+# For evaluation and utilities
+scikit-learn==1.5.2
 
